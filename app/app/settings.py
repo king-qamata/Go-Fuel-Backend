@@ -25,7 +25,7 @@ SECRET_KEY = 'kvd@k%=x78+9xx844div$%t4@9c4_58(i1yha(u8dt2nll*bq('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['easy-pay-backend-f9jyg.ondigitalocean.app']
 
 
 # Application definition
