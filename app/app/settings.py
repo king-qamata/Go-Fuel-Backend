@@ -98,14 +98,14 @@ DATABASES = {
 
     'default': {
          'ENGINE': 'django.db.backends.postgresql',
-        # 'HOST': os.environ.get('DB_HOST'),
-         'HOST': 'app-f63cb26d-c373-4e6f-956b-1740b00989c2-do-user-6168075-0.b.db.ondigitalocean.com',
-        # 'NAME': os.environ.get('DB_NAME'),
-         'NAME': 'db',
-        # 'USER': os.environ.get('DB_USER'),
-         'USER': 'db',
-        # 'PASSWORD': os.environ.get('DB_PASS'),
-         'PASSWORD': 'cz3yfwnv97t8azjr',
+         'HOST': os.environ.get('DB_HOST'),
+        # 'HOST': 'app-f63cb26d-c373-4e6f-956b-1740b00989c2-do-user-6168075-0.b.db.ondigitalocean.com',
+         'NAME': os.environ.get('DB_NAME'),
+        # 'NAME': 'db',
+         'USER': os.environ.get('DB_USER'),
+        # 'USER': 'db',
+         'PASSWORD': os.environ.get('DB_PASS'),
+        # 'PASSWORD': 'cz3yfwnv97t8azjr',
     }
 
     #host     : app-f63cb26d-c373-4e6f-956b-1740b00989c2-do-user-6168075-0.b.db.ondigitalocean.com
