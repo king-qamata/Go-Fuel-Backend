@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'rest_auth.registration',
     'corsheaders',
+    'rest_framework_swagger',
+
     
     'core',
     'users',
@@ -89,18 +91,29 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
+    #'default': {
+     #   'ENGINE': 'django.db.backends.sqlite3',
+      #  'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #}
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+         'ENGINE': 'django.db.backends.postgresql',
+        # 'HOST': os.environ.get('DB_HOST'),
+         'HOST': 'app-f63cb26d-c373-4e6f-956b-1740b00989c2-do-user-6168075-0.b.db.ondigitalocean.com',
+        # 'NAME': os.environ.get('DB_NAME'),
+         'NAME': 'db',
+        # 'USER': os.environ.get('DB_USER'),
+         'USER': 'db',
+        # 'PASSWORD': os.environ.get('DB_PASS'),
+         'PASSWORD': 'cz3yfwnv97t8azjr',
     }
 
-    #'default': {
-     #   'ENGINE': 'django.db.backends.postgresql',
-      #  'HOST': os.environ.get('DB_HOST'),
-       # 'NAME': os.environ.get('DB_NAME'),
-        #'USER': os.environ.get('DB_USER'),
-        #'PASSWORD': os.environ.get('DB_PASS'),
-    #}
+    #host     : app-f63cb26d-c373-4e6f-956b-1740b00989c2-do-user-6168075-0.b.db.ondigitalocean.com
+#port     : 25060
+#username : db
+#password : cz3yfwnv97t8azjr
+#database : db
+#sslmode  : require
 }
 
 
