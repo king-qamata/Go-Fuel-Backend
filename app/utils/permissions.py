@@ -1,5 +1,5 @@
-from core.models import Administrator, Moderator 
-
+from users.models.administrator import Administrator
+from users.models.moderator import Moderator
 
 def is_administrator(user):
     """

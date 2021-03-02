@@ -1,8 +1,10 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext as _
-
-from core import models
+#from .models.profile import Profile
+#from .models.reset_password_code import ResetPasswordCode
+from .models import User, Profile, ResetPasswordCode
+#from core import models
 
 
 class UserAdmin(BaseUserAdmin):
@@ -25,5 +27,16 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
-admin.site.register(models.User, UserAdmin)
+admin.site.register(User, UserAdmin)
 
+
+
+
+
+#class UserAdmin(admin.ModelAdmin):
+ #   exclude = ('groups', 'user_permissions')
+
+
+admin.site.register(Profile)
+admin.site.register(ResetPasswordCode)
+#admin.site.register(User, UserAdmin)
