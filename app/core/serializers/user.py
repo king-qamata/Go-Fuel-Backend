@@ -14,7 +14,8 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'email', 'first_name', 'last_name', 'profile', 'role')
+        fields = ('id', 'email', 'phone_number', 'first_name',
+                  'last_name', 'profile', 'role')
 
     @staticmethod
     def get_profile(user):
@@ -41,7 +42,8 @@ class UserSerializerCreate(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('email', 'first_name', 'last_name', 'password')
+        fields = ('email', 'phone_number',
+                  'first_name', 'last_name', 'password')
 
     def validate(self, data):
         """
@@ -49,7 +51,8 @@ class UserSerializerCreate(serializers.ModelSerializer):
         """
 
         if not is_administrator(self.context['request'].user):
-            raise serializers.ValidationError(constants.PERMISSION_ADMINISTRATOR_REQUIRED)
+            raise serializers.ValidationError(
+                constants.PERMISSION_ADMINISTRATOR_REQUIRED)
         return data
 
     @staticmethod
@@ -76,7 +79,8 @@ class UserSerializerLogin(UserSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'email', 'first_name', 'last_name', 'profile', 'role', 'token')
+        fields = ('id', 'email', 'phone_number', 'first_name',
+                  'last_name', 'profile', 'role', 'token')
 
 
 class UserSerializerUpdate(serializers.ModelSerializer):

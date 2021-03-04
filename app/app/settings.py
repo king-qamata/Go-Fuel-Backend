@@ -26,9 +26,11 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
+#DEBUG = "True"
 
 #ALLOWED_HOSTS = ['easy-pay-backend-f9jyg.ondigitalocean.app', '127.0.0.1']
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1, localhost").split(",")
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
+                          "127.0.0.1, localhost").split(",")
 
 # Application definition
 
@@ -49,12 +51,18 @@ INSTALLED_APPS = [
     'rest_auth.registration',
     'corsheaders',
     'rest_framework_swagger',
+    'bootstrapform',
+    # "pinax.waitinglist",
+    # "bootstrapform",
+    # "pinax.templates",
 
-    
+
+
     'core',
     'users',
     'filters',
     'fuelcredit',
+    'waitinglist',
 ]
 
 MIDDLEWARE = [
@@ -105,36 +113,36 @@ if os.getenv("DATABASE_URL", "") != "":
             "HOST": r.hostname,
             "PORT": r.port,
             "OPTIONS": {"sslmode": "require"},
-        } 
+        }
     }
 else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+        }
 
 
 
-    #'default': {
-      #   'ENGINE': 'django.db.backends.postgresql',
-       #  'HOST': os.environ.get('DB_HOST'),
+        # 'default': {
+        #   'ENGINE': 'django.db.backends.postgresql',
+        #  'HOST': os.environ.get('DB_HOST'),
         # 'HOST': 'app-f63cb26d-c373-4e6f-956b-1740b00989c2-do-user-6168075-0.b.db.ondigitalocean.com',
-       #  'NAME': os.environ.get('DB_NAME'),
+        #  'NAME': os.environ.get('DB_NAME'),
         # 'NAME': 'db',
         # 'USER': os.environ.get('DB_USER'),
         # 'USER': 'db',
-         #'PASSWORD': os.environ.get('DB_PASS'),
+        # 'PASSWORD': os.environ.get('DB_PASS'),
         # 'PASSWORD': 'cz3yfwnv97t8azjr',
-  #}
+        # }
 
-    #host     : app-f63cb26d-c373-4e6f-956b-1740b00989c2-do-user-6168075-0.b.db.ondigitalocean.com
-#port     : 25060
-#username : db
-#password : cz3yfwnv97t8azjr
-#database : db
-#sslmode  : require
-}
+        # host     : app-f63cb26d-c373-4e6f-956b-1740b00989c2-do-user-6168075-0.b.db.ondigitalocean.com
+        #port     : 25060
+        #username : db
+        #password : cz3yfwnv97t8azjr
+        #database : db
+        #sslmode  : require
+    }
 
 
 # Password validation
@@ -175,6 +183,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
 
 MEDIA_ROOT = '/vol/web/media'
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")

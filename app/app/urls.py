@@ -15,6 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from users.views.customers import CustomerWaitListView 
+from core.views.custom_user import HomePageView, AboutPageView
+from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -22,4 +25,11 @@ urlpatterns = [
     path('api/v1/', include('api.urls')),
     path('api-auth/', include('rest_framework.urls')),
     #path('', include('users.urls')),
+   # path('signup/', CustomUserSignUpView.as_view(), name='signup'),
+    #path('signup/customers', CustomerWaitListView.as_view(), name='signup_customer'),
+    #path('', HomePageView.as_view(), name='home'),
+    #path('about/', AboutPageView.as_view(), name='about'),
+    path('', include('waitinglist.urls'), name='waitinglist'),
+    
+    
 ]
