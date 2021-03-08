@@ -13,6 +13,10 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 from django.core.management.utils import get_random_secret_key
 from urllib.parse import urlparse
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -52,6 +56,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework_swagger',
     'bootstrapform',
+    'crispy_forms',
     # "pinax.waitinglist",
     # "bootstrapform",
     # "pinax.templates",
@@ -75,6 +80,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 ROOT_URLCONF = 'app.urls'
 

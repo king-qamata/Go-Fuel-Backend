@@ -1,0 +1,13551 @@
+
+
+
+.blueuix4{
+
+/*background-image: url("../img/Chase.png");
+*/
+}
+
+
+
+.serm2x4{
+
+
+background-color:#071422;
+background-image: url("../img/chase.png");
+
+
+}
+
+
+
+.blueInnerx4{
+opacity: .95;
+background-color: #071422;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #333);
+color: grey;
+}
+
+
+
+
+.bluelan2x4{
+
+background-color:#286090;
+border-bottom: none;
+/*background-image: linear-gradient(to bottom right ,#235686, #3b84c5);*/
+
+
+
+}
+
+
+
+.blueLangBx4{
+    
+
+    background-color:transparent;
+    border: 1px solid rgb(46, 109, 164);
+    color:white;
+}
+
+
+
+
+.bluelan2MOBI label{
+ color:white;
+}
+
+
+.blueLangBotherx4{
+    
+    background-color:#286090;
+    border:1px solid rgb(46, 109, 164);
+    color:white;
+  
+}
+
+
+
+.blueBlankLogox4{
+background-image: url("../img/chase.png");
+}
+
+
+
+
+
+.blueserm2x4{
+
+background-color:#071422;
+background-size: 53%;
+background-repeat: repeat;
+background-image: url("../img/chase.png");
+}
+
+
+
+
+
+
+.blueSm2x4{
+    background-color:#424242;
+    border: 4px solid white; 
+  color:white;
+}
+
+
+.blueAcm2x4{
+    background-color:#424242;
+    border: 1px solid white; 
+    color: white;
+    background-color: inherit;
+}
+
+
+
+
+
+
+
+
+
+.blueQty2x4{
+
+background-color:rgb(46, 109, 164);
+color:white;
+border-top:1px solid #286090;
+
+
+
+}
+
+
+
+
+ 
+    
+.blueQtyvalue2x4{
+
+background-color:inherit;
+color:white;
+
+}
+
+
+
+.blueqtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.blueAmountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+.blueAmountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px;*/
+}
+
+
+
+
+.blueNumColorsx4{
+  background-color: #286090;
+  border:2px solid rgb(46, 109, 164);
+
+}
+
+
+
+
+
+
+.blueFin2x4{
+  opacity: .95;
+background-color:#071422;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #333);
+
+
+    
+}
+
+
+
+
+
+
+.blueFinBx4{
+border:5px solid white;
+
+background-color:#424242;
+color:white;
+
+}
+
+
+
+/*box-shadow: 1px 1px 10px 2px white;*/
+
+.blueInnerx4{
+
+opacity: .97;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #333);
+}
+
+
+ .blueAcm2x4, .blueFinBx4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 10px lightgrey;*/
+/*  background-image: linear-gradient(to bottom right ,grey, #505050);*/
+background-image: linear-gradient(to bottom right ,grey, #47474a);
+background-image: linear-gradient(to bottom right ,#636262, #303030);
+box-shadow: inset 0 1px 13px lightgrey;
+box-shadow: none;
+background-color: inherit;
+
+}
+
+
+.blueSm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px lightgrey;*/
+ /* background-image: linear-gradient(to bottom right ,grey, #505050);*/
+ background-image: linear-gradient(to bottom right ,grey, #47474a);
+ background-image: linear-gradient(to bottom right ,#636262, #303030);
+box-shadow: inset 0 1px 13px lightgrey;
+
+}
+
+
+
+
+.blueAccValuesx4{
+   color: tan;
+}
+
+
+
+
+/*///////////////////Cblue/////////////////////////////////////////*/
+.Cblueuix4{
+
+/*background-image: url("../img/Chase.png");
+*/
+}
+
+
+
+
+
+
+.Cbluelan2x4{
+
+background-color:#286090;
+border-bottom: none;
+/*background-image: linear-gradient(to bottom right ,#235686, #3b84c5);*/
+
+
+
+}
+
+
+.CblueLangBx4{
+    
+
+    background-color:transparent;
+    border: 1px solid rgb(46, 109, 164);
+    color:white;
+}
+
+
+
+
+
+
+
+.Cblueserm2x4{
+
+background-color:#071422;
+background-size: 70%;
+background-repeat: repeat;
+background-image: url("../img/chase.png");
+}
+
+
+
+
+
+.CblueBlankLogox4{
+background-image: url("../img/chase.png");
+}
+
+
+
+
+
+.CblueQty2x4{
+
+background-color:rgb(46, 109, 164);
+color:white;
+border-top:1px solid #286090;
+
+}
+
+
+
+
+.CblueNumColorsx4{
+  background-color: #286090;
+  border:2px solid rgb(46, 109, 164);
+
+}
+
+    
+
+.CblueQtyvalue2x4{
+
+background-color:inherit;
+color:inherit;
+
+}
+
+
+.CblueAmountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+
+
+
+
+/*box-shadow: 1px 1px 10px 2px white;*/
+
+
+.CblueInnerx4, .CblueFin2x4{
+opacity: .97;
+background-color: #071422;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #333);
+color: grey;
+}
+
+
+
+ .CblueAcm2x4, .CblueFinBx4{
+
+border:none;
+background-image: none;
+box-shadow: inset 0 1px 15px white;
+background-color: inherit;
+color: white;
+background-image: linear-gradient(to bottom right ,#4a4a4a, #000);
+
+}
+
+
+
+
+
+.CblueAccValuesx4{
+   color: tan;
+}
+
+
+/*///////////////////Cblue/////////////////////////////////////////*/
+
+
+/*////////////////MedBlue//////////////////////////*/
+
+
+
+
+
+
+.MedBluelan2x4{
+
+background-color:#286090;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #393939);
+
+
+
+}
+
+
+
+.MedBlueLangBx4{
+    
+
+    background-color:transparent;
+    border:1px solid rgb(46, 109, 164);
+    color:white;
+}
+
+
+
+
+.MedBluelan2MOBI label{
+ color:white;
+}
+
+
+.MedBlueLangBotherx4{
+    
+    background-color:#286090;
+    border:1px solid rgb(46, 109, 164);
+    color:white;
+  
+}
+
+
+
+
+.MedBlueBlankLogox4{
+
+background-image: url("../img/chase.png");
+}
+
+
+
+
+
+.MedBlueserm2x4{
+
+background-color:#071422;
+background-size: 70%;
+background-repeat: repeat;
+}
+
+
+
+
+
+
+.MedBlueSm2x4{
+    background-color:#424242;
+    border: 4px solid white; 
+  color:white;
+}
+
+
+.MedBlueAcm2x4{
+    background-color:#424242;
+    border: 1px solid white; 
+    color: white;
+    background-color: inherit;
+}
+
+
+
+
+
+
+
+
+
+.MedBlueQty2x4{
+
+background-color:rgb(46, 109, 164);
+color:white;
+border-top:1px solid #286090;
+
+
+
+}
+
+
+
+
+ 
+    
+.MedBlueQtyvalue2x4{
+
+background-color:inherit;
+color:white;
+
+}
+
+
+
+.MedBlueqtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.MedBlueAmountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+.MedBlueAmountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px;*/
+}
+
+
+
+
+.MedBlueNumColorsx4{
+  background-color: #286090;
+  border:2px solid rgb(46, 109, 164);
+
+}
+
+
+
+
+
+
+.MedBlueFin2x4{
+  opacity: .95;
+background-color:#071422;
+
+
+    
+}
+
+
+
+
+
+
+.MedBlueFinBx4{
+border:5px solid white;
+
+background-color:#424242;
+color:white;
+
+}
+
+
+
+/*box-shadow: 1px 1px 10px 2px white;*/
+
+.MedBlueInnerx4{
+opacity: .95;
+}
+
+
+ .MedBlueAcm2x4, .MedBlueFinBx4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 10px lightgrey;*/
+  background-image: linear-gradient(to bottom right ,grey, #286090);
+background-color: inherit;
+}
+
+
+.MedBlueSm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px lightgrey;*/
+  background-image: linear-gradient(to bottom right ,grey, #286090);
+}
+
+
+
+.MedAccValuesx4{
+   color: tan;
+}
+
+
+
+
+
+/*////////////////MedBlue//////////////////////////*/
+
+
+/*//////////////////////////BlueDark////////////////*/
+
+.blue3BlankLogox4{
+
+
+background-image: url("../img/chase.png");
+}
+
+
+
+
+.blue3serm2x4{
+
+background-image: url("../img/chase.png");
+}
+
+
+
+ .blue3Acm2x4, .blue3FinBx4{
+
+background-color: white;
+color: white;
+border: none;
+/*box-shadow: inset 0 1px 10px black;*/
+background-image: linear-gradient(to bottom right ,#154874, #2a7cc2);
+background-color: inherit;
+
+}
+
+
+.blue3Sm2x4{
+
+background-color: white;
+color: white;
+border: none;
+/*box-shadow: inset 0 1px 8px black;*/
+background-image: linear-gradient(to bottom right ,#154874, #458ecc);
+
+}
+
+
+.blue3serm2x4, .blue3Fin2x4{
+
+  background-color:white; 
+  background-size:62%;
+
+
+}
+
+.blue3Innerx4{
+opacity: .95;
+background-image: linear-gradient(to bottom right ,#e7e7e7, #fff);
+color: #020f4a;
+color: #3c3c3c;
+}
+
+
+
+
+.blue3AccValuesx4{
+  color: #eef0f5;
+}
+
+
+
+/*//////////////////////////////////////////////////*/
+
+
+
+
+
+
+/* 111111111111111111111111           .Blue2   1111111111111111111111111111111111111111111111111111111      */
+
+
+
+
+.blue1uix4{
+/*
+border: 4px solid black;
+background-image: url("../img/Chase.png");
+background-position:center;
+background-size: cover;
+
+*/
+
+}
+
+
+
+
+
+
+
+.blue1lan2x4{
+background-color:#286090;
+background-image: linear-gradient(to bottom right ,#e6e6e6, #fff);
+
+}
+
+
+
+.blue1LangBx4{
+    
+
+    background-color:#286090;
+    border: 1px solid rgb(48, 136, 213);
+    color:black;
+}
+
+.blue1lan2MOBI label{
+ color:white;
+}
+
+
+
+.blue1LangBotherx4{
+    
+
+    background-color:#286090;
+    border:1px solid rgb(46, 109, 164);
+    color:white;
+}
+
+
+
+
+.blue1BlankLogox4{
+background-image: url("../img/chase.png");
+}
+
+
+
+.blue1serm2x4{
+  
+background-color:rgb(225, 225, 225);
+background-image: url("../img/chase.png");
+background-size: 53%;
+background-repeat: repeat;
+
+}
+
+
+.blue1Ser2x4{
+  
+  opacity:.95;
+
+background-color:rgb(225, 225, 225);
+padding:10px 0px 10px 0px ;
+
+height:114px;
+width:width:100%;
+text-align: center;
+color:gray; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid grey;
+
+
+
+
+
+
+
+}
+
+
+
+.blue1SerBx4{
+     margin:10px 16px 12px 8px;
+     padding: 13px;
+    background-color:#286090;
+    border: 4px solid #204d74; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px #286090;
+*/
+
+}
+
+
+
+.blue1Sm2x4{
+    background-color:#286090;
+    border: 4px solid #204d74; 
+    color:white;
+ 
+}
+
+.blue1Acm2x4{
+    background-color:#286090;
+    border: 1px solid #204d74;
+    color:white; 
+    background-color: #efefef;
+  
+}
+
+
+.blue1SerBotherx4{
+
+    background-color:#286090;
+    color:white;
+
+/*box-shadow: 1px 1px 10px 2px #286090;*/
+
+
+}
+
+
+
+
+
+
+.blue1Tof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:rgb(225, 225, 225);
+
+height:155px;auto;
+width:100%;   
+
+text-align:center;
+color:grey;
+
+
+}
+
+
+
+.blue1TofBx4{
+
+  
+ 
+    background-color:#286090;
+    border: 3px solid #204d74; 
+    color:white;
+ 
+}
+
+
+
+.blue1Qty2x4{
+
+background-color:rgb(46, 109, 164);
+color:white;
+border-top:1px solid #286090;
+
+}
+
+
+
+
+ 
+    
+.blue1Qtyvalue2x4{
+background-color:inherit;
+color:white;
+border:none;
+
+
+
+
+}
+
+
+
+.blue1qtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.blue1Amountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+.blue1Amountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px;*/
+}
+
+
+
+
+.blue1NumColorsx4{
+  background-color: #286090;
+  border:2px solid rgb(46, 109, 164);
+
+}
+
+
+
+
+
+
+.blue1Fin2x4{
+  opacity: .95;
+background-color:rgb(225, 225, 225);
+background-image: linear-gradient(to bottom right ,#e0e0e0, #fff);
+
+    
+}
+
+
+
+.blue1FinBx4{
+border:5px solid #204d74;
+background-color:#286090;
+color:white;
+
+/*box-shadow: 1px 1px 10px 2px #286090;*/
+}
+
+
+
+/*box-shadow: 1px 1px 10px 2px #286090;*/
+
+/*//////////////////////*/
+
+.blue1Innerx4{
+
+opacity: .94;
+background-color: rgb(225, 225, 225);
+background-image: linear-gradient(to bottom right ,#e6e6e6, #fff);
+color: #3c3c3c;
+}
+
+ .blue1Acm2x4, .blue1FinBx4{
+
+  border:none;
+  box-shadow: inset 0 1px 14px rgb(0, 0, 0);
+  background-color: inherit;
+  color: rgb(13, 34, 51);
+  background-image: linear-gradient(to bottom right ,#fff, #e9e9e9);
+
+}
+
+
+.blue1Sm2x4{
+
+  border:none;
+  box-shadow:inset 0 1px 14px rgb(19, 38, 53);
+  background-color:rgb(225, 225, 225);
+  color:rgb(21, 53, 79);
+}
+
+
+
+
+
+
+.blue1AccValuesx4{
+   color: #001123;
+}
+
+
+
+
+/*////////////////////////*/
+
+
+.blue1Confirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid #286090;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.blue1Back2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .blue1Confirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.blue1Back24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .blue1ConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .blue1ConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Red color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reduix4{
+
+/*
+height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/bankOfamer.png");
+/*background-image: url("../img/hsbc.jpg");*/
+/*background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+
+*/
+
+
+
+}
+
+
+
+
+
+
+
+.redlan2x4 {
+background-color:rgb(217,0,0);
+
+}
+
+
+
+.redLangBx4, .redLangBotherx4{
+    
+
+    background-color:rgb(217,0,0);
+    border: 1px solid rgb(239, 0, 0);
+    color:white;
+}
+
+
+
+.redlan2MOBI label{
+ color:white;
+
+}
+
+
+
+
+.redBlankLogox4{
+
+background-image: url("../img/bankOfamer.png");
+
+/*background-repeat: repeat;*/
+
+}
+
+
+.redserm2x4{
+  
+
+
+background-color:#262626;
+background-image: url("../img/bankOfamer.png");
+background-size: 68%;
+/*background-repeat: repeat;*/
+
+}
+
+
+
+.redSer2x4{
+  
+
+opacity:.95;
+
+background-color:#262626;
+padding:10px 0px 10px 10px ;
+
+height:114px;
+width:100%;
+text-align: center;
+color:gray; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid grey;
+
+
+}
+
+
+
+.redSerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:white;
+    border: 4px solid lightgrey; 
+    border-radius:15px;
+    color:black;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px darkgrey;*/
+
+   
+}
+
+
+.redSm2x4{
+    color:black;
+    background-color:white;
+    border: 4px solid lightgrey; 
+ 
+}
+
+.redAcm2x4{
+    color:black;
+    background-color:white;
+    border: 1px solid lightgrey; 
+    background-color: inherit;
+}
+
+
+.redSerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:white;
+    border: 4px solid lightgrey; 
+    border-radius:15px;
+    color:black;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px darkgrey;*/
+
+   
+}
+
+
+
+
+
+
+
+.redTof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:#262626;
+
+height:155px;auto;
+width:100%; 
+
+text-align:center;
+color:grey;
+
+
+}
+
+
+
+.redTofBx4{
+
+
+    background-color:white;
+    border: 3px solid lightgrey; 
+    border-radius:15px;
+    color:black;
+
+/*box-shadow: 0px 1px 13px 5px darkgrey;*/
+
+}
+
+
+
+.redQty2x4{
+
+background-color:rgb(225, 0, 0);
+color:white;
+border-top:1px solid rgb(233, 0, 0);
+
+}
+
+
+
+
+ 
+    
+.redQtyvalue2x4{
+
+background-color:inherit;
+color:white;
+border:none;
+
+}
+
+
+
+.redQtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.redAmountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+#redAmountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.redNumColorsx4{
+
+background-color: rgb(203, 0, 0);
+border: 2px solid rgb(225, 0, 0);
+
+
+}
+
+
+
+
+.redFin2x4{
+  opacity: .95;
+
+background-color: #262626;
+background-image: linear-gradient(to bottom right ,#212121, #4e4d4d);
+    
+}
+
+
+
+.redFinBx4{
+border:5px solid lightgrey;
+background-color:white;
+color:black;
+
+}
+
+
+.redInnerx4{
+opacity: .95;
+background-color: #262626;
+background-image: linear-gradient(to bottom right ,#212121, #4e4d4d);
+color: #e0e0e0;
+}
+
+
+ .redAcm2x4, .redFinBx4{
+
+  border:none;
+  color: white;
+box-shadow: inset 0 1px 15px white;
+background-image: linear-gradient(to bottom right ,#838383, #2d2d2d);
+background-color: inherit;
+}
+
+
+.redSm2x4{
+
+  border:none;
+  color: white;
+box-shadow: inset 0 1px 15px white;
+background-image: linear-gradient(to bottom right ,#838383, #2d2d2d);
+ 
+}
+
+
+.redAccValuesx4{
+   color: tan;
+}
+
+
+
+
+
+
+
+.redConfirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.redBack2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .redConfirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.redBack24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .redConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .redConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Red color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.red2uix4{
+
+/*
+height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+
+background-image: url("../img/hsbc.jpg");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+*/
+
+}
+
+
+
+
+/*//////////////////////*/
+
+
+
+
+
+
+.red2lan2x4{
+background-color:rgb(204, 3, 3);
+background-image: linear-gradient(to bottom right ,#8d1800, #e12700);
+
+}
+
+
+
+.red2LangBx4, .red2LangBotherx4{
+    
+background-color: transparent;
+border: 1px solid rgb(224, 8, 8);
+    color:yellow;
+
+}
+
+.red2lan2MOBI label{
+ color:white;
+}
+
+
+
+.red2BlankLogox4{
+
+background-image: url("../img/Wells-Fargo.jpg");
+
+}
+
+
+
+
+.red2serm2x4{
+  
+background-color:#262626;
+background-image: url("../img/WellsF.jpg");
+background-size: 50%;
+/*background-repeat: repeat;*/
+
+}
+
+
+
+.red2Ser2x4{
+  
+
+opacity:.95;
+
+background-color:#262626;
+padding:10px 0px 10px 10px ;
+
+height:114px;
+width:100%;
+text-align: center;
+color:gray; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid grey;
+
+
+}
+
+
+
+.red2SerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:white;
+    border: 4px solid lightgrey; 
+    border-radius:15px;
+    color:black;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px darkgrey;*/
+
+   
+}
+
+
+.red2Sm2x4{
+    color:black;
+    background-color:white;
+    border: 4px solid lightgrey; 
+ 
+}
+
+.red2Acm2x4{
+    color:black;
+    background-color:white;
+    border: 1px solid lightgrey; 
+    background-color: inherit;
+  
+}
+
+
+.red2SerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:white;
+    border: 4px solid lightgrey; 
+    border-radius:15px;
+    color:black;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px darkgrey;*/
+
+   
+}
+
+
+
+
+
+
+
+.red2Tof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:#262626;
+
+height:155px;auto;
+width:100%; 
+
+text-align:center;
+color:grey;
+
+
+}
+
+
+
+.red2TofBx4{
+
+    background-color:white;
+    border: 3px solid lightgrey; 
+    color:black;
+
+}
+
+
+
+.red2Qty2x4{
+
+background:rgb(204, 3, 3);
+color:yellow;
+
+
+
+
+}
+
+
+
+
+
+ 
+    
+.red2Qtyvalue2x4{
+background-color:inherit;
+color:yellow;
+border:none;
+
+
+
+}
+
+
+
+.red2Qtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.red2Amountx4{
+
+  background-color:inherit;
+  border:none;
+  color:yellow;
+}
+
+
+#red2Amountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+
+
+.red2NumColorsx4{
+
+
+background-color: rgb(186, 3, 3);
+border: 2px solid rgb(204, 3, 3);
+  color: rgb(255, 242, 0);
+ 
+}
+
+
+
+.red2Fin2x4{
+  opacity: .95;
+
+background-color: #262626;
+background-image: linear-gradient(to bottom right ,#060002, #595453);
+
+
+    
+}
+
+
+
+.red2FinBx4{
+border:5px solid lightgrey;
+background-color:white;
+color:black;
+
+}
+
+
+
+
+.red2Innerx4{
+opacity: .95;
+background-color: #262626;
+background-image: linear-gradient(to bottom right ,#060002, #595453);
+color: #e1e1e1;
+}
+
+
+ .red2Acm2x4, .red2FinBx4, .red2SerBx4, .red2SerBotherx4, .red2TofBx4{
+
+  border:none;
+box-shadow: inset 0 1px 15px white;
+background-color: #262626;
+color: white;
+background-image: linear-gradient(to bottom right ,#414141, #151515);
+background-color: inherit;
+}
+
+
+.red2Sm2x4{
+
+  border:none;
+box-shadow: inset 0 1px 15px white;
+background-color: #262626;
+color: white;
+background-image: linear-gradient(to bottom right ,#414141, #151515);
+}
+
+
+
+.red2AccValuesx4{
+   color: tan;
+}
+
+
+
+
+.red2Confirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.red2Back2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .red2Confirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.red2Back24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .red2ConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .red2ConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+ .red2Acm2x4, .red2FinBx4{
+
+  border:none;
+  box-shadow:inset 0 1px 10px white;
+  background-color:#262626;
+  color:white;
+  background-color: inherit;
+}
+
+
+.red2Sm2x4{
+
+  border:none;
+  box-shadow:inset 0 1px 8px white;
+  background-color:#262626;
+  color:white;
+}
+
+
+/*////////////////////////*/
+
+
+
+
+/*//////////////////////////red 3//////////////////////////////////////////////////////////*/
+
+
+.red3LangBx4, .red3LangBotherx4{
+    background-color:transparent;
+    border: 1px solid rgb(218, 11, 11);
+    color:white;
+}
+
+.red3lan2MOBI label{
+ color:white;
+}
+
+
+
+
+.red3Amountx4, .red3Qtyvalue2x4{
+
+background-color:inherit;
+color:white;
+border:none;
+
+
+}
+
+
+
+.red3NumColorsx4{
+
+background-color: rgb(186, 3, 3);
+border: 2px solid rgb(204, 3, 3);
+  color:white;
+
+}
+
+
+.red3Innerx4{
+opacity: .95;
+background-color: #262626;
+background-image: linear-gradient(to bottom right ,#090101, #4e4e4e);
+color: #bababa;
+}
+
+ .red3Acm2x4, .red3FinBx4{
+
+  background-color:#262626; 
+color: white;
+border: none;
+box-shadow: inset 0 1px 15px white;
+background-image: linear-gradient(to bottom right ,#484848, #060606);
+background-color: inherit;
+}
+
+
+.red3Sm2x4{
+
+  background-color:#262626; 
+color: white;
+border: none;
+box-shadow: inset 0 1px 15px white;
+background-image: linear-gradient(to bottom right ,#484848, #060606);
+}
+
+
+.red3serm2x4, .red3Fin2x4{
+
+  background-color:#262626; 
+background-image: linear-gradient(to bottom right ,#090101, #4e4e4e);
+
+}
+
+
+.red3BlankLogox4{
+background-image: url("../img/china.png");
+
+}
+
+
+
+
+.red3serm2x4{
+background-image: url("../img/china.png");
+background-size: 84%;
+background-repeat: repeat;
+}
+
+
+
+
+.red3AccValuesx4{
+   color: tan;
+}
+
+
+
+.red3Qty2x4{
+
+  background: rgb(204, 3, 3);
+  color: white;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/*     222222222222222222222222222222222222222    red 4 color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.red4uix4{
+
+/*
+height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/bankOfamer.png");
+/*background-image: url("../img/hsbc.jpg");*/
+/*background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+*/
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.red4lan2x4 {
+background-color:rgb(217,0,0);
+  
+
+
+
+}
+
+
+
+.red4LangBx4, .red4LangBotherx4{
+    
+
+    background-color:transparent;
+    border:1px solid rgb(217, 0, 0);
+    color:white;
+
+  
+}
+
+.red4lan2MOBI label{
+ color:white;
+}
+
+
+
+   
+
+.red4BlankLogox4{
+
+background-image: url("../img/bankOfamer.png");
+
+
+}
+
+
+
+.red4BlankLogox4{
+
+background-image: url("../img/bankOfamer.png");
+
+}
+
+
+
+.red4serm2x4{
+  
+background-color:white;
+background-image: url("../img/bankOfamer.png");
+background-size: 68%;
+background-repeat: repeat;
+
+}
+
+
+
+.red4Ser2x4{
+  
+
+opacity:.95;
+
+background-color:white;
+padding:10px 0px 10px 10px ;
+
+height:114px;
+width:100%;
+text-align: center;
+color:gray; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid grey;
+
+
+}
+
+
+
+.red4SerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:white;
+    border: 4px solid lightgrey; 
+    border-radius:15px;
+    color:black;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px darkgrey;*/
+
+   
+}
+
+
+.red4Sm2x4{
+    color:black;
+    background-color:white;
+    border: 4px solid lightgrey; 
+ 
+}
+
+.red4Acm2x4{
+    color:black;
+    background-color:white;
+    border: 1px solid lightgrey; 
+ 
+}
+
+
+.red4SerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:white;
+    border: 4px solid lightgrey; 
+    border-radius:15px;
+    color:black;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px darkgrey;*/
+
+   
+}
+
+
+
+
+
+
+
+.red4Tof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:white;
+
+height:155px;auto;
+width:100%; 
+
+text-align:center;
+color:grey;
+
+
+}
+
+
+
+.red4TofBx4{
+
+
+    background-color:white;
+    border: 3px solid lightgrey; 
+    border-radius:15px;
+    color:black;
+
+/*box-shadow: 0px 1px 13px 5px darkgrey;*/
+
+}
+
+
+
+.red4Qty2x4{
+
+background-color: rgb(216, 3, 3);
+color:white;
+border-top:none;
+
+}
+
+
+
+
+ 
+    
+.red4Qtyvalue2x4{
+
+background-color:inherit;
+color:inherit;
+border:none;
+
+}
+
+
+
+.red4Qtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.red4Amountx4{
+
+  background-color:inherit;
+  border:none;
+  color: white;
+}
+
+
+#red4Amountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.red4NumColorsx4{
+ background-color: rgb(186, 3, 3);
+ border: 2px solid rgb(216, 3, 3);
+color: inherit;
+
+}
+
+
+
+
+.red4Fin2x4{
+  opacity: .95;
+
+background-color: white;
+background-image: linear-gradient(to bottom right ,#e7e7e7, #fff);
+
+
+
+
+    
+}
+
+
+
+.red4FinBx4{
+border:5px solid lightgrey;
+background-color:white;
+color:black;
+
+}
+
+
+.red4Innerx4{
+
+opacity: .97;
+background-color: white;
+background-image: linear-gradient(to bottom right ,#e7e7e7, #fff);
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+color: #292929;
+}
+
+
+ .red4Acm2x4, .red4FinBx4{
+
+  border:none;
+  box-shadow:inset 0 1px 15px #424141;
+  background-color: inherit;
+  background-image: linear-gradient(to bottom right ,#fff, #e9e9e9);
+
+}
+
+
+.red4Sm2x4{
+
+  border:none;
+  box-shadow:inset 0 1px 15px #424141;
+ 
+}
+
+
+.red4AccValuesx4{
+   color: grey;
+ color: #747474;
+}
+
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Light Blue color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.liBlueuix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/barklays.png");
+background-position:center;
+
+background-size: cover;
+
+
+border: 4px solid black;
+position:;
+width: 609px;
+
+
+border-radius:10px;
+
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+*/
+
+
+
+}
+
+
+
+
+
+
+
+.liBluelan2x4{
+background-color:#0099cc;
+background-image: linear-gradient(to bottom right ,#01779f, #00bfff);
+background-image: linear-gradient(to bottom right ,#e6e6e6, #fff);
+
+}
+
+
+
+.liBlueLangBx4, .liBlueLangBotherx4{
+    
+    background-color:transparent;
+    border:1px solid #00bfff;
+     color:white; 
+     color: #002854;
+}
+
+
+
+.liBluelan2MOBI label{
+ color:white;
+}
+
+
+.liBlueBlankLogox4{
+  
+background-image: url("../img/lay.png");
+
+}
+
+
+
+
+
+
+.liBlueBlankLogox4{
+
+background-image: url("../img/lay.png");
+
+}
+
+
+
+
+.liBlueserm2x4{
+  
+
+background-color:white;
+background-image: url("../img/lay.png");
+background-repeat: repeat;
+background-size: 65%;
+
+}
+
+
+
+
+
+.liBlueSer2x4{
+  
+
+opacity:.95;
+
+background-color:white;
+padding:10px 0px 10px 10px ;
+
+height:114px;auto;
+width:100%;
+text-align: center;
+color:#0099cc; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid #00bfff;
+
+
+}
+
+
+
+.liBlueSerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:#00bfff;
+    border: 4px solid #0099cc; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 5px 1px #0099cc;*/
+
+   
+}
+
+
+
+.liBlueSm2x4{
+    background-color:#00bfff;
+    border: 4px solid #0099cc; 
+    color:white;
+ 
+}
+
+.liBlueAcm2x4{
+    background-color:#00bfff;
+    border: 1px solid #0099cc; 
+    color:white;
+    background-color: inherit;
+  
+}
+
+
+
+
+
+
+.liBlueSerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:#00bfff;
+    border: 4px solid #0099cc; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 5px 1px #0099cc;*/
+
+   
+}
+
+
+
+
+
+
+
+.liBlueTof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:white;
+
+height:155px;auto;
+width:100%;  
+
+text-align:center;
+color:#0099cc;
+
+
+}
+
+
+
+.liBlueTofBx4{
+
+    background-color:#00bfff;
+    border: 3px solid #0099cc; 
+    color:white;
+ 
+
+}
+
+
+
+.liBlueQty2x4{
+
+background-color:rgb(0, 159, 213);
+color:white;
+border-top:1px solid rgb(0, 159, 213);
+
+}
+
+
+
+ 
+    
+.liBlueQtyvalue2x4{
+background-color:inherit;
+
+color:white;
+border:none;
+
+}
+
+
+
+.liBlueQtyty2x4{
+
+   
+    /*width: 600.3px;*/
+    height: 55px;
+}
+
+
+.liBlueAmountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+#liBlueAmountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.liBlueNumColorsx4{
+  background-color: #0097c9;
+  border:2px solid rgb(0, 159, 213);
+  border-bottom:2px solid rgb(0, 159, 213); 
+
+
+}
+
+
+
+
+.liBlueFin2x4{
+  opacity: .95;
+background-color:white;
+
+
+
+    
+}
+
+
+
+.liBlueFinBx4{
+border:5px solid #0099cc;
+background-color:#00bfff;
+color:white;
+
+}
+
+
+.liBlueInnerx4{
+opacity: .95;
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+color: #003847;
+}
+
+
+ .liBlueAcm2x4, .liBlueFinBx4{
+
+  border:none;
+  background-image: linear-gradient(to bottom right ,#00bfff, #1d8db3);
+background-color: inherit;
+
+}
+
+
+.liBlueSm2x4{
+
+  border:none;
+  background-image: linear-gradient(to bottom right ,#00bfff, #1d8db3);
+}
+
+
+.liBlueAccValuesx4{
+   color: grey;
+}
+
+
+
+
+
+.liBlueConfirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.liBlueBack2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .liBlueConfirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.liBlueBack24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .liBlueConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .liBlueConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+
+
+
+/*//////////////////////////White Blue//////////////////////////////////////////////////////////*/
+
+
+
+
+.liBlue2Innerx4{
+
+opacity: .95;
+background-color: white;
+}
+
+ .liBlue2Acm2x4, .liBlue2FinBx4{
+
+background-color: inherit;
+color: #003847;
+border: none;
+/*background-image: linear-gradient(to bottom right ,#00bfff, #1d8db3);*/
+box-shadow: inset 0 1px 15px #0c0c0c;
+background-image: linear-gradient(to bottom right ,#fff, #e9e9e9);
+
+}
+
+
+
+
+
+.liBlue2serm2x4, .liBlue2Fin2x4{
+
+  background-color:white; 
+
+
+}
+
+
+.liBlue2AccValuesx4{
+   color: tan;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*/////////MedBlue/////////////*/
+
+
+
+
+
+
+.MedBluelan2x2{
+
+background-color:#286090;
+
+
+
+
+}
+
+
+
+.MedBlueLangBx2{
+    
+
+    background-color:#286090;
+    border:1px solid rgb(46, 109, 164);
+    color:white;
+}
+
+
+
+
+.MedBluelan2MOBI label{
+ color:white;
+}
+
+
+.MedBlueLangBotherx2{
+    
+    background-color:#286090;
+    border:1px solid rgb(46, 109, 164);
+    color:white;
+  
+}
+
+
+
+
+.MedBlueserm2x2{
+
+background-color:#071422;
+background-size: 70%;
+background-repeat: repeat;
+}
+
+
+
+
+
+
+.MedBlueSm2x2{
+    background-color:#424242;
+    border: 4px solid white; 
+  color:white;
+}
+
+
+.MedBlueAcm2x2{
+    background-color:#424242;
+    border: 1px solid white; 
+    color: white;
+    background-color: inherit;
+}
+
+
+
+
+
+
+
+
+
+.MedBlueQty2x2{
+
+background-color:rgb(46, 109, 164);
+color:white;
+border-top:1px solid #286090;
+
+
+
+}
+
+
+
+
+ 
+    
+.MedBlueQtyvalue2x2{
+
+background-color:inherit;
+color:white;
+
+}
+
+
+
+.MedBlueqtyty2x2{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.MedBlueAmountx2{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+.MedBlueAmountx2:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px;*/
+}
+
+
+
+
+.MedBlueNumColorsx2{
+  background-color: #286090;
+  border:2px solid rgb(46, 109, 164);
+
+}
+
+
+
+
+
+
+.MedBlueFin2x4{
+  opacity: .95;
+background-color:#071422;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #4b4b4b);
+
+
+
+
+    
+}
+
+
+
+
+
+
+.MedBlueFinBx2{
+border:5px solid white;
+
+background-color:#424242;
+color:white;
+
+}
+
+
+
+/*box-shadow: 1px 1px 10px 2px white;*/
+
+.MedBlueInnerx4{
+opacity: .95;
+background-color: #071422;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #4b4b4b);
+color: #ddd;
+}
+
+
+ .MedBlueAcm2x2, .MedBlueFinBx2{
+
+  border:none;
+  /*box-shadow:inset 0 1px 10px lightgrey;*/
+  /*background-image: linear-gradient(to bottom right ,grey, #505050);*/
+  background-image: linear-gradient(to bottom right ,grey, #286090);
+  background-color: inherit;
+}
+
+
+.MedBlueSm2x2{
+
+  border:none;
+  /*box-shadow:inset 0 1px 9px lightgrey;*/
+  /*background-image: linear-gradient(to bottom right ,grey, #505050);*/
+  background-image: linear-gradient(to bottom right ,grey, #286090);
+}
+
+
+
+.MedAccValuesx4{
+   color: tan;
+}
+
+
+
+
+
+
+/*/////////MedBlue/////////////*/
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Naby Blue color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navyuix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/popul.png");
+/*background-image: url("../img/europe.png");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+*/
+
+
+}
+
+
+
+
+
+
+
+.navylan2x4{
+background-color:#000033;
+
+
+
+
+}
+
+
+
+.navyLangBx4{
+    
+
+    background-color:#000033;
+    border:1px solid #000066;
+    color:white;
+
+}
+
+
+.navylan2MOBI label{
+ color:white;
+}
+
+
+.navyLangBotherx4{
+    
+
+    background-color:#000033;
+    border:1px solid #000066;
+    color:white;
+
+    padding:5px;
+    margin:5px;
+    width:110px;
+    font-weight: 1px; 
+    color:white;
+    font-size:18px; 
+    font-family: arial;
+
+  
+}
+
+
+
+.navyBlankLogox4{
+background-image: url("../img/popul.png");
+}
+
+
+.navyserm2x4{
+  
+
+background-image: url("../img/popul.png");
+background-size: 75%;
+background-repeat: repeat;
+
+}
+
+.navySer2x4{
+  
+
+opacity:.95;
+
+background-color:#000033;
+padding:10px 0px 10px 10px ;
+
+height:114px;auto;
+width:100%;
+text-align: center;
+color:white; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid grey;
+
+
+}
+
+
+
+.navySerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:white;
+    border: 4px solid #007a99; 
+    border-radius:15px;
+    color:#000033;
+    font-size: 21px;
+
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px #007a99;*/
+   
+}
+
+
+
+.navySm2x4{
+   color:#000033;
+   background-color:white;
+   border: 4px solid #007a99; 
+ 
+}
+
+.navyAcm2x4{
+  color:#000033;
+  background-color:white;
+  border: 1px solid #007a99; 
+  background-color: inherit;
+}
+
+
+
+.navySerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:white;
+    border: 4px solid #007a99; 
+    border-radius:15px;
+    color:#000033;
+    font-size: 21px;
+
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px #007a99;*/
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.navyTof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:#000033;
+
+height:155px;auto;
+width:100%;  
+
+text-align:center;
+color:white;
+
+
+}
+
+
+
+.navyTofBx4{
+
+    background-color:white;
+    border: 3px solid #007a99; 
+
+    color:#000033;
+
+/*box-shadow: 0px 1px 13px 5px #007a99;*/
+
+}
+
+
+
+.navyQty2x4{
+
+background-color:#000033;
+color:white;
+
+
+
+
+}
+
+
+
+
+ 
+    
+.navyQtyvalue2x4{
+background-color:inherit;
+color:white;
+
+
+}
+
+
+
+.navyQtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.navyAmountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+#navyAmountx4:hover{
+  cursor:pointer;
+/*  box-shadow: 0px 0px 15px 0px ligh*/tgrey;
+}
+
+
+
+.navyNumColorsx4{
+ background-color: #00002F;
+border: 2px solid #000040;
+
+
+}
+
+
+
+
+.navyFin2x4{
+  opacity:1;
+background-color:#000033;
+background-image: linear-gradient(to bottom right ,#02022f, #454556);
+
+
+
+
+    
+}
+
+
+
+.navyFinBx4{
+border:5px solid #007a99;
+background-color:white;
+color:#000033;
+
+}
+
+
+
+
+.navyInnerx4{
+
+opacity: .97;
+background-color: #000033;
+background-image: linear-gradient(to bottom right ,#02022f, #454556);
+background-image: linear-gradient(to bottom right ,#000017, #1c1c41);
+color: #e1e1e1;
+}
+
+ .navyAcm2x4, .navyFinBx4{
+border:none;
+box-shadow:none;
+
+background-image: linear-gradient(to bottom right ,#525566, #fff);
+background-image: linear-gradient(to bottom right ,white, #fff);
+background-color: inherit;
+}
+
+
+.navySm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px black;*/
+  background-image: linear-gradient(to bottom right ,white, lightgrey);
+
+  background-image: linear-gradient(to bottom right ,white, lightgrey);
+box-shadow: inset 0 1px 10px white;
+background-image: linear-gradient(to bottom right ,white, #4d4c4c);
+}
+
+
+
+.navyAccValuesx4{
+   color: black;
+}
+
+
+
+
+
+
+.navyConfirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.navyBack2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .navyConfirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.navyBack24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .navyConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .navyConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Naby Blue color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navy2uix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+
+background-image: url("../img/europe.png");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+
+*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Green color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.greenuix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/sber.png");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+*/
+
+
+}
+
+
+
+
+
+
+
+.greenlan2x4 {
+    background-color: black;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.greenLangBx4, .greenkLangBotherx4 {
+
+background-color: transparent;
+border: 1px solid #333232;
+color: #aeaeae;
+}
+
+
+
+.greenBlankLogox4{
+
+background-image: url("../img/tdbankBlank.png");
+
+}
+
+
+
+
+.greenserm2x4{
+
+
+background-color:white;
+background-image: url("../img/tdbank.png");
+background-size: 100%;
+/*background-repeat: no-repeat;*/
+
+}
+
+
+.greenSer2x4{
+  
+
+opacity:.95;
+
+background-color:white;
+padding:10px 0px 10px 10px ;
+
+height:114px;auto;
+width:100%;
+text-align: center;
+color:#004d00; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid #004d00;
+
+
+}
+
+
+
+.greenSerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:#008000;
+    border: 4px solid #004d00; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+    /*box-shadow: 1px 1px 10px 2px #004d00;*/
+}
+
+
+.greenSm2x4{
+    background-color:#008000;
+    border: 4px solid #004d00; 
+    color:white; 
+}
+
+.greenAcm2x4{
+    background-color:#008000;
+    border: 1px solid #004d00;
+    color:white; 
+  background-color: inherit;
+}
+
+
+
+
+
+.greenSerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:#008000;
+    border: 4px solid #004d00; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px #004d00;*/
+
+   
+}
+
+
+
+
+
+
+.greenTof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:white;
+
+height:155px;auto;
+width:100%;   
+
+text-align:center;
+color:#004d00;
+
+
+}
+
+
+
+.greenTofBx4{
+
+
+    background-color:#008000;
+    border: 3px solid #004d00; 
+    color:white;
+
+/*box-shadow: 0px 1px 13px 5px #004d00;*/
+
+}
+
+
+
+.greenQty2x4 {
+
+    background: #212121;
+    color: #cecece;
+
+}
+
+
+
+ 
+    
+.greenQtyvalue2x4{
+background-color:inherit;
+color:lightgrey;
+border:none;
+
+
+
+
+}
+
+
+
+.greenQtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.greenAmountx4{
+  background-color: inherit;
+  border:1px solid #006600;
+  border:none;
+}
+
+
+#greenAmountx4:hover{
+  cursor:pointer;
+/*  box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.greenNumColorsx4 {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #212121;
+    color: rgb(176, 176, 176);
+
+}
+
+
+
+
+
+.greenFin2x4{
+  opacity: .95;
+background-color:white;
+background-image: linear-gradient(to bottom right ,#000800, #484848);
+
+
+    
+}
+
+
+
+.greenFinBx4{
+border:5px solid #004d00;
+background-color:#008000;
+color:white;
+
+}
+
+
+
+
+ .greenAcm2x4, .greenFinBx4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 10px black;*/
+  background-image: linear-gradient(to bottom right ,#008d00, #103e07);
+/*  box-shadow: inset 0 1px 10px white;*/
+background-color: inherit;
+}
+
+
+.greenSm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px black;*/
+  background-image: linear-gradient(to bottom right ,#008d00, #103e07);
+/*  box-shadow: inset 0 1px 10px white;*/
+}
+
+
+
+.greenAccValuesx4{
+   color: tan;
+}
+
+
+/*////////////////////*/
+
+
+
+/*/////Black Green///////*/
+
+.greenInnerx4{
+
+opacity: .95;
+background-color: #262626;
+background-image: linear-gradient(to bottom right ,#000800, #484848);
+color: #dedede;
+color: #aeaeae;
+}
+
+.greenSm2x4, .greenAcm2x4, .greenFinBx4{
+
+  background-color:#262626;
+  color:white;
+
+  border:none;
+/*  box-shadow:inset 0 1px 10px white;*/
+background-image: linear-gradient(to bottom right ,#008d00, #103e07);
+background-color: inherit;
+}
+
+
+
+.greenserm2x4, .greeninnerx4, .greenFin2x4{
+
+background-color:#262626;
+color:lightgrey;
+
+}
+
+
+
+
+.greenlan2x4 {
+    background-color: black;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.greenLangBx4, .greenLangBotherx4 {
+
+background-color: black;
+border: 1px solid #333;
+color: grey;
+}
+
+
+
+.greenQty2x4 {
+
+    background: #212121;
+    color: #cecece;
+
+}
+
+
+.greenNumColorsx4 {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #212121;
+    color: rgb(176, 176, 176);
+
+}
+
+/*/////////////*/
+
+
+
+
+.greenConfirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.greeeBack2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .greeeConfirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+
+.greenBack24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .greenConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .greenConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+/*//////////////////////////Light Green 3//////////////////////////////////////////////////////////*/
+
+.green2Innerx4{
+
+opacity: .96;
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+color: #162d18;
+
+}
+
+
+.green2BlankLogox4{
+background-image: url("../img/sber.png");
+
+}
+
+
+
+.green2serm2x4{
+background-image: url("../img/sber.png");
+background-size: 63%;
+background-repeat: no-repeat;
+}
+
+
+
+
+ .green2Acm2x4, .green2FinBx4{
+
+background-color: inherit;
+color: #072301;
+border: none;
+/*background-image: linear-gradient(to bottom right ,#169016, #023602);*/
+box-shadow: inset 0 1px 15px #1a1a1a;
+background-image: linear-gradient(to bottom right ,#fff, #e9e9e9);
+
+}
+
+
+
+
+
+.green2serm2x4, .green2Fin2x4{
+
+  background-color:white; 
+
+
+}
+
+
+
+.green2lan2x4 {
+    background-color: #147501;
+    color: grey;
+    border-bottom: none;
+    background-image: linear-gradient(to bottom right ,#1b511b, #4d963f);
+    background-image: linear-gradient(to bottom right ,#e6e6e6, #fff);
+}
+
+
+.green2LangBx4, .green2LangBotherx4 {
+background-color: transparent;
+color: #053000;
+border: 1px solid #1e5613
+}
+
+
+
+.green2Qty2x4 {
+
+background-color: #20890b;
+color: white;
+
+}
+
+
+.green2Qtyvalue2x4{
+background-color:inherit;
+color:inherit;
+border:none;
+
+
+
+
+}
+.green2Amountx4{
+  background-color: inherit;
+  border:1px solid #006600;
+  border:none;
+}
+
+
+
+.green2NumColorsx4 {
+
+    background-color: #147501;
+    border: 2px solid #20890b;
+    color:white;
+
+}
+
+
+.green2AccValuesx4{
+   color: grey;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Ponce color   4444444444444444444444444444444444444444444444444444   */
+
+
+
+
+.ponceuix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/europe.png");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+*/
+
+}
+
+
+
+
+
+
+
+.poncelan2x4{
+background-color: rgb(17, 20, 62);
+background-image: linear-gradient(to bottom right ,#cbcbcb, #fff);
+
+
+
+
+}
+
+
+
+.ponceLangBx4, .ponceLangBotherx4{
+    
+background-color: transparent;
+border: 1px solid rgb(46, 49, 80);
+color: #000632;
+}
+
+
+
+.poncelan2MOBI label{
+ color:white;
+}
+
+
+
+
+
+.ponceBlankLogox4{
+
+background-image: url("../img/euro.png");
+
+}
+
+
+.ponceserm2x4{
+
+
+background-color:white;
+background-image: url("../img/euro.png");
+background-size: 48%;
+background-repeat: repeat;
+
+}
+
+
+
+
+.ponceSer2x4{
+  
+
+opacity:.97;
+
+background-color:white;
+padding:10px 0px 10px 10px ;
+
+height:114px;auto;
+width:100%;
+text-align: center;
+color:black; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid #004d00;
+
+
+}
+
+
+
+.ponceSerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:rgb(23, 29, 87);
+    border:1px solid rgb(17, 20, 62);
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+    /*box-shadow: 1px 1px 10px 2px #004d00;*/
+}
+
+
+
+.ponceSm2x4{
+    background-color:rgb(23, 29, 87);
+    border:1px solid rgb(17, 20, 62); 
+    color:white;
+}
+
+.ponceAcm2x4{
+    background-color:rgb(23, 29, 87);
+    border:1px solid rgb(17, 20, 62);
+    color:white;
+  background-color: inherit;
+}
+
+
+
+
+
+.ponceSerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:rgb(23, 29, 87);
+    border:1px solid rgb(17, 20, 62);
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px #004d00;*/
+
+   
+}
+
+
+
+
+
+
+.ponceTof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:white;
+
+height:155px;auto;
+width:100%;   
+
+text-align:center;
+color:black;
+
+
+}
+
+
+
+.ponceTofBx4{
+
+
+    background-color:rgb(23, 29, 87);
+    border: 3px solid rgb(17, 20, 62); 
+
+    color:white;
+
+/*box-shadow: 0px 1px 13px 5px #004d00;*/
+
+}
+
+
+
+.ponceQty2x4{
+
+background-color: rgb(19, 24, 53);
+color: white;
+border-top: 1px solid rgb(17, 20, 65);
+
+}
+
+
+
+
+ 
+    
+.ponceQtyvalue2x4{
+
+background-color: inherit;
+color:white;
+
+}
+
+
+
+.ponceQtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.ponceAmountx4{
+
+  background-color: inherit;
+  border:1px solid rgb(23, 29, 87);
+  border:none;
+}
+
+
+#ponceAmountx4:hover{
+  cursor:pointer;
+/*  box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.ponceNumColorsx4 {
+
+    color: white;
+    background-color: rgb(17, 20, 46);
+    border: 2px solid rgb(19, 24, 53);
+
+
+}
+
+
+
+
+.ponceFin2x4{
+  opacity: .95;
+background-color:white;
+background-image: linear-gradient(to bottom right ,#f2f2f2, #fff);
+
+
+    
+}
+
+
+
+.ponceFinBx4{
+border:1px solid rgb(17, 20, 62);
+background-color:rgb(23, 29, 87);
+color:white;
+
+}
+
+
+.ponceInnerx4{
+
+opacity: .96;
+background-color: white;
+background-image: linear-gradient(to bottom right ,#cbcbcb, #fff);
+color: #020023;
+}
+
+
+
+ .ponceAcm2x4, .ponceFinBx4{
+
+  border:none;
+/*  box-shadow:inset 0 1px 10px black;
+  background-color: white;
+  color:rgb(17, 20, 62);*/
+  color: white;
+background-image: linear-gradient(to bottom right ,#000020, #424550);
+ /* box-shadow: inset 0 1px 10px black;
+*/
+background-color: inherit;
+}
+
+
+.ponceSm2x4{
+
+  border:none;
+/*  box-shadow:inset 0 1px 8px black;
+  background-color: white;
+  color:rgb(17, 20, 62);*/
+  color: white;
+background-image: linear-gradient(to bottom right ,#000020, #424550);
+ /* box-shadow: inset 0 1px 10px black;*/
+}
+
+
+.ponceAccValuesx4{
+   color: tan;
+}
+
+
+
+.ponceConfirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.greeeBack2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .greeeConfirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+
+.ponceBack24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .ponceConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .ponceConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Orange color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+.orangeuix4{
+
+
+height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/bhdlogo.png");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+
+
+}
+
+
+
+
+
+
+
+.orangelan2x4{
+background-color:rgb(165, 10, 26);
+border-bottom: 2px solid white;  
+border-top-right-radius: 7px;
+border-top-left-radius: 7px;
+height:60px;auto;
+width:100%;
+padding:7px 10px 10px 10px; auto;
+
+
+}
+
+
+
+.orangeLangBx4{
+    
+
+    background-color:rgb(165, 10, 26);  
+    border:1px solid rgb(185, 11, 28);
+    color:white;
+
+    padding:5px;
+    margin:5px;
+    width:110px;
+    font-weight: 1px; 
+    color:white;
+    font-size:18px; 
+    font-family: arial;
+
+  
+}
+
+
+.orangeLangBotherx4{
+    
+
+    background-color:rgb(165, 10, 26); 
+    border:1px solid rgb(185, 11, 28);
+    color:white;
+
+    padding:5px;
+    margin:5px;
+    width:110px;
+    font-weight: 1px; 
+    color:white;
+    font-size:18px; 
+    font-family: arial;
+
+
+
+
+}
+
+
+.orangeserm2x4{
+
+opacity: .95;
+background-color:rgb(52,204,9);
+
+}
+
+
+
+
+
+
+.orangeSer2x4{
+  
+
+opacity:.95;
+
+background-color:rgb(52,204,9);
+padding:10px 0px 10px 10px ;
+
+height:114px;auto;
+width:100%;
+text-align: center;
+color:white; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid white;
+
+
+}
+
+
+
+.orangeSerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:rgb(0, 56, 113);
+    border: 4px solid white; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+
+
+   
+}
+
+
+
+
+.orangeSm2x4{
+    background-color:rgb(0, 56, 113);
+    border: 4px solid white;  
+}
+
+.orangeAcm2x4{
+    background-color:rgb(0, 56, 113);
+    border: 1px solid white; 
+  
+}
+
+
+
+.orangeSerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:rgb(0, 56, 113);
+    border: 4px solid white; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+
+
+   
+}
+
+
+
+
+
+
+
+.orangeTof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:rgb(52,204,9);
+
+height:155px;auto;
+width:100%;  
+
+text-align:center;
+color:white;
+
+
+}
+
+
+
+.orangeTofBx4{
+
+ margin:10px 30px 12px 8px ;
+     padding: 10px 35px 10px 35px;
+    background-color:rgb(0, 56, 113);
+    border: 5px solid white; 
+    border-radius:15px;
+    color:white;
+    font-size: 26px;
+    font-family: arial;
+
+
+}
+
+
+
+.orangeQty2x4{
+
+background-color:rgb(185, 11, 28);
+height:105px;
+width:100%; 
+color:white;
+font-size:20px;
+border-top:2px solid white;
+text-align: center;
+font-size:30px;
+
+
+}
+
+
+
+
+ 
+    
+.orangeQtyvalue2x4{
+background-color:rgb(244, 0, 0);
+height:50px;
+width:250px;
+
+margin-left:0px;
+color:white;
+border:none;
+font-size:35px;
+
+
+
+}
+
+
+
+.orangeQtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.orangeAmountx4{
+
+  background-color:rgb(185, 11, 28);
+  border:none;
+}
+
+
+#orangeAmountx4:hover{
+  cursor:pointer;
+
+}
+
+
+
+.orangeNumColorsx4{
+  background:rgb(165, 10, 26);
+  border:1px solid rgb(185, 11, 28);
+  border-bottom:2px solid white; 
+
+
+}
+
+
+
+
+.orangeFin2x4{
+  opacity: .95;
+background-color:rgb(52,204,9);
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+height:81px;
+width:100%;
+padding:15px 5px 5px 10px; 
+
+
+    
+}
+
+
+
+.orangeSubmit2x4{
+border:5px solid white;
+border-radius:20px;
+background-color: rgb(0, 56, 113);
+
+
+width:130px;
+margin-right: 25px;
+color:white;
+font-family: arial;
+}
+
+
+
+.orangeExit2x4{
+border:5px solid white;
+border-radius:20px;
+
+background-color:rgb(0, 56, 113);
+width:120px;  
+color:white; 
+font-family: arial;
+
+}
+
+
+
+
+.orangeConfirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.orangeBack2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+ 
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .orangeConfirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.orangeBack24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .orangeConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .orangeConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+*/
+
+/*//////////New Orange for Wells Fargo////*/
+
+.orangeui2x4{
+
+/*background-image: url("../img/bhdlogo.png");*/
+
+
+
+}
+
+
+
+
+
+
+.orangelan2x4{
+
+  background-color: rgb(217, 0 ,0);
+  background-image: linear-gradient(to bottom right ,#060002, #595453);
+  background-image: linear-gradient(to bottom right ,red, #620909);
+
+}
+
+
+
+
+
+.orangelan2MOBI label{
+ color:rgb(255,242,0);
+}
+
+
+
+.orangeBlankLogox4{
+background-image: url("../img/Wells-Fargo.jpg");
+}
+
+
+
+.orangeserm2x4{
+
+
+background-color:rgb(64, 19, 21);
+background-size: 50%;
+background-image: url("../img/WellsF.jpg");
+
+}
+
+
+
+
+
+
+.orangeSm2x4{
+  background-color: rgb(209,16,26);
+  border: 4px solid rgb(255, 242, 0);
+  color: rgb(255, 242, 0);
+}
+
+/*.orangeAcm2x4{
+  background-color: rgb(209,16,26);
+  border: 1px solid rgb(255, 242, 0);
+  color: rgb(255, 242, 0);
+  
+}
+*/
+
+
+
+
+
+.orangeSer2x4{
+  
+
+background:rgb(64, 19, 21);
+
+color:white; 
+
+border-bottom: 1px solid rgb(129, 12, 28);  
+
+
+
+}
+
+
+
+
+.orangeSerBx4{
+
+  background-color: rgb(209,16,26);
+  border: 4px solid rgb(255, 242, 0);
+  color: rgb(255, 242, 0);
+   
+}
+
+
+
+
+
+
+.orangeSerBotherx4{
+
+  background-color: rgb(209,16,26);
+  border: 4px solid rgb(255, 242, 0);
+  color: rgb(255, 242, 0);
+   
+}
+
+
+
+
+
+
+
+.orangeTof2x4{
+
+background:rgb(64, 19, 21);
+color:white;
+
+
+}
+
+
+
+.orangeTofBx4{
+
+  background-color: rgb(209,16,26);
+  border: 3px solid rgb(255, 242, 0);
+  color: rgb(255, 242, 0);
+
+}
+
+
+
+.orangeQty2x4{
+
+background:rgb(217, 0, 0);
+color:rgb(255, 242, 0);
+
+
+
+
+}
+
+
+
+
+ 
+    
+.orangeQtyvalue2x4{
+
+background:inherit;
+
+color:yellow;
+
+
+
+}
+
+
+
+
+
+.orangeAmountx4{
+
+  background:inherit;
+  border:none;
+}
+
+
+#orangeAmountx4:hover{
+  cursor:pointer;
+
+}
+
+
+
+.orangeNumColorsx4{
+
+
+  background-color: rgb(204, 1, 1);
+  border: 2px solid rgb(217, 0, 0);
+  color: rgb(255, 242, 0);
+ 
+}
+
+
+
+
+.orangeFin2x4{
+
+background:rgb(64, 19, 21);
+background-image: linear-gradient(to bottom right ,#060002, #595453);
+
+
+
+    
+}
+
+
+
+.orangeFinBx4{
+
+  background-color: rgb(209,16,26);
+  border: none;
+  color: rgb(255, 242, 0);
+  box-shadow:inset 0 1px 10px yellow;
+}
+
+
+
+
+
+
+
+
+/*//////////////////////*/
+
+.orangelan2x4{
+
+  background-color: rgb(204, 3, 3);
+  color:rgb(255, 242, 0);
+}
+
+.orangeserm2x4, .orangeFin2x4{
+  background-color: #262626;
+  opacity: .95;
+}
+
+
+.orangeLangBx4, .orangeLangBotherx4{
+
+background-color: transparent;
+border: 1px solid rgb(227, 4, 4);
+color: rgb(255, 242, 0);
+
+}
+
+
+.orangelan2MOBI label{
+ color:rgb(255, 242, 0);
+}
+
+
+.orangeInnerx4{
+
+opacity: .95;
+background-color: #262626;
+background-image: linear-gradient(to bottom right ,#060002, #595453);
+color: #e1e1e1;
+color: #ddc684;
+}
+
+
+ .orangeAcm2x4, .orangeFinBx4{
+    border:none;
+background-color: inherit;
+color: yellow;
+background-image: linear-gradient(to bottom right ,red, #620909);
+box-shadow: none;
+/*box-shadow: inset 0 1px 8px black;*/
+background-color: inherit;
+
+}
+
+
+.orangeSm2x4{
+background-color:#262626;
+  border:none;
+color: yellow;
+background-image: linear-gradient(to bottom right ,red, #620909);
+/*box-shadow: inset 0 1px 8px black;*/
+
+}
+
+
+/*.orangeserm2x4, .orangeFin2x4{
+
+  background-color: #071422;
+ background-color:rgb(231, 142, 22);
+  opacity:.97;
+}
+
+*/
+.orangeQty2x4{
+
+background:rgb(204, 3, 3);
+color:rgb(255, 242, 0);
+
+
+
+
+}
+
+.orangeNumColorsx4{
+
+
+background-color: rgb(186, 3, 3);
+border: 2px solid rgb(204, 3, 3);
+  color: rgb(255, 242, 0);
+ 
+}
+
+
+
+.orangeAccValuesx4{
+   color: wheat;
+}
+
+
+
+
+/*//////////////////////*/
+
+
+
+
+
+.orangeConfirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.orangeBack2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .orangeConfirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.orangeBack24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .orangeConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .orangeConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*777777777777777777777777777777777777777 Banreservas 55555555555555555555555555555555555555555555555555555555555555555555555555555*/ 
+
+
+
+/*     222222222222222222222222222222222222222    Orange color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banresuix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/banrese.png");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+*/
+
+}
+
+
+
+
+
+
+
+.banreslan2x4{
+background-color:#000042;
+background-image: linear-gradient(to bottom right ,#e6e6e6, #fff);
+}
+
+
+
+.banresLangBx4, .banresLangBotherx4{
+    
+background-color: transparent;
+border: 1px solid lightgrey;
+color:black;
+    
+}
+
+
+
+.banreslan2MOBI label{
+ color:white;
+}
+
+
+
+.orangeBlankLogox4{
+
+background-image: url("../img/Wells-Fargo.jpg");
+
+}
+
+
+
+
+.banresBlankLogox4{
+
+  background-image: url("../img/banresgreen.png");
+
+}
+
+
+
+
+.banresserm2x4{
+background-color:white;
+background-image: url("../img/banresgreen.png");
+background-size: 65%;
+}
+
+
+
+.banresSer2x4{
+  
+
+opacity:.95;
+
+background-color:rgb(240, 240, 240);
+border-bottom:1px solid rgb(1, 40, 88);
+
+
+}
+
+
+
+.banresSerBx4{
+     margin:10px 16px 12px 8px ;
+   
+    background-color: rgb(180,231,5);
+border: 4px solid rgb(141, 182, 3);
+
+    color:navy;
+
+/*box-shadow: 1px 1px 10px 2px rgb(1, 40, 88);*/
+
+   
+}
+
+
+
+
+.banresSm2x4{
+     color:navy;
+     background-color: rgb(180,231,5);
+     border: 4px solid rgb(141, 182, 3);
+}
+
+.banresAcm2x4{
+     color:navy;
+    background-color: rgb(180,231,5);
+    border: 1px solid rgb(141, 182, 3);
+    background-color: inherit;
+  
+}
+
+
+.banresSerBotherx4{
+  
+  
+   background-color: rgb(180,231,5);
+border: 4px solid rgb(141, 182, 3);
+    color:navy;
+
+
+   
+}
+
+
+
+
+
+
+
+.banresTof2x4{
+  opacity:.95;
+background-color:rgb(240, 240, 240);
+color:navy;
+}
+
+
+
+.banresTofBx4{
+
+background-color: rgb(180,231,5);
+border: 3px solid rgb(141, 182, 3);
+    color:navy;
+}
+
+
+
+.banresQty2x4{
+
+background-color:#00004B;
+color:white;
+
+
+
+}
+
+
+
+
+ 
+    
+.banresQtyvalue2x4{
+
+background-color:inherit;
+color:white;
+border:none;
+
+}
+
+
+
+.banresQtyty2x4{
+
+    width: 600.3px;
+    height: 55px;
+
+}
+
+
+.banresAmountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+#banresAmountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.banresNumColorsx4{
+  background-color: #010135;
+  border:2px solid #00004B;
+  color:white;
+
+
+}
+
+
+
+
+
+
+
+.banresFinBx4{
+background-color: rgb(180,231,5);
+border: 5px solid rgb(141, 182, 3);
+
+
+
+color:navy;
+
+}
+
+
+
+.banresInnerx4, .banresFin2x4{
+opacity: .95;
+background-color: white;
+background-image: linear-gradient(to bottom right ,#e6e6e6, #fff);
+color: #070256;
+}
+
+
+ .banresAcm2x4, .banresFinBx4{
+
+  border:none;
+ /* box-shadow:inset 0 1px 10px black;*/
+ background-image: linear-gradient(to bottom right ,rgb(170, 228, 17), rgb(98, 125, 8));
+
+ color: #000;
+ background-color: inherit;
+
+}
+
+
+.banresSm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px black;*/
+   background-image: linear-gradient(to bottom right ,rgb(170, 228, 17), rgb(98, 125, 8));
+
+  color: #000345;
+
+}
+
+
+
+
+.banresAccValuesx4{
+   color: #292929;
+}
+
+
+
+
+
+.orangeConfirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.orangeBack2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*//////////////////////Citi/////////////////////////////////////////////*/
+/*//////////////////////Citi/////////////////////////////////////////////*/
+
+.CitiBlankLogox4{
+
+background-image: url("../img/citi.png");
+
+}
+
+
+
+.Citiserm2x4 {
+    background-color: white;
+   background-image: url("../img/citi.png");
+}
+
+.Citilan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.CitiLangBx4, .CitiLangBotherx4 {
+
+    background-color:inherit;
+    border: 1px solid white;
+    color: #290101;
+}
+
+
+.CitiInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   background-image: linear-gradient(to bottom right ,#00001a, #15152d);
+   color: #b7b7b7;
+}
+
+
+
+.CitiSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.CitiQty2x4 {
+
+    background-color:whitesmoke;
+    color: #290101;
+
+}
+
+.CitiQtyvalue2x4 {
+
+    background: inherit;
+    color: #750000;
+
+}
+
+
+
+.CitiAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.CitiNumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #750000;
+
+}
+
+
+.CitiFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.CitiAcm2x4, .CitiFinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+background-image: linear-gradient(to bottom right ,#00637e, #00bbed);
+background-color: inherit;
+
+}
+
+
+.CitiAccValuesx4{
+   color: lightgrey;
+}
+
+
+
+/*//////////////////////Citi/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Citi/////////////////////////////////////////////*/
+
+
+/*////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+.Citi2uix4{
+
+
+
+
+}
+
+
+
+
+
+
+
+.Citi2lan2x4{
+
+background-color:rgb(217,0,0);
+border-bottom: none; 
+background-image: linear-gradient(to bottom right ,#fff, #f5f5f5);
+color:;
+
+}
+
+
+
+.Citi2LangBx4, .Citi2LangBotherx4{
+    
+    background-color:transparent;
+    border: 1px solid #2b2978;
+    color: #0e0e0e;
+
+}
+
+
+
+.Citi2BlankLogox4{
+
+background-image: url("../img/citi.png");
+
+}
+
+
+
+
+
+.Citi2serm2x4{
+
+background-color:#000033;
+background-image: url("../img/citi.png");
+background-size: 73%;
+background-repeat: repeat;
+
+}
+
+
+
+.Citi2Qty2x4{
+
+background-color: rgb(0, 0, 45);
+  color: white;
+  border-top: 1px solid rgb(0, 0, 45);
+
+}
+
+
+    
+.Citi2Qtyvalue2x4{
+background-color: inherit;
+color:white;
+border:none;
+}
+
+
+
+
+.Citi2Qtyty2x4{
+    width: 600.3px;
+    height: 55px;
+}
+
+
+
+
+.Citi2Amountx4{
+
+background-color: inherit;
+  border:none;
+}
+
+
+
+
+
+.Citi2NumColorsx4{
+background-color:rgb(0, 0, 30);
+border: 2px solid rgb(0, 0, 45);
+color: white;
+}
+
+
+
+
+
+.Citi2Innerx4, .Citi2Fin2x4 {
+
+    opacity: .96;
+    background-color: #000033;
+    color: #0e0e0e;
+    background-image: linear-gradient(to bottom right ,#fff, #f5f5f5);
+}
+
+ .Citi2Acm2x4, .Citi2FinBx4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 10px black;*/
+
+background-image: linear-gradient(to bottom right ,#00637e, #00bbed);
+color: white;
+background-color: inherit;
+}
+
+
+
+
+
+
+.Citi2AccValuesx4{
+   color: #f0f0f0;
+}
+
+
+
+
+
+/*     222222222222222222222222222222222222222   citi white  Blue 2 color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+/*//////////////////////Citi3/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*//////////////////////Citi3/////////////////////////////////////////////*/
+
+.Citi3BlankLogox4{
+
+background-image: url("../img/citi.png");
+
+}
+
+
+
+.Citi3serm2x4 {
+    background-color: white;
+   background-image: url("../img/citi.png");
+}
+
+.Citi3lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.Citi3LangBx4, .Citi3LangBotherx4 {
+
+    background-color:inherit;
+    border: 1px solid white;
+    color: #290101;
+}
+
+
+.Citi3Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   background-image: linear-gradient(to bottom right ,#00001a, #15152d);
+   color: #b7b7b7;
+}
+
+
+
+.Citi3Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Citi3Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #290101;
+
+}
+
+.Citi3Qtyvalue2x4 {
+
+    background: inherit;
+    color: #750000;
+
+}
+
+
+
+.Citi3Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Citi3NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #750000;
+
+}
+
+
+.Citi3Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Citi3Acm2x4, .Citi3FinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+box-shadow: inset 0px 0px 15px #f00;
+background-image: linear-gradient(to bottom right ,#9f1100, #560202);
+background-color: inherit;
+
+
+}
+
+
+.Citi3AccValuesx4{
+   color: lightgrey;
+}
+
+
+
+/*//////////////////////Citi3/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/*//////////////////////Banre1/////////////////////////////////////////////*/
+/*//////////////////////Banre1/////////////////////////////////////////////*/
+
+.Banre1BlankLogox4{
+
+background-image: url("../img/banresgreen.png");
+
+}
+
+
+
+.Banre1serm2x4 {
+    background-color: white;
+   background-image: url("../img/banresgreen.png");
+}
+
+.Banre1lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.Banre1LangBx4, .Banre1LangBotherx4 {
+
+    background-color:inherit;
+    border: 1px solid white;
+    color: #290101;
+}
+
+
+.Banre1Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   background-image: linear-gradient(to bottom right ,#00001a, #15152d);
+   color: #b7b7b7;
+
+}
+
+
+
+.Banre1Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Banre1Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #290101;
+
+}
+
+.Banre1Qtyvalue2x4 {
+
+    background: inherit;
+    color: #750000;
+
+}
+
+
+
+.Banre1Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Banre1NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #750000;
+
+}
+
+
+.Banre1Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Banre1Acm2x4, .Banre1FinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color: #000;
+background-image: linear-gradient(to bottom right ,rgb(170, 228, 17), rgb(98, 125, 8));
+background-color: inherit;
+
+}
+
+
+.Banre1AccValuesx4{
+   color: #292929;
+}
+
+
+
+/*//////////////////////Banre1/////////////////////////////////////////////*/
+/*//////////////////////Banre1/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*777777777777777777777777777777777777777 Banres2ervas 55555555555555555555555555555555555555555555555555555555555555555555555555555*/ 
+
+
+
+
+.Banres2uix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/Banres2e.png");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+*/
+
+}
+
+
+
+
+
+
+
+.Banres2lan2x4{
+background-color:#000042;
+}
+
+
+
+.Banres2LangBx4, .Banres2LangBotherx4{
+    
+ background-color:#000042;
+ border: 1px solid rgb(13, 59, 105);
+ color:white;
+ 
+}
+
+
+
+.Banres2lan2MOBI label{
+  color:white;
+}
+
+
+
+
+.Banres2BlankLogox4{
+  background-image: url("../img/banreser.png");
+}
+
+
+
+
+.Banres2serm2x4{
+background-color:white;
+background-image: url("../img/banreser.png");
+background-size: 65%;
+}
+
+
+.Banres2BlankLogox4, .Banres2serm2x4{
+  background-image: url("../img/ponce1.png");
+  background-image: url("../img/ponce2.png");
+  background-image: url("../img/banreser.png");
+}
+
+
+
+
+
+
+.Banres2Ser2x4{
+
+ opacity:.97;
+ background-color:rgb(240, 240, 240);
+ border-bottom:1px solid rgb(1, 40, 88);
+
+}
+
+
+
+
+.Banres2SerBx4{
+     margin:10px 16px 12px 8px ;
+   
+    background-color: rgb(180,231,5);
+border: 4px solid rgb(141, 182, 3);
+
+    color:navy;
+
+/*box-shadow: 1px 1px 10px 2px rgb(1, 40, 88);*/
+
+   
+}
+
+
+
+
+.Banres2Sm2x4{
+     color:navy;
+     background-color: rgb(180,231,5);
+     border: 4px solid rgb(141, 182, 3);
+}
+
+.Banres2Acm2x4{
+     color:navy;
+    background-color: rgb(180,231,5);
+    border: 1px solid rgb(141, 182, 3);
+    background-color: inherit;
+  
+}
+
+
+.Banres2SerBotherx4{
+  
+  
+   background-color: rgb(180,231,5);
+border: 4px solid rgb(141, 182, 3);
+    color:navy;
+
+
+   
+}
+
+
+
+
+
+
+
+.Banres2Tof2x4{
+  opacity:.95;
+background-color:rgb(240, 240, 240);
+color:navy;
+}
+
+
+
+.Banres2TofBx4{
+
+background-color: rgb(180,231,5);
+border: 3px solid rgb(141, 182, 3);
+    color:navy;
+}
+
+
+
+.Banres2Qty2x4{
+
+background-color:#00004B;
+color: #ffb429;
+color: #feba3c;
+
+
+
+}
+
+
+
+
+ 
+    
+.Banres2Qtyvalue2x4{
+
+background-color:inherit;
+color:inherit;
+border:none;
+
+}
+
+
+
+.Banres2Qtyty2x4{
+
+    width: 600.3px;
+    height: 55px;
+
+}
+
+
+.Banres2Amountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+#Banres2Amountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.Banres2NumColorsx4{
+  background-color: #010135;
+  border:2px solid #00004B;
+  color:inherit;
+
+
+}
+
+
+
+
+.Banres2Fin2x4{
+  opacity: .95;
+background-color:white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+
+    
+}
+
+
+
+.Banres2FinBx4{
+background-color: rgb(180,231,5);
+border: 5px solid rgb(141, 182, 3);
+
+
+
+color:navy;
+
+}
+
+
+
+.Banres2Innerx4{
+opacity: .96;
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+color: #030032;
+}
+
+
+.Banres2Acm2x4, .Banres2FinBx4 {
+    border: none;
+    box-shadow: inset 0 1px 10px black;
+/*    background-image: linear-gradient(to bottom right ,rgb(170, 228, 17), rgb(98, 125, 8));*/
+    box-shadow: inset 0 1px 15px #0c0c0c;
+    color: #000345;
+    background-color: inherit;
+    background-image: linear-gradient(to bottom right ,#fff, #e9e9e9);
+}
+
+
+.Banres2Sm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px black;*/
+   background-image: linear-gradient(to bottom right ,rgb(170, 228, 17), rgb(98, 125, 8));
+   box-shadow: inset 0 1px 10px grey;
+  color: #000345;
+
+}
+
+
+
+
+.Banres2AccValuesx4{
+  color: #6b6b6b;
+}
+
+
+
+
+ /*/////////////////////Banres 2////////////////////////////////////*/
+ /*////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Banres3/////////////////////////////////////////////*/
+/*//////////////////////Banres3/////////////////////////////////////////////*/
+
+
+.Banres3BlankLogox4{
+
+background-image: url("../img/banreser.png");
+
+}
+
+
+.Banres3serm2x4 {
+    background-color: white;
+    background-image: url("../img/banreser.png");
+}
+
+
+
+
+
+.Banres3BlankLogox4, .Banres3serm2x4{
+  background-image: url("../img/ponce1.png");
+  background-image: url("../img/ponce2.png");
+  background-image: url("../img/banreser.png");
+}
+
+
+
+
+
+.Banres3lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.Banres3LangBx4, .Banres3LangBotherx4 {
+
+  background-color:inherit;
+  border: 1px solid white;
+  color: #18182d;
+}
+
+
+.Banres3Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #18182d;
+
+}
+
+
+
+.Banres3Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Banres3Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #18182d;
+
+}
+
+.Banres3Qtyvalue2x4 {
+
+    background: inherit;
+    color: #18182d;
+
+}
+
+
+
+.Banres3Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Banres3NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #18182d;
+
+}
+
+
+.Banres3Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Banres3Acm2x4, .Banres3FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#0a1226, #2d3659);
+    background-color: inherit;
+    background-image: linear-gradient(to bottom right ,#0a1226, #262e4b);
+}
+
+
+.Banres3AccValuesx4{
+   color: #f9ac46;
+}
+
+
+
+/*//////////////////////Banres3/////////////////////////////////////////////*/
+/*//////////////////////Banres3/////////////////////////////////////////////*/
+
+
+/*     222222222222222222222222222222222222222    Blue 2 color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+/*//////////////////////Banre4/////////////////////////////////////////////*/
+/*//////////////////////Banre4/////////////////////////////////////////////*/
+
+
+.Banre4BlankLogox4{
+
+background-image: url("../img/banreser.png");
+
+}
+
+
+.Banre4serm2x4 {
+    background-color: white;
+    background-image: url("../img/banreser.png");
+}
+
+
+
+
+
+.Banre4BlankLogox4, .Banre4serm2x4{
+  background-image: url("../img/ponce1.png");
+  background-image: url("../img/ponce2.png");
+  background-image: url("../img/banreser.png");
+}
+
+
+
+
+
+.Banre4lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.Banre4LangBx4, .Banre4LangBotherx4 {
+
+  background-color:inherit;
+  border: 1px solid white;
+  color: #18182d;
+}
+
+
+.Banre4Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#060002, #595453);
+   color: #b7b7b7;
+
+}
+
+
+
+.Banre4Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Banre4Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #18182d;
+
+}
+
+.Banre4Qtyvalue2x4 {
+
+    background: inherit;
+    color: #18182d;
+
+}
+
+
+
+.Banre4Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Banre4NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #18182d;
+
+}
+
+
+.Banre4Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Banre4Acm2x4, .Banre4FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#0a1226, #2d3659);
+    background-color: inherit;
+    background-image: linear-gradient(to bottom right ,#0a1226, #262e4b);
+}
+
+
+.Banre4AccValuesx4{
+   color: #f9ac46;
+}
+
+
+
+/*//////////////////////Banre4/////////////////////////////////////////////*/
+/*//////////////////////Banre4/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*//////////////////////Ponce1/////////////////////////////////////////////*/
+/*//////////////////////Ponce1/////////////////////////////////////////////*/
+
+
+.Ponce1BlankLogox4{
+
+background-image: url("../img/banreser.png");
+
+}
+
+
+.Ponce1serm2x4 {
+    background-color: white;
+    background-image: url("../img/banreser.png");
+}
+
+
+
+
+
+.Ponce1BlankLogox4, .Ponce1serm2x4{
+  background-image: url("../img/ponce2.png");
+  background-image: url("../img/ponce1.png");
+}
+
+
+
+
+
+.Ponce1lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.Ponce1LangBx4, .Ponce1LangBotherx4 {
+
+  background-color:inherit;
+  border: 1px solid white;
+  color: #18182d;
+}
+
+
+.Ponce1Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #000033;
+
+}
+
+
+
+.Ponce1Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Ponce1Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #18182d;
+
+}
+
+.Ponce1Qtyvalue2x4 {
+
+    background: inherit;
+    color: #18182d;
+
+}
+
+
+
+.Ponce1Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Ponce1NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #18182d;
+
+}
+
+
+.Ponce1Fin2x4, .Ponce1Innerx4  {
+
+    background: rgb(64, 19, 21);
+      background-color: rgb(64, 19, 21);
+      background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+    background-image: linear-gradient(to bottom right ,#fff, #d2d2d2);
+    color: #18182d;
+    opacity: .96;
+
+}
+
+.Ponce1Acm2x4, .Ponce1FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#0a1226, #2d3659);
+    background-color: inherit;
+    background-image: linear-gradient(to bottom right ,#0a1226, #262e4b);
+}
+
+
+.Ponce1AccValuesx4{
+   color: lightgrey;
+}
+
+
+
+/*//////////////////////Ponce1/////////////////////////////////////////////*/
+/*//////////////////////Ponce1/////////////////////////////////////////////*/
+
+
+
+/*777777777777777777777777777777777777777 Ponce2 55555555555555555555555555555555555555555555555555555555555555555555555555555*/ 
+
+
+.Ponce2uix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/Ponce2e.png");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+*/
+
+}
+
+
+
+
+
+
+
+.Ponce2lan2x4{
+background-color:#000042;
+}
+
+
+
+.Ponce2LangBx4, .Ponce2LangBotherx4{
+    
+ background-color:transparent;
+ border: 1px solid white;
+ color:#000033;
+
+}
+
+
+
+.Ponce2lan2MOBI label{
+  color:white;
+}
+
+
+
+
+.Ponce2BlankLogox4{
+  background-image: url("../img/banreser.png");
+}
+
+
+
+
+.Ponce2serm2x4{
+background-color:white;
+background-image: url("../img/banreser.png");
+background-size: 65%;
+}
+
+
+.Ponce2BlankLogox4, .Ponce2serm2x4{
+  background-image: url("../img/ponce2.png");
+  background-image: url("../img/ponce1.png");
+
+}
+
+
+
+
+
+
+.Ponce2Ser2x4{
+
+ opacity:.97;
+ background-color:rgb(240, 240, 240);
+ border-bottom:1px solid rgb(1, 40, 88);
+
+}
+
+
+
+
+.Ponce2SerBx4{
+     margin:10px 16px 12px 8px ;
+   
+    background-color: rgb(180,231,5);
+border: 4px solid rgb(141, 182, 3);
+
+    color:navy;
+
+/*box-shadow: 1px 1px 10px 2px rgb(1, 40, 88);*/
+
+   
+}
+
+
+
+
+.Ponce2Sm2x4{
+     color:navy;
+     background-color: rgb(180,231,5);
+     border: 4px solid rgb(141, 182, 3);
+}
+
+.Ponce2Acm2x4{
+     color:navy;
+    background-color: rgb(180,231,5);
+    border: 1px solid rgb(141, 182, 3);
+    background-color: inherit;
+  
+}
+
+
+.Ponce2SerBotherx4{
+  
+  
+   background-color: rgb(180,231,5);
+border: 4px solid rgb(141, 182, 3);
+    color:navy;
+
+
+   
+}
+
+
+
+
+
+
+
+.Ponce2Tof2x4{
+  opacity:.95;
+background-color:rgb(240, 240, 240);
+color:navy;
+}
+
+
+
+.Ponce2TofBx4{
+
+background-color: rgb(180,231,5);
+border: 3px solid rgb(141, 182, 3);
+    color:navy;
+}
+
+
+
+.Ponce2Qty2x4{
+
+background-color:#00004B;
+color: #ffb429;
+color: white;
+
+
+
+}
+
+
+
+
+ 
+    
+.Ponce2Qtyvalue2x4{
+
+background-color:inherit;
+color:inherit;
+border:none;
+
+}
+
+
+
+.Ponce2Qtyty2x4{
+
+    width: 600.3px;
+    height: 55px;
+
+}
+
+
+.Ponce2Amountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+#Ponce2Amountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.Ponce2NumColorsx4{
+  background-color: #010135;
+  border:2px solid #00004B;
+  color:inherit;
+
+
+}
+
+
+
+
+.Ponce2Fin2x4{
+  opacity: .95;
+background-color:white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+
+    
+}
+
+
+
+.Ponce2FinBx4{
+background-color: rgb(180,231,5);
+border: 5px solid rgb(141, 182, 3);
+
+
+
+color:navy;
+
+}
+
+
+
+.Ponce2Fin2x4, .Ponce2Innerx4, .Ponce2lan2x4{
+opacity: .96;
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+color: #000033;
+}
+
+
+.Ponce2Acm2x4, .Ponce2FinBx4 {
+    border: none;
+    box-shadow: inset 0 1px 10px black;
+/*    background-image: linear-gradient(to bottom right ,rgb(170, 228, 17), rgb(98, 125, 8));*/
+    box-shadow: inset 0 1px 15px #0c0c0c;
+    color: #000345;
+    background-color: inherit;
+    background-image: linear-gradient(to bottom right ,#fff, #e9e9e9);
+
+}
+
+
+.Ponce2Sm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px black;*/
+   background-image: linear-gradient(to bottom right ,rgb(170, 228, 17), rgb(98, 125, 8));
+   box-shadow: inset 0 1px 10px grey;
+  color: #000345;
+
+}
+
+
+
+
+.Ponce2AccValuesx4{
+  color: #2e3247;
+}
+
+
+
+
+ /*/////////////////////Ponce 2////////////////////////////////////*/
+ /*////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+.blue2uix4{
+
+
+/*
+background-image: url("../img/Citi.png");
+
+
+*/
+
+
+
+}
+
+
+
+
+
+
+
+.blue2lan2x4{
+background-color:rgb(217,0,0);
+border-bottom: none; 
+background-image: linear-gradient(to bottom right ,rgb(0, 6, 27),rgb(1, 18, 68));
+
+
+
+
+}
+
+
+
+.blue2LangBx4, .blue2LangBotherx4{
+    
+    background-color:transparent;
+    border: 1px solid #2b2978;
+    color:white;
+
+
+  
+}
+
+.blue2lan2MOBI label{
+ color:white;
+}
+
+
+
+.blue2BlankLogox4{
+
+background-image: url("../img/citi.png");
+
+}
+
+
+
+
+
+.blue2serm2x4{
+
+background-color:#000033;
+background-image: url("../img/citi.png");
+background-size: 73%;
+background-repeat: repeat;
+
+
+
+}
+
+
+
+
+
+
+.blue2Ser2{
+
+background-color:#000033;
+color:white; 
+border-bottom: 1px solid #303065;
+
+}
+
+
+
+.blue2SerBx4{
+
+    background-color:white;
+    border: 4px solid lightgrey; 
+    color:#000033;
+
+
+   
+}
+
+
+.blue2Sm2x4{
+    background-color:white;
+    border: 4px solid lightgrey; 
+    color:#000033;
+
+
+}
+
+.blue2Acm2x4{
+  
+border: 1px solid lightgrey; 
+background-color:white;
+color:#000033;
+background-color: inherit;
+  
+}
+
+
+.blue2SerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:#007acc;
+    border: 4px solid lightgrey; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+
+
+   
+}
+
+
+
+
+
+
+
+.blue2Tof2{
+  opacity:.95;
+  
+background-color:#000033;
+
+width:100%; 
+
+text-align:center;
+color:white;
+
+
+}
+
+
+
+.blue2TofBx4{
+
+
+    background-color:#007acc;
+    border: 3px solid lightgrey; 
+    color:white;
+
+/*box-shadow: 0px 1px 13px 5px white;*/
+
+}
+
+
+
+.blue2Qty2x4{
+
+background-color: rgb(0, 0, 45);
+  color: white;
+  border-top: 1px solid rgb(0, 0, 45);
+
+
+}
+
+
+
+
+ 
+    
+.blue2Qtyvalue2x4{
+background-color: inherit;
+color:white;
+border:none;
+
+
+
+
+}
+
+
+
+.blue2Qtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.blue2Amountx4{
+
+background-color: inherit;
+  border:none;
+}
+
+
+.blue2Amountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgreyrgb(0, 0, 72) */
+
+}
+
+.blue2NumColorsx4{
+background-color:rgb(0, 0, 30);
+border: 2px solid rgb(0, 0, 45);
+color: white;
+}
+
+
+
+
+
+
+.blue2FinBx4{
+   background-color:white;
+    border: 4px solid lightgrey; 
+    color:#000033;
+}
+
+
+
+
+.blue2Innerx4, .blue2Fin2x4 {
+
+    opacity: .96;
+    background-color: #000033;
+    background-image: linear-gradient(to bottom right ,#000021, #1e1e41);
+   color: #e7e6e6;
+
+}
+
+ .blue2Acm2x4, .blue2FinBx4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 10px black;*/
+
+background-image: linear-gradient(to bottom right ,#00637e, #00bbed);
+color: white;
+background-color: inherit;
+}
+
+
+.blue2Sm2x4{
+
+  border:none;
+ /* box-shadow:inset 0 1px 8px black;*/
+
+
+background-image: linear-gradient(to bottom right ,white, lightgrey);
+color: #000033;
+}
+
+
+
+
+.blue2AccValuesx4{
+   color: #f0f0f0;
+}
+
+
+
+
+
+
+.blue2Confirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.blue2Back2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .blue2Confirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.blue2Back24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .blue2ConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .blue2ConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222   citi white  Blue 2 color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+.blue22uix4{
+
+
+/*
+background-image: url("../img/Citi.png");*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.blue22lan2x4{
+background-color:rgb(217,0,0);
+border-bottom: none; 
+background-image: linear-gradient(to bottom right ,rgb(150, 19, 19),rgb(242, 23, 23));
+
+
+
+
+}
+
+
+
+.blue22LangBx4, .blue22LangBotherx4{
+    
+    background-color:transparent;
+    border:1px solid rgb(233, 0, 0);
+    color:white;
+
+
+  
+}
+
+.blue22lan2MOBI label{
+ color:white;
+}
+
+
+
+
+.blue22BlankLogox4{
+
+background-image: url("../img/citi.png");
+
+}
+
+
+.blue22serm2x4{
+
+
+background-color:white;
+background-image: url("../img/citi.png");
+background-size: 70%;
+
+background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+.blue22Ser2x4{
+
+
+background-color:white;
+
+color:#000033; 
+
+border-bottom:1px solid #f1f1f8;
+}
+
+
+
+.blue22SerBx4{
+
+    background-color:white;
+    border: 4px solid lightgrey; 
+    color:#000033;
+
+
+   
+}
+
+
+.blue22Sm2x4{
+    background-color:#000033;
+    border: 4px solid black; 
+    color:white;
+
+
+
+}
+
+.blue22Acm2x4{
+  
+
+
+    background-color:#000033;
+    border: 1px solid black; 
+
+    color: white;
+ 
+
+  
+}
+
+
+.blue22SerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:#007acc;
+    border: 4px solid lightgrey; 
+    border-radius:15px;
+    color:white;
+    font-size: 21px;
+    font-family: arial;
+
+
+   
+}
+
+
+
+
+
+
+
+.blue22Tof2x4{
+  
+opacity:.95; 
+background-color:white;
+width:100%; 
+text-align:center;
+color:#000033;
+
+}
+
+
+
+.blue22TofBx4{
+
+
+    background-color:#007acc;
+    border: 3px solid lightgrey; 
+   color:white;
+
+
+}
+
+
+
+.blue22Qty2x4{
+
+  background-color:rgb(0, 0, 72);
+  color: white;
+  border-top: 1px solid #0000cc;
+
+
+}
+
+
+
+
+ 
+    
+.blue22Qtyvalue2x4{
+background-color:inherit;
+color:white;
+border:none;
+
+
+
+
+}
+
+
+
+.blue22Qtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.blue22Amountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+.blue22Amountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+.blue22NumColorsx4{
+  background: #000033;
+  border: 2px solid rgb(0, 0, 72);
+  color:white;
+
+
+}
+
+
+
+
+.blue22Fin2x4{
+  
+background-color:white;
+    
+}
+
+
+
+.blue22FinBx4{
+border:5px solid black;
+background-color:#000033;
+color:white;
+}
+
+
+
+
+
+/*//////////////////*/
+
+.blue22Innerx4, .blue22Fin2x4{
+opacity: .97;
+background-color: white;
+background-image: linear-gradient(to bottom right ,#e3e3e3, #fff);
+color: #000230;
+
+}
+
+ .blue22Acm2x4, .blue22FinBx4{
+
+  border:none;
+  box-shadow:inset 0 1px 15px #0c0c0c;
+ color: #000033;
+/*background-image: linear-gradient(to bottom right ,#010417, #0f0c8a);*/
+background-color: white;
+
+}
+
+
+.blue22Sm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px black;*/
+ color: white;
+background-image: linear-gradient(to bottom right ,#010417, #0f0c8a);
+
+
+}
+
+
+.blue22AccValuesx4{
+   color: black;
+}
+
+
+
+/*/////////////////////*/
+
+
+
+
+.blue22Confirm2x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.blue22Back2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .blue22Confirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.blue22Back24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+
+
+ .blue22ConfBack2x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+  .blue22ConfBack24x4{
+  z-index:20;
+  position: absolute;
+  height:75px;
+  width: 597px;
+  background-color: #071422;
+  border:none;
+  transform: translate(2px,  436px);
+  display:none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    yellow color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yellowuix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/brazil.jpg");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+*/
+
+}
+
+
+
+
+
+
+
+.yellowlan2x4{
+background-color:#000020;
+
+
+
+
+}
+
+
+
+.yellowLangBx4, .yellowLangBotherx4{
+    
+
+    background-color:transparent;
+    border: 1px solid #242451;
+    color:yellow;
+
+
+  
+}
+
+
+.bluelan2MOBI label{
+ color:white;
+}
+
+
+
+
+.yellowBlankLogox4{
+
+background-image: url("../img/brazil.png");
+
+}
+
+
+
+
+.yellowserm2x4{
+  
+background-color:#000033;
+background-image: url("../img/brazil.png");
+background-size: 70%;
+background-repeat: repeat;
+
+}
+
+
+
+
+.yellowSer2x4{
+  
+
+opacity:.95;
+
+/*background-color:#000033;*/
+background-color:white;
+padding:10px 0px 10px 10px ;
+
+height:114px;auto;
+width:100%;
+text-align: center;
+color:white; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid lightgrey;
+
+
+
+}
+
+
+
+.yellowSerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:yellow;
+    border: 4px solid rgb(159, 159, 0); 
+    border-radius:15px;
+    color:#000033;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px #ffcc00;*/
+
+   
+}
+
+
+.yellowSm2x4{
+  color:#000033;
+  background-color:yellow;
+  border: 4px solid rgb(159, 159, 0);
+}
+
+.yellowAcm2x4{
+  color:#000033;
+  background-color:yellow;
+  border: 1px solid rgb(159, 159, 0);
+  background-color: inherit;
+  
+}
+
+
+
+.yellowSerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:yellow;
+    border: 4px solid rgb(159, 159, 0); 
+    border-radius:15px;
+    color:#000033;
+    font-size: 21px;
+    font-family: arial;
+
+/*box-shadow: 1px 1px 10px 2px #ffcc00;*/
+   
+}
+
+
+
+
+
+
+
+.yellowTof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:#000033;
+
+height:155px;auto;
+width:100%;   
+
+text-align:center;
+color:white;
+
+
+}
+
+
+
+.yellowTofBx4{
+
+
+    background-color:yellow;
+    border: 3px solid rgb(159, 159, 0); 
+    color:#000033;
+
+
+
+}
+
+
+
+.yellowQty2x4 {
+    background-color: rgb(0, 0, 45);
+    color: yellow;
+    border-top: 1px solid rgb(0, 0, 45);
+}
+
+
+.yellowNumColorsx4 {
+
+background-color: rgb(0, 0, 30);
+border: 2px solid rgb(0, 0, 45);
+    border-bottom: ;
+    color: inherit;
+
+}
+
+
+ 
+    
+.yellowQtyvalue2x4{
+
+background-color:inherit;
+color:inherit;
+border:none;
+
+}
+
+
+
+.yellowQtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.yellowAmountx4{
+
+  background-color:inherit;
+  border:none;
+  color:inherit;
+}
+
+
+#yellowAmountx4:hover{
+  cursor:pointer;
+ /* box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+.yellowFinBx4{
+border:5px solid rgb(159, 159, 0);
+background-color:yellow;
+color:#000033;
+
+}
+
+
+
+
+
+/*///////////////////////*/
+
+.yellowInnerx4, .yellowFin2x4{
+opacity: .96;
+background-image: linear-gradient(to bottom right ,#020535, #00042c);
+background-image: linear-gradient(to bottom right ,#000033, #15152d);
+color: #c2c62a;
+}
+
+ .yellowAcm2x4, .yellowFinBx4{
+
+  border:none;
+ /* box-shadow:inset 0 1px 10px black;*/
+  background-image: linear-gradient(to bottom right ,#9e8400, #ffea00);
+background-image: linear-gradient(to bottom right ,#a48800, #ffea00);
+background-image: linear-gradient(to bottom right ,#fff202, #efb100);
+  color: #000033;
+  background-color: white;
+  background-color: inherit;
+}
+
+
+.yellowSm2x4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 8px black;*/
+ /* background-image: linear-gradient(to bottom right ,#393928, #c8c80a);*/
+ background-image: linear-gradient(to bottom right ,#393928, #0c146e);
+  color: yellow;
+   background-color: white;
+}
+
+.yellowFin2x4, .yellowserm2x4{
+
+  background-color:white;
+}
+
+
+
+.yellowAccValuesx4{
+   color: #000033;
+}
+
+
+
+/*//////////////////*/
+
+
+
+
+/*//////////////////////Black/////////////////////////////////////////////*/
+/*//////////////////////Black/////////////////////////////////////////////*/
+
+
+.BlackBlankLogox4{
+
+background-image: url("../img/Black.png");
+
+}
+
+
+.Blackserm2x4 {
+    background-color: grey;
+    background-image: none;
+    background-image: url("../img/Black.png");
+}
+
+
+.Blacklan2x4 {
+    background-color: black;
+    color: rgb(255, 242, 0);
+    border-bottom: none;
+}
+
+
+.BlackLangBx4, .BlackLangBotherx4 {
+background-color: transparent;
+border: 1px solid #3f3f3f;
+color: grey;
+}
+
+
+.BlackInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+    color: #878787;
+
+}
+
+
+
+.BlackSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    box-shadow: inset 0 1px 8px black;
+}
+
+
+.BlackQty2x4 {
+
+    background: #212121;
+    color: #cecece;
+
+}
+
+.BlackQtyvalue2x4 {
+
+    background: inherit;
+    color: #cecece;
+
+}
+
+
+
+.BlackAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.BlackNumColorsx4 {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #212121;
+    color: rgb(176, 176, 176);
+
+}
+
+
+.BlackFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.BlackAcm2x4, .BlackFinBx4 {
+
+    border: none;
+    box-shadow: inset 0px 0px 15px #959595;
+     color: lightgrey;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+background-color: inherit;
+background-image: linear-gradient(to bottom right ,#414141, #1b1b1b);
+}
+
+
+.BlackAccValuesx4{
+   color: grey;
+}
+
+
+
+/*//////////////////////Black/////////////////////////////////////////////*/
+/*//////////////////////Black/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////White/////////////////////////////////////////////*/
+/*//////////////////////White/////////////////////////////////////////////*/
+
+.WhiteBlankLogox4{
+
+background-image: url("../img/white.png");
+
+}
+
+
+.Whiteserm2x4 {
+    background-color: white;
+    background-image: url("../img/white.png");
+}
+
+.Whitelan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+   
+}
+
+
+.WhiteLangBx4, .WhiteLangBotherx4 {
+background-color: inherit;
+border: 1px solid white;
+color: #292929;
+}
+
+
+.WhiteInnerx4 {
+
+    opacity: .97;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #000c42;
+  color: #3c3c3c;
+
+}
+
+
+
+.WhiteSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.WhiteQty2x4 {
+
+    background-color:whitesmoke;
+    color: #292929;
+
+}
+
+.WhiteQtyvalue2x4 {
+
+    background: inherit;
+    color: #003869;
+
+}
+
+
+
+.WhiteAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.WhiteNumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003869;
+
+}
+
+
+.WhiteFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+/*.WhiteAcm2x4, .WhiteFinBx4 {
+
+border: none;
+    box-shadow: none;
+    color: #292929;
+    background-image: linear-gradient(to bottom right ,#c5c3c3, #dedede);
+    background-color: inherit;
+
+}*/
+
+
+.WhiteAcm2x4, .WhiteFinBx4 {
+    border: none;
+    box-shadow: inset 0px 0px 16px;
+    box-shadow: 0px 2px 4px;
+    color: #292929;
+    background-image: linear-gradient(to bottom right ,#c5c3c3, #dedede);
+    background-color: white;
+    background-image: none;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+
+}
+
+
+.WhiteAccValuesx4{
+ color: #444343;
+}
+
+
+
+/*//////////////////////White/////////////////////////////////////////////*/
+/*//////////////////////White/////////////////////////////////////////////*/
+
+
+
+
+
+
+/*//////////////////////Drib/////////////////////////////////////////////*/
+/*//////////////////////Drib/////////////////////////////////////////////*/
+
+.DribBlankLogox4{
+
+background-image: url("../img/drib.png");
+
+}
+
+
+
+.Dribserm2x4 {
+    background-color: white;
+    background-image: none;
+}
+
+.Driblan2x4 {
+    background-color: black;
+    color: rgb(255, 242, 0);
+    border-bottom: none;
+}
+
+
+.DribLangBx4, .DribLangBotherx4 {
+
+   background-color: transparent;
+   border: 1px solid #303030;
+   color: #bab9b9;
+}
+
+
+.DribInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+    color: #908f8f;
+
+}
+
+
+
+.DribSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.DribQty2x4 {
+
+    background: #212121;
+    color: #cb05c6;
+    color: #ff0086;
+
+}
+
+.DribQtyvalue2x4 {
+
+    background: inherit;
+    color: inherit;
+
+}
+
+
+
+.DribAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.DribNumColorsx4 {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #212121;
+    color: #cb05c6;
+    color: #ff0086;
+
+}
+
+
+.DribFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.DribAcm2x4, .DribFinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+    background-image: linear-gradient(to bottom right ,#cb05c6, #531957);
+background-color: inherit;
+background-image: linear-gradient(to bottom right ,#ff0086, #57002e);
+}
+
+
+
+.DribAccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////Drib/////////////////////////////////////////////*/
+/*//////////////////////Drib/////////////////////////////////////////////*/
+
+
+
+/*//////////////////////Drib2/////////////////////////////////////////////*/
+/*//////////////////////Drib2/////////////////////////////////////////////*/
+
+.Drib2BlankLogox4{
+
+background-image: url("../img/drib.png");
+
+}
+
+
+
+.Drib2serm2x4 {
+    background-color: white;
+    background-image: none;
+}
+
+.Drib2lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.Drib2LangBx4, .Drib2LangBotherx4 {
+
+    background-color:transparent;
+    border: 1px solid white;
+    color: grey;
+    color: #410223;
+}
+
+
+.Drib2Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #410223;
+
+}
+
+
+
+.Drib2Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Drib2Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #cb05c6;
+    color: #410223;
+
+}
+
+.Drib2Qtyvalue2x4 {
+
+    background: inherit;
+    color: inherit;
+
+
+}
+
+
+
+.Drib2Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Drib2NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #cb05c6;
+    color: #57002e;
+
+}
+
+
+.Drib2Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Drib2Acm2x4, .Drib2FinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+    background-image: linear-gradient(to bottom right ,#cb05c6, #531957);
+background-color: inherit;
+background-image: linear-gradient(to bottom right ,#ff0086, #57002e);
+}
+
+
+
+.Drib2AccValuesx4{
+   color: lightgrey;
+}
+
+
+
+
+/*//////////////////////Drib2/////////////////////////////////////////////*/
+/*//////////////////////Drib2/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*//////////////////////Drib3/////////////////////////////////////////////*/
+/*//////////////////////Drib3/////////////////////////////////////////////*/
+
+.Drib3BlankLogox4{
+
+background-image: url("../img/drib.png");
+
+}
+
+
+
+.Drib3serm2x4 {
+    background-color: white;
+    background-image: none;
+}
+
+.Drib3lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.Drib3LangBx4, .Drib3LangBotherx4 {
+
+    background-color:transparent;
+    border: 1px solid white;
+    color: grey;
+    color: #410223;
+}
+
+
+.Drib3Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #595453);
+    color: #e1e1e1;
+
+}
+
+
+
+.Drib3Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Drib3Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #cb05c6;
+    color: #410223;
+
+}
+
+.Drib3Qtyvalue2x4 {
+
+    background: inherit;
+    color: inherit;
+
+
+}
+
+
+
+.Drib3Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Drib3NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #cb05c6;
+    color: #57002e;
+
+}
+
+
+.Drib3Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Drib3Acm2x4, .Drib3FinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+    background-image: linear-gradient(to bottom right ,#cb05c6, #531957);
+background-color: inherit;
+background-image: linear-gradient(to bottom right ,#ff0086, #57002e);
+}
+
+
+
+.Drib3AccValuesx4{
+   color: lightgrey;
+}
+
+
+
+
+/*//////////////////////Drib3/////////////////////////////////////////////*/
+/*//////////////////////Drib3/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////Robin/////////////////////////////////////////////*/
+/*//////////////////////Robin/////////////////////////////////////////////*/
+
+
+.RobinBlankLogox4{
+
+background-image: url("../img/robin.png");
+
+}
+
+
+
+.Robinserm2x4 {
+    background-color: white;
+    background-image: none;
+}
+
+.Robinlan2x4 {
+    background-color: Robin;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.RobinLangBx4, .RobinLangBotherx4 {
+
+    background-color: Robin;
+    border: 4px solid #464646;
+        border-top-color: rgb(70, 70, 70);
+        border-right-color: rgb(70, 70, 70);
+        border-bottom-color: rgb(70, 70, 70);
+        border-left-color: rgb(70, 70, 70);
+    color: grey;
+
+}
+
+
+
+.RobinBlankLogox4{
+
+background-image: url("../img/robin.png");
+
+}
+
+
+
+
+.Robinserm2x4{
+
+background-color:#071422;
+background-size: 70%;
+background-repeat: repeat;
+background-image: url("../img/robin.png");
+}
+
+
+.RobinInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+    color: #818181;
+    color: rgb(152, 152, 152);
+
+}
+
+
+
+.RobinSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    box-shadow: inset 0 1px 8px Robin;
+}
+
+
+.RobinQty2x4 {
+
+    background: #212121;
+    color: #368c6a;
+
+}
+
+.RobinQtyvalue2x4 {
+
+    background: inherit;
+    color: #368c6a;
+
+}
+
+
+
+.RobinAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.RobinNumColorsx4 {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #212121;
+    color: #368c6a;
+
+}
+
+
+.RobinFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.RobinAcm2x4, .RobinFinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color: black;
+ background-image: linear-gradient(to bottom right ,#22986a, #368c6a);
+ background-image: linear-gradient(to bottom right ,#52d177, #368c6a);
+background-color: inherit;
+}
+
+
+
+.RobinAccValuesx4{
+   color: #2d2d2d;
+}
+
+
+
+
+/*//////////////////////Robin/////////////////////////////////////////////*/
+/*//////////////////////Robin/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Robin2/////////////////////////////////////////////*/
+/*//////////////////////Robin2/////////////////////////////////////////////*/
+
+
+
+
+.Robin2Innerx4{
+opacity: .95;
+background-color: #071422;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #333);
+color: #bcbcbc;
+}
+
+
+
+
+.Robin2lan2x4{
+
+background-color:rgb(30, 122, 88);
+border-bottom: none;
+
+
+
+}
+
+
+
+.Robin2LangBx4, .Robin2LangBotherx4{
+    
+    background-color:transparent;
+    border:1px solid rgb(46, 143, 108);
+    color:white;
+
+}
+
+
+
+
+
+
+
+.Robin2lan2MOBI label{
+ color:white;
+}
+
+
+
+
+.Robin2BlankLogox4{
+
+background-image: url("../img/robin.png");
+
+}
+
+
+
+.Robin2serm2x4{
+background-image: url("../img/robin.png");
+}
+
+
+
+
+
+
+
+.Robin2Qty2x4{
+
+background-color:rgb(34, 129, 95);
+color:white;
+border-top:none;
+
+
+
+}
+
+
+
+
+ 
+    
+.Robin2Qtyvalue2x4{
+
+background-color:inherit;
+color:white;
+
+}
+
+
+
+.Robin2qtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.Robin2Amountx4{
+
+  background-color:inherit;
+  border:none;
+}
+
+
+.Robin2Amountx4:hover{
+  cursor:pointer;
+  /*box-shadow: 0px 0px 15px 0px;*/
+}
+
+
+
+
+.Robin2NumColorsx4{
+  background-color: rgb(30, 122, 88);
+  border:2px solid rgb(34, 129, 95);
+
+}
+
+
+
+
+
+
+.Robin2Fin2x4{
+  opacity: .95;
+background-color:#071422;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #333);
+
+
+    
+}
+
+
+
+
+
+
+.Robin2FinBx4{
+border:5px solid white;
+
+background-color:#424242;
+color:white;
+
+}
+
+
+
+/*box-shadow: 1px 1px 10px 2px white;*/
+
+.Robin2Innerx4{
+
+opacity: .97;
+background-image: linear-gradient(to bottom right ,#0c0c0c, #333);
+}
+
+
+ .Robin2Acm2x4, .Robin2FinBx4{
+
+  border:none;
+  /*box-shadow:inset 0 1px 10px lightgrey;*/
+/*  background-image: linear-gradient(to bottom right ,grey, #505050);*/
+background-image: linear-gradient(to bottom right ,grey, #47474a);
+background-image: linear-gradient(to bottom right ,#636262, #303030);
+box-shadow: inset 0 1px 13px lightgrey;
+box-shadow: none;
+color:white;
+background-color: inherit;
+
+}
+
+.Robin2AccValuesx4{
+   color: tan;
+}
+
+
+
+
+/*//////////////////////Robin2/////////////////////////////////////////////*/
+/*//////////////////////Robin2/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Robin3/////////////////////////////////////////////*/
+/*//////////////////////Robin3/////////////////////////////////////////////*/
+
+.Robin3BlankLogox4{
+
+background-image: url("../img/robin.png");
+
+}
+
+
+.Robin3serm2x4 {
+    background-color: white;
+    background-image: url("../img/robin.png");
+}
+
+.Robin3lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.Robin3LangBx4, .Robin3LangBotherx4 {
+
+background-color:transparent;
+border: 1px solid white;
+color: #0f2d21;
+}
+
+
+.Robin3Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+  color: #0f2d21;
+
+}
+
+
+
+.Robin3Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Robin3Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #0f2d21;
+
+}
+
+.Robin3Qtyvalue2x4 {
+
+    background: inherit;
+    color: #368c6a;
+
+}
+
+
+
+.Robin3Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Robin3NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #368c6a;
+
+}
+
+
+.Robin3Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+
+
+
+.Robin3Acm2x4, .Robin3FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color: black;
+    background-image: linear-gradient(to bottom right ,#49da74, #368c6a);
+    background-color: inherit;
+
+}
+
+
+
+.Robin3AccValuesx4{
+  color: #333;
+}
+
+
+
+
+/*//////////////////////Robin3/////////////////////////////////////////////*/
+/*//////////////////////Robin3/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Robin4/////////////////////////////////////////////*/
+/*//////////////////////Robin4/////////////////////////////////////////////*/
+
+.Robin4BlankLogox4{
+
+background-image: url("../img/robin.png");
+
+}
+
+
+.Robin4serm2x4 {
+    background-color: white;
+    background-image: url("../img/robin.png");
+}
+
+.Robin4lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.Robin4LangBx4, .Robin4LangBotherx4 {
+
+background-color:transparent;
+border: 1px solid white;
+color: #0f2d21;
+}
+
+
+.Robin4Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #595453);
+    color: #e1e1e1;
+}
+
+
+
+.Robin4Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Robin4Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #0f2d21;
+
+}
+
+.Robin4Qtyvalue2x4 {
+
+    background: inherit;
+    color: #368c6a;
+
+}
+
+
+
+.Robin4Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Robin4NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #368c6a;
+
+}
+
+
+.Robin4Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+
+
+
+.Robin4Acm2x4, .Robin4FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color: black;
+    background-image: linear-gradient(to bottom right ,#49da74, #368c6a);
+    background-color: inherit;
+
+}
+
+
+
+.Robin4AccValuesx4{
+  color: #333;
+}
+
+
+
+
+/*//////////////////////Robin4/////////////////////////////////////////////*/
+/*//////////////////////Robin4/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/*//////////////////////Binance/////////////////////////////////////////////*/
+/*//////////////////////Binance/////////////////////////////////////////////*/
+
+
+.BinanceBlankLogox4{
+
+background-image: url("../img/binanceBlank.png");
+
+}
+
+
+
+.Binanceserm2x4 {
+    background-color: white;
+    background-image: none;
+}
+
+.Binancelan2x4 {
+    background-color: Binance;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.BinanceLangBx4, .BinanceLangBotherx4 {
+
+    background-color: Binance;
+    border: 1px solid #464646;
+    color: grey;
+    color: #e0c712;
+}
+
+
+.BinanceInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+    color: rgb(173, 173, 173);
+    color: #e0c712;
+
+}
+
+
+
+.BinanceSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    box-shadow: inset 0 1px 8px Binance;
+}
+
+
+.BinanceQty2x4 {
+
+    background: #212121;
+    color: #e9d021;
+
+}
+
+.BinanceQtyvalue2x4 {
+
+    background: inherit;
+    color: #e9d021;
+
+}
+
+
+
+.BinanceAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.BinanceNumColorsx4 {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #212121;
+    color: #e9d021;
+
+}
+
+
+.BinanceFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.BinanceAcm2x4, .BinanceFinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color: black;
+background-image: linear-gradient(to bottom right ,#fff202, #efb100);
+background-color: inherit;
+}
+
+
+.BinanceAccValuesx4{
+   color: #4b4b4b;
+}
+
+
+
+/*//////////////////////Binance/////////////////////////////////////////////*/
+/*//////////////////////Binance/////////////////////////////////////////////*/
+
+
+
+
+
+/*//////////////////////Binance2/////////////////////////////////////////////*/
+/*//////////////////////Binance2/////////////////////////////////////////////*/
+
+.Binance2BlankLogox4{
+
+background-image: url("../img/binance.png");
+
+}
+
+
+.Binance2serm2x4 {
+    background-color: white;
+    background-image: url("../img/binance.png");
+}
+
+.Binance2lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.Binance2LangBx4, .Binance2LangBotherx4 {
+
+background-color:transparent;
+border: 1px solid white;
+color: #0f2d21;
+}
+
+
+.Binance2Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #595453);
+    color: #e1e1e1;
+}
+
+
+
+.Binance2Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Binance2Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #0f2d21;
+
+}
+
+.Binance2Qtyvalue2x4 {
+
+    background: inherit;
+    color: #368c6a;
+
+}
+
+
+
+.Binance2Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Binance2NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #368c6a;
+
+}
+
+
+.Binance2Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+
+
+
+.Binance2Acm2x4, .Binance2FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color: black;
+    background-image: linear-gradient(to bottom right ,#fff202, #efb100);
+    background-color: inherit;
+
+}
+
+
+
+.Binance2AccValuesx4{
+ color: #4b4b4b;
+}
+
+
+
+
+/*//////////////////////Binance2/////////////////////////////////////////////*/
+/*//////////////////////Binance2/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/*//////////////////////Coinbase/////////////////////////////////////////////*/
+/*//////////////////////Coinbase/////////////////////////////////////////////*/
+
+.Coinbaseserm2x4 {
+    background-color: white;
+    background-image: none;
+}
+
+.Coinbaselan2x4 {
+    background-image: linear-gradient(to bottom right ,#00248c, #003dea);
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.CoinbaseLangBx4, .CoinbaseLangBotherx4 {
+
+background-color: transparent;
+border: 1px solid rgb(48, 70, 167);
+color: white;
+}
+
+
+.CoinbaseBlankLogox4{
+
+background-image: url("../img/coinbase%20-%20Copy-2.png");
+
+}
+
+
+
+.Coinbaseserm2x4{
+
+background-color:#071422;
+background-size: 70%;
+background-repeat: repeat;
+background-image: url("../img/coinbase.png");
+}
+
+.CoinbaseInnerx4 {
+
+    opacity: .96;
+    background-color: white;
+   /* background-image: linear-gradient(to bottom right ,#060002, #353535);*/
+   background-image: linear-gradient(to bottom right ,#ededed, #fff);
+   color: #000753;
+
+}
+
+
+
+
+
+.CoinbaseQty2x4 {
+
+    background: rgb(1, 2, 173);
+    color: white;
+
+}
+
+.CoinbaseQtyvalue2x4 {
+
+    background: inherit;
+    color: white;
+
+}
+
+
+
+.CoinbaseAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.CoinbaseNumColorsx4 {
+
+    background-color: rgb(0, 1, 131);
+    border: 2px solid rgb(1, 2, 173);
+    color: white;
+
+}
+
+.CoinbaseFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.CoinbaseAcm2x4, .CoinbaseFinBx4 {
+
+    border: none;
+    box-shadow: inset 0 1px 15px #0c0c0c;
+     color:#000033;
+     background-color: inherit;
+  /*  background-image: linear-gradient(to bottom right ,#cb05c6, #531957);*/
+  background-image: linear-gradient(to bottom right ,#fff, #e9e9e9);
+
+}
+
+
+.CoinbaseAccValuesx4{
+   color: grey;
+}
+
+
+
+
+
+/*//////////////////////Coinbase/////////////////////////////////////////////*/
+/*//////////////////////Coinbase/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Coinbase2/////////////////////////////////////////////*/
+/*//////////////////////Coinbase2/////////////////////////////////////////////*/
+
+.Coinbase2BlankLogox4{
+
+background-image: url("../img/coinbase%20-%20Copy.png");
+
+}
+
+
+.Coinbase2serm2x4 {
+    background-color: white;
+    background-image: url("../img/coinbase.png");
+    background-size: 60%;
+}
+
+.Coinbase2lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+   
+}
+
+
+.Coinbase2LangBx4, .Coinbase2LangBotherx4 {
+
+    background-color:transparent;
+    border: 1px solid white;
+    color: #001142;
+}
+
+
+.Coinbase2Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #000c42;
+   color: #001142;
+
+}
+
+
+
+.Coinbase2Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Coinbase2Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #001142;
+
+}
+
+.Coinbase2Qtyvalue2x4 {
+
+    background: inherit;
+    color: #003869;
+
+}
+
+
+
+.Coinbase2Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Coinbase2NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003869;
+
+}
+
+
+.Coinbase2Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Coinbase2Acm2x4, .Coinbase2FinBx4 {
+
+  border: none;
+  box-shadow: none;
+  color:white;
+  background-image: linear-gradient(to bottom right ,#00248c, #003dea);
+  background-color: inherit;
+
+}
+
+
+.Coinbase2AccValuesx4{
+  color: #dbdbdb;
+}
+
+
+
+/*//////////////////////Coinbase2/////////////////////////////////////////////*/
+/*//////////////////////Coinbase2/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Coinbase3/////////////////////////////////////////////*/
+/*//////////////////////Coinbase3/////////////////////////////////////////////*/
+
+.Coinbase3BlankLogox4{
+
+background-image: url("../img/coinbase%20-%20Copy.png");
+
+}
+
+
+.Coinbase3serm2x4 {
+    background-color: white;
+    background-image: url("../img/coinbase.png");
+    background-size: 60%;
+}
+
+.Coinbase3lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+   
+}
+
+
+.Coinbase3LangBx4, .Coinbase3LangBotherx4 {
+
+    background-color:transparent;
+    border: 1px solid white;
+    color: #001142;
+}
+
+
+.Coinbase3Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+background-image: linear-gradient(to bottom right ,#060002, #595453);
+color: #e1e1e1;
+
+}
+
+
+
+.Coinbase3Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Coinbase3Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #001142;
+
+}
+
+.Coinbase3Qtyvalue2x4 {
+
+    background: inherit;
+    color: #003869;
+
+}
+
+
+
+.Coinbase3Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Coinbase3NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003869;
+
+}
+
+
+.Coinbase3Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Coinbase3Acm2x4, .Coinbase3FinBx4 {
+
+  border: none;
+  box-shadow: none;
+  color:white;
+  background-image: linear-gradient(to bottom right ,#00248c, #003dea);
+  background-color: inherit;
+
+}
+
+
+.Coinbase3AccValuesx4{
+  color: #dbdbdb;
+}
+
+
+
+/*//////////////////////Coinbase3/////////////////////////////////////////////*/
+/*//////////////////////Coinbase3/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*//////////////////////Chase/////////////////////////////////////////////*/
+/*//////////////////////Chase/////////////////////////////////////////////*/
+
+.ChaseBlankLogox4{
+
+background-image: url("../img/chase.png");
+
+}
+
+
+.Chaseserm2x4 {
+    background-color: white;
+    background-image: url("../img/chase.png");
+}
+
+.Chaselan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+   
+}
+
+
+.ChaseLangBx4, .ChaseLangBotherx4 {
+
+    background-color:inherit;
+    border: 1px solid white;
+    color: #031626;
+}
+
+
+.ChaseInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #000c42;
+  color: #031626;
+
+}
+
+
+
+.ChaseSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.ChaseQty2x4 {
+
+    background-color:whitesmoke;
+    color: #031626;
+
+}
+
+.ChaseQtyvalue2x4 {
+
+    background: inherit;
+    color: #062948;
+
+}
+
+
+
+.ChaseAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.ChaseNumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003869;
+
+}
+
+
+.ChaseFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.ChaseAcm2x4, .ChaseFinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+  background-image: linear-gradient(to bottom right ,#003869, #0058a4);
+  background-color: inherit;
+
+}
+
+
+.ChaseAccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////Chase/////////////////////////////////////////////*/
+/*//////////////////////Chase/////////////////////////////////////////////*/
+
+
+/*//////////////////////Chase2/////////////////////////////////////////////*/
+/*//////////////////////Chase2/////////////////////////////////////////////*/
+
+.Chase2BlankLogox4{
+
+background-image: url("../img/chase.png");
+
+}
+
+
+.Chase2serm2x4 {
+    background-color: white;
+    background-image: url("../img/chase.png");
+}
+
+.Chase2lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+   
+}
+
+
+.Chase2LangBx4, .Chase2LangBotherx4 {
+
+    background-color:inherit;
+    border: 1px solid white;
+    color: #031626;
+}
+
+
+.Chase2Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#060002, #595453);
+   color: #000c42;
+   color: #b7b7b7;
+
+}
+
+
+
+.Chase2Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Chase2Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #031626;
+
+}
+
+.Chase2Qtyvalue2x4 {
+
+    background: inherit;
+    color: #062948;
+
+}
+
+
+
+.Chase2Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Chase2NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003869;
+
+}
+
+
+.Chase2Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Chase2Acm2x4, .Chase2FinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+  background-image: linear-gradient(to bottom right ,#003869, #0058a4);
+  background-color: inherit;
+
+}
+
+
+.Chase2AccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////Chase2/////////////////////////////////////////////*/
+/*//////////////////////Chase2/////////////////////////////////////////////*/
+
+
+/*//////////////////////Chase3/////////////////////////////////////////////*/
+/*//////////////////////Chase3/////////////////////////////////////////////*/
+
+.Chase3BlankLogox4{
+
+background-image: url("../img/chase.png");
+
+}
+
+
+
+.Chase3serm2x4 {
+
+    background-color: white;
+    background-image: none;
+    background-image: url("../img/chase.png");
+}
+
+.Chase3lan2x4 {
+    background-color: black;
+    color: rgb(255, 242, 0);
+    border-bottom: none;
+}
+
+
+.Chase3LangBx4, .Chase3LangBotherx4 {
+
+   background-color: transparent;
+   border: 1px solid #303030;
+   color: #bab9b9;
+}
+
+
+.Chase3Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+    color: #908f8f;
+
+}
+
+
+
+.Chase3Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Chase3Qty2x4 {
+
+    background: #212121;
+    color: #cb05c6;
+    color: #bab9b9;
+
+}
+
+.Chase3Qtyvalue2x4 {
+
+    background: inherit;
+    color: inherit;
+
+}
+
+
+
+.Chase3Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Chase3NumColorsx4 {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #212121;
+    color: #cb05c6;
+    color: #bab9b9;
+
+}
+
+
+.Chase3Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Chase3Acm2x4, .Chase3FinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+background-color: inherit;
+background-image: linear-gradient(to bottom right ,#003869, #0058a4);
+}
+
+
+
+.Chase3AccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////Chase3/////////////////////////////////////////////*/
+/*//////////////////////Chase3/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Boamer/////////////////////////////////////////////*/
+/*//////////////////////Boamer/////////////////////////////////////////////*/
+
+.BoamerBlankLogox4{
+
+background-image: url("../img/bankOfamer.png");
+
+}
+
+
+
+.Boamerserm2x4 {
+    background-color: white;
+   background-image: url("../img/bankOfamer.png");
+}
+
+.Boamerlan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.BoamerLangBx4, .BoamerLangBotherx4 {
+
+    background-color:inherit;
+    border: 1px solid white;
+    color: #290101;
+}
+
+
+.BoamerInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #290101;
+
+}
+
+
+
+.BoamerSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.BoamerQty2x4 {
+
+    background-color:whitesmoke;
+    color: #290101;
+
+}
+
+.BoamerQtyvalue2x4 {
+
+    background: inherit;
+    color: #750000;
+
+}
+
+
+
+.BoamerAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.BoamerNumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #750000;
+
+}
+
+
+.BoamerFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.BoamerAcm2x4, .BoamerFinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+  background-image: linear-gradient(to bottom right ,#ff1b00, #750000);
+background-color: inherit;
+
+}
+
+
+.BoamerAccValuesx4{
+   color: lightgrey;
+}
+
+
+
+/*//////////////////////Boamer/////////////////////////////////////////////*/
+/*//////////////////////Boamer/////////////////////////////////////////////*/
+
+
+/*//////////////////////Boamer2/////////////////////////////////////////////*/
+/*//////////////////////Boamer2/////////////////////////////////////////////*/
+
+.Boamer2BlankLogox4{
+
+background-image: url("../img/bankOfamer.png");
+
+}
+
+
+
+.Boamer2serm2x4 {
+    background-color: white;
+   background-image: url("../img/bankOfamer.png");
+}
+
+.Boamer2lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.Boamer2LangBx4, .Boamer2LangBotherx4 {
+
+    background-color:inherit;
+    border: 1px solid white;
+    color: #290101;
+}
+
+
+.Boamer2Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#060002, #595453);
+   color: #b7b7b7;
+
+}
+
+
+
+.Boamer2Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Boamer2Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #290101;
+
+}
+
+.Boamer2Qtyvalue2x4 {
+
+    background: inherit;
+    color: #750000;
+
+}
+
+
+
+.Boamer2Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Boamer2NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #750000;
+
+}
+
+
+.Boamer2Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Boamer2Acm2x4, .Boamer2FinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+  background-image: linear-gradient(to bottom right ,#ff1b00, #750000);
+background-color: inherit;
+
+}
+
+
+.Boamer2AccValuesx4{
+   color: lightgrey;
+}
+
+
+
+/*//////////////////////Boamer2/////////////////////////////////////////////*/
+/*//////////////////////Boamer2/////////////////////////////////////////////*/
+
+
+
+
+
+
+/*//////////////////////Green3/////////////////////////////////////////////*/
+/*//////////////////////Green3/////////////////////////////////////////////*/
+
+
+.Green3BlankLogox4{
+
+background-image: url("../img/sber.png");
+
+}
+
+
+.Green3serm2x4 {
+    background-color: white;
+    background-image: url("../img/sber.png");
+}
+
+.Green3lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.Green3LangBx4, .Green3LangBotherx4 {
+background-color: inherit;
+border: 1px solid white;
+color: #0b2d0f;
+}
+
+
+.Green3Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+  color: #0b2d0f;
+
+}
+
+
+
+.Green3Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Green3Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #0b2d0f;
+
+}
+
+.Green3Qtyvalue2x4 {
+
+    background: inherit;
+    color: #003e07;
+
+}
+
+
+
+.Green3Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Green3NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003e07;
+
+}
+
+
+.Green3Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Green3Acm2x4, .Green3FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#47904b, #003e07);
+    background-image: linear-gradient(to bottom right ,#6ac03d, #003e07);
+background-color: inherit;
+
+}
+
+
+.Green3AccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////Green3/////////////////////////////////////////////*/
+/*//////////////////////Green3/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Green4/////////////////////////////////////////////*/
+/*//////////////////////Green4/////////////////////////////////////////////*/
+
+
+.Green4BlankLogox4{
+
+background-image: url("../img/sber.png");
+
+}
+
+
+.Green4serm2x4 {
+    background-color: white;
+    background-image: url("../img/sber.png");
+}
+
+.Green4lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.Green4LangBx4, .Green4LangBotherx4 {
+background-color: inherit;
+border: 1px solid white;
+color: #0b2d0f;
+}
+
+
+.Green4Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#060002, #595453);
+  color: #b7b7b7;
+
+}
+
+
+
+.Green4Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Green4Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #0b2d0f;
+
+}
+
+.Green4Qtyvalue2x4 {
+
+    background: inherit;
+    color: #003e07;
+
+}
+
+
+
+.Green4Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Green4NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003e07;
+
+}
+
+
+.Green4Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Green4Acm2x4, .Green4FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#47904b, #003e07);
+    background-image: linear-gradient(to bottom right ,#6ac03d, #003e07);
+background-color: inherit;
+
+}
+
+
+.Green4AccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////Green4/////////////////////////////////////////////*/
+/*//////////////////////Green4/////////////////////////////////////////////*/
+
+
+
+/*//////////////////////Paypal/////////////////////////////////////////////*/
+/*//////////////////////Paypal/////////////////////////////////////////////*/
+
+
+.PaypalBlankLogox4{
+
+background-image: url("../img/paypal2.png");
+
+}
+
+
+.Paypalserm2x4 {
+    background-color: white;
+    background-image: url("../img/paypal2.png");
+}
+
+.Paypallan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.PaypalLangBx4, .PaypalLangBotherx4 {
+
+  background-color:inherit;
+  border: 1px solid white;
+    color: #000033;
+}
+
+
+.PaypalInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #030123;
+
+}
+
+
+
+.PaypalSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.PaypalQty2x4 {
+
+    background-color:whitesmoke;
+    color: #18182d;
+
+}
+
+.PaypalQtyvalue2x4 {
+
+    background: inherit;
+    color: #18182d;
+
+}
+
+
+
+.PaypalAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.PaypalNumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #18182d;
+
+}
+
+
+.PaypalFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.PaypalAcm2x4, .PaypalFinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#000020, #424550);
+
+background-color: inherit;
+}
+
+
+.PaypalAccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////Paypal/////////////////////////////////////////////*/
+/*//////////////////////Paypal/////////////////////////////////////////////*/
+
+
+/*//////////////////////Barclay/////////////////////////////////////////////*/
+/*//////////////////////Barclay/////////////////////////////////////////////*/
+
+.BarclayBlankLogox4{
+
+background-image: url("../img/lay.png");
+
+}
+
+.Barclayserm2x4 {
+    background-color: white;
+    background-image: url("../img/lay.png");
+}
+
+.Barclaylan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.BarclayLangBx4, .BarclayLangBotherx4 {
+background-color: inherit;
+border: 1px solid white;
+color: grey;
+color: #003847;
+}
+
+
+.BarclayInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: grey;
+   color: #003847;
+
+}
+
+
+
+.BarclaySm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.BarclayQty2x4 {
+
+    background-color:whitesmoke;
+    color: #003847;
+
+}
+
+.BarclayQtyvalue2x4 {
+
+    background: inherit;
+    color: #003847;
+
+}
+
+
+
+.BarclayAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.BarclayNumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003847;
+
+}
+
+
+.BarclayFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#00bfff, #1d8db3);
+
+}
+
+.BarclayAcm2x4, .BarclayFinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#00bfff, #1d8db3);
+
+background-color: inherit;
+}
+
+.BarclayAccValuesx4{
+   color: lightgrey;
+}
+
+
+
+/*//////////////////////Barclay/////////////////////////////////////////////*/
+/*//////////////////////Barclay/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Barclay2/////////////////////////////////////////////*/
+/*//////////////////////Barclay2/////////////////////////////////////////////*/
+
+
+.Barclay2BlankLogox4{
+
+background-image: url("../img/lay.png");
+
+}
+
+
+.Barclay2serm2x4 {
+    background-color: white;
+   background-image: url("../img/lay.png");
+}
+
+.Barclay2lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.Barclay2LangBx4, .Barclay2LangBotherx4 {
+background-color: inherit;
+border: 1px solid white;
+color: #0b2d0f;
+}
+
+
+.Barclay2Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#060002, #595453);
+  color: #b7b7b7;
+
+}
+
+
+
+.Barclay2Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Barclay2Qty2x4 {
+
+    background-color:whitesmoke;
+   color: #0b2d0f;
+
+}
+
+.Barclay2Qtyvalue2x4 {
+
+    background: inherit;
+    color: #003e07;
+
+}
+
+
+
+.Barclay2Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Barclay2NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003e07;
+
+}
+
+
+.Barclay2Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Barclay2Acm2x4, .Barclay2FinBx4 {
+
+    border: none;
+    box-shadow: none;
+color: white;
+background-image: linear-gradient(to bottom right ,#00bfff, #1d8db3);
+background-color: inherit;
+
+}
+
+
+.Barclay2AccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////Barclay2/////////////////////////////////////////////*/
+/*//////////////////////Barclay2/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Ria1/////////////////////////////////////////////*/
+/*//////////////////////Ria1/////////////////////////////////////////////*/
+
+
+.Ria1BlankLogox4{
+
+background-image: url("../img/ria2.png");
+
+}
+
+
+.Ria1serm2x4 {
+    background-color: white;
+    background-image: url("../img/ria2.png");
+}
+
+.Ria1lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.Ria1LangBx4, .Ria1LangBotherx4 {
+
+  background-color:inherit;
+  border: 1px solid white;
+    color: grey;
+}
+
+
+.Ria1Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   
+    background-image: linear-gradient(to bottom right ,#f9c100, #ff8700);
+    background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+
+   color: #030123;
+
+}
+
+
+
+.Ria1Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Ria1Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #18182d;
+
+}
+
+.Ria1Qtyvalue2x4 {
+
+    background: inherit;
+    color: #18182d;
+
+}
+
+
+
+.Ria1Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Ria1NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #18182d;
+
+}
+
+
+.Ria1Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Ria1Acm2x4, .Ria1FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#0a1226, #2d3659);
+    background-color: inherit;
+    background-image: linear-gradient(to bottom right ,#0a1226, #262e4b);
+    color: orange;
+}
+
+
+.Ria1AccValuesx4{
+   color: #f9ac46;
+}
+
+
+
+/*//////////////////////Ria1/////////////////////////////////////////////*/
+/*//////////////////////Ria1/////////////////////////////////////////////*/
+
+
+
+
+
+/*//////////////////////Bank0/////////////////////////////////////////////*/
+/*//////////////////////Bank0/////////////////////////////////////////////*/
+
+
+.Bank0ui2x4{
+
+background-image: url(../img/intro-bg.jpg); 
+background-repeat: no-repeat;
+}
+
+
+
+.Bank0BlankLogox4{
+
+background-image: url("../img/ria2.png");
+
+}
+
+
+.Bank0serm2x4 {
+    background-color:transparent;
+    background-image:none;
+}
+
+.Bank0lan2x4 {
+    background-color: transparent;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.Bank0LangBx4, .Bank0LangBotherx4 {
+
+  background-color:inherit;
+  border: 1px solid white;
+    color: white;
+}
+
+
+.Bank0Innerx4 {
+
+    opacity: 1;
+    background-color: transparent;
+   
+    background-image: linear-gradient(to bottom right ,#f9c100, #ff8700);
+    background-image: none;
+    color:white;
+
+}
+
+
+
+.Bank0Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Bank0Qty2x4 {
+
+    background-color:transparent;
+    color: white;
+
+}
+
+.Bank0Qtyvalue2x4 {
+
+    background: inherit;
+    color: #18182d;
+
+}
+
+
+
+.Bank0Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Bank0NumColorsx4 {
+
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color:white;
+
+}
+
+
+.Bank0Fin2x4 {
+
+    background: rgb(64, 19, 21);
+    background-color: rgb(64, 19, 21);
+    background-image: none;
+}
+
+
+
+.Bank0Acm2x4, .Bank0FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#0a1226, #2d3659);
+    background-color: inherit;
+    background-image: none;
+    background-color: white;
+    color:black;
+    opacity:;
+    background-image: linear-gradient(to bottom right ,#c3c3c3, #fff);
+    background-image: linear-gradient(to bottom right ,#e9e9e9, #fff);
+}
+
+
+.Bank0AccValuesx4{
+   color:black;
+}
+
+
+
+/*//////////////////////Bank0/////////////////////////////////////////////*/
+/*//////////////////////Bank0/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////Bank1/////////////////////////////////////////////*/
+/*//////////////////////Bank1/////////////////////////////////////////////*/
+
+
+.Bank1ui2x4{
+
+background: url(../img/intro-bg.jpg) no-repeat center center;
+
+
+}
+
+
+
+.Bank1BlankLogox4{
+
+background-image: url("../img/ria2.png");
+
+}
+
+
+.Bank1serm2x4 {
+    background-color:transparent;
+    background-image:none;
+}
+
+.Bank1lan2x4 {
+    background-color: transparent;
+    color: rgb(255, 242, 0);
+  
+}
+
+
+.Bank1LangBx4, .Bank1LangBotherx4 {
+
+  background-color:inherit;
+  border: 1px solid white;
+    color: grey;
+}
+
+
+.Bank1Innerx4 {
+
+    opacity: 1;
+    background-color: transparent;
+   
+    background-image: linear-gradient(to bottom right ,#f9c100, #ff8700);
+    background-image: none;
+    color:white;
+
+}
+
+
+
+.Bank1Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Bank1Qty2x4 {
+
+    background-color:transparent;
+    color: white;
+
+}
+
+.Bank1Qtyvalue2x4 {
+
+    background: inherit;
+    color: #18182d;
+
+}
+
+
+
+.Bank1Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Bank1NumColorsx4 {
+
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color:white;
+
+}
+
+
+.Bank1Fin2x4 {
+
+    background: rgb(64, 19, 21);
+    background-color: rgb(64, 19, 21);
+    background-image: none;
+}
+
+
+
+.Bank1Acm2x4, .Bank1FinBx4 {
+
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-image: linear-gradient(to bottom right ,#0a1226, #2d3659);
+    background-color: inherit;
+    background-image: none;
+    background-color: white;
+    color:black;
+    opacity:;
+    background-image: linear-gradient(to bottom right ,#c3c3c3, #fff);
+    background-image: linear-gradient(to bottom right ,#e9e9e9, #fff);
+}
+
+
+.Bank1AccValuesx4{
+   color:black;
+}
+
+
+
+/*//////////////////////Bank1/////////////////////////////////////////////*/
+/*//////////////////////Bank1/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Ria 2 color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     222222222222222222222222222222222222222    Ria 3 color   4444444444444444444444444444444444444444444444444444                        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Ria2uix4{
+
+
+/*height: auto;
+
+border: 4px solid black;
+position:;
+width: 609px;
+border-radius:10px;
+background-image: url("../img/brazil.jpg");
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+*/
+
+}
+
+
+
+
+
+
+
+.Ria2lan2x4{
+background-color:#000020;
+
+
+
+
+}
+
+
+
+.Ria2LangBx4, .Ria2LangBotherx4{
+    
+
+    background-color:transparent;
+    border: 1px solid #242451;
+    color:white;
+
+
+  
+}
+
+
+.bluelan2MOBI label{
+ color:white;
+}
+
+
+
+
+.Ria2BlankLogox4{
+
+background-image: url("../img/ria2.png");
+
+}
+
+
+
+
+.Ria2serm2x4{
+  
+background-color:#000033;
+background-image: url("../img/ria2.png");
+background-size: 70%;
+background-repeat: repeat;
+
+}
+
+
+
+
+.Ria2Ser2x4{
+  
+
+opacity:.95;
+
+/*background-color:#000033;*/
+background-color:white;
+padding:10px 0px 10px 10px ;
+
+height:114px;auto;
+width:100%;
+text-align: center;
+color:white; 
+z-index: 5;
+position:relative;
+border-bottom:1px solid lightgrey;
+
+
+
+}
+
+
+
+.Ria2SerBx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:yellow;
+    border: 4px solid rgb(159, 159, 0); 
+    border-radius:15px;
+    color:#000033;
+    font-size: 21px;
+    font-family: arial;
+/*box-shadow: 1px 1px 10px 2px #ffcc00;*/
+
+   
+}
+
+
+.Ria2Sm2x4{
+  color:#000033;
+  background-color:yellow;
+  border: 4px solid rgb(159, 159, 0);
+}
+
+.Ria2Acm2x4{
+  color:#000033;
+  background-color:yellow;
+  border: 1px solid rgb(159, 159, 0);
+  background-color: inherit;
+  
+}
+
+
+
+.Ria2SerBotherx4{
+     margin:10px 16px 12px 8px ;
+     padding: 13px;
+    background-color:yellow;
+    border: 4px solid rgb(159, 159, 0); 
+    border-radius:15px;
+    color:#000033;
+    font-size: 21px;
+    font-family: arial;
+
+/*box-shadow: 1px 1px 10px 2px #ffcc00;*/
+   
+}
+
+
+
+
+
+
+
+.Ria2Tof2x4{
+  opacity:.95;
+  
+  padding:10px 8px 5px 40px;
+background-color:#000033;
+
+height:155px;auto;
+width:100%;   
+
+text-align:center;
+color:white;
+
+
+}
+
+
+
+.Ria2TofBx4{
+
+
+    background-color:yellow;
+    border: 3px solid rgb(159, 159, 0); 
+    color:#000033;
+
+
+
+}
+
+
+
+.Ria2Qty2x4 {
+    background-color: rgb(0, 0, 45);
+    color: white;
+    border-top: 1px solid rgb(0, 0, 45);
+}
+
+
+.Ria2NumColorsx4 {
+
+background-color: rgb(0, 0, 30);
+border: 2px solid rgb(0, 0, 45);
+    border-bottom: ;
+    color: inherit;
+
+}
+
+
+ 
+    
+.Ria2Qtyvalue2x4{
+
+background-color:inherit;
+color:inherit;
+border:none;
+
+}
+
+
+
+.Ria2Qtyty2x4{
+
+   
+    width: 600.3px;
+    height: 55px;
+}
+
+
+.Ria2Amountx4{
+
+  background-color:inherit;
+  border:none;
+  color:inherit;
+}
+
+
+#yellowAmountx4:hover{
+  cursor:pointer;
+ /* box-shadow: 0px 0px 15px 0px lightgrey;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+.Ria2FinBx4{
+border:5px solid rgb(159, 159, 0);
+background-color:yellow;
+color:#000033;
+
+}
+
+
+
+
+
+/*///////////////////////*/
+
+.Ria2Innerx4, .Ria2Fin2x4{
+opacity: .96;
+background-image: linear-gradient(to bottom right ,#020535, #00042c);
+background-image: linear-gradient(to bottom right ,#000033, #15152d);
+background-image: linear-gradient(to bottom right ,#000017, #1c1c41);
+color: #ffab00;
+}
+
+ .Ria2Acm2x4, .Ria2FinBx4{
+
+  border:none;
+ /* box-shadow:inset 0 1px 10px black;*/
+
+background-image: linear-gradient(to bottom right ,#f9c100, #ff8700);
+  color: #000033;
+  background-color: white;
+  background-color: inherit;
+}
+
+
+.Ria2Sm2x4{
+
+  border:none;
+
+ background-image: linear-gradient(to bottom right ,#f9c100, #ff8700);
+  color: yellow;
+   background-color: white;
+}
+
+.Ria2Fin2x4, .Ria2serm2x4{
+
+  background-color:white;
+}
+
+
+
+.Ria2AccValuesx4{
+   color: #000033;
+}
+
+
+
+/*//////////////////*/
+
+
+
+
+/*///////////////////////////////Ria2////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*//////////////////////Ria3/////////////////////////////////////////////*/
+/*//////////////////////Ria3/////////////////////////////////////////////*/
+
+
+
+
+
+.Ria3BlankLogox4{
+
+background-image: url("../img/ria2.png");
+
+}
+
+
+
+.Ria3serm2x4 {
+    background-color: white;
+background-image: url("../img/ria2.png");
+}
+
+.Ria3lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+ 
+}
+
+
+.Ria3LangBx4, .Ria3LangBotherx4 {
+
+    background-color:inherit;
+    border: 1px solid white;
+    color: #290101;
+}
+
+
+.Ria3Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   background-image: linear-gradient(to bottom right ,#00001a, #15152d);
+   color: #b7b7b7;
+}
+
+
+
+.Ria3Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Ria3Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #290101;
+
+}
+
+.Ria3Qtyvalue2x4 {
+
+    background: inherit;
+    color: #750000;
+
+}
+
+
+
+.Ria3Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Ria3NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #750000;
+
+}
+
+
+.Ria3Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Ria3Acm2x4, .Ria3FinBx4 {
+
+border: none;
+box-shadow: none;
+color:white;
+background-image: linear-gradient(to bottom right ,#f9c100, #ff8700);
+color: black;
+background-color: inherit;
+
+}
+
+
+.Ria3AccValuesx4{
+   color: #484848;
+}
+
+
+
+/*//////////////////////Ria3/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/*//////////////////////Westun/////////////////////////////////////////////*/
+/*//////////////////////Westun/////////////////////////////////////////////*/
+
+.WestunBlankLogox4{
+
+background-image: url("../img/white.png");
+
+}
+
+
+.Westunserm2x4 {
+    background-color: white;
+    background-image: url("../img/robin.png");
+}
+
+.Westunlan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+   
+}
+
+
+.WestunLangBx4, .WestunLangBotherx4 {
+background-color: inherit;
+border: 1px solid white;
+color: #292929;
+}
+
+
+.WestunInnerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #000c42;
+  color: #292929;
+
+}
+
+
+
+.WestunSm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.WestunQty2x4 {
+
+    background-color:whitesmoke;
+    color: #292929;
+
+}
+
+.WestunQtyvalue2x4 {
+
+    background: inherit;
+    color: #003869;
+
+}
+
+
+
+.WestunAmountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.WestunNumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #003869;
+
+}
+
+
+.WestunFin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.WestunAcm2x4, .WestunFinBx4 {
+
+border: none;
+    box-shadow: none;
+    color: #292929;
+    background-image: linear-gradient(to bottom right ,#c5c3c3, #dedede);
+    background-image: linear-gradient(to bottom right ,#fff202, #efb100);
+    background-color: inherit;
+
+}
+
+
+.WestunAccValuesx4{
+ color: #444343;
+}
+
+
+/*//////////////////////Westun/////////////////////////////////////////////*/
+/*//////////////////////Westun/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*//////////////////////Sofi1/////////////////////////////////////////////*/
+/*//////////////////////Sofi1/////////////////////////////////////////////*/
+
+.Sofi1BlankLogox4{
+
+background-image: url("../img/sofi.png");
+
+}
+
+
+.Sofi1serm2x4 {
+    background-color: white;
+    background-image: url("../img/sofi.png");
+}
+
+.Sofi1lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.Sofi1LangBx4, .Sofi1LangBotherx4 {
+
+background-color:transparent;
+border: 1px solid white;
+color: #000844;
+}
+
+
+.Sofi1Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#fff, #e3e1e1);
+   color: #000844;
+
+}
+
+
+
+.Sofi1Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Sofi1Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #000844;
+
+}
+
+.Sofi1Qtyvalue2x4 {
+
+    background: inherit;
+    color: #368c6a;
+
+}
+
+
+
+.Sofi1Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Sofi1NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #368c6a;
+
+}
+
+
+.Sofi1Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Sofi1Acm2x4, .Sofi1FinBx4 {
+
+
+    border: none;
+    box-shadow: none;
+    color: #000;
+    background-image: linear-gradient(to bottom right ,#77e096, #13acff);
+    background-color: inherit;
+    background-image: linear-gradient(to bottom right ,#38ea6c, #13acff);
+
+}
+
+
+
+.Sofi1AccValuesx4{
+  color: #333;
+}
+
+
+
+
+/*//////////////////////Sofi1/////////////////////////////////////////////*/
+/*//////////////////////Sofi1/////////////////////////////////////////////*/
+
+
+
+
+
+/*//////////////////////Sofi2/////////////////////////////////////////////*/
+/*//////////////////////Sofi2/////////////////////////////////////////////*/
+
+.Sofi2BlankLogox4{
+
+background-image: url("../img/sofi.png");
+
+}
+
+
+.Sofi2serm2x4 {
+    background-color: white;
+    background-image: url("../img/sofi.png");
+}
+
+.Sofi2lan2x4 {
+    background-color: whitesmoke;
+    color: rgb(255, 242, 0);
+
+}
+
+
+.Sofi2LangBx4, .Sofi2LangBotherx4 {
+
+background-color:transparent;
+border: 1px solid white;
+color: #000844;
+}
+
+
+.Sofi2Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+   background-image: linear-gradient(to bottom right ,#060002, #595453);
+   color: #b7b7b7;
+
+}
+
+
+
+.Sofi2Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.Sofi2Qty2x4 {
+
+    background-color:whitesmoke;
+    color: #000844;
+
+}
+
+.Sofi2Qtyvalue2x4 {
+
+    background: inherit;
+    color: #368c6a;
+
+}
+
+
+
+.Sofi2Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.Sofi2NumColorsx4 {
+
+    background-color: white;
+    border: 2px solid whitesmoke;
+    color: #368c6a;
+
+}
+
+
+.Sofi2Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.Sofi2Acm2x4, .Sofi2FinBx4 {
+
+
+    border: none;
+    box-shadow: none;
+    color: #000;
+    background-image: linear-gradient(to bottom right ,#77e096, #13acff);
+    background-color: inherit;
+    background-image: linear-gradient(to bottom right ,#38ea6c, #13acff);
+
+}
+
+
+
+.Sofi2AccValuesx4{
+  color: #333;
+}
+
+
+
+
+/*//////////////////////Sofi2/////////////////////////////////////////////*/
+/*//////////////////////Sofi2/////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////China2/////////////////////////////////////////////*/
+/*//////////////////////China2/////////////////////////////////////////////*/
+
+.China2BlankLogox4{
+
+background-image: url("../img/china.png");
+
+}
+
+
+
+.China2serm2x4 {
+
+    background-color: white;
+    background-image: none;
+    background-image: url("../img/china.png");
+}
+
+.China2lan2x4 {
+    background-color: black;
+    color: rgb(255, 242, 0);
+    border-bottom: none;
+}
+
+
+.China2LangBx4, .China2LangBotherx4 {
+
+   background-color: transparent;
+   border: 1px solid #303030;
+   color: #bab9b9;
+}
+
+
+.China2Innerx4 {
+
+    opacity: .95;
+    background-color: #262626;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+    color: #908f8f;
+
+}
+
+
+
+.China2Sm2x4 {
+    background-color: #262626;
+    border: none;
+    color: lightgrey;
+    box-shadow: inset 0 1px 8px black;
+    background-image: linear-gradient(to bottom right ,#3b3b3b, #303030);
+    
+}
+
+
+.China2Qty2x4 {
+
+    background: #212121;
+    color: #cb05c6;
+    color: #bab9b9;
+
+}
+
+.China2Qtyvalue2x4 {
+
+    background: inherit;
+    color: inherit;
+
+}
+
+
+
+.China2Amountx4{
+
+  background-color:inherit;
+  border:none;
+
+}
+
+
+.China2NumColorsx4 {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #212121;
+    color: #cb05c6;
+    color: #bab9b9;
+
+}
+
+
+.China2Fin2x4 {
+
+    background: rgb(64, 19, 21);
+        background-color: rgb(64, 19, 21);
+        background-image: none;
+    background-image: linear-gradient(to bottom right ,#060002, #353535);
+
+}
+
+.China2Acm2x4, .China2FinBx4 {
+
+    border: none;
+    box-shadow: none;
+     color:white;
+background-color: inherit;
+background-image: linear-gradient(to bottom right ,red, #620909);
+}
+
+
+
+.China2AccValuesx4{
+   color: tan;
+}
+
+
+
+/*//////////////////////China2/////////////////////////////////////////////*/
+/*//////////////////////China2/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+.hili{
+color: #333;
+background-color: #e6e6e6;
+border-color: #8c8c8c;
+  
+}
+
+.hili:focus{
+color: #333;
+background-color: #e6e6e6;
+border-color: #8c8c8c;
+  
+}
+
+
+
+
+
+.numVMOBIx4{
+
+  border-width:4px;
+}
+
+
+.serm2MOBIx4 {
+
+    background-size: 105%;
+
+
+}
+
+
+
+
+
+
+
+.Modelsx4{
+  
+  display:none;
+}
+
+
+
+
+.fin2x4{
+  display:none;
+}
+
+
+
+.AtmFin1{
+  display: block
+}
+
+
+
+/*///////////Fin1/////////////////////////*/
+/*///////////Fin1/////////////////////////*/
+
+
+
+/*///////////Fin11/////////////////////////*/
+/*///////////Fin11/////////////////////////*/
+
+
+.AtmFin11 {
+    opacity: .95;
+    height: 84px;
+    width: 100%;
+    padding: 1px 0px;
+}
+
+
+
+
+.AtmFin11MOBI {
+    opacity: .95;
+
+    height: 170px;
+    width: 100%;
+    padding: 1px 0px;
+}
+
+
+
+
+
+
+.finB1 {
+    border: none;
+    border-radius: 22px;
+    margin-right: 25px;
+    font-family: arial;
+    font-size: 20px;
+    padding: 18px 30px;
+    width: 31%;
+    height: 59px;
+    margin: 11px 10px;
+    display: inline-block;
+}
+
+
+
+.finB1MOBI {
+
+    border: none;
+    border-radius: 35px;
+    margin-right: 25px;
+    font-family: arial;
+    font-size: 25px;
+    padding: 28px 30px;
+    width: 40%;
+    height: 85px;
+    margin: 37px 10px;
+    display: inline-block;
+
+}
+
+
+
+
+
+.SelectSendBuyCharge11{
+  padding-left: 88px;
+}
+
+.SelectSendBuyChargeMOBI11{
+    display: none;
+    background-color: transparent;
+    width: 100%;
+    height: 94%;
+    margin: 0px auto;
+    padding-left: 92px;
+}
+
+
+
+
+
+/*////////////////////////////////////////*/
+/*////////////////////////////////////////*/
+
+/*///////////Fin2a/////////////////////////*/
+/*///////////Fin2a/////////////////////////*/
+
+.AtmFin2a {
+    opacity: .95;
+    height: 88px;
+    width: 100%;
+    padding: 2px 20px;
+}
+
+
+
+.AtmFin2aMOBI {
+
+    opacity: .95;
+    height: 168px;
+    width: 100%;
+    padding: 23px 0px;
+
+}
+
+
+
+
+.FinB2a {
+
+    border: none;
+    border-radius: 19px;
+    font-family: arial;
+    font-size: 19px;
+    padding: 18px 30px;
+    width: 100%;
+    height: 60px;
+    margin: 13px auto 10px auto;
+    display: block;
+
+}
+
+.FinB2aMOBI {
+
+    border: none;
+    border-radius: 22px;
+    font-family: arial;
+    font-size: 25px;
+    padding: 42px 30px;
+    width: 92%;
+    height: 113px;
+    margin: 0px auto 10px auto;
+    display: block;
+
+}
+
+
+/*////////////////Fin2a////////////////////////*/
+/*////////////////Fin2a////////////////////////*/
+
+
+/*///////////Fin2/////////////////////////*/
+/*///////////Fin2/////////////////////////*/
+
+.AtmFin2 {
+    opacity: .95;
+    height: 165px;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+
+
+.AtmFin2MOBI {
+    opacity: .95;
+
+    height: 209px;
+    width: 100%;
+    padding: 25px 20px;
+}
+
+
+
+
+.FinB2 {
+    border: none;
+    border-radius: 19px;
+    margin-right: 25px;
+    font-family: arial;
+    font-size: 19px;
+    padding: 17px 30px;
+    width: 92%;
+    height: 55px;
+    margin: 0px auto 10px auto;
+    display: block;
+}
+
+
+.FinB2MOBI {
+
+    border: none;
+    border-radius: 22px;
+    margin-right: 25px;
+    font-family: arial;
+    font-size: 25px;
+    padding: 23px 30px;
+    width: 92%;
+    height: 73px;
+    margin: 0px auto 10px auto;
+    display: block;
+
+}
+
+
+/*////////////////////////////////////////*/
+/*////////////////////////////////////////*/
+
+
+
+/*///////////Fin2/////////////////////////*/
+/*///////////Fin3/////////////////////////*/
+
+
+.AtmFin3 {
+    opacity: .95;
+    height: 84px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+
+
+.AtmFin3MOBI {
+    opacity: .95;
+   
+    height: 150px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+
+
+
+
+
+.FinB3 {
+    border: none;
+    border-radius: 23px;
+    margin-right: 25px;
+    font-family: arial;
+    font-size: 18px;
+    padding: 5px 30px;
+    width: 30%;
+    height: 56px;
+    margin: 14px auto 10px auto;
+    display: inline-block;
+}
+
+
+.FinB3MOBI {
+    border: none;
+    border-radius: 35px;
+    margin-right: 25px;
+    font-family: arial;
+    font-size: 25px;
+    padding: 15px 30px;
+    width: 30%;
+    height: 96px;
+    margin: 26px auto 10px auto;
+    display: inline-block;
+}
+
+
+
+.AtmFinIcons {
+    font-size: 24px;
+}
+
+.AtmFinIconsMOBI {
+    font-size: 40px;
+}
+
+
+
+
+
+.labelTextB3 {
+    display: block;
+    font-size: 13px;
+    font-family: calibri;
+    font-weight: 10;
+}
+
+.labelTextB3MOBI {
+    display: block;
+    font-size: 16px;
+    font-family: calibri;
+    font-weight: 10;
+}
+
+
+
+/*////////////////////////////////////////*/
+/*////////////////////////////////////////*/
+
+
+
+/*///////////Fin4/////////////////////////*/
+/*///////////Fin4/////////////////////////*/
+
+.AtmFin4 {
+    opacity: .95;
+    height: 84px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+
+
+.AtmFin4MOBI {
+    opacity: .95;
+
+    height: 150px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+
+
+
+.FinB4 {
+    border: none;
+    border-radius: 22px;
+    margin-right: 25px;
+    font-family: arial;
+    font-size: 23px;
+    padding: 13px 27px;
+    width: 30%;
+    height: 59px;
+    margin: 13px auto 10px auto;
+    display: inline-block;
+}
+
+
+.FinB4MOBI {
+
+    border: none;
+    border-radius: 35px;
+
+    font-family: arial;
+    font-size: 29px;
+    padding: 35px 27px;
+    width: 30%;
+    height: 104px;
+    margin: 22px auto 10px auto;
+    display: inline-block;
+
+}
+
+
+.SubmitExlarge{
+  width:57%;
+}
+
+.SubmitExsmall{
+  width:27%;
+}
+
+
+/*.AtmFinIcons{
+  font-size: 40px;
+}
+*/
+
+/*////////////////////////////////////////*/
+/*////////////////////////////////////////*/
+
+
+
+
+
+/*///////////Fin11/////////////////////////*/
+/*///////////Fin11/////////////////////////*/
+
+
+
+
+.AtmFin5 {
+    opacity: .95;
+
+    height: 84px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+
+
+
+.AtmFin5MOBI {
+opacity: .95;
+height: 170px;
+width: 100%;
+padding: 0px;
+
+}
+
+
+.finB5x4 {
+    border-radius: 13px;
+    padding: 18px;
+    width: 288px;
+    margin: 12px 2px;
+    margin-right: 2px;
+    margin-right: 1px;
+    font-family: arial;
+}
+
+
+
+.finB5MOBIx4 {
+    border-radius: 10px;
+    padding: 36px;
+    width: 274px;
+    margin: 28px 5px;
+        margin-right: 5px;
+    margin-right: 2px;
+    margin-right: 1px;
+    font-family: calibri;
+    font-size: 28px;
+}
+
+
+
+.SelectWideCTAx4{
+padding-left: 21px;
+}
+
+.SelectWideCTAMOBIx4{
+padding-left: 16px;
+}
+
+
+
+
+
+
+/*///////////Fin11/////////////////////////*/
+/*///////////Fin11/////////////////////////*/
+
+
+/*///////////Fin6b/////////////////////////*/
+/*///////////Fin6b/////////////////////////*/
+
+.AtmFin6b {
+    opacity: .95;
+    height: 88px;
+    width: 100%;
+    padding: 2px 20px;
+}
+
+
+
+.AtmFin6bMOBI {
+
+    opacity: .95;
+    height: 168px;
+    width: 100%;
+    padding: 23px 0px;
+
+}
+
+
+
+
+.FinB6b {
+
+    border: none;
+    border-radius: 19px;
+    font-family: arial;
+    font-size: 19px;
+    padding: 18px 30px;
+    width: 85%;
+    height: 60px;
+    margin: 13px auto 10px auto;
+    display: block;
+
+}
+
+.FinB6bMOBI {
+
+    border: none;
+    border-radius: 22px;
+    font-family: arial;
+    font-size: 25px;
+    padding: 42px 30px;
+    width: 92%;
+    height: 113px;
+    margin: 0px auto 10px auto;
+    display: block;
+
+}
+
+
+/*////////////////Fin6b////////////////////////*/
+/*////////////////Fin6b////////////////////////*/
+
+
+
+.AtmFin7 {
+    opacity: .95;
+
+    height: 84px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+
+
+
+.AtmFin5MOBI {
+opacity: .95;
+height: 170px;
+width: 100%;
+padding: 0px;
+
+}
+
+
+.finB7x4 {
+
+width: 68%;
+}
+
+
+.SelectWideCTAx4{
+padding-left: 0px;
+}
+
+.SelectWideCTAMOBIx4{
+padding-left: 16px;
+}
+
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////*/
+
+
+
+
+/*///////////Fin11/////////////////////////*/
+/*///////////Fin11/////////////////////////*/
+
+
+
+
+.AtmFin8 {
+    opacity: .95;
+
+    height: 84px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+
+
+
+.AtmFin8MOBI {
+opacity: .95;
+height: 170px;
+width: 100%;
+padding: 0px;
+
+}
+
+
+.finB8x4 {
+    border-radius: 13px;
+    padding: 18px;
+    width: 198px;
+    margin: 12px 2px;
+    margin-right: 2px;
+    margin-right: 1px;
+    font-family: arial;
+}
+
+
+
+.finB8MOBIx4 {
+    border-radius: 10px;
+    padding: 36px;
+    width: 274px;
+    margin: 28px 5px;
+        margin-right: 5px;
+    margin-right: 2px;
+    margin-right: 1px;
+    font-family: calibri;
+    font-size: 28px;
+}
+
+
+
+.SelectWideCTAx4 {
+padding-left: 20px;
+}
+
+.SelectWideCTAMOBIx4{
+padding-left: 16px;
+}
+
+
+
+
+
+
+/*///////////Fin11/////////////////////////*/
+/*///////////Fin11/////////////////////////*/
+
+
+
+
+
+/*///////////Fin8b/////////////////////////*/
+/*///////////Fin8b/////////////////////////*/
+
+.AtmFin8b {
+    opacity: .95;
+    height: 88px;
+    width: 100%;
+    padding: 2px 20px;
+}
+
+
+
+.AtmFin8bMOBI {
+
+    opacity: .95;
+    height: 168px;
+    width: 100%;
+    padding: 23px 0px;
+
+}
+
+
+
+
+.FinB8b {
+
+    border: none;
+    border-radius: 19px;
+    font-family: arial;
+    font-size: 19px;
+    padding: 18px 30px;
+    width: 85%;
+    height: 60px;
+    margin: 13px auto 10px auto;
+    display: block;
+
+}
+
+.FinB8bMOBI {
+
+    border: none;
+    border-radius: 22px;
+    font-family: arial;
+    font-size: 25px;
+    padding: 42px 30px;
+    width: 92%;
+    height: 113px;
+    margin: 0px auto 10px auto;
+    display: block;
+
+}
+
+
+/*////////////////Fin8b////////////////////////*/
+/*////////////////Fin8b////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////////////////////*/
+/*////////////////////////////////////////*/
+
+
+
+
+.lan2MobileBottom {
+
+    background-color: #9e9e9e;
+    display: none;
+    border-radius: 0px 0px 50px 50px;
+    height: 120px;
+    width: 100%;
+    padding: 15px 10px;
+    border-bottom: none;
+
+}
+
+
+
+
+
+
+.langBMOBIx4, .HelloNamex4, .Menux4 {
+
+    border: none;
+    background-color: transparent;
+
+}
+
+
+
+
+.CCAx4{
+
+  border-width:1px;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lanBinnerx4{
+  background-color: transparent;
+  border:none;
+  color:inherit;
+}
+
+
+
+
+
+/*/////////////*/
+.qtyvalue2x4{
+  color:inherit;
+  border:none;
+}
+
+.amountx4{
+  color:inherit;
+  border:none;
+}
+.NumPadx4{
+  color:inherit;
+}
+/*////////////////*/
+
+
+
+
+/*///////////DPat////////////////////*/
+/*///////////DPat////////////////////*/
+
+
+/*
+
+.uiXX, .ui2x8, .ui22, .UiPat{
+  background-color: white;
+  border:1px dashed black;
+  box-shadow: none;
+}
+
+
+
+.langBx4, .LanBxx, .langBx8, .LangBPat{
+ background-color: transparent;
+ color:none;
+ border:1px solid black;
+
+}
+
+.lan2x4, .lan22, .Lan2x8, .Lan2Pat{
+  background-image:none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  box-shadow: none;
+  color:black;
+}
+
+
+
+
+
+
+
+
+
+.InnerX, .itmXX .InnerX8, .InnerPat{
+  background-image:none;
+  color:black;
+  background-color: white;
+  box-shadow: none;
+  opacity: 1;
+}
+
+
+
+
+.priBtnXX, .itmVxx, .GaspriBtnXX, .itmPat{
+ color:black;
+ background-color: white;
+ border:1px solid black;
+box-shadow: none;
+background-image: none;
+
+}
+
+
+.HelloNamex4, .langBx4, .LanBxx, .langBx8, .Menux4, .Menux8, .AccValuesx4, .AccPerformancex4, .itm22Cost, .SpecFontsCost, .IhaveThisMuchx8, .Galx8, .total2, .NamePat{
+color:black;
+background-color: white;
+}
+
+.HelloPhotox4, .HelloPhotox8, .PhotoPat{
+  filter:grayscale(99%);
+}
+
+
+
+.feesx4, .feesx8, .FeesPat{
+  border-top: 1px solid black;
+   border-bottom: none;
+  color: black;
+  background-color: white;
+  box-shadow: none;
+}
+
+
+.qty2x4, .py2, .qty2x8, .QtyPat{
+  background-image:none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: black;
+  background-color: white;
+  box-shadow: none;
+
+}
+
+
+.numVx8, .numVx4, .PayButxx, .finB22, .numVPat{
+  background-image:none;
+  color: black;
+  background-color: white;
+  border:1px solid black;
+  box-shadow: none;
+}  
+
+
+.fin2x4, .finX, .fin2x8 .fin2Pat{
+  background-image:none;
+  color:black;
+  background-color: transparent;
+  box-shadow: none;
+
+
+}
+
+
+*/
+
+
+
+
+
+/*///////////DPat////////////////////*/
+/*///////////DPat////////////////////*/
+
+
+
+
+

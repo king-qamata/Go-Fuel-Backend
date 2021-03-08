@@ -1,0 +1,1988 @@
+/*
+
+
+.atmUI2{
+  height:740px;
+  width: 612px;
+ 
+ 
+  background-color: green;
+  padding:1px;
+  float:right;
+  clear:right;
+  
+  margin:auto;
+
+}
+
+*/
+
+.nav > li > a {
+
+  font-size:12px;
+}
+
+
+
+.jumbo2{
+
+    
+    height:600px;
+  
+}
+
+
+
+.jumbo2 h1{
+    font-size:40px;
+    padding-top:220px;
+    margin-bottom:100px;
+    text-align: center;
+    font-family:Georgia;
+    margin:0px;
+    color:white;
+    padding-bottom: 30px;
+}
+
+
+
+.jumbo2 p{
+    font-size:18px;
+    font-family:candara;
+    text-align:center;
+    color:lightblue;
+    width:90%;
+
+}
+
+
+.uiBtop {
+    font-size: 25px;
+    opacity: 0.5;
+    width: 60px;
+    height: 60px;
+    margin-right: 0%;
+    border-radius: 20px;
+    margin: 30px 10px 50px 10px;
+    border: none;
+    padding: 5px;
+}
+
+
+
+.history{
+
+  padding-left: 0px;
+padding-right: 0px;
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.firstRow {
+    background-color: white;
+    padding: 10px 10px 100px 10px;
+    
+
+}
+
+
+
+
+.container-fluid{
+  padding-left: 0px;
+}
+
+/*
+
+.uiATM {
+    background-color: #f8f8f8;
+    padding: 100px 10px 100px 10px;  
+}
+*/
+
+
+
+
+
+/*.jumboMain{
+
+    margin:auto;
+    width:100%;
+    height:auto;
+    
+    padding:auto;
+    overflow:auto;
+    background-color: rgb(235, 235, 235);
+}
+*/
+
+
+
+
+
+
+/*
+.row{
+width: 100%;
+margin-left:3%;
+
+}
+*/
+
+
+
+.navbar-brand{
+
+ margin-bottom: 5px;
+ font-family: times;
+  margin-left: ;
+  font-size: 30px;
+}
+
+
+
+
+.Colors, .Colorsx2, .ColorsMOBI, .ColorsMOBIx2{
+
+  width: 100%;
+  margin:auto;
+
+  left:50%;
+  bottom:20%;
+}
+
+
+
+
+
+
+
+
+
+
+/*//////////*/
+
+.ScreenTColors, .ScreenTColorsx2{
+
+
+margin-bottom: 18%;
+}
+
+
+.screenType, .screenTypex2{
+
+
+}
+
+.screenType button, .screenTypex2 button, .screenTypex3 button{
+
+
+transform: scale(.7);
+
+}
+
+
+
+
+
+.screenTypeVM{
+float:right;
+width: 30%;
+
+}
+
+
+
+.screenTypeVM button{
+
+margin: 0px -20px;
+transform: scale(.7);
+
+}
+
+
+
+
+.UICbuttons, .UIBMOBI{
+  
+margin: 0% 30% 2% 0%;
+width: auto;
+}
+
+
+
+
+
+
+.UICbuttons button, .UIBMOBI button{
+  height:37px; 
+  width:47px; 
+  border-radius: 30px;
+  border:none;
+  margin:0px 5px 15px 0px;
+  display:;
+}
+
+
+
+
+.BothColors, .BothColorsx2{
+width:100%;
+display: inline-block;
+float:none;
+width:70%;
+
+}
+
+
+
+.Colors, .Colorsx2, .ColorsMOBI, .ColorsMOBIx2{
+
+  width:100%;
+  margin:0% 0% 2% 0%;
+
+}
+
+
+
+.denoOptionsx2{
+
+  display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.atmIcons{
+    width:100%;
+    margin:auto;
+    position:;
+    /*transform: translate(400px, 670px);*/
+    font-size:38px;
+    background-color:;
+    
+    height:auto;
+    float:right;
+    display:block;
+
+    margin-top:50px; 
+    margin-bottom:200px; 
+
+
+
+}
+
+
+
+
+
+
+
+.atmIcons a {
+    font-size: 40px;
+    margin:25px;
+display:inline;
+}
+
+
+
+
+#ATM1Machinex4, #ATM1Mobilex4, #Vm2Mobile, #Vm2Machine, #ATM1Mobilex8, #ATM1Machinex8 {
+    background-color: inherit;
+    border: none;
+    height: 86px;
+    width: 77px;
+    font-size: 40px;
+    color: black;
+}
+
+.FintColor, .SelColor {
+    background-color: white;
+    border: none;
+    height: 51px;
+    width: 60px;
+    margin: 2px 5px 2px 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    padding: 5px 2px;
+    box-shadow: none;
+}
+
+
+
+
+
+.BothColors button {
+    height: 42px;
+    width: 53px;
+
+border-radius: 11px;
+border: none;
+margin: 0px 2px 20px 0px;
+border: none;
+box-shadow: inset 0 1px 3px grey;
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 800px){
+
+  .ThumbDetails, .Hdetails {
+
+    display: none;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 500px){
+
+
+
+
+
+
+
+
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(0.73);
+position: relative;
+left: -88px;
+top: -69px;
+float: left;
+margin-bottom: 150%;
+}
+
+
+
+
+
+
+/*//////////   Machine  /////////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.73);
+position: relative;
+left: -88px;
+top: -69px;
+float: left;
+margin-bottom: 150%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.48);
+top: -250px;
+margin-bottom: -13%;
+left: -86px;
+
+}
+
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+   
+
+
+@media screen and (min-width: 501px) and (max-width: 550px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(0.73);
+position: relative;
+left: -75px;
+top: -69px;
+float: left;
+margin-bottom: 140%;
+
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.73);
+position: relative;
+left: -95px;
+top: -69px;
+float: left;
+margin-bottom: 140%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.48);
+top: -250px;
+margin-bottom: -13%;
+left: -86px;
+
+}
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+   
+
+
+@media screen and (min-width: 551px) and (max-width: 580px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(0.80);
+position: relative;
+left: -46px;
+top: -53px;
+float: left;
+margin-bottom: 150%;
+
+}
+
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.80);
+position: relative;
+left: -75px;
+top: -53px;
+float: left;
+margin-bottom: 150%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.48);
+top: -250px;
+margin-bottom: -16%;
+left: -52px;
+
+}
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 53px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+   
+
+
+@media screen and (min-width: 581px) and (max-width: 600px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(0.80);
+position: relative;
+left: -35px;
+top: -53px;
+float: left;
+margin-bottom: 150%;
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.80);
+position: relative;
+left: -55px;
+top: -53px;
+float: left;
+margin-bottom: 150%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.48);
+top: -250px;
+margin-bottom: -13%;
+left: -52px;
+
+}
+
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 53px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+
+
+
+   
+
+
+@media screen and (min-width: 601px) and (max-width: 630px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(0.90);
+position: relative;
+left: -29px;
+top: -20px;
+float: left;
+margin-bottom: 160%;
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.90);
+position: relative;
+left: -45px;
+top: -20px;
+float: left;
+margin-bottom: 160%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+
+
+
+.uiXXMOBI{
+  
+position: relative;
+transform: scale(.48);
+top: -250px;
+margin-bottom: -14%;
+left: -52px;
+
+}
+
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 53px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+@media screen and (min-width: 631px) and (max-width: 660px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(0.95);
+position: relative;
+left: -20px;
+top: -36px;
+float: left;
+margin-bottom: 170%;
+}
+
+/*//////////   Machine  ///////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.9);
+position: relative;
+left: -38px;
+top: -36px;
+float: left;
+margin-bottom: 170%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+position: relative;
+transform: scale(.48);
+top: -250px;
+margin-bottom: -15%;
+left: -34px;
+
+}
+
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 53px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+@media screen and (min-width: 661px) and (max-width: 690px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(1);
+position: relative;
+left: -2px;
+top: 46px;
+float: left;
+margin-bottom: 174%;
+
+}
+
+
+
+/*//////////   Machine  ///////////////*/
+
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(.93);
+position: relative;
+left: -25px;
+top: 46px;
+float: left;
+margin-bottom: 174%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+position: relative;
+transform: scale(.50);
+top: -250px;
+margin-bottom: -9%;
+left: -17px;
+
+}
+
+
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 53px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 691px) and (max-width: 700px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(1);
+position: relative;
+left: 18px;
+top: 50px;
+margin-bottom: 180%;
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(.98);
+position: relative;
+left: -11px;
+top: 50px;
+margin-bottom: 180%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+
+
+.uiXXMOBI{
+
+transform: scale(.60);
+position: relative;
+left: 18px;
+top: -227px;
+margin-bottom: 23%;
+
+}
+
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 53px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+@media screen and (min-width: 701px) and (max-width: 800px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(1);
+position: relative;
+left: 18px;
+top: 50px;
+margin-bottom: 152%;
+
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(1);
+position: relative;
+left: -4px;
+top: 50px;
+margin-bottom: 152%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+
+
+.uiXXMOBI{
+
+transform: scale(.60);
+position: relative;
+left: 18px;
+top: -227px;
+margin-bottom: 22%;
+
+}
+
+
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 53px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+}
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+
+
+.BothColors button {
+    height: 42px;
+    width: 53px;
+
+border-radius: 11px;
+border: none;
+margin: 0px 2px 20px 0px;
+border: none;
+box-shadow: inset 0 1px 3px grey;
+
+}
+
+
+
+
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 900px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+transform: scale(1);
+position: relative;
+left: 18px;
+top: 50px;
+margin-bottom: 152%;
+
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+
+
+.uiXXMOBI{
+
+transform: scale(.60);
+position: relative;
+left: 18px;
+top: -227px;
+margin-bottom: 25%;
+
+}
+
+
+
+
+
+@media screen and (min-width: 991px) and (max-width: 1100px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+
+margin-bottom: 115%;
+
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+
+
+.uiXXMOBI{
+margin-bottom: 30%;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.lead{
+
+  font-size:18px;
+}
+
+
+
+
+.sections1{
+  margin-bottom: 100px;
+}
+
+
+.footer .icons{
+  display:none;
+}
+
+
+/* .pp2, .pp3, .pp4, .pp5{
+  display:none;
+}
+*/
+
+
+.showB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  boder:none;
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+}
+
+
+
+
+
+.HideB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:none;
+}
+
+
+.firtUI{
+
+   background-color:white;
+   padding: 100px 60px 60px 60px;
+  
+}
+.uispacer{
+  margin-top:10px;
+}
+
+.secondUI{
+
+   background-color:#f8f8f8;
+   padding: 100px 60px 60px 60px;
+   
+}
+
+
+.thirdUI{
+
+   background-color:white;
+   padding: 100px 60px 60px 60px;
+   
+}
+
+.fourthUI{
+
+   background-color:#f8f8f8;
+   padding: 100px 60px 60px 60px;
+   
+}
+
+.Sumary{
+  padding:50px 20px 50px 20px;
+}
+
+/*.pp1, .pp2, .pp3, .pp4, .pp5, .pp6{
+  display:none;
+}*/
+
+
+
+/*.atmMiniHide, .ui22, .ui44{
+  display:none;
+}
+
+.atmhide, .vm2Mini, .vm4Mini{
+  display:inline;
+}*/
+
+
+
+.row, .banner, .success, #team, #contact {
+   width: 95%;
+   margin:auto;
+   margin:3% 2.5%;
+   border-radius: 10px;
+
+
+}
+
+
+.banner{
+   width: 95%;
+   margin:auto;
+   margin:3% 2.5%;
+   border-radius: 10px;
+   padding-top: 220px;
+  padding-left: 10px;
+padding-right: 10px;
+
+}
+
+
+.row > h2{
+  font-family: times;
+  font-size: 38px;
+  margin-bottom: 10%;
+}
+
+
+.history{
+
+  padding-left: 0px;
+padding-right: 0px;
+font-size: 18px;
+}
+
+
+.jumbo2 h1 {
+    font-size: 40px;
+ }
+
+
+
+@media screen and (min-width: 481px) and (max-width: 550px){
+
+
+
+
+
+    .ThumbDetails, .Hdetails {
+
+    display: none;
+
+}
+
+
+
+
+
+.jumbo2{
+
+    
+    height:600px;
+  
+}
+
+
+.jumbo2 h1{
+    font-size:40px;
+    padding-top:220px;
+    margin-bottom:100px;
+    text-align: center;
+    font-family:Georgia;
+    margin:0px;
+    color:white;
+    padding-bottom: 30px;
+
+}
+
+
+.jumbo2 p{
+    font-size:18px;
+    font-family:candara;
+    text-align:center;
+    color:lightblue;
+    width:90%;
+
+}
+
+
+
+
+  .moDeno {
+    float: right;
+    height: 200px;
+    width: 350px;
+    background-color:;
+    display: block;
+    margin-top: -15%;
+    margin-right: 5%;
+    margin-bottom: -20%;
+}
+
+
+
+.Deno label{
+
+font-size: 12px;
+margin-bottom:10%;
+margin-top:5%;
+}
+
+#atM1, #atM2{
+
+font-size: 12px;
+margin-bottom:;
+margin-top:;
+}
+
+
+.banner {
+    font-size: 40px;
+    color: white;
+    padding-top: 230px;
+}
+
+
+.uiBtop{
+
+font-size:25px;
+   margin:0px 10px 50px 10px;   
+  height:60px;
+  width:63px;
+
+}
+
+
+.uiB{
+  font-size: 20px;
+  opacity: 0.5;
+  margin-right: 0%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+
+
+
+.showB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  boder:none;
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:inline;
+}
+
+
+
+
+
+.HideB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:none;
+}
+
+
+
+
+#history {
+    
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 551px) and (max-width: 580px){
+
+
+    .ThumbDetails, .Hdetails {
+
+    display: none;
+
+}
+
+
+
+
+.BothColors button{
+height: 40px;
+width: 50px;
+  border-radius:;
+  border:none;
+  margin:0px 5px 15px 0px;
+  display:;
+
+}
+
+
+
+
+
+
+
+.BothColors, .BothColorsx2{
+
+  padding-left: 10px;
+}
+
+
+
+
+.Deno{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+.banner{
+
+ padding-top: 220px;
+  font-size: 50px;
+
+  background-size: cover;
+
+
+}
+
+
+#history {
+    
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+
+}
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 581px) and (max-width: 634px){
+
+
+.ThumbDetails, .Hdetails {
+
+    display: none;
+
+}
+
+
+
+.ScreenTColors, .ScreenTColorsx2{
+  padding-bottom: 60px;
+}
+
+
+.BothColors, .BothColorsx2{
+
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+.screenType, .screenTypex2{
+
+margin-top: 0px;
+
+
+}
+
+
+
+
+.screenTypeVM button{
+
+margin:0px -20px;
+transform: scale(.8);
+
+}
+
+
+
+
+.screenType button, .screenTypex2 button{
+
+transform: scale(.8);
+
+
+}
+
+
+
+
+.Deno{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+
+
+.banner{
+
+  padding-top: 220px;
+  font-size: 50px;
+
+  background-size: cover;
+
+
+}
+
+.atm1Details, .atm2Details, .vm1Details, .vm2Details, .vm3Details, .vm4Details , .Hdetails{
+
+   display:none;
+}
+
+
+
+
+}
+
+
+@media screen and (min-width: 635px) and (max-width: 699px){
+
+
+  .ThumbDetails, .Hdetails {
+
+    display: none;
+
+}
+
+
+
+.screenTypeVM button{
+
+
+transform: scale(.8);
+
+}
+
+
+
+.UICbuttons button{
+  transform: scale(1);
+
+}
+
+
+
+
+
+
+
+
+.screenType, .screenTypex2{
+
+margin-top: 0px;
+
+
+}
+
+
+
+
+
+/*//////////*/
+
+.ScreenTColors, .ScreenTColorsx2{
+
+
+margin-bottom:10px;
+
+ /* padding-bottom: 60px;
+*/
+}
+
+
+
+.BothColors, .BothColorsx2{
+
+  padding-left: 30px;
+}
+
+
+
+
+
+/*//////////////*/
+
+
+
+
+
+
+
+
+
+.Deno{
+  margin-top: 10%;
+  margin-bottom: -10%;
+}
+
+
+
+
+
+
+  .moDeno {
+    float: right;
+    height: 200px;
+    width: 350px;
+    background-color:;
+    display: block;
+    margin-top: 15%;
+    margin-right: 20%;
+    margin-bottom: -10%;
+}
+
+
+.nav > li > a {
+
+  font-size:15px;
+}
+.Deno label{
+
+font-size: 15px;
+margin-bottom:10%;
+margin-top:5%;
+}
+
+#atM1, #atM2{
+
+font-size: 18px;
+margin-bottom:;
+margin-top:;
+}
+
+
+
+
+
+
+
+.showB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  boder:none;
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:inline;
+}
+
+
+
+
+
+.HideB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:none;
+}
+
+
+.banner{
+
+  padding-top: 200px;
+  font-size: 50px;
+
+  background-size: cover;
+
+
+}
+
+
+.jumbo2 p {
+    font-size: 16px;
+    width: 90%;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+
+
+
+.atm1Details, .atm2Details, .vm1Details, .vm2Details, .vm3Details, .vm4Details , .Hdetails{
+
+   display:none;
+}
+
+
+.thumbText {
+    height: auto;
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 2000px){
+
+.atm1Details, .atm2Details, .vm1Details, .vm2Details, .vm3Details, .vm4Details{
+
+   display:inline-block;
+}
+
+
+.Sdetails, .Hdetails{
+
+   display:none;
+}
+
+
+
+.Deno{
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.screenTypeVM{
+float:right;
+width: 40%;
+
+}
+
+
+
+.screenTypeVM button{
+
+margin: 0px -20px;
+transform: scale(.8);
+
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 700px) and (max-width: 990px){
+
+
+  .Deno{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+
+.screenTypeVM button{
+
+
+transform: scale(.8);
+
+}
+
+
+
+.screenTypeVM{
+float:right;
+width: 40%;
+
+}
+
+
+
+.screenTypeVM button{
+
+margin: 0px -20px;
+transform: scale(.8);
+
+}
+
+
+
+
+
+
+
+.jumbo2 p {
+    font-size: 16px;
+    width: 90%;
+
+}
+
+
+  }
+
+
+
+
+
+
+
+.BothColors, .BothColorsx2{
+
+  padding-left: 30px;
+}
+
+
+
+.ScreenTColors, .ScreenTColorsx2{
+
+
+margin-bottom:10px;
+
+  padding-bottom: 40px;
+
+}
+
+
+
+
+
+  .moDeno {
+    float: right;
+    height: 200px;
+    width: 350px;
+    background-color:;
+    display: block;
+    margin-top: 15%;
+    margin-right: 20%;
+    margin-bottom: -15%;
+}
+
+
+
+.Deno label{
+
+font-size: 15px;
+margin-bottom:10%;
+margin-top:5%;
+}
+
+#atM1, #atM2{
+
+font-size: 18px;
+margin-bottom:;
+margin-top:;
+}
+
+
+
+
+  .nav > li > a {
+
+  font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+/*.banner{
+
+  padding-top: 350px;
+ 
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thumbM{
+
+  height:650px;
+}
+
+
+
+/*.atm1Details, .atm2Details, .vm1Details, .vm2Details, .vm3Details, .vm4Details , .Hdetails{
+
+   display:none;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+

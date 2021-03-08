@@ -1,0 +1,1698 @@
+
+
+
+.navbar-brand{
+
+ font-family: times;
+  margin-left:10px;
+  font-size: 18px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: lightgrey;
+    font-size: 18px;
+}
+
+
+
+body{
+    overflow-x:hidden; 
+    width: 100%;
+}
+
+.container-fluid{
+
+    padding-right: 0px;
+}
+
+
+
+.row, .banner, .success, #team, #contact {
+   width: 95%;
+   margin:auto;
+   margin:2.5% 2.5%;
+   border-radius: 10px;
+
+}
+
+
+
+.banner{
+font-size: 40px;
+padding-top: 200px;
+padding-left: 10px;
+padding-right:10px;
+}
+
+
+
+
+
+.row > h2{
+  margin-top: 70px;
+  font-family: times;
+  font-size: 38px;
+  margin-bottom: 10%;
+}
+
+
+
+
+.jumbo2{
+
+  
+    
+    background-color: black;
+    height:520px;
+    z-index: 1;
+    color:darkgrey;
+    
+    padding-bottom: 120px;
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+
+.history{
+
+  padding-left: 0px;
+padding-right: 0px;
+font-size: 18px;
+}
+
+
+.moDeno {
+    float: right;
+    height: 200px;
+    width: 350px;
+    background-color:;
+    display: block;
+    margin-top: -35%;
+    margin-right: 1px;
+   
+}
+
+
+
+.Deno label{
+
+font-size: 12px;
+margin-bottom:10%;
+margin-top:5%;
+}
+
+#atM1, #atM2{
+
+font-size: 12px;
+margin-bottom:;
+margin-top:;
+}
+
+
+
+
+
+.jumbo2 h1{
+    width:91%; 
+    font-size:30px;
+    padding-top:150px;
+    text-align: center;
+    font-family:Georgia;
+    margin:auto;
+    color:white;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+.jumbo2 p{
+    width:90%;  
+    font-size:15px;
+    font-family:candara;
+    text-align:center;
+    color:lightblue;
+    margin:auto;
+
+}
+.container{
+  padding-left:0px;
+  padding-right:0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+
+
+
+.atmIcons{
+    position:;
+    /*transform: translate(400px, 670px);*/
+    font-size:15px;
+    background-color:;
+    width:620px;
+    height:auto;
+    float:right;
+    display:block;
+    top:190px;
+    margin-top:15%; 
+    margin-bottom:15%; 
+
+
+
+}
+
+
+
+/*.onex{
+  display:none;
+}
+
+.twox{
+  display:block;
+}
+*/
+
+
+
+
+.atmIcons a {
+    margin:25px;
+display:inline;
+}
+
+
+
+
+
+.Main{
+
+    padding:0px;
+}
+
+
+.jumboMain{
+
+    margin:0px;
+    width:100%;
+    height:auto;
+    
+    padding-right:0px;
+    padding-left:0px;
+    overflow:;
+    background-color: rgb(235, 235, 235);
+}
+
+
+
+
+
+#p1{
+    margin:auto;
+    text-align: center;
+    width:75%;
+    font-family:candara;
+    font-size:25px;
+}
+
+p{
+    font-family: candara;
+}
+
+
+
+
+
+.img1{
+  height:250px;
+ width:95%;
+
+ background: url(../img/todayatm.jpg) no-repeat center center;
+ background-size: cover;
+ border-radius: 20px;
+ margin-top:50px;
+ border:3px solid grey;
+ margin-right:10px;
+ margin-left: 10px;
+ float:right;
+
+}
+
+
+
+
+.uiATM{
+
+   background-color: #f8f8f8;
+   padding: 10px 0px 70px 0px;
+   
+   width:95%;
+   height:auto;
+
+}
+
+
+
+
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+    transform: scale(.68);
+      position: relative;
+  
+  left:-105px;
+  top:-150px;
+  float:left;
+  margin-top: 150px;
+  margin-bottom: -30%;
+
+}
+
+/*.ui2, .ui2x2, .ui2x3, .ui2x4, .ui2x8{
+transform: scale(.51);
+position: relative;
+left: -147px;
+top: -102px;
+float: left;
+margin-bottom: -28%;
+
+}
+*/
+/*//////////Machine ///////////////*/
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+    transform: scale(.68);
+      position: relative;
+  
+  left:-105px;
+  top:-150px;
+  float:left;
+  margin-top: 150px;
+  margin-bottom: -30%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*///////MOBILE/////////////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.42);
+top: -250px;
+margin-bottom: -108%;
+}
+
+
+/*.ui2MOBI, .ui2MOBIx2, .ui2MOBIx3, .ui2MOBIx4, .ui2MOBIx8{
+transform: scale(.42);
+top: -250px;
+margin-bottom: -139%;
+
+}*/
+
+
+
+
+/*///////MOBILE/////////////////////////*/
+
+
+
+
+
+
+
+
+
+.checkinginfo2{
+  font-size:16px;
+
+  }
+
+
+.savinginfo2{
+  font-size:16px;
+
+  }
+
+
+/*
+sections1{
+  padding-left:0px;
+  padding-right:0px;
+}*/
+
+
+
+.firstRow{
+
+   background-color: white;
+   padding: 100px 10px 70px 10px;
+   width:100%;
+}
+
+
+
+.firstRow p{
+
+  float:left;
+}
+
+
+.firtUI{
+
+   background-color:white;
+   padding: 10px 0px 70px 0px;
+   
+   width:95%;
+
+   height:auto;
+
+
+}
+
+
+.lead{
+
+  font-size: 18px;
+  padding:0px;
+  margin:0px;
+  width:95%;
+}
+
+
+.lead, ul{
+
+  font-size: 14px;
+  color:grey;
+}
+
+
+
+
+/*.uiText{
+
+  margin-top:-60%;
+  font-size: 20px;
+  
+}*/
+
+
+
+
+#panel2{
+  font-size: 15.1px;
+  border-radius: 5px;
+}
+
+
+
+.secondUI{
+
+   background-color:#f8f8f8;
+   padding: 10px 0px 70px 0px;
+   height:auto;
+
+}
+
+
+
+.ui22{
+  position: relative;
+  transform: scale(.58);
+  left:-135px;
+  top:-150px;
+  float:left;
+  margin-bottom: 30px;
+  margin-top: 80px;
+
+
+}
+
+
+#panel22{
+  font-size: 15.1px;
+  border-radius: 5px;
+}
+
+
+.thirdUI{
+
+   background-color:white;
+   padding: 10px 0px 50px 0px;
+   height:auto;
+}
+
+
+
+.ui33{
+  position: relative;
+  transform: scale(.58);
+  left:-135px;
+  bottom:0px;
+  float:left;
+  margin-bottom:10px;
+  margin-top: 80px;
+
+}
+
+
+
+.fourthUI{
+
+   background-color:#f8f8f8;
+   padding: 10px 0px 10px 0px;
+   height:auto;
+}
+
+
+
+
+
+
+
+
+#panel33{
+  font-size: 15.1px;
+  border-radius: 5px;
+}
+
+/*.model3{
+  margin-top: -200px;
+}*/
+
+
+
+
+
+.Sumary{
+    background-color:white;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 40px;
+  
+}
+.sumary p{
+
+    margin:auto;
+}
+
+
+.banner{
+
+  
+  height:400px;
+  width:95%;
+  padding-top: 150px;
+  font-size: 35px;
+  color:white;
+  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background-size: cover;
+padding-top: 200px;
+
+}
+
+.uiB{
+  font-size: 20px;
+  opacity: 0.5;
+  margin-right: 0%;
+  border-radius: 5px;
+
+}
+
+
+.uiBtop{
+  font-size: 15px;
+  opacity: 0.5;
+    width:40px;
+  height:40px;
+  margin-right: 0%;
+  border-radius: 15px;
+   margin:18px 10px 50px 10px;   
+  
+
+}
+
+
+
+.ico{
+ /*margin-left:40%;   */
+}
+
+
+
+
+
+hr{
+border:2px solid #e7e7e7;
+width: 300px;
+display: none;
+
+}
+
+
+.showB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  boder:none;
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:inline;
+}
+
+
+
+
+
+.HideB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:none;
+}
+
+/*.pp1, .pp2, .pp3, .pp4, .pp5, .pp6{
+  display:none;
+}*/
+
+
+/*.atmMiniHide, .ui22, .ui44{
+  display:none;
+}
+
+.atmhide, .vm2Mini, .vm4Mini{
+  display:inline;
+}
+*/
+
+
+
+
+
+/*.sections1{
+    width:100%;
+    height:auto;
+    float:;
+    clear:left;
+    font-size: 30px;
+}
+
+.sections1 h2{
+
+    font-family: times;
+    text-align:center;
+    margin:15px;
+}
+
+.sections1 p{
+
+
+    text-align: center;
+    margin-left:;
+    font-size: 20px;
+
+}
+
+*/
+
+
+
+
+/*/////////*/
+.ScreenTColorsx4{
+  height: auto;
+
+}
+
+
+
+
+
+.BothColors, .BothColorsx2{
+width:100%;
+display: inline-block;
+float:none;
+width:60%;
+float:;
+}
+
+
+
+.Colors, .Colorsx2, .ColorsMOBI, .ColorsMOBIx2, .Colorsx3, .ColorsMOBIx3{
+
+  width:100%;
+  margin:0% 0% 2% 0%;
+
+}
+
+
+
+.denoOptionsx2{
+
+  display:block;
+}
+
+
+.BothColors button{
+  height:27px; 
+  width:37px; 
+  border-radius: inherit;
+  border:none;
+  margin:0px 5px 15px 0px;
+  display:;
+
+}
+
+
+
+
+
+
+
+
+.Vm1screenTbuttons {
+
+    padding: 44px 0%;
+ 
+}
+
+
+
+.screenType, .screenTypex2, .screenTypex4{
+width: 30%;
+}
+
+
+
+.screenType button, .screenTypex2 button, .screenTypex3 button, .screenTypex4 button{
+
+transform: scale(.7);
+margin: 0px -20px;
+
+}
+
+
+
+
+
+
+
+
+.screenTypeVM{
+float:right;
+width: 40%;
+
+}
+
+
+
+.screenTypeVM button{
+
+margin: 0px -25px;
+transform: scale(.6);
+
+}
+
+
+
+.UICbuttons, .UIBMOBI{
+  
+/*margin: 0% 45% 2% 0%;
+width: auto;*/
+}
+
+
+
+.UICbuttons button, .UIBMOBI button{
+  height:27px; 
+  width:37px; 
+  border-radius: 30px;
+  border:none;
+  margin:0px 5px 15px 0px;
+  display:;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+    margin-bottom:0%;
+    width:100%;
+    height:50px;
+    background-color:darkgray;
+    color:red;
+    clear:right;
+    padding:10px;
+
+}
+
+.footer .icons{
+
+  display: none;
+
+}
+
+
+
+
+
+
+
+.text-muted{
+
+color:white;
+
+}
+
+
+
+
+.CuiBtop{
+
+    transform: scale(.80);
+    opacity: 0.8;
+    font-size: 25px;
+    color:white;
+    border-radius: 10px;
+    margin:auto;
+
+
+   
+    background-color: lightgrey;
+   border: none;
+   padding: 5px 10px;
+
+ 
+}
+
+
+.buttonsx2 button{
+
+
+margin: 1% 0% 2% 0%;
+
+}
+
+
+#ATM1Machinex4, #ATM1Mobilex4, #Vm2Mobile, #Vm2Machine, #ATM1Mobilex8, #ATM1Machinex8 {
+    background-color: inherit;
+    border: none;
+    height: 86px;
+    width: 77px;
+    font-size: 40px;
+    color: black;
+}
+
+.FintColor, .SelColor {
+    background-color: white;
+    border: none;
+    height: 37px;
+    width: 41px;
+    margin: 2px 5px 2px 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    padding: 5px 2px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 370px){
+
+
+
+.moDeno {
+    float: right;
+    height: 200px;
+    width: 350px;
+    background-color:;
+    display: block;
+    margin-top: -35%;
+    margin-left: 5%;
+   
+}
+
+
+.Deno {
+
+    margin: 5% 0% -15% 0%;
+   
+}
+
+
+.Deno label{
+
+font-size: 12px;
+margin-bottom:10%;
+margin-top:5%;
+}
+
+
+#ATM1Machinex4, #ATM1Mobilex4, #Vm2Mobile, #Vm2Machine, #ATM1Mobilex8, #ATM1Machinex8 {
+    background-color: inherit;
+    border: none;
+    height: 86px;
+    width: 77px;
+    font-size: 40px;
+    color: black;
+}
+
+.FintColor, .SelColor {
+    background-color: white;
+    border: none;
+    height: 37px;
+    width: 41px;
+    margin: 2px 5px 2px 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    padding: 5px 2px;
+}
+
+
+
+
+
+
+
+
+
+/*//////////Machine /////////////////////*/
+
+.uiXX{
+
+transform: scale(.51);
+position: relative;
+left: -147px;
+top: -151px;
+float: left;
+margin-bottom: 88%;
+
+}
+
+
+
+
+/*//////////Machine /////////////////////*/
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(.51);
+position: relative;
+left: -169px;
+top: -151px;
+float: left;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*///////MOBILE/////////////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.42);
+top: -317px;
+margin-bottom: -71%;
+
+}
+
+
+/*.ui2MOBI, .ui2MOBIx2, .ui2MOBIx3, .ui2MOBIx4, .ui2MOBIx8{
+transform: scale(.42);
+top: -250px;
+margin-bottom: -139%;
+
+}*/
+
+
+.NOModelbuttons{
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 18px;
+display: inline-block;
+}
+
+
+/*///////MOBILE/////////////////////////*/
+
+
+
+
+
+
+
+.banner{
+
+font-size: 35px;
+
+padding-top: 180px;
+
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 371px) and (max-width: 380px){
+
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+
+transform: scale(.54);
+position: relative;
+left: -140px;
+top: -151px;
+float: left;
+margin-bottom: 90%;
+
+}
+
+/*.ui2, .ui2x2, .ui2x3, .ui2x4, .ui2x8{
+transform: scale(.54);
+position: relative;
+left: -140px;
+top: -102px;
+float: left;
+margin-bottom: -28%;
+
+}
+*/
+
+/*//////////Machine ///////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(.54);
+position: relative;
+left: -161px;
+top: -163px;
+float: left;
+margin-bottom: 90%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*///////MOBILE/////////////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.42);
+top: -317px;
+margin-bottom: -65%;
+
+}
+
+/*
+.ui2MOBI, .ui2MOBIx2, .ui2MOBIx3, .ui2MOBIx4, .ui2MOBIx8{
+transform: scale(.42);
+top: -250px;
+margin-bottom: -139%;
+
+}
+*/
+
+.NOModelbuttons {
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 18px;
+display: inline-block;
+}
+
+
+/*///////MOBILE/////////////////////////*/
+
+}
+
+
+
+
+
+@media screen and (min-width: 381px) and (max-width: 390px){
+
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+
+transform: scale(.55);
+position: relative;
+left: -136px;
+top: -151px;
+float: left;
+margin-bottom:90%;
+
+}
+
+
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(.55);
+position: relative;
+left: -154px;
+top: -151px;
+float: left;
+margin-bottom:90%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+
+
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.43);
+top: -317px;
+margin-bottom: -65%;
+}
+
+
+/*.ui2MOBI, .ui2MOBIx2, .ui2MOBIx3, .ui2MOBIx4, .ui2MOBIx8{
+transform: scale(.43);
+top: -250px;
+margin-bottom: -139%;
+
+}
+*/
+
+.NOModelbuttons {
+
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 18px;
+display: inline-block;
+}
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+@media screen and (min-width: 391px) and (max-width: 400px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+
+transform: scale(0.57);
+position: relative;
+left: -133px;
+top: -104px;
+float: left;
+margin-bottom: 115%;
+
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.57);
+position: relative;
+left: -154px;
+top: -104px;
+float: left;
+margin-bottom: 115%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.43);
+top: -317px;
+margin-bottom: -33%;
+
+}
+
+
+/*
+.ui2MOBI, .ui2MOBIx2, .ui2MOBIx3, .ui2MOBIx4, .ui2MOBIx8{
+transform: scale(.43);
+top: -250px;
+margin-bottom: -133%;
+
+}
+
+
+*/
+.NOModelbuttons {
+
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 18px;
+display: inline-block;
+}
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 420px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+
+transform: scale(0.6);
+position: relative;
+left: -128px;
+top: -104px;
+float: left;
+margin-bottom: 120%;
+
+}
+
+
+
+/*//////////   Machine  ///////////////*/
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.6);
+position: relative;
+left: -143px;
+top: -104px;
+float: left;
+margin-bottom: 120%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.45);
+top: -250px;
+left: -120px;
+margin-bottom: -25%;
+
+}
+
+
+/*.ui2MOBI, .ui2MOBIx2, .ui2MOBIx3, .ui2MOBIx4, .ui2MOBIx8{
+
+transform: scale(.45);
+top: -250px;
+margin-bottom: -133%;
+left: -120px;
+
+}
+*/
+
+.NOModelbuttons {
+
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 18px;
+display: inline-block;
+}
+
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 421px) and (max-width: 440px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+
+transform: scale(0.62);
+position: relative;
+left: -115px;
+top: -104px;
+float: left;
+margin-bottom: 126%;
+}
+
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.62);
+position: relative;
+left: -136px;
+top: -104px;
+float: left;
+margin-bottom: 126%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.45);
+top: -250px;
+margin-bottom: -25%;
+left: -120px;
+
+}
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 18px;
+display: inline-block;
+}
+
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+@media screen and (min-width: 441px) and (max-width: 460px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+
+transform: scale(0.65);
+position: relative;
+left: -107px;
+top: -104px;
+float: left;
+margin-bottom: 130%;
+
+}
+
+
+
+/*//////////   Machine  //////////////////*/
+
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.65);
+position: relative;
+left: -128px;
+top: -104px;
+float: left;
+margin-bottom: 130%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.45);
+top: -290px;
+margin-bottom: -37%;
+left: -120px;
+
+}
+
+
+
+.NOModelbuttons {
+
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 18px;
+display: inline-block;
+}
+
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 461px) and (max-width: 480px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+
+transform: scale(0.69);
+position: relative;
+left: -101px;
+top: -104px;
+float: left;
+margin-bottom: 130%;
+
+}
+
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*//////////Machine Wide ///////////////*/
+
+.uiXXWide{
+
+transform: scale(0.69);
+position: relative;
+left: -112px;
+top: -104px;
+float: left;
+margin-bottom: 130%;
+
+}
+
+/*//////////Machine Wide ///////////////*/
+
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+transform: scale(.45);
+top: -291px;
+margin-bottom: -37%;
+left: -113px;
+
+}
+
+
+/*.ui2MOBI, .ui2MOBIx2, .ui2MOBIx3, .ui2MOBIx4, .ui2MOBIx8{
+
+transform: scale(.45);
+top: -291px;
+margin-bottom: -111%;
+left: -113px;
+}
+*/
+
+.NOModelbuttons {
+
+width: 113px;
+height: 62px;
+margin: 8px 4px;
+font-weight: bold;
+font-size: 18px;
+display: inline-block;
+}
+
+
+
+/*///////    MOBILE    /////////////////////////*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.moDeno {
+    float: right;
+    height: 200px;
+    width: 350px;
+    background-color:;
+    display: block;
+    margin-top: -25%;
+    margin-right: 1px;
+    
+}
+
+
+
+.Deno label{
+
+font-size: 12px;
+margin-bottom:10%;
+margin-top:5%;
+}
+
+#atM1, #atM2{
+
+font-size: 12px;
+margin-bottom:;
+margin-top:;
+}
+
+
+
+
+
+.banner{
+
+font-size: 35px;
+
+padding-top: 200px;
+
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+  .showB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  boder:none;
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:inline;
+}
+
+
+
+
+
+.HideB{
+  opacity: .9;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:;
+  
+  color:black;
+  padding:5px;
+  box-shadow: 1px 1px 20px 2px #ec971f;
+  display:none;
+}
+
+.moDeno {
+    float: right;
+    height: 200px;
+    width: 350px;
+    background-color:;
+    display: block;
+    margin-top: -25%;
+    margin-right: 10%;
+    
+}
+
+
+
+.Deno label{
+
+font-size: 12px;
+margin-bottom:10%;
+margin-top:5%;
+}
+
+#atM1, #atM2{
+
+font-size: 12px;
+margin-bottom:;
+margin-top:;
+}
+
+
+
+.banner{
+
+font-size: 35px;
+
+padding-top: 200px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+
+.thumbM{
+
+  height:650px;
+}
+
+
+
+}
+
+
+
+.thumbText {
+    height: auto;
+}
+
+
+
+#history{
+padding-left: 0px;
+padding-right: 0px;
+
+}
+
+
+.banners {
+    color: darkgrey;
+    font-size: 18px;
+}
+
+.atm1Details, .atm2Details, .vm1Details, .vm2Details, .vm3Details, .vm4Details , .Hdetails{
+
+   display:none;
+}

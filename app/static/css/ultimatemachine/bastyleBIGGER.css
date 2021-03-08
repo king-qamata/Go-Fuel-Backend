@@ -1,0 +1,361 @@
+/*
+
+
+.atmUI2{
+  height:740px;
+  width: 612px;
+ 
+ 
+  background-color: green;
+  padding:1px;
+  float:right;
+  clear:right;
+  
+  margin:auto;
+
+}
+
+*/
+
+
+body{
+    overflow-x: hidden;
+}
+
+.jumbo2{
+
+    
+   
+    background-color:black;
+    height:1200px;
+    z-index: 1;
+    color:darkgrey;
+    text-align:;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+.jumbo2 h1{
+    font-size:85px;
+    padding-top:700px;
+    margin-bottom:100px;
+    text-align: center;
+    font-family:Georgia;
+    margin:0px;
+    color:white;
+
+}
+
+
+
+
+.jumbo2 p{
+    font-size:20px;
+    font-family:candara;
+    text-align:center;
+    
+
+}
+
+
+/*.uiBtop{
+  font-size: 35px;
+  opacity: 0.5;
+  width:80px;
+  height:80px;
+  margin-right: 0%;
+  border-radius: 5px;
+   margin:100px 10px 50px 10px;   
+    border: none;
+padding: 5px;
+
+}*/
+
+
+
+
+
+
+
+.Main{
+
+    padding:0px;
+}
+
+
+.jumboMain{
+
+    margin:auto;
+    width:100%;
+    height:auto;
+    
+    padding:auto;
+    overflow:hidden;
+    background-color: rgb(235, 235, 235);
+}
+
+
+
+
+
+
+
+
+.row{
+width: 95%;
+margin-left:;
+overflow: hidden;
+padding-left: 200px;
+padding-right: 200px;
+
+}
+
+
+.history, .about{
+
+padding-left: 50px;
+padding-right: 50px;
+}
+
+
+
+/*.navbar-brand{
+
+ 
+ font-family: times;
+  margin-left: 20px;
+  font-size: 35px;
+}
+
+
+.navbar-inverse, .navbar-collapse{
+  padding-top:10px;
+
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a{
+  font-size: 18px;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sections{
+   margin-top: 90px;
+   margin-bottom: 90px;
+    width:35%;
+    height:auto;
+    float:left;
+    clear:left;
+    padding-right: 5%;
+    padding-left: 0%;
+
+   
+}
+
+.sections h2{
+
+    font-family: times;
+    text-align:;
+   margin-left:0px; 
+margin-right:0px;
+font-size: 32px;
+}
+
+.sections p{
+
+  font-size:17px;
+    font-family: helvetica;
+    text-align: left;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+
+
+.sections sup{
+    font-size:12px;
+}
+
+
+
+
+
+.container-fluid{
+
+
+    padding-left:0px;
+}
+
+
+.lead{
+    font-size:24px;
+}
+ .img1{
+    margin-right: 50px;
+ }
+
+
+.footer{
+margin-bottom:1px;
+position:relative;
+    
+    width:100%;
+    height:70px;
+    background-color:darkgray;
+    color:red;
+    clear:right;
+    padding:10px;
+    text-align:left;
+}
+
+
+
+.footer .icons{
+    position:relative;
+    bottom: 20px;
+
+   display:;
+   font-size: 20px;
+}
+
+
+
+
+
+
+.text-muted{
+
+color:white;
+font-size: 20px;
+
+}
+
+.uiATM{
+  padding-right:;
+
+}
+
+
+
+
+.buttons {
+    width: 80%;
+
+    transform: scale(1.25);
+
+}
+
+
+ .thumbText{
+height:720px;
+
+
+
+ }
+
+
+ .thumbText > .caption p{
+font-size:18px;
+color:grey;
+
+}
+
+
+
+
+.ui2{
+    margin-top: 60px;
+    transform: scale(1.1);
+    position: relative;
+    
+}
+
+.uiXX{
+    margin-top: 60px;
+    transform: scale(1.1);
+    position: relative;
+    
+}
+
+.uiXXMOBI{
+
+margin-top: 5%;
+transform: scale(.60);
+margin-bottom: 8%;
+
+}
+
+
+
+
+
+
+
+.lead{
+    font-size: 23px;
+}
+
+
+.moDeno{
+
+margin-top: 10%;
+/*margin-right: 20%;*/
+}
+
+.lead,.ui,.ui2,.ui22,.ui2x2, .ui2x3, .ui33,.ui44, .ui55A, .ui66A, .ui77A, .ui88, .ui2x4, .ui2x8{
+  margin-top: 100px;
+
+}
+
+
+
+.uiXX{
+
+  margin-top: 10%;
+  margin-bottom: 77%;
+
+}
+
+
+.uiXXMOBI{
+
+  margin-top: 10%;
+  margin-bottom: 18%;
+
+}
+
+
+.Hdetails, .Sdetails {
+
+display: none;
+
+}

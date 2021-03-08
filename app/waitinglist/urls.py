@@ -6,9 +6,9 @@ from . import views
 #app_name = "pinax_waitinglist"
 
 urlpatterns = [
-    path('', TemplateView.as_view(
-        template_name="waitinglist/list_signup.html"), name="home"),
-    path('list_signup/', views.ListSignupView.as_view(), name="list_signup"),
+    path('list_signup/', TemplateView.as_view(
+        template_name="pinax/waitinglist/list_signup.html"), name="list_signup/"),
+    path('', views.ListSignupView.as_view(), name="home"),
     path('ajax_list_signup/', views.ajax_list_signup, name="ajax_list_signup"),
     path('survey/thanks/', TemplateView.as_view(template_name="pinax/waitinglist/thanks.html"),
          name="survey_thanks"),

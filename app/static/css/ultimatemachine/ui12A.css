@@ -1,0 +1,2149 @@
+
+.Vm1screenTbuttons {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+  
+}
+
+
+
+
+
+#Vm12AMobile, #Vm12AMachine{
+  background-color: inherit;
+  border:none;
+height:100px;
+width: 100px;
+font-size: 73px;
+color:black;
+}
+
+
+
+
+
+.UI12Abuttons{
+
+
+display: inline;
+color: grey;
+font-family: calibri;
+font-size: 25px;
+
+}
+
+
+
+
+
+
+
+.UI12Abuttons button{
+height: 50px;
+width: 70px;
+border-radius: 30px;
+border: none;
+margin: 0px 2px 20px 0px;
+display: ;
+border: none;
+box-shadow: inset 0 1px 3px grey;
+
+
+}
+
+
+
+
+
+
+.UI12AbuttonsMOBI{
+display:none;
+
+display: none;
+color: grey;
+font-family: calibri;
+font-size: 25px;
+
+}
+.UI12AbuttonsMOBI button{
+height: 50px;
+width: 70px;
+border-radius: 30px;
+border: none;
+margin: 0px 2px 20px 0px;
+display: ;
+border: none;
+box-shadow: inset 0 1px 3px grey;
+
+
+}
+
+
+
+
+
+#DARKui12AMOBI, #DARKui44MOBI, #DARKui33MOBI, .DARKui22MOBI, #DARKuiMOBI{
+  background-color: #424242;
+}
+
+
+
+#WHITEui12AMOBI, #WHITEui44MOBI, #WHITEui33MOBI, .WHITEui22MOBI, #WHITEuiMOBI{
+  background-color: white;
+}
+
+
+#BLACKui12AMOBI, #BLACKui44MOBI, #BLACKui33MOBI, .BLACKui22MOBI, #BLACKuiMOBI{
+  background-color: black;
+}
+
+
+
+
+
+
+.ui12A{
+
+
+
+border: none;
+position:;
+height:auto;
+width:606px;
+border-radius:10px;
+/*transform: translate(560px,  150px);*/
+display:;
+background-color: black;
+box-shadow: 0 20px 50px grey;
+
+
+
+}
+
+
+.DynamicMapVM12A{
+  width: 100%;
+  height: 450px;
+  background-color: grey;
+         background-image: url("../img/Map.png");
+       background-size: cover;
+}
+
+
+
+
+
+/*////////////*/
+
+.ComingSoonVM12A {
+
+height: 984px;
+width: 100%;
+background-color: white;
+position: absolute;
+z-index: 500;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+padding: 70px 54px;
+display: none;
+
+}
+
+
+
+
+.ComingSoonVM12A p{
+
+  font-family: calibri;
+  font-size: 35px;
+  background-color: white;
+  opacity: .9;
+  margin-top: 100px;
+
+}
+
+
+.Mapinput12A{
+
+    width: 500px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 1px 5px grey;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.ComingSoonMap{
+
+       background-image: url("../img/Map.png");
+       background-size: cover;
+}
+
+
+
+.ComingSoonServStat{
+
+       background-image: url("../img/status.png");
+       background-size: cover;
+
+}
+
+/*////////////*/
+
+
+
+
+
+.lan12A{
+    background-color:#286090;
+
+height:60px;
+width:100%;
+padding:7px 10px 5px 10px;
+
+border-top-left-radius: inherit;
+
+border-top-right-radius: inherit;
+background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+
+}
+
+
+
+
+
+
+
+
+#panel12A{
+
+z-index: 1000;
+position: absolute;
+transform:translate(90px, 60px);
+width:450px;
+display:none;
+
+}
+.panel-heading{
+  text-align: center;
+}
+
+
+.itm12A{
+
+padding: 1px 30px 10px 65px;
+background-color:white;
+
+height:290px;
+width:100%;   
+color:grey;
+text-align:center;
+padding: 2px 13px 10px 36px;
+opacity: .96;
+
+}
+
+
+
+
+
+.itmV12A{
+
+    margin:10px 14px ;
+    background-color:;
+    border:none; 
+    border-radius:7px;
+    color:#000033;
+    font-family: arial;
+box-shadow:inset 0 1px 10px;
+padding:/* 17px 25px*/;
+font-size:21px;
+height: 110px;
+width: 107px;
+width: 123px;
+padding: 19px 10px;
+font-family: calibri;
+
+}
+
+
+
+
+.OtherItems12A{
+
+  font-size: 24px;
+}
+
+
+.OtherItems12AMOBI {
+    font-size: 31px;
+}
+
+
+
+
+
+
+
+.BigFont12A {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    font-family:calibri;
+    font-weight: 700;
+    color: #6f6e6e;
+}
+
+.BigFont12AMOBI {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 37px;
+    font-family:calibri;
+    font-weight: 700;
+    color: #6f6e6e;
+}
+
+
+
+
+
+
+
+
+.SmallFont12A {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 700;
+    color: #6f6e6e;
+
+}
+
+.SmallFont12AMOBI{
+  display: block;
+  width: 100%;
+  border:none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  color: #6f6e6e;
+
+}
+
+
+
+
+
+
+.ItemCost12A {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 19px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+
+.ItemCost12AMOBI{
+  display: block;
+  width: 100%;
+  border:none;
+  background-color: transparent;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+  font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+.BalanceV12A{
+  display:none;
+  /*margin: -17px 10px;*/
+
+}
+.IhaveV12A{
+  font-family:calibri;
+  display:inline-block;
+  font-size:18px;
+ color: lightgrey;
+
+}
+.BalQtyV12A {
+    font-family: calibri;
+    display: inline-block;
+    font-size: 21px;
+   color: lightgrey;
+    font-weight: 700;
+    width: 61px;
+    background-color: transparent;
+    border: none;
+    height: 20px;
+}
+
+.SinBalQty12A{
+
+  width:24px;
+}
+
+
+
+
+
+.DropItmMenu12A{
+  
+min-width:135px; 
+font-size: 10px; 
+transform: translate(-95px, 120px);
+padding:0px 0px;
+
+  } 
+
+
+
+
+.DropItmMenu12AMOBI{
+
+min-width:135px; 
+font-size: 10px; 
+transform:translate(-40px, -476px); 
+padding:0px 0px;
+
+  } 
+
+
+
+
+
+/*.itm12A span {
+display: block;
+font-size: 50px;
+color:grey;
+
+}*/
+
+.itmPhoto{
+width: 100%;
+height: 70%;
+margin: 0px;
+background-image: url("../img/item5.png");
+background-repeat: no-repeat;
+background-size: 50%;
+padding: 20px 20px;
+background-position-x: center;
+
+}
+
+
+
+
+.itm12A b{
+
+    font-size: 13px;
+    color: red;
+}
+
+
+
+.itm12A i{
+/*top:0px;
+clear:both;
+left:15px;*/
+color:red;
+
+}
+
+
+
+/*.itm12A li button {
+    margin:5px 10px 5px 10px;
+}
+
+*/
+
+
+
+
+
+.qty12A{
+  display:none;
+background-color: #286090;
+height: 65px;
+width: 100%;
+padding: 0px 0px 0px 0px;
+color: white;
+font-size: 25px;
+border-top: 1px solid #286090;
+position: absolute;
+width: 269px;
+border-radius: 20px;
+z-index: 50;
+opacity: .93;
+transform: translate(172px, 134px);
+
+}
+
+
+
+
+
+.sub12A{
+
+display: ;
+height: 88px;
+width: 80px;
+background-color: rgb(52, 121, 184);
+border: 3px solid rgb(52, 121, 184);
+color: white;
+position: relative;
+right: 2px;
+bottom: 6px;
+border-radius: inherit;
+top: -12px;
+
+}
+
+
+
+
+
+
+.add12A{
+
+display: ;
+height: 88px;
+width: 80px;
+background-color: rgb(52, 121, 184);
+border: 3px solid rgb(52, 121, 184);
+background-color: rgb(46, 109, 164);
+border: 3px solid rgb(46, 109, 164);
+color: white;
+position: relative;
+right: -4px;
+bottom: 13px;
+border-radius: inherit;
+
+}
+
+
+
+
+
+.qtyvalue12A {
+
+background-color: #286090;
+height: 55px;
+width: 90px;
+color: white;
+border: none;
+font-size: 50px;
+position: relative;
+right: 4px;
+text-align: center;
+font-size: 64px;
+top: 5px;
+z-index: 50;
+
+}
+
+
+
+
+
+
+
+
+
+
+.py12A{
+
+background-color:rgb(249, 162, 0);
+
+height:60px;
+width:100%;
+padding:3px 5px 5px 10px;  
+font-size:20px;
+}
+
+.py12A label{
+width: 110px;
+padding: 11px 8px;
+margin: 3px 7px;
+margin-left: 7px;
+background-color: orange;
+border: none;
+font-size: 20px;
+color: black;
+font-family: arial;
+box-shadow: inset 0 1px 10px rgb(221, 105, 4);
+
+}
+
+
+
+
+
+
+
+
+#buy12A {
+
+height:85px;
+position:relative;
+bottom:12px;
+
+
+display:inline-block;
+border-radius:20px;
+margin-top:0px;
+padding: 11px 22px;
+clear:;
+}
+
+
+
+
+
+.buy12A span{
+    font-size:13px;
+    color:red;
+    position: relative;
+    top:-10px;
+
+}
+
+.finB12A span{
+    font-size:13px;
+    color:red;
+    position: relative;
+    top:-10px;
+
+}
+
+
+
+
+
+
+
+#refill12A{
+position:relative;
+display:inline-block;
+border-radius:20px;
+margin-right:40px;
+margin-top:;
+height: 80px;
+    float:right;
+    margin-left:-30px;
+    clear:;
+padding: 14px 34px;
+left: 26px;
+}
+
+
+
+.finB12A{
+color: #fff;
+background-color:#286090;
+position:relative;
+border:none;
+border-radius:20px;
+font-family: arial;
+box-shadow: inset 0 1px 5px white;
+background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+font-weight: 700;
+
+}
+
+
+
+
+
+.total12A{
+position:relative;
+top:10px;
+right:20px;
+background-color:white;
+display:inline-block;
+height:70px;
+width:200px; 
+padding:0px ;
+color:black;
+font-size:50px;
+margin:0px;
+border:none;
+text-align: center;
+
+
+}
+
+
+
+.fin12A{
+background-color:white;
+
+height: 105px;
+width:100%;
+padding:10px 20px 10px 10px;
+
+border-bottom-left-radius: inherit;
+
+border-bottom-right-radius: inherit;
+
+color:navy;
+text-align: center;
+text-align: top;
+
+font-size:8px;
+    
+}
+
+
+
+
+
+
+  .thankBuy12A {
+
+  z-index: 500;
+  position: absolute;
+  height: 480px;
+  width: 550px;
+  display: none;
+  margin: 10px 29px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  /* transform: translate(60px, -20px); */
+  padding: 80px 30px 10px 30px;
+  font-size: 20px;
+  opacity: .96;
+  transform: translate(2px, -56px);
+  box-shadow: 0 1px 10px black;
+  font-family: calibri;
+
+}
+.thankBuy12A p{
+font-size:20px;
+
+
+}
+.TapBuy12A{
+  color:white;
+  background-color:grey;
+  width:140px;
+  height:60px;
+
+  padding:12px 0px 0px 0px;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 5px white;
+ margin: 50px auto;
+
+}
+
+.TapBuy12A:hover{
+  cursor: pointer;
+
+  
+}
+
+
+
+
+
+
+.thankRefill12A{
+  z-index: 500;
+  position: absolute;
+  height: 480px;
+  width: 550px;
+  display: none;
+  margin: 10px 29px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  /* transform: translate(60px, -20px); */
+  padding: 60px 30px 10px 30px;
+  font-size: 20px;
+  opacity: .96;
+  transform: translate(0px, -56px);
+  box-shadow: 0 1px 10px black;
+  font-family: calibri;
+}
+
+.thankRefill12A p{
+
+font-size:20px;
+}
+
+
+
+.TapRefill12A{
+  color:white;
+  background-color:grey;
+  width:140px;
+  height:60px;
+
+  padding:12px 0px 0px 0px;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 5px white;
+  margin: 50px auto;
+
+}
+
+.TapRefill12A:hover{
+  cursor: pointer;
+
+  
+}
+
+
+
+
+.receiptP3 label, .receiptR3 label{
+
+box-shadow: inset 0 1px 5px grey;
+font-size: 35px;
+
+border-radius: 15px;
+width: 100px;
+
+}
+
+
+
+.check12A{
+    z-index: 500;
+position:absolute;
+   height:400;
+   width:500;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(110px,  70px);
+   padding:20px;
+   font-size:20px;
+   opacity: .90;
+   box-shadow: 0px 3px 10px black;
+}
+
+
+
+.pmethod12A{
+ z-index: 500;
+position:absolute;
+   height:320px;
+   width:480px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(40px,  60px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .90;
+
+
+}
+
+
+.seItem12A{
+ z-index: 500;
+position:absolute;
+   height:320px;
+   width:480px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(40px,  60px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .90;
+
+
+
+
+}
+
+
+.seOptions12A{
+
+   z-index: 500;
+position:absolute;
+   height:320px;
+   width:480px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(40px,  60px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .90;
+
+
+
+}
+
+/*//////////////////////////////////////////////////*/
+
+
+/*////////////////////////SendGift///////////////////////////////////////*/
+
+
+
+.sendGiftVM12A{
+  display:none;
+  z-index: 500;
+position: absolute;
+text-align: center;
+width: 600px;
+height: 975px;
+padding: 20px;
+background-color:white;
+padding: 15px 40px 10px 40px;
+font-size:19px;
+color:grey;
+
+border-radius: 10px;
+margin:4px;
+   font-family:candara;
+
+   box-shadow: 0 1px 5px grey;
+  
+
+}
+
+
+
+
+
+
+.SendRequestVM12A{
+}
+
+
+
+.SendReqVM12A {
+    background-color: orange;
+    width: 190px;
+    display: block;
+    border-radius: 15px;
+
+    font-family: calibri;
+    font-weight: bold;
+height: 81px;
+font-size: 37px;
+padding: 12px;
+margin-top: 34px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#SendGiftVM12A{
+border-bottom-right-radius:0px; 
+border-top-right-radius:0px;
+}
+
+
+#RequestGiftVM12A{
+border-bottom-left-radius:0px; 
+border-top-left-radius:0px;
+}
+
+
+
+
+
+.gifttotalVM12A{
+
+font-size: 50px;
+    font-family: ;
+    right: 130px;
+    top: 114px;
+    font-family: calibri;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+
+
+.totalGiftVM12A{
+
+    position: relative;
+   
+    display: inline-block;
+    height: 70px;
+    width: 149px;
+    padding: 0px;
+    font-size: 65px;
+    margin: 0px;
+    border: none;
+    text-align: left;
+  
+    font-family: arial;
+    background-color:whitesmoke;
+    color:black;
+    font-family: calibri;
+
+}
+
+.ConfirmSend{
+background-color: #286090;
+    color: white;
+    height: 74px;
+    width: 204px;
+    font-size: 32px;
+    border-radius: 25px;
+    box-shadow: inset 0 1px 10px white;
+    border: none;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.closeGiftVM12A {
+    display:none;
+    z-index: 1500;
+    position: absolute;
+    text-align: center;
+ width: 87px;
+
+height: 80px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    color: grey;
+   transform: translate(-296px, 33px);
+    border: none;
+    border-radius: 30px;
+    font-size: 60px;
+    color: red;
+    font-family: arial;
+}
+
+
+
+
+
+
+/*/////////////////////////////////////////////////*/
+
+
+
+ .SelectFriendVM12A {
+
+    margin: 36px 20px;
+    width: 100%;
+ 
+}
+
+
+
+.friendsVM12A {
+
+    display: inline-block;
+width: 123px;
+height: 134px;
+    border-radius: 0px;
+    border: 5px solid lightgrey;
+    margin: 18px 50px;
+    color: whitesmoke;
+    font-size: 15px;
+
+}
+
+
+.friendsVM12A b {
+    font-size: 53px;
+}
+
+
+
+.friendsSpanVM12A {
+
+    position: relative;
+    top: 76px;
+    color: whitesmoke;
+    right: 13px;
+
+}
+
+
+
+
+.friendImputVM12A {
+
+    width: 79px;
+    height: 21px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    position: relative;
+    color: whitesmoke;
+    top: 80px;
+    right: 14px;
+
+}
+
+
+  #MikeVM12A{
+
+background-color: white;
+color: black;
+padding: 24px 5px;
+
+
+
+}
+
+
+#MySelfVM12A{
+
+  background-image: url("../img/boy9.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#JeffVM12A{
+
+  background-image: url("../img/boy1.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+#MariaVM12A{
+
+  background-image: url("../img/girl.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+#JohnVM12A{
+
+background-image: url("../img/boy7.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+#LeahVM12A{
+
+background-image: url("../img/girl3.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#PaulVM12A{
+
+background-image: url("../img/boy4.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#JennyVM12A{
+
+background-image: url("../img/girl2.png");
+background-position:center;
+background-size: cover;
+background-color:white;
+
+}
+
+
+#GokuVM12A{
+
+background-image: url("../img/boy5.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+.GiftSentVM12A{
+
+display: none;
+z-index: 500;
+position: absolute;
+height: 710px;
+width: 550px;
+border: 5px solid white;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+transform: translate(25px, 100px);
+padding: 203px 70px 10px 70px;
+font-family: calibri;
+font-size: 15px;
+opacity: .98;
+color: rgb(102, 102, 102);
+margin-top: 63px;
+box-shadow: 0 1px 5px black;
+
+}
+
+
+
+
+
+#GiftPayAmountVM12A{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+
+
+
+#happyFriendVM12A{
+
+    border:none;
+    font-size: 30px;
+    width:20%;
+
+
+}
+
+
+/*////////*/
+
+
+
+/*////////////////////////SendGift///////////////////////////////////////*/
+
+
+
+
+.BuyNewVM12A{
+
+
+}
+.CheckBalVM12A{
+
+padding-top: 73px;
+}
+
+.CheckBalVM12A h1{
+
+  color:lightgrey;
+}
+
+
+.CheckBalVM12A h2{
+
+  text-align:left;
+}
+
+
+
+.CheckDividers{
+color:lightgrey;
+width:80%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////DArk UI3/////////////////////////////////////*/
+
+.DARKui12A{
+
+
+background-color: black;
+
+
+}
+
+
+
+.DARKlan12A{
+
+
+height:60px;
+width:100%;
+padding:7px 10px 5px 10px;
+border-bottom:1px solid #286090;
+border-top-left-radius: inherit;
+
+border-top-right-radius: inherit;
+
+}
+
+.DARKlan12A label, .DARKlan12A button {
+    
+    padding:5px;
+    margin:5px;
+    width:110px;
+   
+    font-weight: 1px; 
+    color:white;
+    font-size:18px; 
+    font-family: arial;
+
+}
+
+
+
+#panel12A{
+
+z-index: 1000;
+position: absolute;
+transform:translate(90px, 60px);
+width:450px;
+display:none;
+
+}
+.panel-heading{
+  text-align: center;
+}
+
+
+.DARKitm12A{
+background-color:Black;  
+color:grey;
+text-align:center;
+
+
+}
+
+
+.DARKitmV12A{
+    
+
+background-color:;
+color:white;
+box-shadow:inset 0 1px 5px grey;
+
+
+}
+
+
+
+
+
+
+
+
+.DARKitm12A i{
+top:0px;
+clear:both;
+left:30px;
+color:red;
+
+}
+
+
+
+.DARKitm12A li button {
+    margin:5px 10px 5px 10px;
+}
+
+
+/*.qty{
+
+background-color:#286090;
+height:68px;auto;
+width: 600px;auto;
+padding:0px 20px 5px 165px; auto;  
+color:white;
+font-size:25px;
+border-top:1px dashed darkgrey;
+
+}*/
+
+#DARKsub12A{
+display: none;
+  z-index: 5;
+    display:;
+    height:60px;
+    width:72px;
+
+    background-color:black;
+    border: none;
+    color:white;
+    margin-right:20px;
+    position:absolute;
+    transform:translate(-380px, 46px);
+    border-radius: 3px;
+padding-left: 20px;
+
+    
+}  
+
+
+#DARKadd12A{
+  display: none;
+  z-index: 5;
+  display:;
+    height:60px;
+    width:72px;
+
+    background-color:black;
+    border: none;
+    color:white;
+    margin-right:20px;
+    position:absolute;
+    transform:translate(-200px, 46px);
+    border-radius: 3px;
+   padding-left: 21px; 
+   padding-top: 10px; 
+}  
+
+
+
+
+    
+#DARKqtyvalue12A{
+  display: none;
+  z-index: 5;
+background-color:black;
+height:48px;
+width:90px; 
+
+
+color:white;
+border:none;
+font-size:40px;
+position:absolute;
+text-align: center;
+transform:translate(-300px, 51px);
+font-family: arial;
+border-radius: 3px;
+
+
+
+
+}
+
+
+
+.DARKpy12A{
+
+background-color:rgb(249, 162, 0);
+}
+
+.DARKpy12A label{
+
+background-color: orange;
+color: black;
+box-shadow: inset 0 1px 5px rgb(239, 111,0);
+
+
+}
+
+
+
+
+
+
+
+.DARKbuy12A {
+
+color: #fff;
+background-color:#286090;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.DARKrefill12A{
+color: #fff;
+background-color:#286090;
+
+
+}
+
+
+
+
+.DARKfinB12A{
+color: #fff;
+background-color:#286090;
+
+box-shadow: inset 0 1px 5px white;
+
+}
+
+
+
+
+
+
+.DARKtotal12A{
+background-color:black;
+color:white;
+
+
+
+}
+
+.DARKfin12A{
+background-color:Black;
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+  .DARKthankBuy12A {
+
+  z-index: 500;
+  position: absolute;
+  height: 480px;
+  width: 550px;
+  display: none;
+  margin: 10px 29px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+   transform: translate(60px, -20px); 
+  padding: 80px 30px 10px 30px;
+  font-size: 20px;
+  opacity: .96;
+  box-shadow: 0 1px 10px black;
+
+}
+.DARKthankBuy12A p{
+
+
+
+}
+.Buy312A{
+  color:white;
+  background-color:grey;
+  width:140px;
+  height:60px;
+
+  padding:12px 0px 0px 0px;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 5px white;
+ margin: 50px auto;
+
+}
+
+.TapBuy312A:hover{
+  cursor: pointer;
+
+  
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////*/
+
+
+
+
+
+/*//////////////////////////////MOBI MOBI 55/////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+.ui12AMOBI{
+
+  border-radius: 50px;
+}
+
+
+.lan12AMOBI {
+    height: 120px;
+    padding: 25px 10px 5px 55px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display:;
+}
+
+
+
+
+.Vm12ALanBMOBI{
+  display:none;
+}
+
+
+
+
+
+
+
+
+.itm12ABackground {
+    background-color: white;
+    background-image: url("../img/mta.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.itm12ABackgroundMOBI {
+    background-color: white;
+    background-image: url("../img/mta.png");
+    background-size: 118%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.itm12AMOBI {
+    padding: 29px 0px 10px 19px;
+    height: 280px;
+    width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+    opacity: .96;
+}
+
+
+
+.itmlabelsMOBI12A{
+
+    padding-left: 16px;
+    width: 148%;
+
+}
+
+
+
+
+
+
+.itmV12AMOBI {
+
+    margin: 11px 19px 11px 13px;
+    margin-left: 13px;
+    margin-left: 13px;
+    margin-left: 20px;
+    margin-left: 20px;
+    border: none;
+    width: 160px;
+    font-size: 16px;
+    height: 184px;
+    box-shadow: inset 0 1px 15px ;
+    padding: 20px 0px;
+    border-radius: 25px;
+}
+
+
+
+.itm12A li button {
+    margin: 7px;
+        margin-left: 7px;
+    margin-left: 10px;
+    height: 60px;
+    padding: 10px 20px;
+    width: 221px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+
+
+
+
+.itm12AMOBI li button {
+    margin: 7px;
+    height: 80px;
+    padding: 10px 20px;
+    width: 307px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+
+/*
+.itm12AMOBI span {
+display: block;
+font-size: 80px;
+color:grey;
+
+}*/
+
+.itm12AMOBI b {
+
+font-size:18px;
+
+}
+
+
+
+#CheckBalVM12A{
+  display:none;
+}
+
+
+.TheCover {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+
+}
+
+
+.qty12AMOBI {
+
+    display: none;
+    background-color: #286090;
+    height: 95px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    font-size: 25px;
+    border-top: 1px solid #286090;
+    position: absolute;
+    width: 269px;
+    border-radius: 33px;
+    z-index: 50;
+    opacity: .93;
+    transform: translate(166px, 282px); 
+}
+
+
+.sub12AMOBI {
+
+    display: ;
+    height: 140px;
+    width: 150px;
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+    position: relative;
+    right: 107px;
+    bottom: 6px;
+    border-radius: inherit;
+    top: -26px;
+    font-size: 43px;
+
+}
+
+
+
+
+
+.add12AMOBI {
+
+    display: ;
+    height: 140px;
+    width: 150px;
+    background-color: rgb(46, 109, 164);
+    border: 3px solid rgb(46, 109, 164);
+    color: white;
+    position: relative;
+    right: -148px;
+    bottom: 166px;
+    border-radius: inherit;
+    font-size: 43px;
+
+}
+
+
+
+
+.qtyvalue12AMOBI {
+
+    background-color: #286090;
+    height: 55px;
+    width: 90px;
+    color: white;
+    border: none;
+    font-size: 50px;
+    position: relative;
+    right: 85px;
+    text-align: center;
+    font-size: 71px;
+    top: -2px;
+    z-index: 50;
+
+}
+
+
+
+
+.py12AMOBI {
+    height: 104px;
+    width: 100%;
+    padding: 3px 5px 5px 5px;
+    font-size: 20px;
+}
+
+
+.py12A p{
+float:left;
+margin-top: 10px;
+}
+
+
+.py12AMOBI p{
+float:left;
+margin-top: 22px;
+}
+
+.PayButtonsMOBI12A {
+display:none;
+font-size: 40px;
+ 
+}
+
+.PayButtonsMOBI12A label{
+display:;
+font-size: 27px;
+margin: 13px 12px;
+width: 124px;
+padding: 7px 0px;
+box-shadow: inset 0 1px 13px rgb(239, 111,0);
+ 
+}
+
+
+
+
+.fin12AMOBI {
+    
+    height: 181px;
+    width: 100%;
+    padding-top: 30px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+ .buy12AMOBI {
+    width: auto;
+    
+    position: relative;
+    top: 1px;
+   right: -24px;
+    border-radius: 20px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 25px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+.total12A {
+
+    position: relative;
+    bottom: -18px;
+    display: inline-block;
+    height: 70px;
+    width: 238px;
+    padding: 0px;
+    font-size: 59px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+    transform: translate(-96px, -2px);
+    font-family: arial;
+    left: 102px;
+
+}
+
+
+.total12AMOBI {
+
+    position: relative;
+    bottom: -18px;
+    display: inline-block;
+    height: 70px;
+    width: 238px;
+    padding: 0px;
+    font-size: 65px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+    transform: translate(-99px, 5px);
+    font-family: arial;
+    left: 102px;
+
+}
+
+
+
+
+.refill12AMOBI {
+
+    top: 0px;
+    right: -12px;
+    border-radius: 20px;
+    height: ;
+    float: right;
+    font-family: arial;
+    font-size: 25px;
+    height: 120px;
+    left: 17px;
+
+}
+
+
+
+
+
+
+.buy12AMOBI {
+ display:none;
+ height:120px;
+ width:140px;
+ left:-11px;
+}
+
+
+.refill12AMOBI{
+  display:none;
+  height:120px;
+  width:140px;
+left: 22px;
+padding: 41px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.TransportService{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////*/
+
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+
+    border-radius: 6px;
+
+}
+
+
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
+
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+
+
+
+
+
+
+/*////////////////////////////////////////*/
+
+
+.DARKitm11A{
+
+background-color:Black; 
+color:grey;
+}
+
+
+.DARKitmV11A{
+    
+    margin:10px 12px 12px 8px ;
+    background-color:#424242;
+    border:none; 
+    border-radius:15px;
+    color:white;
+    font-family: arial;
+box-shadow:inset 0 1px 10px grey;
+padding: 17px 23px;
+
+}
+
+/*///////////////////////////////////////////*/
+
+/*///////////////BLACK UI 11A////////////////*/
+
+
+.BLACKitm11A{
+
+background-color:Black; 
+color:grey;
+}
+
+
+.BLACKitmV11A{
+background-color:black;  
+color:white;
+box-shadow:inset 0 1px 15px white;
+
+}
+
+
+/*/////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+

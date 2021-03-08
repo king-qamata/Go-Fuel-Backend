@@ -1,0 +1,2093 @@
+
+.Vm1screenTbuttons{
+ background-color: rgb(250, 250, 250);
+width: 100%;
+height: 210px;
+padding: 20px 0%;
+padding-right: 11%;
+}
+
+
+
+
+
+
+#Vm9AMobile, #Vm9AMachine{
+  background-color: inherit;
+  border:none;
+height:100px;
+width: 100px;
+font-size: 73px;
+color:black;
+}
+
+
+
+
+
+.UI9Abuttons{
+
+
+display: inline;
+color: grey;
+font-family: calibri;
+font-size: 25px;
+
+}
+
+
+
+
+
+
+
+.UI9Abuttons button{
+height: 50px;
+width: 70px;
+border-radius: 30px;
+border: none;
+margin: 0px 2px 20px 0px;
+display: ;
+border: none;
+box-shadow: inset 0 1px 3px grey;
+
+
+}
+
+
+
+
+
+
+.UI9AbuttonsMOBI{
+display:none;
+
+display: none;
+color: grey;
+font-family: calibri;
+font-size: 25px;
+
+}
+.UI9AbuttonsMOBI button{
+height: 50px;
+width: 70px;
+border-radius: 30px;
+border: none;
+margin: 0px 2px 20px 0px;
+display: ;
+border: none;
+box-shadow: inset 0 1px 3px grey;
+
+
+}
+
+
+
+
+
+
+
+
+.ui99A{
+
+
+
+border: none;
+position:;
+height:auto;
+width:606px;
+border-radius:10px;
+/*transform: translate(560px,  150px);*/
+display:;
+background-color: black;
+box-shadow: 0 20px 50px grey;
+
+
+
+}
+
+
+
+
+/*////////////*/
+
+.ComingSoonVM6 {
+
+height: 1080px;
+width: 100%;
+background-color: white;
+position: absolute;
+z-index: 500;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+padding: 70px 54px;
+display: none;
+
+}
+
+
+
+
+.ComingSoonVM6 p{
+  font-family: calibri;
+  font-size: 35px;
+  background-color: white;
+  opacity: .9;
+  margin-top: 100px;
+}
+
+
+.Mapinput6{
+
+    width: 500px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 1px 5px grey;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.ComingSoonMap{
+
+       background-image: url("../img/Map.png");
+       background-size: cover;
+}
+
+
+
+.ComingSoonServStat{
+
+       background-image: url("../img/status.png");
+       background-size: cover;
+
+}
+
+/*////////////*/
+
+
+
+
+
+
+.lan99A{
+    background-color:#286090;
+
+height:60px;
+width:100%;
+padding:7px 10px 5px 10px;
+border-top-left-radius: inherit;
+
+border-top-right-radius: inherit;
+background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+
+}
+
+
+
+
+
+#panel99A{
+
+z-index: 1000;
+position: absolute;
+transform:translate(90px, 60px);
+width:450px;
+display:none;
+
+}
+.panel-heading{
+  text-align: center;
+}
+
+
+.itm99A{
+
+padding: 11px 10px 10px 25px;
+background-color:white;
+
+height:290px;
+width:100%;   
+color:grey;
+text-align:center;
+
+
+}
+
+
+
+.DropItmMenu99A{
+  
+min-width:135px; 
+font-size: 10px; 
+transform:translate(-40px, -250px); 
+padding:0px 0px;
+
+  } 
+
+
+
+
+.DropItmMenu99AMOBI{
+
+min-width:135px; 
+font-size: 10px; 
+transform:translate(-40px, -476px); 
+padding:0px 0px;
+
+  } 
+
+
+
+
+
+.Locationitm99A{
+text-aligh:center;
+font-family: calibri;
+font-size: 18px;
+color:grey;
+float:left;
+
+}
+
+
+
+.Dateitm99A{
+text-aligh:center;
+font-family: calibri;
+font-size: 18px;
+color:grey;
+float:left;
+display:;
+width: 50%;
+}
+
+
+
+
+
+
+.DateCalendar99A {
+    display: block;
+    box-shadow: inset 0 1px 11px;
+    height: 77px;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 5px;
+    margin: 0px 27px 0px -18px;
+    border: none;
+    text-align: center;
+    color: #000033;
+    font-size: 34px;
+    background-color: white;
+}
+
+
+
+
+
+
+.DateTime9A{
+    margin: 0px;
+}
+
+
+
+#calendarVeRental99A {
+
+    display: inline-block;
+    font-size: 50px;
+    margin: 13px 6px 7px 13px;
+    color: grey;
+
+}
+
+
+
+
+.selectmenu99A {
+    display: block;
+    height: 80px;
+    padding: 5px;
+    width: 255px;
+    background-color: white;
+    border: none;
+    box-shadow: inset 0 1px 10px;
+    font-weight: 1px;
+    color: #000033;
+    font-size: 25px;
+    font-family: arial;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+
+
+.Departing99A{
+
+   margin: 5px 5px 25px -18px;
+}
+
+.Destination99A{
+
+   margin: 5px 0px 25px 17px;
+
+}
+
+
+
+
+
+.selectmenu99A2 {
+
+    display: block;
+    height: 71px;
+    padding: 5px;
+    margin: 4px -12px 25px -1px;
+    width: 174px;
+    background-color: transparent;
+    border: none;
+    border-right:2px solid lightgrey;
+
+    font-weight: 1px;
+  
+    font-size: 25px;
+    font-family: arial;
+    text-align: center;
+    float: left;
+ 
+
+}
+
+
+
+
+.itmDivider99A{
+  display:inline-block;
+  margin: 15px;
+}
+
+
+
+
+
+.itm99Alabels{
+  width:250%;
+  margin-left: -40px;
+}
+
+
+
+
+
+
+.itmV99AMOBI{
+margin: 15px 11px;
+    margin-left: 11px;
+margin-left: 11px;
+margin-left: 20px;
+margin-left: 20px;
+border: none;
+width: 175px;
+font-size: 17px;
+height: 237px;
+box-shadow: inset 0 1px 15px;
+padding: 0px 0px;
+}
+
+
+.itmPhoto99A{
+width: 100%;
+height: 70%;
+margin: 0px;
+/*background-image: url("../img/item5.png");*/
+background-repeat: no-repeat;
+background-size: 50%;
+padding: 20px 20px;
+background-position-x: center;
+
+}
+
+
+
+.itm99A b{
+
+    font-size: 18px;
+    color: red;
+   /* float:right;*/
+    
+ /*   top:0px;
+    left:460px;
+    position: absolute;*/
+}
+
+
+
+
+.itm99A i{
+/*top:0px;
+clear:both;
+left:15px;*/
+color:red;
+
+}
+
+
+
+.itm99A li button {
+    margin:5px 10px 5px 10px;
+}
+
+
+
+
+.itemDay99A {
+    display: block;
+    background-color: #5a5959;
+    border: none;
+    width: 100%;
+    font-family: arial-rounded;
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+   background-image: linear-gradient(to bottom right ,#9c9c9c, #4d4d4d);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.itemTime99A{
+  display: block;
+  background-color: transparent;
+  border:none;
+  width: 100%;
+  font-family: calibri;
+  font-size: 24px;
+  color:grey;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.ItemCost99A {
+
+    display: block;
+    background-color: whitesmoke;
+    border: none;
+    width: 70%;
+    font-family: calibri;
+    font-size: 30px;
+    color: red;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    border-radius: inherit;
+
+}
+
+
+
+.DepartArrival99A{
+  font-size: 15px;
+  color: grey;
+  display: block;
+}
+
+
+
+
+
+
+
+
+.qty99A{
+  display:none;
+background-color: #286090;
+height: 65px;
+width: 100%;
+padding: 0px 0px 0px 0px;
+color: white;
+font-size: 25px;
+border-top: 1px solid #286090;
+position: absolute;
+top: 449px;
+width: 269px;
+border-radius: 20px;
+z-index: 50;
+left: 453px;
+opacity: .93;
+
+}
+
+
+
+
+
+.sub99A{
+
+display: ;
+height: 88px;
+width: 80px;
+background-color: rgb(52, 121, 184);
+border: 3px solid rgb(52, 121, 184);
+color: white;
+position: relative;
+right: 2px;
+bottom: 6px;
+border-radius: inherit;
+top: -12px;
+
+}
+
+
+
+
+
+
+.add99A{
+
+display: ;
+height: 88px;
+width: 80px;
+background-color: rgb(52, 121, 184);
+border: 3px solid rgb(52, 121, 184);
+background-color: rgb(46, 109, 164);
+border: 3px solid rgb(46, 109, 164);
+color: white;
+position: relative;
+right: -4px;
+bottom: 13px;
+border-radius: inherit;
+
+}
+
+
+
+
+
+.qtyvalue99A {
+
+background-color: #286090;
+height: 55px;
+width: 90px;
+color: white;
+border: none;
+font-size: 50px;
+position: relative;
+right: 4px;
+text-align: center;
+font-size: 64px;
+top: 5px;
+z-index: 50;
+
+}
+
+
+
+
+
+
+
+
+
+
+.py99A{
+
+background-color:rgb(249, 162, 0);
+
+height:60px;
+width:100%;
+padding:3px 5px 5px 10px;  
+font-size:20px;
+}
+
+.py99A label{
+width: 110px;
+padding: 11px 8px;
+margin: 3px 7px;
+margin-left: 7px;
+background-color: orange;
+border: none;
+font-size: 20px;
+color: black;
+font-family: arial;
+box-shadow: inset 0 1px 10px rgb(221, 105, 4);
+
+}
+
+
+
+
+/*the x part*/
+
+
+
+
+
+
+
+
+#buy99A {
+
+height:85px;
+position:relative;
+bottom:12px;
+
+
+display:inline-block;
+border-radius:20px;
+margin-top:0px;
+padding: 11px 22px;
+clear:;
+}
+
+
+
+.buy99A span{
+    font-size:13px;
+    color:red;
+    position: relative;
+    top:-10px;
+
+}
+
+.finB99A span{
+    font-size:13px;
+    color:red;
+    position: relative;
+    top:-10px;
+
+}
+
+
+
+
+
+
+
+#refill99A{
+position:relative;
+display:inline-block;
+border-radius:20px;
+margin-right:40px;
+margin-top:;
+height: 80px;
+    float:right;
+    margin-left:-30px;
+    clear:;
+padding: 10px 18px;
+left: 26px;
+}
+
+
+
+.finB99A{
+color: #fff;
+background-color:#286090;
+position:relative;
+border:none;
+border-radius:20px;
+font-family: arial;
+box-shadow: inset 0 1px 5px white;
+background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+font-weight: 700;
+
+}
+
+
+
+
+
+.total99A{
+position:relative;
+top:10px;
+right:20px;
+background-color:white;
+display:inline-block;
+height:70px;
+width:200px; 
+padding:0px ;
+color:black;
+font-size:50px;
+margin:0px;
+border:none;
+text-align: center;
+
+
+}
+
+.fin99A{
+background-color:white;
+
+height: 105px;
+width:100%;
+padding:10px 20px 10px 10px;
+
+border-bottom-left-radius: inherit;
+
+border-bottom-right-radius: inherit;
+
+color:navy;
+text-align: center;
+text-align: top;
+
+font-size:8px;
+    
+}
+
+
+
+
+
+
+  .thankBuy99A {
+
+  z-index: 500;
+  position: absolute;
+  height: 480px;
+  width: 550px;
+  display: none;
+  margin: 10px 29px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  /* transform: translate(60px, -20px); */
+  padding: 80px 30px 10px 30px;
+  font-size: 20px;
+  opacity: .96;
+  transform: translate(2px, -56px);
+  box-shadow: 0 1px 10px black;
+  font-family: calibri;
+
+}
+.thankBuy99A p{
+font-size:20px;
+
+
+}
+.TapBuy5A{
+  color:white;
+  background-color:grey;
+  width:140px;
+  height:60px;
+
+  padding:12px 0px 0px 0px;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 5px white;
+ margin: 50px auto;
+
+}
+
+.TapBuy5A:hover{
+  cursor: pointer;
+
+  
+}
+
+
+
+
+
+
+.thankRefill99A{
+  z-index: 500;
+  position: absolute;
+  height: 480px;
+  width: 550px;
+  display: none;
+  margin: 10px 29px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  /* transform: translate(60px, -20px); */
+  padding: 60px 30px 10px 30px;
+  font-size: 20px;
+  opacity: .96;
+  bottom: 70px;
+  box-shadow: 0 1px 10px black;
+  font-family: calibri;
+}
+
+.thankRefill99A p{
+
+font-size:20px;
+}
+
+
+
+.TapRefill5A{
+  color:white;
+  background-color:grey;
+  width:140px;
+  height:60px;
+
+  padding:12px 0px 0px 0px;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 5px white;
+  margin: 50px auto;
+
+}
+
+.TapRefill5A:hover{
+  cursor: pointer;
+
+  
+}
+
+
+
+
+.receiptP3 label, .receiptR3 label{
+
+box-shadow: inset 0 1px 5px grey;
+font-size: 35px;
+border-radius: 15px;
+width: 100px;
+
+}
+
+
+
+.check99A{
+    z-index: 500;
+position:absolute;
+   height:400;
+   width:500;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(110px,  70px);
+   padding:20px;
+   font-size:20px;
+   opacity: .90;
+   box-shadow: 0px 3px 10px black;
+}
+
+
+
+.pmethod99A{
+ z-index: 500;
+position:absolute;
+   height:320px;
+   width:480px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(40px,  60px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .90;
+
+
+}
+
+
+.seItem99A{
+ z-index: 500;
+position:absolute;
+   height:320px;
+   width:480px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(40px,  60px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .90;
+
+
+
+
+}
+
+
+.seOptions99A{
+
+   z-index: 500;
+position:absolute;
+   height:320px;
+   width:480px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(40px,  60px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .90;
+
+
+
+}
+
+/*//////////////////////////////////////////////////*/
+
+
+
+
+/*////////////////////////SendGift///////////////////////////////////////*/
+
+
+
+.sendGiftVM99A{
+  display:none;
+  z-index: 500;
+position: absolute;
+text-align: center;
+width: 600px;
+height: 975px;
+padding: 20px;
+background-color:white;
+padding: 15px 40px 10px 40px;
+font-size:19px;
+color:grey;
+
+border-radius: 10px;
+margin:4px;
+   font-family:candara;
+
+   box-shadow: 0 1px 5px grey;
+  
+
+}
+
+
+
+
+
+
+.SendRequestVM99A{
+}
+
+
+
+.SendReqVM99A {
+    background-color: orange;
+    width: 190px;
+    display: block;
+    border-radius: 15px;
+
+    font-family: calibri;
+    font-weight: bold;
+height: 81px;
+font-size: 37px;
+padding: 12px;
+margin-top: 34px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#SendGiftVM99A{
+border-bottom-right-radius:0px; 
+border-top-right-radius:0px;
+}
+
+
+#RequestGiftVM99A{
+border-bottom-left-radius:0px; 
+border-top-left-radius:0px;
+}
+
+
+
+
+
+.gifttotalVM99A{
+
+font-size: 50px;
+    font-family: ;
+    right: 130px;
+    top: 114px;
+    font-family: calibri;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+
+
+.totalGiftVM99A{
+
+    position: relative;
+   
+    display: inline-block;
+    height: 70px;
+    width: 149px;
+    padding: 0px;
+    font-size: 65px;
+    margin: 0px;
+    border: none;
+    text-align: left;
+  
+    font-family: arial;
+    background-color:whitesmoke;
+    color:black;
+    font-family: calibri;
+
+}
+
+.ConfirmSend{
+background-color: #286090;
+    color: white;
+    height: 74px;
+    width: 204px;
+    font-size: 32px;
+    border-radius: 25px;
+    box-shadow: inset 0 1px 10px white;
+    border: none;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.closeGiftVM99A {
+    display:none;
+    z-index: 1500;
+    position: absolute;
+    text-align: center;
+ width: 87px;
+
+height: 80px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    color: grey;
+   transform: translate(-296px, 33px);
+    border: none;
+    border-radius: 30px;
+    font-size: 60px;
+    color: red;
+    font-family: arial;
+}
+
+
+
+
+
+
+/*/////////////////////////////////////////////////*/
+
+
+
+ .SelectFriendVM99A {
+
+    margin: 36px 20px;
+    width: 100%;
+ 
+}
+
+
+
+.friendsVM99A {
+
+    display: inline-block;
+width: 123px;
+height: 134px;
+    border-radius: 0px;
+    border: 5px solid lightgrey;
+    margin: 18px 50px;
+    color: whitesmoke;
+    font-size: 15px;
+
+}
+
+
+
+.friendsVM99A b {
+    font-size: 53px;
+}
+
+
+
+.friendsSpanVM99A {
+
+    position: relative;
+    top: 76px;
+    color: whitesmoke;
+    right: 13px;
+
+}
+
+
+
+
+.friendImputVM99A {
+
+    width: 79px;
+    height: 21px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    position: relative;
+    color: whitesmoke;
+    top: 80px;
+    right: 14px;
+
+}
+
+
+  #MikeVM99A{
+
+background-color: white;
+color: black;
+padding: 24px 5px;
+
+
+
+}
+
+
+#MySelfVM99A{
+
+  background-image: url("../img/boy9.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#JeffVM99A{
+
+  background-image: url("../img/boy1.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+#MariaVM99A{
+
+  background-image: url("../img/girl.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+#JohnVM99A{
+
+background-image: url("../img/boy7.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+#LeahVM99A{
+
+background-image: url("../img/girl3.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#PaulVM99A{
+
+background-image: url("../img/boy4.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#JennyVM99A{
+
+background-image: url("../img/girl2.png");
+background-position:center;
+background-size: cover;
+background-color:white;
+
+}
+
+
+#GokuVM99A{
+
+background-image: url("../img/boy5.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+.GiftSentVM99A{
+
+display: none;
+z-index: 500;
+position: absolute;
+height: 710px;
+width: 550px;
+border: 5px solid white;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+transform: translate(25px, 100px);
+padding: 203px 70px 10px 70px;
+font-family: calibri;
+font-size: 15px;
+opacity: .98;
+color: rgb(102, 102, 102);
+margin-top: 63px;
+box-shadow: 0 1px 5px black;
+
+}
+
+
+
+
+
+#GiftPayAmountVM99A{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+
+
+
+#happyFriendVM99A{
+
+    border:none;
+    font-size: 30px;
+    width:20%;
+
+
+}
+
+
+/*////////*/
+
+
+
+/*////////////////////////SendGift///////////////////////////////////////*/
+
+
+
+
+.BuyNewVM99A{
+
+
+}
+.CheckBalVM99A{
+
+padding-top: 73px;
+}
+
+.CheckBalVM99A h1{
+
+  color:lightgrey;
+}
+
+
+.CheckBalVM99A h2{
+
+  text-align:left;
+}
+
+
+
+.CheckDividers{
+color:lightgrey;
+width:80%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////DArk UI3/////////////////////////////////////*/
+
+.DARKui99A{
+
+
+
+border: 1px solid grey;
+position:;
+height:auto;
+width:606px;
+border-radius:10px;
+/*transform: translate(560px,  150px);*/
+display:;
+background-color: black;
+
+margin:5% auto 5% auto;
+}
+
+
+
+.DARKlan99A{
+
+
+
+
+}
+
+.DARKlan99A label, .DARKlan99A button {
+    
+
+
+}
+
+
+
+#panel99A{
+
+z-index: 1000;
+position: absolute;
+transform:translate(90px, 60px);
+width:450px;
+display:none;
+
+}
+.panel-heading{
+  text-align: center;
+}
+
+
+.DARKitm99A{
+background-color:Black;
+
+height:290px;
+width:100%;   
+color:grey;
+text-align:center;
+
+
+}
+
+
+.DARKitm99A label, .DARKitm99A button{
+    
+    margin:10px 14px ;
+    background-color:black;
+    border:none; 
+    border-radius:7px;
+    color:white;
+    font-family: arial;
+box-shadow:inset 0 1px 5px grey;
+padding:/* 17px 25px*/;
+font-size:10px;
+height: 110px;
+width: 100px;
+padding: 0px;
+font-family: calibri;
+
+}
+
+
+
+
+
+
+
+
+.DARKitm99A i{
+top:0px;
+clear:both;
+left:30px;
+color:red;
+
+}
+
+
+
+.DARKitm99A li button {
+    margin:5px 10px 5px 10px;
+}
+
+
+/*.qty{
+
+background-color:#286090;
+height:68px;auto;
+width: 600px;auto;
+padding:0px 20px 5px 165px; auto;  
+color:white;
+font-size:25px;
+border-top:1px dashed darkgrey;
+
+}*/
+
+#DARKsub99A{
+display: none;
+  z-index: 5;
+    display:;
+    height:60px;
+    width:72px;
+
+    background-color:black;
+    border: none;
+    color:white;
+    margin-right:20px;
+    position:absolute;
+    transform:translate(-380px, 46px);
+    border-radius: 3px;
+padding-left: 20px;
+
+    
+}  
+
+
+#DARKadd99A{
+  display: none;
+  z-index: 5;
+  display:;
+    height:60px;
+    width:72px;
+
+    background-color:black;
+    border: none;
+    color:white;
+    margin-right:20px;
+    position:absolute;
+    transform:translate(-200px, 46px);
+    border-radius: 3px;
+   padding-left: 21px; 
+   padding-top: 10px; 
+}  
+
+
+
+
+    
+#DARKqtyvalue99A{
+  display: none;
+  z-index: 5;
+background-color:black;
+height:48px;
+width:90px; 
+
+
+color:white;
+border:none;
+font-size:40px;
+position:absolute;
+text-align: center;
+transform:translate(-300px, 51px);
+font-family: arial;
+border-radius: 3px;
+
+
+
+
+}
+
+
+
+.DARKpy99A{
+
+background-color:rgb(249, 162, 0);
+
+height:60px;auto;
+width:100%;
+padding:3px 5px 5px 10px;  
+font-size:20px;
+}
+
+.DARKpy99A label{
+
+width: 110px;
+padding: 11px 8px;
+margin: 3px 7px;
+margin-left: 7px;
+background-color: orange;
+border: none;
+font-size: 20px;
+color: black;
+font-family: arial;
+box-shadow: inset 0 1px 5px rgb(239, 111,0);
+
+
+}
+
+
+
+
+/*the x part*/
+
+
+
+
+
+
+
+
+.DARKbuy99A {
+
+color: #fff;
+background-color:#286090;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.DARKrefill99A{
+color: #fff;
+background-color:#286090;
+
+
+}
+
+
+
+
+.DARKfinB99A{
+color: #fff;
+background-color:#286090;
+
+box-shadow: inset 0 1px 5px white;
+
+}
+
+
+
+
+
+
+.DARKtotal99A{
+background-color:black;
+color:white;
+
+
+
+}
+
+.DARKfin99A{
+background-color:Black;
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+  .DARKthankBuy99A {
+
+  z-index: 500;
+  position: absolute;
+  height: 480px;
+  width: 550px;
+  display: none;
+  margin: 10px 29px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+   transform: translate(60px, -20px); 
+  padding: 80px 30px 10px 30px;
+  font-size: 20px;
+  opacity: .96;
+  box-shadow: 0 1px 10px black;
+
+}
+.DARKthankBuy99A p{
+
+
+
+}
+.Buy35A{
+  color:white;
+  background-color:grey;
+  width:140px;
+  height:60px;
+
+  padding:12px 0px 0px 0px;
+  border-radius: 15px;
+  box-shadow: inset 0 1px 5px white;
+ margin: 50px auto;
+
+}
+
+.TapBuy35A:hover{
+  cursor: pointer;
+
+  
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////*/
+
+
+
+
+
+/*//////////////////////////////MOBI MOBI 55/////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+.ui99AMOBI{
+
+
+  border-radius: 50px;
+}
+
+
+.lan99AMOBI {
+    height: 120px;
+    padding: 25px 10px 5px 55px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display:;
+}
+
+
+
+
+.Vm6LanBMOBI{
+  display:none;
+}
+
+
+
+
+
+.itm99AMOBI {
+    padding: 30px 40px 10px 50px;
+    height: 790px;
+    width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+
+
+
+.itm5labelsMOBI{
+
+    padding-left: 16px;
+
+}
+
+
+
+.itmV99AMOBI {
+    margin: 15px 11px;
+        margin-left: 11px;
+    margin-left: 11px;
+    margin-left: 20px;
+    margin-left: 20px;
+    border: none;
+    width: 182px;
+    font-size: 17px;
+    height: 237px;
+    box-shadow: inset 0 1px 15px;
+    padding: 0px 0px;
+}
+
+
+
+
+.itm99A li button {
+    margin: 7px;
+        margin-left: 7px;
+    margin-left: 10px;
+    height: 60px;
+    padding: 10px 20px;
+    width: 221px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+
+
+
+
+.itm99AMOBI li button {
+    margin: 7px;
+    height: 80px;
+    padding: 10px 20px;
+    width: 307px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+
+
+
+/*
+.itm99AMOBI span{
+display:block;
+
+color:grey;
+}
+*/
+
+
+
+
+.labelMOBI99A{
+font-size:18px;
+margin: -5px 15px 10px 15px;
+display:;
+}
+
+
+
+.selectmenu399AMOBI {
+    height: 94px;
+    padding: 5px;
+    margin: 5px 5px 5px 1px;
+    width: 117px;
+    background-color: white;
+    border: none;
+    box-shadow: inset 0 1px 15px;
+    font-weight: 1px;
+    color: #000033;
+    font-size: 35px;
+    font-family: arial;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+
+.SelectSeatParent99A{
+  font-size: 18px;
+  color: grey;
+  display: none;
+}
+
+.SelectSeats99A{
+
+border:none;
+width:100%;
+border-radius: 40px;
+height: 100px;
+box-shadow: inset 0 1px 10px;
+padding: 13px 32px 13px 47px;
+
+
+}
+.Seat99A{
+
+display: inline-block;
+border:none;
+background-color: lightgrey;
+height: 2px;
+width: 2px;
+margin: 8px;
+
+}
+
+
+
+
+
+
+.qty99AMOBI {
+
+    display: none;
+    background-color: #286090;
+    height: 95px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    font-size: 25px;
+    border-top: 1px solid #286090;
+    position: absolute;
+    width: 269px;
+    border-radius: 33px;
+    z-index: 50;
+    opacity: .93;
+    transform: translate(-286px, 36px);   
+}
+
+
+.sub99AMOBI {
+
+    display: ;
+    height: 140px;
+    width: 150px;
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+    position: relative;
+    right: 107px;
+    bottom: 6px;
+    border-radius: inherit;
+    top: -26px;
+    font-size: 43px;
+
+}
+
+
+
+
+
+.add99AMOBI {
+
+    display: ;
+    height: 140px;
+    width: 150px;
+    background-color: rgb(46, 109, 164);
+    border: 3px solid rgb(46, 109, 164);
+    color: white;
+    position: relative;
+    right: -148px;
+    bottom: 166px;
+    border-radius: inherit;
+    font-size: 43px;
+
+}
+
+
+
+
+.qtyvalue99AMOBI {
+
+    background-color: #286090;
+    height: 55px;
+    width: 90px;
+    color: white;
+    border: none;
+    font-size: 50px;
+    position: relative;
+    right: 85px;
+    text-align: center;
+    font-size: 71px;
+    top: -2px;
+    z-index: 50;
+
+}
+
+
+
+
+.py99AMOBI {
+    height: 104px;
+    width: 100%;
+    padding: 3px 5px 5px 5px;
+    font-size: 20px;
+}
+
+
+.py99A p{
+float:left;
+margin-top: 10px;
+}
+
+
+.py99AMOBI p{
+float:left;
+margin-top: 22px;
+}
+
+.PayButtonsMOBI66 {
+display:none;
+font-size: 40px;
+ 
+}
+
+.PayButtonsMOBI66 label{
+display:;
+font-size: 27px;
+margin: 13px 12px;
+width: 124px;
+padding: 7px 0px;
+box-shadow: inset 0 1px 13px rgb(239, 111,0);
+ 
+}
+
+
+
+
+.fin99AMOBI {
+    
+    height: 181px;
+    width: 100%;
+    padding-top: 30px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+ .buy99AMOBI {
+    width: auto;
+    
+    position: relative;
+    top: 1px;
+   right: -24px;
+    border-radius: 20px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 25px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+.total99A {
+
+    position: relative;
+    bottom: -18px;
+    display: inline-block;
+    height: 70px;
+    width: 238px;
+    padding: 0px;
+    font-size: 65px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+    transform: translate(-96px, 5px);
+    font-family: arial;
+    left: 102px;
+
+}
+
+
+
+
+.refill99AMOBI {
+
+    top: 0px;
+    right: -12px;
+    border-radius: 20px;
+    height: ;
+    float: right;
+    font-family: arial;
+    font-size: 25px;
+    height: 120px;
+    left: 17px;
+
+}
+
+
+
+
+
+
+.buy99AMOBI {
+ display:none;
+ height:120px;
+ width:140px;
+ left:-11px;
+}
+
+
+.refill99AMOBI{
+  display:none;
+  height:120px;
+  width:140px;
+left: 22px;
+padding: 41px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////*/
+
+
+
+
+

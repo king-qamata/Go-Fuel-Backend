@@ -1,0 +1,12231 @@
+
+
+
+
+
+
+.buttonsx8{
+
+  
+  margin:5% auto 5% auto;
+
+}
+
+
+.ScreenTColorsx8{
+width:100%;
+background-color:rgb(250, 250, 250);
+padding-top: 10px;
+
+}
+
+
+
+
+
+.screenTypex8{
+border:none;
+background-color:;
+color:grey;
+font-family: calibri;
+font-size:25px;
+display:block;
+
+
+background-color:;
+width: 30%;
+display: inline-block;
+float:right;
+}
+
+
+/*/////*/
+
+
+.denoOptionsx8{
+font-size: 5px;
+font-family: candara;
+border: none;
+border-radius: 7px;
+width: 63.9px;
+margin: auto;
+padding: 5px 0px 0px 0px;
+color: grey;
+background-color:;
+display:block;
+
+
+}
+
+
+.Denox8 label{
+font-size: 2px;
+padding: 2px 5px;
+border-radius: 5px;
+}
+
+/*//*/
+
+
+
+
+
+.BothColorsx8{
+display: inline-block;
+width: 58%;
+background-color:;
+color: grey;
+font-family: calibri;
+font-size: 25px;
+}
+
+
+
+#ATM1Mobilex8, #ATM1Machinex8{
+  display:;
+  background-color: inherit;
+  border:none;
+height:100px;
+width: 100px;
+font-size: 73px;
+color: black;
+}
+
+
+
+.stText{
+display: block;
+font-size: 12px;
+color:grey;
+}
+
+
+
+
+.Colorsx8 button{
+height: 50px;
+width: 65px;
+
+border: none;
+display:;
+border-radius: 11px;
+border: none;
+margin: 0px 2px 20px 0px;
+border: none;
+box-shadow: inset 0 1px 3px grey;
+}
+
+
+
+.Colorsx8 button:hover{
+
+  box-shadow: 0px 3px 15px 3px lightgrey;
+
+}
+
+
+
+
+.priBluex8{
+/*  background-color: #286090;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+  background-image: url("img/mobi.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+.DarkBluex8, .MOBIwhitex8{
+/*  background-color: #286090;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+  background-image: url("img/mobi.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+
+.blue1x8{
+/*  bax8ckground-color: #337ab7;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+
+  background-image: url("img/Chevron.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+
+.redx8, .TXBlackx8{
+
+
+  background-image: url("img/texacoblack.png");
+/*background-image: url("../img/hsbc.jpg");*/
+background-position:center;
+background-size: cover;
+}
+
+
+
+
+
+
+.greenx8{
+ /* background-color: green;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+
+background-image: url("img/bp.png");
+background-position:center;
+background-size: 78%;
+
+
+}
+
+.green2x8, .BPwhitex8{
+ /* background-color: green;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+
+background-image: url("img/bp2.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+.navyBluex8{
+
+  background-image: url("img/popul.png");
+/*background-image: url("../img/europe.png");*/
+background-position:center;
+background-size: cover;
+}
+
+#navy2Bluex8{
+/*  background-color: #000034;
+  box-shadow: 0px 5px 10px 5px lightgrey;
+  border:none;*/
+
+  background-image: url("img/euro.png");
+background-position:center;
+background-size: cover;
+}
+
+.lightBluex8{
+
+  background-image: url("img/lay.png");
+background-position:center;
+
+background-size: cover;
+
+}
+
+
+
+.lightBlue2x8{
+
+  background-image: url("img/lay.png");
+background-position:center;
+
+background-size: cover;
+
+}
+
+
+
+.red2x8{
+
+background-image: url("img/Wells-Fargo.jpg");
+background-position:center;
+background-size: cover;
+}
+
+
+.red4x8, .TXwhitex8{
+
+  background-image: url("img/texaco.png");
+/*background-image: url("../img/hsbc.jpg");*/
+background-position:center;
+background-size: cover;
+}
+
+.orangex8, .SHwhitex8{
+ 
+
+  background-image: url("img/shell2.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+.banresx8{
+
+background-image: url("img/banreser.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.poncex8{
+ 
+
+background-image: url("img/euro.png");
+background-position:center;
+background-size: cover;
+
+}
+
+.red3x8{
+
+
+  background-image: url("img/china.png");
+background-position:center;
+background-size: cover;
+}
+
+.blue2x8{
+
+
+  background-image: url("img/citi.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.blue22x8{
+
+
+  background-image: url("img/Chevron.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.yellowx8{
+
+
+background-image: url("img/brazil.png");
+background-position:center;
+background-size: cover;
+}
+
+
+
+
+
+.Citgox8{
+
+background-image: url("img/citgo.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+.Aramcox8{
+
+background-image: url("img/Aramco.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui2x8{
+
+height: auto;
+
+position:;
+width: 609px;
+
+border-radius:30px;
+
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+
+ 
+/*  float:right;
+  clear:right;
+  margin-bottom: 5%;*/
+border:none;
+box-shadow: 0 20px 50px grey;
+
+border-radius: 15px;
+
+
+
+}
+
+
+
+
+
+.Damount{
+  color:crimson;
+}
+
+.checkinginfo2x8{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height:370px;
+margin:60px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+
+
+
+}
+.savinginfo2x8{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height:370px;
+margin:60px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+
+border: 3px solid grey;
+
+}
+
+
+
+.assistancex8{
+    width: 600px;
+    height: 320px;
+    background-color: white;
+    background-image: url("img/asistance.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    display: none;
+    z-index: 50;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: grey;
+    border-radius: 30px;
+    margin: 4px;
+    font-family: candara;
+}
+
+
+
+
+
+.lan2x8{
+
+border-top-right-radius: 7px;
+border-top-left-radius: 7px;
+height:50px;
+width: 100%;
+padding:5px 10px 10px 19px;
+
+
+
+}
+
+
+.langBx8{
+    
+    padding:8px;
+    margin:5px;
+    width:110px;
+    font-weight: 1px; 
+    font-size:18px; 
+    font-family: arial;
+
+}
+
+
+.langBx8{
+
+ padding:6px;
+    margin:2px 5px 5px 12px;
+    width:110px;
+    font-weight: 1px; 
+    font-size:18px; 
+}
+
+
+
+.lan2x8 .dropdown-menu{
+width:60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.ServicePanelx8{
+
+}
+
+
+
+.serm2x8 {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    display: ;
+    z-index: 0;
+    background-size: 50%;
+    background-position: center;
+}
+
+
+.serm2MOBIx8{
+
+
+  position:relative;
+
+ 
+  height:290px;
+  width:100%;
+  display:;
+  z-index: 0;
+/*background-size: 50%;*/
+
+background-position: center;
+
+}
+
+
+.InnerX8 {
+  
+    height: 100%;
+    width:100%;
+    background-color: inherit;
+    padding-top: 10px;
+
+}
+
+
+.innerx8{
+opacity: .95;
+margin-top: ;
+padding: 10px 20px 30px 32px;
+display: inline-block;
+height: 100%;
+background-color: inherit;
+color: grey;
+font-size: 10px;
+
+}
+
+
+
+.innerLeftx8{
+ 
+  width:100%;
+z-index: 500;
+margin: 0px;
+padding: 8px 0px 0px 25px;
+display:;
+
+
+}
+
+.innerLeftMOBIx8{
+ 
+  width:100%;
+z-index: 500;
+margin-top: 20px;
+padding: 37px 0px 20px 0px;
+display:block;
+height: 120px;
+
+}
+
+
+
+
+.innerRightx8 {
+    width: 100%;
+    z-index: 50;
+    margin: 0px;
+    padding: 27px 7px 0px 0px;
+}
+
+
+
+
+.innerRightMOBIx8{
+ 
+  width:100%;
+  z-index: 50;
+  margin: 0px;
+  padding: 8px 0px 40px 0px;
+  height: 574px;
+}
+
+
+.StationLocationx8 {
+
+    background-color: transparent;
+    font-size: 29px;
+    border: 1px solid lightgrey;
+    width: 43%;
+    height: 46px;
+    border-radius: 25px;
+    font-family: calibri;
+    text-align: center;
+    margin-right: 161px;
+    color: grey;
+
+}
+
+
+
+.StationLocationMOBIx8 {
+    background-color: transparent;
+    font-size: 30px;
+    border: 1px solid lightgrey;
+    width: 48%;
+    height: 60px;
+    border-radius: 25px;
+    font-family: calibri;
+    text-align: center;
+    margin-right: 140px;
+}
+
+
+.sm2x8 {
+    height: 45px;
+    width: 150px;
+    margin: 2px 3px 0px 3px;
+        margin-left: 3px;
+    margin-left: 3px;
+    margin-left: 3px;
+    margin-left: 3px;
+    padding: 13px 7px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+
+
+
+
+.sm2MOBIx8{
+
+height: 64px;
+width: 113px;
+margin: 25px 3px 0px 3px;
+padding: 19px 7px;
+border-radius: 15px;
+font-size: 15px;
+font-family: arial;
+font-weight: bold;
+
+
+}
+
+.acm2x8 {
+    height: 132px;
+    width: 227px;
+    margin: 0px 14px 3px 8px;
+        margin-left: 8px;
+    padding: 10px 35px 10px 34px;
+    border-radius: 30px;
+    font-size: 28px;
+    font-family: arial;
+}
+
+.acm2MOBIx8 {
+    height: 140px;
+    width: 227px;
+    margin: 0px 13px 3px 8px;
+        margin-left: 8px;
+    padding: 16px 35px 10px 34px;
+    border-radius: 30px;
+    font-size: 28px;
+    font-family: arial;
+}
+
+
+/*
+
+.CoinTypeKPT1 {
+font-size: 30px;
+display: inline-block;
+}
+
+.CoinTypeKPT1MOBI{
+font-size: 37px;
+display: inline-block;
+margin-bottom: -3px;
+} 
+
+
+
+
+
+
+.CoinnameKPT1 {
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+.CoinnameKPT1MOBI{
+font-size: 15px;
+display:block;
+margin-bottom: 15px;
+}
+
+
+
+
+.BalKPT1 {
+    display: none;
+    font-size: 15px;
+    position:;
+    color: white;
+ 
+}
+
+
+.MyCoinsKPT1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: witet;
+    font-size: 27px;
+    font-family: calibri;
+    height: 43px;
+    width: 100%;
+    text-align: center;
+}
+.MyCoinsKPT1MOBI {
+
+    display:block;
+    border: none;
+    background-color: transparent;
+    color: witet;
+    font-size: 37px;
+    font-family: calibri;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+.CoinLettersKPT1{
+display: none;
+font-size: 25px;
+color: white;
+}
+
+
+.MyCoinsInUSKPT1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: tan;
+    font-size: 16px;
+    font-family: calibri;
+    height: 12px;
+    width: 100%;
+    text-align: center;
+}
+.MyCoinsInUSKPT1MOBI{
+  display:block;
+border:none;
+background-color:transparent;
+color: tan;
+font-size: 20px;
+font-family: calibri;
+height: 26px;
+width: 100%;
+text-align: center;
+
+}
+
+.CurrentCoinCostInUSKPT1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    font-family: calibri;
+    height: 19px;
+    width: 100%;
+    text-align: center;
+}
+
+.CurrentCoinCostInUSKPT1MOBI{
+display:block;
+border:none;
+background-color:transparent;
+color: white;
+font-size: 20px;
+font-family: calibri;
+height: 36px;
+width: 100%;
+text-align: center;
+
+}*/
+
+
+
+/*.acm2x8 span{
+
+    font-size:15px;
+}
+*/
+
+
+/*
+.serDropx8div{
+
+transform: translate(-325px, -5px);
+opacity: 1;
+padding: 15px;
+height: 240px;
+width: 380px;
+/*transform:translate(275px, -280px);*/
+
+
+
+
+
+
+.serDropx8 {
+    display:none;
+    opacity: 1;
+    padding: 18px 15px;
+    height: 409px;
+    width: 482px;
+    transform: translate(62px, -435px);
+    z-index: 5000;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+
+.serDropx8 button {
+    margin:5px 10px 5px 10px;
+    border-radius: 15px;
+    height:53px;
+    z-index: 5000;
+    width: 200px;
+}
+
+
+
+/*.glyphicon-arrow-right{
+    z-index:50;
+    color:orange;
+    right:225px;
+    top:20px;
+    position:absolute;
+    display:none;
+}
+
+
+.glyphicon-arrow-left{
+    z-index: 50;
+    color:orange;
+    right:230px;
+    top:20px;
+    position:absolute;
+    display:none;
+
+
+}*/
+
+
+.cheTsav2x8{
+z-index: 50;
+color: orange;
+right: 257px;
+top: 152px;
+position: absolute;
+display: none;
+font-size: 90px;
+}
+
+
+
+.savTche2x8{
+z-index: 50;
+color: orange;
+right: 257px;
+top: 152px;
+position: absolute;
+display: none;
+font-size: 90px;
+}
+
+
+
+
+
+
+#toSavingx8{
+  display:none;
+  z-index: 50;
+  background-color:black;
+  color:darkgrey;
+  position:absolute;
+  width:150px;
+  height:25px;
+  right:185px;
+  top:-25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+
+#toCheckingx8{
+  display:none;
+  z-index: 50;
+  background-color:black;
+  color:darkgrey;
+  position:absolute;
+  width:150px;
+  height:25px;
+  right:185px;
+  top:-25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+
+
+
+
+
+
+
+
+/*/////////////////BILL DENO OFFICIAL////////////////////*/
+
+
+
+
+
+      /*//////////////BILL DenomiNation Withdraw////////////////////////////*/
+
+
+.BillDenominationWdrawx8{
+  display:none;
+  z-index: 600;
+position: absolute;
+text-align: center;
+width: 600px;
+height: 320px;
+padding: 20px;
+background-color:white;
+font-size:20px;
+color:grey;
+border-radius: 30px;
+border:1px solid lightgrey;
+margin: 4px;
+font-family: georgia;
+}
+
+
+
+
+
+.SelectBillDenomix8{
+ padding: 0px 0px 0px 41px;
+ margin-top: -12px;
+
+}
+
+
+
+.BillDenominationWdrawx8 span{
+
+font-size:10px;
+ font-weight:bold;
+
+}
+
+
+
+.BillDenomi1x8, .BillDenomi2x8, .BillDenomi3x8, .BillDenomi4x8, .BillDenomi5x8, .BillDenomi6x8{
+
+margin: 13px 44px 13px 60px;
+box-shadow: none;
+width: 130px;
+padding: 10px 8px;
+border-radius: 10px;
+box-shadow: inset 0 1px 5px white;
+border: none;
+font-family: calibri;
+height: 96px;
+background-color: olivedrab;
+font-size:45px;
+color:white;
+
+}
+
+
+.BillDenomiImputLabelx8 {
+
+    background-color: white;
+    height: 34px;
+    width: 100px;
+    position: absolute;
+    color: lightgrey;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: inset 0 1px 5px grey;
+    bottom: -23px;
+    right: 11px;
+    padding-left: 10px;
+
+}
+
+
+
+.BillDenomiImputx8{
+  width:100%;
+  height:100%;
+  background-color: transparent;
+  font-size: lightgrey;
+  border:none;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////End of Bill Denomination Withdraw////////////////////////////////*/
+
+
+
+/*///////////////Bill Denomi MOBI////////////*/
+
+
+.SelectBillDenomiMOBIx8 {
+    padding: 0px 0px 0px 66px;
+}
+
+
+
+.BillDenomiMOBIx8{
+    margin: 23px 44px 35px 60px;
+    box-shadow: none;
+    width: 202px;
+    padding: 24px 8px;
+    height: 139px;
+    font-size: 52px;
+
+}
+
+
+.BillDenomiImputLabelMOBIx8 {
+
+    height: 53px;
+    width: 119px;
+    font-size: 22px;
+    bottom: -28px;
+    right: 39px;
+    padding-left: 10px;
+}
+
+
+.BillDenomiImputMOBIx8 {
+
+    font-size: 40px;
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.qty2x8{
+
+height:118px;
+width: 100%;  
+font-size:20px;
+text-align: center;
+margin-bottom:0px;
+padding-left:0px;
+font-size:30px;
+
+
+}
+
+
+
+
+
+.feesx8 {
+
+    display: block;
+    background-color: inherit;
+    color:lightgrey;
+   
+    border: none;
+    font-size: 12px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: left;
+    /*position: absolute;*/
+    padding: 2px 0px 5px 29px;
+    width: 133px;
+    z-index: 200;
+    transform: translate(-1px, 2px);
+    height: 20px;
+    margin:-10px auto;
+    z-index: 700;
+
+
+}
+.feeInputx8 {
+
+    display: inline-block;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    font-size: 12px;
+    width: 33%;
+    height: 100%;
+    text-align: left;
+
+
+}
+
+
+
+
+
+
+
+.feesMOBIx8 {
+    display: block;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+  
+    text-align: left;
+    /*position: absolute;*/
+    padding: 5px 2px 5px 46px;
+    width: 200px;
+   transform: translate(-1px, 4px);
+    height: 37px;
+    border-radius: 28px 28px 0px 0px;
+    
+    margin:-19px auto;
+}
+
+.feeInputMOBIx8 {
+
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    font-size: 21px;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+
+}
+
+
+
+.pinChangefeesx8{
+
+  background-color: white;
+  color:white;
+}
+
+
+
+
+.qty2x8:hover{
+
+  cursor: pointer;
+}
+ 
+
+
+   
+.qtyvalue2x8{
+background-color:inherit;
+height:50px;
+width:250px;
+
+margin-left:0px;
+
+border:none;
+font-size:35px;
+
+}
+
+
+
+.QtyValueCoverx8 {
+
+    height: 50px;
+    width: 305px;
+    position: absolute;
+    right: 413px;
+   
+
+}
+
+
+
+
+
+.qtyvalue23x8{
+
+background-color:inherit;
+height:50px;
+width:70px;
+
+margin-left:0px;
+color:;
+border:none;
+font-size:35px;
+
+}
+
+
+
+.amountInputx8{
+  width:100%;
+}
+
+
+.amountx8{
+  background-color: inherit;
+margin-left: 160px;
+font-size: 35px;
+
+ 
+}
+
+
+
+.amountx8:hover{
+  cursor:pointer;
+ 
+}
+
+
+.NumPadx8{
+
+    transform: translate(0px, -43px);
+        display:none;
+    border-radius:;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 55.47px;
+    font-size:23px;
+
+}
+
+.numVx8{
+    display:inline-block;
+    border-radius:;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 55.45px;
+    font-size:23px;
+    transform:none;
+}
+
+
+
+
+
+
+.LinearNumPadx8{
+  background-color: inherit;
+  margin-bottom:0px;
+  width:100%;
+  height:57px;
+  padding: 0px 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.pyx8{
+display:none;
+background-color: inherit;
+height: 100%;
+width: 100%;
+padding: 1px 5px 5px 10px;
+font-size: 20px;
+position: relative;
+bottom: 46px;
+
+}
+
+
+.pyGasx8{
+display:none;
+background-color: inherit;
+height: 100%;
+width: 100%;
+padding: 1px 5px 5px 10px;
+font-size: 20px;
+position: relative;
+bottom: 46px;
+
+}
+
+
+.PayButtonsBx8 {
+
+    width: 110px;
+    padding: 3px 8px;
+    margin: 3px 7px;
+        margin-left: 7px;
+    margin-left: 7px;
+    background-color: inherit;
+    border: none;
+    font-size: 16px;
+    color: inherit;
+    font-family: arial;
+    box-shadow: inset 0 1px 5px;
+    height: 52px;
+
+}
+
+.PayButtonsBMOBIx8{
+
+width: 110px;
+padding: 11px 8px;
+margin: 3px 7px;
+margin-left: 7px;
+background-color: inherit;
+border: none;
+font-size: 20px;
+color:inherit;
+font-family: arial;
+box-shadow: inset 0 1px 5px;
+
+}
+
+
+
+
+.RegularPayBx8 {
+    width: 110px;
+    padding: 11px 8px;
+    margin: 3px 7px;
+        margin-left: 7px;
+    margin-left: 7px;
+    margin-left: 7px;
+    background-color: inherit;
+    border: none;
+    font-size: 23px;
+    color: inherit;
+    font-family: arial;
+    box-shadow: inset 0 1px 5px;
+    height: 52px;
+
+}
+
+
+
+.pyMOBIlabelx8 {
+
+    width: 128px;
+    padding: 16px 8px;
+    margin: -2px 7px;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    color: inherit;
+    font-family: arial;
+    box-shadow: inset 0 1px 5px;
+    height: 86px;
+
+}
+
+
+
+
+.fin2x8{
+
+opacity: .93;
+background-color:#071422;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+height:95px;
+width:100;
+/*padding:15px 5px 5px 10px; */
+
+
+    
+}
+
+
+.finBx8{
+
+border-radius:20px;
+padding:15px;
+width: 224px;
+margin:20px 10px;
+/*margin-right: 25px;*/
+font-family: arial;
+
+
+}
+
+
+
+
+#Scan2Yx8{
+
+   display:none;
+    padding: 7px 15px;
+
+ 
+}
+
+
+#ScanBILLDEx8{
+  display:none;
+}
+
+
+
+.ScanMachinex8 {
+    display: none;
+    z-index: 600;
+    position: absolute;
+    text-align: center;
+    width: 91%;
+    height: 44%;
+    padding: 0px 60px;
+    background-color: yellow;
+    font-size: 15px;
+    color: grey;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    margin: 233px 30px;
+    font-family: calibri;
+    opacity: .97;
+}
+
+
+.ScanMachinex8 {
+    display: none;
+    z-index: 600;
+    position: absolute;
+    text-align: center;
+    width: 91%;
+    height: 53%;
+    padding: 81px 60px;
+    background-color: yellow;
+    font-size: 15px;
+    color: grey;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    margin: 138px 28px;
+    font-family: calibri;
+    opacity: .97;
+}
+
+
+.CaptureorCancelx8{
+
+background-color: inherit;
+padding: 15px 10px;
+margin: 12px 0px;
+width: 140px;
+font-weight: 1px;
+font-family: arial;
+height: 85px;
+font-size: 65px;
+border: none;
+color: grey;
+
+}
+
+
+.VerySmallMachine {
+    display: block;
+    font-size: 16px;
+}
+
+
+
+.ScanWithdrawx8{
+
+
+}
+
+
+#submit2Yx8{
+
+}
+
+
+#submit2x8{
+display:none;
+}
+
+
+
+#exit2x8{
+display:none;
+
+}
+
+
+
+
+
+/*
+
+
+.confirm2x8{
+    z-index: 500;
+position:;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);
+   padding:;
+   font-size:20px;
+   opacity: 1;
+/*   left:90px;
+   bottom:2px;
+
+}*/
+
+
+/*
+.back2x8{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+*/
+
+
+ .confBack2Yx8, .ScanconfBack2Yx8{
+    z-index: 500;
+    position:;
+    height:100%;
+    width: 100%;
+    
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    background-color: #071422;
+    border: none;
+    /*transform: translate(-10px, -14px);*/
+    display: none;
+    padding-top: 13px;
+
+ }
+
+
+
+
+.confirm2Yx8, .Scanconfirm2Yx8{
+
+z-index: 500;
+position: ;
+height: 70px;
+width: 210px;
+display:;
+border: none;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+/*transform: translate(80px, 439px);*/
+padding: ;
+font-size: 20px;
+opacity: 1;
+left: 90px;
+bottom: 2px;
+box-shadow: inset 0 1px 5px black;
+padding: 2px 0px;
+margin: 0px 1px 0px 90px;
+color: black;
+
+}
+
+
+
+.back2Yx8, .Scanback2Yx8{
+
+z-index: 500;
+position: relative;
+height: 70px;
+width: 210px;
+display:;
+border: none;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+/*transform: translate(310px, 439px);*/
+padding: 4px 0px 5px 0px;
+font-size: 20px;
+opacity: 1;
+left: 310px;
+bottom: 70px;
+box-shadow: inset 0 1px 5px black;
+color: black;
+
+ }
+
+
+ 
+
+
+
+ .confBack2x8{
+    z-index: 500;
+    position: relative;
+    height: 81px;
+    width: 601px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #071422;
+    border: none;
+    transform: translate(-10px, -14px);
+    display: none;
+
+ }
+
+
+
+
+
+
+
+  .confBack24x8{
+z-index: 2;
+position: absolute;
+height: 79px;
+width: 600px;
+background-color: #071422;
+border: none;
+transform: translate(0px, 435px);
+display: none;
+ }
+
+
+ .confirm24x8{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.back24x8{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+}
+
+
+
+
+
+/*///////Schedule//////////*/
+.Schedulex8{
+
+position: absolute;
+font-size: 33px;
+height: 50px;
+width: 80px;
+transform: translate(222px, -53px);
+z-index: 1500;
+color: red;
+display:none;
+
+}
+
+
+
+
+
+.Schedulex8 > #datepicker {
+
+height: 19px;
+padding: 5px;
+margin: 5px 5px 5px 12px;
+width: 79px;
+background-color: white;
+border: none;
+font-weight: 1px;
+color:red;
+font-size: 13px;
+font-family: arial;
+text-align: center;
+float: ;
+clear: ;
+display: inline-block;
+position: relative;
+right: 11px;
+bottom: 30px;
+
+
+}
+
+
+.ScheduleMOBIx8 {
+    font-size: 40px;
+    transform: translate(207px, -107px);
+    display: none;
+}
+
+
+.ScheduleMOBIx8 > #datepicker {
+
+    height: 19px;
+    width: 85px;
+    font-size: 15px;
+    display: none;
+
+}
+
+
+
+
+/*/////////////////////////*/
+
+
+.depositCashx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  90px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+    color:rgb(102, 102, 102);
+       font-family:candara;
+   
+}
+
+.depositCashx8  p{
+
+font-size:25px;
+}
+
+
+
+.depositx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  90px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+    color:rgb(102, 102, 102);
+       font-family:candara;
+   
+
+}
+
+.depositx8  p{
+
+font-size:25px;
+}
+
+
+.DepositCCx8 label {
+
+    height: 82px;
+    width: 207px;
+    font-size: 44px;
+    border: 1px solid grey;
+    color: grey;
+    box-shadow: inset 0 1px 5px grey;
+    border-radius: 20px;
+    opacity: initial;
+font-family: georgia;
+}
+
+
+
+.DepositCx8{
+margin-top: -70px;
+display:none;
+}
+
+.DepositCx8 i{
+font-size: 50px;
+}
+
+
+.CheckPhoto{
+
+width:102%;
+height:200px;
+border:2px dashed black;
+border-radius: 15px;
+}
+
+
+.GasPumpPhotox8 {
+    width: 83%;
+    height: 399px;
+    border: 2px dashed black;
+    border-radius: 15px;
+    margin: -18px 87px 11px 45px;
+}
+
+
+
+.CaptureDepositx8{
+  display:none;
+}
+
+
+
+
+
+
+
+.GasStationMapx8{
+  display: none;
+background-color: white;
+width: 100%;
+height: 1060px;
+       background-image: url("img/Map.png");
+       background-size: cover;
+       border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.GasStationInputx8{
+border-radius: 15px;
+border:none;
+box-shadow: 0 1px 3px grey;
+width: 80%;
+height: 65px;
+font-size: 20px;
+color: grey;
+text-align: center;
+margin-top: 50px;
+
+}
+
+
+
+
+
+.GasBuyNotificationsx8{
+display: none;
+background-color: white;
+width: 100%;
+height: 920px;
+border-radius: 0px 0px 10px 10px;
+}
+
+.GasnotificationParrax8{
+  margin: 100px 80px;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.retrievex8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:90px 30px;
+   font-size:20px;
+   opacity: .99;
+   border:1px solid grey;
+}
+
+.retrievex8  p{
+
+font-size:12px;
+}
+
+
+
+.MerchCardChargedx8{
+
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:none;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:115px 30px;
+   font-size:20px;
+   opacity: .99;
+  
+}
+
+
+
+.Confirmedx8{
+
+font-size: 70px;
+color: green;
+}
+
+.PanelCloseP{
+  font-size: 12px;
+}
+
+
+
+
+
+#billsx8{
+  margin-left:-130px;
+}
+
+
+.billsx8 {
+  display: none;
+   font-size: 20px;
+    margin-left: 130px;
+}
+
+
+
+.billsButtonx8{
+
+  border:none;
+  color:inherit;
+  background-color: inherit;
+  margin:-10px 5px 2px 2px;
+  border-radius: 1px;
+  box-shadow: inset 0 1px 5px white;
+  width: 80px;
+}
+
+
+
+.billsMOBIx8 {
+    margin-left: 52px;
+    margin-top: 22px;
+    font-size: 40px;
+}
+
+
+
+
+
+.billsButtonMOBIx8 {
+
+    border: none;
+    color: inherit;
+    background-color: inherit;
+    margin: -10px 5px 2px 2px;
+    border-radius: 41px;
+    box-shadow: inset 0 1px 10px white;
+    width: 120px;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+
+.wrongAmountx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   color:red;
+   border:1px solid grey;
+     box-shadow: inset 0 1px 10px black;
+}
+
+
+
+
+
+
+.depositCheckx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+
+
+.depositCheckx8  p{
+
+font-size:25px;
+}
+
+
+.checkCashSentx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:60px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+   font-family:60px;
+}
+
+.checkCashSentx8 p{
+
+font-size:25px;
+}
+
+.savCashSentx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+.savCashSentx8 p{
+
+font-size:25px;
+}
+
+
+.selectx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(35px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+
+}
+
+.selectx8 p{
+
+font-size:25px;
+}
+
+
+
+.goodbyex8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+.goodbyex8 p{
+
+font-size:25px;
+}
+
+.goodbyex8 h2{
+
+font-size:40px;
+}
+
+
+
+
+.TapBx8{
+    color: white;
+    background-color: grey;
+    width: 160px;
+    height: 60px;
+    transform: translate(160px, 40px);
+    padding: 15px 0px 0px 0px;
+    border-radius: 15px;
+    box-shadow: inset 0 1px 5px lightgrey;
+
+}
+
+.TapBx8:hover{
+  cursor: pointer;
+
+  
+}
+
+
+.goodbyex8 label{
+  height:60px;
+  width:100px;
+  font-size:25px;
+ border: 1px solid grey;
+box-shadow: inset 0 1px 5px grey;
+border-radius: 20px;
+padding: 13px 5px;
+}
+
+
+
+
+
+
+/*///////////////Send Wire Transfer////////////////////*/
+
+
+
+
+
+.sendMoney2x8{
+  display:none;
+  z-index: 50;
+  position: absolute;
+  text-align: center;
+  width: 600px;
+  height: 323px;
+  padding: 20px;
+  background-color: white;
+  font-size: 15px;
+  color: grey;
+  /* transform: translate(25px, 65px); */
+  border-radius: 30px;
+  margin: 3.5px;
+  padding-top: 20px;
+  border:1px solid grey;
+  font-family:candara;
+   
+}
+
+
+
+/*.sendMoney2x8 input{
+width: 360px;
+height:60px;
+margin:10px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+
+
+}*/
+
+
+
+
+
+
+.sendAccountx8{
+width: 425px;
+height:58px;
+margin:0px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+font-size:28px;
+background-color: white;
+
+}
+
+
+.sendRoutingx8{
+width: 425px;
+height:58px;
+margin:0px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+font-size:28px;
+background-color: white;
+
+}
+
+
+
+
+
+.TelContainerx8 {
+
+    margin: 10px;
+    background-color:;
+    height: 80px;
+
+}
+
+
+.ZipContainerx8{
+
+    margin: -15px;
+    background-color:;
+    height: 80px;
+
+}
+
+
+
+.WireTelephonex8{
+width: 250px;
+height:58px;
+margin:0px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+font-size:28px;
+background-color: white;
+
+}
+
+
+.WireZipCodex8{
+width: 160px;
+height:58px;
+margin:0px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+font-size:28px;
+background-color: white;
+
+}
+
+
+.wireSpanx8{
+display:block;
+font-size: 17px;
+color:whitesmoke;
+
+}
+
+
+
+
+/*.SwContainers{
+background-color: green;
+opacity: .97;
+height:80px;
+
+}
+*/
+
+/*///////////*/
+.SwCoversx8{
+
+  background-color:;
+  opacity: .97;
+  height:80px;
+  width:100px;
+  position:absolute;
+
+}
+
+
+.SwAccCoverx8{
+
+    right: 84px;
+    width: 439px;
+}
+
+
+.SwRCoverx8{
+
+    top: 145px;
+    right: 84px;
+    width: 439px;
+
+}
+
+
+.SwTelCoverx8{
+
+    width: 270px;
+    right: 253px;
+    bottom: 15px;
+
+}
+
+
+
+.SwZipCoverx8{
+
+    right: 64px;
+    bottom: 16px;
+    width: 171px;
+}
+
+/*/////////*/
+
+
+.SwImputx8{
+
+}
+
+.SelectedSwImputx8{
+  border:5px solid grey;
+}
+
+
+
+
+
+
+
+
+.sendMoney2x8 input:focus{
+
+box-shadow: 0px 0px 15px 0px lightblue;
+
+}
+
+
+
+/*#closeSendx8{
+
+
+  z-index: 50;
+position: absolute;
+text-align: center;
+width: 60px;
+height: 60px;
+padding: 5px;
+background-color:white;
+font-size:15px;
+color:grey;
+transform: translate(190px, 24px);
+border:none;
+border-radius: 30px;
+font-size: 20px;
+color:red;
+font-family: arial;
+box-shadow: inset 0 1px 10px lightgrey;
+
+}*/
+
+
+.sendMoney3x8{
+  display:none;
+  z-index: 50;
+position: absolute;
+text-align: center;
+width: 550px;
+height: 260px;
+padding: 20px;
+background-color:white;
+font-size:15px;
+color:grey;
+transform: translate(25px,  65px);
+border-radius: 30px;
+
+
+}
+
+
+
+.sendMoney3x8 input{
+width: 360px;
+height:60px;
+margin:10px 20px ;
+font-size:20px;
+color:#286090;
+text-align: center;
+border:1px solid black;
+border-radius: 10px;
+font-family: calibri;
+
+
+}
+
+
+.sendMoney3x8 input:focus{
+width: 360px;
+height:60px;
+margin:10px;
+font-size:20px;
+color:#286090;
+text-align: center;
+border:1px solid blue;
+border-radius: 10px;
+box-shadow: 0px 0px 15px 0px lightblue;
+
+}
+
+
+
+
+
+.sendMoney11x8{
+  display:none;
+  z-index: 500;
+
+text-align: center;
+width: 600px;
+height: 320px;
+padding: 20px;
+background-color:white;
+padding: 15px 40px 10px 40px;
+font-size:10px;
+color:grey;
+
+border-radius: 30px;
+border:1px solid grey;
+margin:4px;
+   font-family:candara;
+  
+
+}
+
+
+
+
+
+.SendRequestx8{
+}
+
+
+
+.SendReqx8 {
+
+    background-color: orange;
+    height: 40px;
+    width: 160px;
+    display: block;
+    border-radius: 15px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px;
+
+}
+
+
+
+#SendQuickx8{
+border-bottom-right-radius:0px; 
+border-top-right-radius:0px;
+}
+
+
+#RequestQuickx8{
+border-bottom-left-radius:0px; 
+border-top-left-radius:0px;
+}
+
+
+
+
+
+
+/* .servicePanelsMOBIx8 span{
+  font-size: 16px;
+  font-family:;
+ }
+*/
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+.QuickSentx8{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 70px 10px 70px;
+      font-family:candara;
+   
+   font-size:15px;
+   opacity: .98;
+   border:1px solid grey;
+   color:rgb(102, 102, 102);
+}
+
+#quickPayAmountx8{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+#happyFriendx8{
+
+    border:none;
+    font-size: 30px;
+    width:20%;
+
+
+}
+
+
+/*////////*/
+
+
+
+.CreditCardsx8{
+  display:none;
+  z-index: 600;
+position: absolute;
+text-align: center;
+width: 701px;
+height: 320px;
+padding: 20px;
+background-color:white;
+font-size:20px;
+color:grey;
+border-radius: 30px;
+border:1px solid lightgrey;
+margin: 4px;
+font-family: georgia;
+}
+
+
+
+
+
+
+
+
+.CreditCardsx8 span{
+
+font-size:11px;
+
+}
+
+
+
+
+
+
+.creditcCardsx8{
+
+    margin-left: 5px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+.card1x8, .card2x8, .card3x8, .card4x8 {
+    margin: 5px 9px;
+    box-shadow: none;
+    box-shadow: none;
+    border-radius: 25px;
+
+    border: none;
+    font-family: calibri;
+    width: 133px;
+    /*background-image: linear-gradient(to bottom right ,#f6f0f0, #dedede);*/
+    box-shadow: inset 0 1px 10px grey;
+    padding-top: 47px;
+}
+
+
+.Cardx8 span{
+
+  display:block;
+  margin:10px 1px;
+}
+
+
+
+
+.CardPaymentx8{
+
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 70px 10px 70px;
+      font-family:candara;
+   
+   font-size:15px;
+   opacity: .98;
+   border:1px solid grey;
+   color:rgb(102, 102, 102);
+   font-family: arial;
+
+}
+
+
+
+#cardPaymentAmountx8{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+#happyCardx8{
+
+    border:none ;
+    font-size: 30px;
+    width:50%;
+
+
+
+
+}
+
+
+
+.CardStatementx8{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height: 500px;
+margin:10px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.CardLabel {
+    padding: 13px 0px;
+    font-weight: bold;
+    font-size: 18px;
+
+    box-shadow: none;
+    border-radius: 25px 25px 0px 0px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    font-weight: bold;
+    background-color: grey;
+    height: 44px;
+    color: white;
+    background-image: linear-gradient(to bottom right ,grey, #47474a);
+  
+}
+
+.CardLabelMOBI {
+
+    height: 54px;
+    font-size: 28px;
+ 
+}
+
+
+
+
+
+.CardLabelStatsx8{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    color: #b9b2b2;
+    font-size: 11px;
+    text-align: left;
+    height: 19px;
+}
+
+
+
+.CardLabelStatsMOBIx8{
+display: block;
+width: 100%;
+background-color: transparent;
+color:  #b9b2b2;
+font-size: 17px;
+text-align: left;
+height: 31px;
+}
+
+
+
+
+
+
+.cardStatsInputx8{
+    width: 71%;
+    background-color: transparent;
+    font-size: 17px;
+    color: grey;
+    border: none;
+}
+.cardStatsInputMOBIx8{
+width: 71%;
+background-color: transparent;
+font-size: 30px;
+color: grey;
+border: none;
+
+}
+
+
+
+
+.CreditBalMinInputx8 {
+    font-size: 16px;
+}
+
+.CreditBalMinMOBIx8{
+  height:30px;
+}
+
+
+
+
+
+
+
+.CreditBalMinInputMOBIx8{
+font-size: 24px;
+}
+
+
+.Damountx8{
+color:#b00e0e;
+}
+
+
+
+
+.CardImputLabelx8 {
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: calibri;
+    position: absolute;
+    right: 13px;
+    border-radius: 15px;
+    bottom: -33px;
+    padding-left: 14px;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 35px;
+    box-shadow: inset 0 1px 7px grey;
+    width: 103px;
+}
+
+
+.CardImputLabelMOBIx8 {
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: calibri;
+    position: absolute;
+    right: 46px;
+    border-radius: 21px;
+    bottom: -25px;
+    padding-left: 14px;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 53px;
+    box-shadow: inset 0 1px 7px grey;
+    width: 134px;
+    font-size: 26px;
+    width: 139px;
+}
+
+
+
+
+
+
+.CardImputx8 {
+    height: 40px;
+    font-size: 30px;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    color: whitesmoke;
+    border: none;
+    padding-left: 2px;
+}
+.CardImputMOBIx8{
+  height: 40px;
+  font-size:40px;
+  background-color: transparent;
+  width:100%;
+  height:100%;
+  border-radius: inherit;
+  color:whitesmoke;
+  border:none;
+  padding-left: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#CardNamex8{
+
+width:40%;
+color:navy;
+font-size: 30px;
+font-family: candara;
+border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////BILL PAYMENTS////////////////////////////*/
+
+
+.PayBillsx8{
+  display:none;
+  z-index: 600;
+position: absolute;
+text-align: center;
+width: 600px;
+height: 320px;
+padding: 20px;
+background-color:white;
+font-size:20px;
+color:grey;
+border-radius: 30px;
+border:1px solid lightgrey;
+margin: 4px;
+font-family: georgia;
+}
+
+
+
+
+
+.PayBillsx8 span{
+
+font-size:10px;
+ font-weight:bold;
+
+}
+
+.SelectBillPayx8{
+  padding-left: 32px;
+  margin-top: -13px;
+
+}
+
+
+.PBillx8 {
+    margin: 8px 38px 20px 63px;
+        margin-left: 63px;
+    box-shadow: none;
+    width: 139px;
+    padding: 10px 22px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 5px white;
+    border: 1px solid lightgrey;
+    font-family: calibri;
+    height: 101px;
+}
+
+
+.PBillx8 span{
+
+    display: block;
+    margin: 3px 0px;
+    font-size: 11px;
+
+}
+
+
+.BillPaySentx8{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:80px 30px 10px 30px;
+   font-family: georgia;
+   font-size:20px;
+   opacity: .98;
+   border:none;
+   font-family:candara;
+}
+
+
+
+
+.PbillLabelStatsx8 {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    color: #b9b2b2;
+    font-size: 11px;
+    text-align: left;
+    height: 11px;
+}
+
+.PbillLabelStatsMOBIx8{
+display: block;
+width: 100%;
+background-color: transparent;
+color:  #b9b2b2;
+font-size: 17px;
+text-align: left;
+height:20px;
+}
+
+
+
+
+
+
+.PbillLabelSmallx8 {
+    height: 10px;
+}
+
+.PbillLabelSmallMOBIx8{
+  height:19px;
+}
+
+
+
+
+.PbillStatsInputx8 {
+    width: 78%;
+    background-color: transparent;
+    font-size: 18px;
+    color: grey;
+    border: none;
+}
+
+
+.PbillStatsInputMOBIx8{
+width: 59%;
+background-color: transparent;
+font-size: 26px;
+color: grey;
+border: none;
+}
+
+
+
+
+
+.PbillSmallInputx8 {
+    font-size: 15px;
+}
+
+.PbillSmallInputMOBIx8{
+  font-size: 18px;
+}
+
+
+
+
+.PbillDamountx8{
+  color: #da1a1a;
+}
+
+
+
+
+
+
+
+.PBillImputLabelx8 {
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: calibri;
+    border-bottom: none;
+    position: absolute;
+    left: 19px;
+    bottom: -23px;
+    background-color: white;
+    border-radius: 15px;
+    width: 103px;
+    height: 32px;
+    padding-left: 17px;
+    box-shadow: inset 0 1px 5px grey;
+}
+
+
+
+.PBillImputLabelMOBIx8 {
+
+    font-size: 26px;
+    color: whitesmoke;
+    font-family: calibri;
+    border-bottom: none;
+    position: absolute;
+    left: 38px;
+    bottom: -29px;
+    background-color: white;
+    border-radius: 22px;
+    width: 150px;
+    height: 48px;
+    padding-left: 17px;
+    box-shadow: inset 0 1px 5px grey;
+
+}
+
+
+
+
+
+.PBillImputx8{
+
+
+padding: 0px 0px 0px 0px;
+border: none;
+
+color:whitesmoke;
+width:100%;
+height: 100%;
+background-color: transparent;
+font-size: 30px;
+}
+
+.PBillImputMOBIx8 {
+
+    padding: 1px 0px 0px 0px;
+    font-size: 39px;
+
+}
+
+
+
+
+
+.BillPaymentx8{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 70px 10px 70px;
+      font-family:candara;
+   
+   font-size:15px;
+   opacity: .98;
+   border:1px solid grey;
+   color:rgb(102, 102, 102);
+}
+
+
+
+/*////////////////End of Bill Payment////////////////////////////////*/
+
+
+
+
+
+
+
+
+#cardPaymentAmountx8{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+#happyCardx8{
+
+    border:none ;
+    font-size: 30px;
+    width:50%;
+
+
+
+
+}
+
+
+
+.CardStatementx8{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height: 500px;
+margin:10px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+
+
+
+}
+
+#CardNamex8{
+
+width:40%;
+color:navy;
+font-size: 30px;
+font-family: candara;
+border:none;
+}
+
+
+/*//////////////////////////////////////////////////////////////*/
+
+.PbillLogox8{
+    box-shadow: inset 0 1px 5px lightgrey;
+    height: 30%;
+    width: 100%;
+    background: grey;
+    opacity: 0.9;
+    padding: 10px 8px;
+    border-radius: inherit;
+    font-family: calibri;
+    font-size: 21px;
+    position: absolute;
+    left: 0px;
+    border-radius: 27px 27px 0px 0px;
+    top: 0px;
+    background-color: white;
+}
+
+
+
+.pbcover1x8{
+  /*box-shadow:inset 0 1px 5px grey;*/
+background-image: url("img/bluc.png");
+background-position:center;
+background-size: 80%;
+background-repeat: no-repeat;
+}
+
+.pbcover2x8{
+ /* box-shadow:inset 0 1px 5px grey;*/
+  background-image: url("img/verizon.jpg");
+background-position:center;
+background-size: 80%;
+background-repeat: no-repeat;
+
+}
+
+.pbcover3x8{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("img/fit.jpg");
+background-position:center;
+background-size: 80%;
+background-repeat: no-repeat;
+}
+
+.pbcover4x8{
+  /*box-shadow:inset 0 1px 5px grey;*/
+background-image: url("img/StateFarm.jpg");
+background-position:center;
+background-size: 80%;
+background-repeat: no-repeat;
+}
+
+.pbcover5x8{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("img/Netflix.png");
+background-position:center;
+background-size: 80%;
+background-repeat: no-repeat;
+}
+
+
+
+
+
+/*////////////////////////////////////////////////*/
+
+
+
+.Merchantx8{
+
+    display:none;
+    z-index: 600;
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 320px;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+    color: grey;
+    border-radius: 30px;
+    border:;
+    margin: 4px;
+    font-family:;
+
+}
+
+
+
+
+
+
+.MerchantLabelsContx8{
+
+width:100%;
+padding:;
+margin-top: 15px;
+height: 238px;
+}
+
+
+
+
+
+.MerchantLabelx8{
+
+height:118px;
+padding: 25px 0px 5px 0px;
+margin-bottom: 10px;
+font-size: 15px;
+color: whitesmoke;
+border:none;
+padding:11px;
+}
+
+.MerchantImputx8{
+
+height: 65px;
+background-color: white;
+border: none;
+box-shadow: inset 0 1px 7px grey;
+border-radius: 10px;
+text-align: center;
+color:grey;
+font-family: calibri;
+font-size:28px;
+
+}
+
+
+
+
+.SelectedMerchantLabel{
+border:6px solid grey;
+}
+
+
+
+
+
+
+.MCardx8 {
+width:450px;
+float:left;
+
+}
+
+
+.MSwipex8{
+  width:111px;
+  color:;
+  font-size: 15px;
+}
+
+.MSwipex8 i{
+font-size: 60px;
+color:lightgrey;
+}
+
+
+
+
+
+
+
+
+.MDatex8{
+  width:190px;
+margin:0px 5px;
+float:left;
+}
+
+
+.MCBDx8{
+  width:150px;
+margin:0px 5px;
+float:left;
+}
+
+.MZipCodex8{
+  width:190px;
+margin:0px 5px;
+float:right;
+}
+
+
+
+
+
+
+/*covers*/
+
+.MCardCoverx8 {
+width:450px;
+float:left;
+height:inherit;
+background-color: transparent;
+position:absolute;
+transform: translate(-220px, -103px);
+
+}
+
+
+.MSwipeCoverx8{
+  width:111px;
+  color:;
+  font-size: 15px;
+  height:inherit;
+  background-color: transparent;
+  position:absolute;
+  transform: translate(-85px, -38px);
+}
+
+
+
+.MDateCoverx8{
+  width:190px;
+margin:0px 5px;
+float:left;
+height:inherit;
+background-color: transparent;
+position:absolute;
+transform: translate(-107px, -104px);
+}
+
+
+.MCBDCoverx8{
+  width:150px;
+margin:0px 5px;
+float:left;
+height:inherit;
+background-color: transparent;
+position:absolute;
+transform: translate(-83px, -104px);
+}
+
+.MZipCodeCoverx8{
+  width:190px;
+margin:0px 5px;
+float:right;
+height:inherit;
+background-color: transparent;
+position:absolute;
+transform: translate(-107px, -104px);
+}
+
+/*/////*/
+
+
+
+
+
+.MCardImputx8{
+  display:block;
+width: 95%;
+}
+
+.MSwipex8 span{
+ display:block;
+ font-size: 50px;
+ color:grey;
+}
+
+.MDateImputx8{
+  display:block;
+width: 95%;
+}
+
+.MCBDImputx8{
+  display:block;
+width: 95%;
+}
+
+.MZipCodeImputx8{
+  display:block;
+width: 95%;
+}
+
+
+
+
+.SwipeCardx8 {
+    display:none;
+    height: 335px;
+    background-color:white;
+    border: none;
+    position: relative;
+    bottom: 324px;
+    padding: 100px 50px;
+}
+
+
+.SWcardx8{
+  font-size: 60px;
+}
+
+
+
+.SwButtonx8 {
+    display:;
+    background-color: transparent;
+    color: red;
+    font-size: 43px;
+    width: 60px;
+    height: 70px;
+    border: none;
+    float: left;
+    position: absolute;
+   right: 524px;
+top: -10px;
+
+}
+
+
+
+/*//////////////*/
+
+
+.Loanx8 {
+    display: none;
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 320px;
+    padding: 20px 45px;
+    background-color: white;
+    font-size: 12px;
+    color: grey;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    margin: 4px;
+    font-family: georgia;
+}
+
+
+
+
+
+
+
+.TakeLoansx8 span{
+
+font-size:10px;
+
+}
+
+.TakeLoanx8{
+  margin-left: 20px;
+}
+
+.LoanParrax8{
+  font-size: 13px;
+}
+
+
+
+.loanLabelx8 {
+
+    box-shadow: inset 0 1px 10px grey;
+    border-radius: 6px 6px 0px 0px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding: 7px 0px;
+    font-weight: bold;
+    background-color: whitesmoke;
+   border-radius: 15px 15px 0px 0px;
+
+}
+
+
+
+
+.TLoan1x8, .TLoan2x8, .TLoan3x8, .TLoan4x8, .TLoan5x8, .TLoan6x8 {
+    margin: 18px 30px 19px 10px;
+        margin-left: 11px;
+    box-shadow: none;
+    width: 130px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 5px white;
+    border: 1px solid grey;
+    font-family: calibri;
+    height: 137px;
+    font-size: 20px;
+
+}
+
+
+.TLoanx8 span{
+
+  display: block;
+}
+
+
+.TLoanSpanx8{
+
+  font-size: 14px;
+}
+
+.TLoanPamount{
+  font-size: 25px;
+  color:darkGreen;
+}
+
+
+
+/*#closeSendCard{
+
+
+  z-index: 50;
+position: absolute;
+text-align: center;
+width: 60px;
+height: 60px;
+padding: 5px;
+background-color:white;
+font-size:15px;
+color:grey;
+
+border:none;
+border-radius: 30px;
+font-size: 20px;
+color:red;
+font-family: arial;
+box-shadow: inset 0 1px 10px lightgrey;
+position: relative;
+bottom: 59px;
+left: 269px;
+
+}*/
+
+.BillPaymentx8{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 70px 10px 70px;
+      font-family:candara;
+   
+   font-size:15px;
+   opacity: .98;
+   border:none;
+   color:rgb(102, 102, 102);
+}
+
+#cardPaymentAmountx8{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+#happyCardx8{
+
+    border:none ;
+    font-size: 30px;
+    width:50%;
+
+
+
+
+}
+
+
+
+.CardStatementx8{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height: 500px;
+margin:10px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+
+
+
+}
+
+#CardNamex8{
+
+width:40%;
+color:navy;
+font-size: 30px;
+font-family: candara;
+border:none;
+}
+
+
+
+
+.TLoanImputLabelx8{
+
+font-size: 17px;
+color:whitesmoke;
+font-family: calibri;
+
+}
+
+
+
+.TLoanImputx8{
+
+width: 80px;
+height: 23px;
+border: ;
+/*margin: 3px 31px 5px 41px;*/
+padding: 0px 0px 0px 0px;
+border: none;
+border-bottom: 1px solid whitesmoke;
+background-color: white;
+color:whitesmoke;
+
+}
+
+.TLoanImputx8{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+.TLoan1ImputLabelx8{
+
+margin: 3px 0px 5px 0px;
+position: relative;
+right: 3px;
+top: 14px;
+
+}
+
+.TLoan2ImputLabelx8{
+margin: 3px 0px 5px 0px;
+position: relative;
+right: 2px;
+top: 14px;
+  
+}
+
+.TLoan3ImputLabelx8{
+margin: 3px 0px 5px 0px;
+position: relative;
+right: -1px;
+top: 14px;
+  
+}
+
+.TLoan4ImputLabelx8{
+margin: 3px 0px 5px 0px;
+  position: relative;
+right: 287px;
+bottom: 16px;
+}
+
+.TLoan5ImputLabelx8{
+margin: 3px 0px 5px 0px;
+  position: relative;
+right: 209px;
+bottom: 16px;
+
+  
+}
+
+/*.TLoan6ImputLabelx8{
+margin: 3px 0px 5px 0px;
+  position: relative;
+right: 62px;
+bottom: 16px;
+}*/
+
+
+/*////////////////////////////////////////////////*/
+
+
+
+.LoanGrantedx8, .OkChangePinx8, .BuyThanksx8, .WrTransferSentx8, .GasPurchasedx8, .DispachedGasx8 {
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 30px 10px 30px;
+   font-family: georgia;
+   font-size:20px;
+   opacity: .98;
+   border:none;
+   font-family:candara;
+
+}
+
+
+.GasPurchasedCarx8 {
+    display:none;
+    position: absolute;
+    width: 575px;
+    background-color: white;
+    font-family: calibri;
+    border-radius: 30px;
+    height: 500px;
+    margin: 26px 16px;
+    padding: 50px;
+    opacity: .96;
+    color: #4d4c4c;
+
+}
+
+.GasPurchasedPumpx8 {
+    display:none;
+    position: absolute;
+    width: 575px;
+    background-color: white;
+    font-family: calibri;
+    border-radius: 30px;
+    height: 465px;
+    margin: 18px 16px;
+    padding: 50px;
+    opacity: .96;
+    color: #4d4c4c;
+
+}
+
+
+
+.CancelGasOrderx8 {
+  
+    height: 116px;
+    width: 342px;
+    border-radius: 23px;
+    background-color: #ffd800;
+    color: #262626;
+    box-shadow: 0 1px 5px grey;
+    font-size: 32px;
+    font-weight: 600;
+    border: none;
+    font-family: calibri;
+}
+
+/*.CancelGasOrder2x8{
+  background-color: white;
+  background-image:none;
+  border:1px solid orange;
+}
+*/
+
+#loanAmountx8 {
+    border: none;
+    font-size: 50px;
+    width: 40%;
+}
+
+
+
+/*///////////////////*/
+
+
+
+
+.sendMoney3x8 button{
+
+
+  z-index: 50;
+position: absolute;
+text-align: center;
+width: 60px;
+height: 60px;
+padding: 5px;
+background-color:white;
+font-size:15px;
+color:grey;
+transform: translate(85px,  -5px);
+border:1px solid grey;
+border-radius: 30px;
+font-size: 20px;
+
+
+
+
+}
+
+.sendMoney3x8 button:hover{
+
+
+cursor:pointer;
+  box-shadow: 0px 0px 15px 0px lightblue;
+      color:red;
+
+
+
+
+}
+
+
+
+
+/*
+#routingx8{
+  font-size:27px;
+
+
+}
+
+#accountx8{
+  font-size:27px;
+
+
+}*/
+
+
+.tranToCheckingx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+
+
+
+
+.tranToSavingsx8{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+
+
+
+
+.tranToCheckingx8, .tranToSavingsx8 input{
+  font-size:30px;
+}
+
+
+.tranToSavingsx8 input{
+
+  font-size:36px;
+  border:none;
+
+}
+
+
+#inCheckSentx8{
+  width:100px;
+   color:black;
+   font-size:30px;
+   border:none;
+   left:200px;
+
+} 
+
+
+#inSavSentx8{
+   width:100px;
+   color:black;
+   font-size:30px;
+   border:none;
+  left:200px;
+
+
+}
+
+
+
+#inCheckx8{
+   width:100px;
+   color:black;
+   font-size:30px;
+   border:none;
+
+
+
+  } 
+
+
+
+  #inSavx8{
+   width:100px;
+   color:black;
+   font-size:30px;
+   border:none;
+
+
+  }
+
+  .SelectFriendx8 {
+
+    margin: 5px 20px;
+    width: 100%;
+ 
+}
+
+
+
+.friendsx8 {
+    display: inline-block;
+    width: 82px;
+    height: 76px;
+    border-radius: 0px;
+/*    border: 5px solid lightgrey;*/
+    margin: 18px 50px 35px 50px;
+        margin-left: 50px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+
+
+.friendsSpanx8 {
+
+    position: relative;
+    top: 63px;
+    color: whitesmoke;
+    right: 13px;
+
+}
+
+
+
+
+.friendImputx8 {
+
+    width: 79px;
+    height: 21px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    position: relative;
+    color: whitesmoke;
+    top: 66px;
+    right: 14px;
+
+}
+
+
+
+
+/*////////Memo////////////*/
+
+.FriendMemox8 {
+
+    display: none;
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    color: #424242;
+    padding: 2px 10px;
+    position: absolute;
+    left: 58px;
+    top: 9px;
+    box-shadow: inset 0 1px 5px;
+    opacity: .95;
+
+}
+
+
+.FriendMemoMOBIx8 {
+
+    top: 33px;
+    left:80px;
+    opacity: .95;
+}
+
+
+
+
+
+.JeffMemox8, .MariaMemox8, .JohnMemox8, .LeahMemox8, .PaulMemox8, .JennyMemox8, .GokuMemox8{
+}
+
+
+
+
+
+.labelTextmemo{
+
+  font-size: 10px;
+  display: block;
+  
+  }
+
+
+.WriteMemox8 {
+    display: none;
+    background-color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px black;
+    padding: 20px 20px;
+    height: 263px;
+    width: 519px;
+    position: absolute;
+    bottom: 43px;
+    z-index: 500;
+}
+
+
+
+.WriteMemox8 p{
+
+  display:block;
+  font-size: 16px;
+}
+
+/*////////*/
+
+.WriteMemoMOBIx8 {
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px black;
+    padding: 20px 20px;
+    height: 296px;
+    width: 519px;
+    position: absolute;
+    bottom: 111px;
+    z-index: 500;
+    right: 51px;
+
+}
+
+
+
+.WriteMemoMOBIx8 span {
+font-size: 41px
+}
+
+
+.WriteMemoMOBIx8 p {
+    display: block;
+    font-size: 23px;
+}
+
+
+
+/*////////*/
+
+.TMemox8{
+
+  display:none;
+  background-color: transparent;
+  border-radius: 15px;
+  color:#424242;
+  height: 54px;
+  border:none;
+  box-shadow: 0 1px 4px #424242;
+  text-align: center;
+  width: 400px;
+  font-size: 24px;
+}
+
+
+
+.JeffTTMemox8, .MariaTTMemox8, .JohnTTMemox8, .LeahTTMemox8, .PaulTTMemox8, .JennyTTMemox8, .GokuTTMemox8{
+}
+
+
+
+.SubmitMemox8 {
+
+    background-color: whitesmoke;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 0 0px 5px grey;
+    font-size: 35px;
+    margin: 20px 10px;
+    padding: 15px 15px;
+
+}
+
+
+
+
+.SubmitMx8{
+color:green;
+  } 
+
+.CancelMx8{
+color:red;
+}
+
+
+
+
+/*///////////////////////////////*/
+
+
+
+  #Mikex8{
+
+background-color: white;
+color: black;
+padding: 8px 5px;
+
+}
+
+.MikeBx8{
+  color:#424242;
+  font-size: 37px;
+  display:block;
+margin: 10px 5px -45px 5px;
+
+}
+
+.MikeBMOBIx8 {
+color: #424242;
+font-size: 59px;
+display: block;
+margin: 20px 5px -78px 5px;
+}
+
+
+/*#MySelfVM2{
+
+  background-image: url("../img/friends/friend1.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+*/
+
+#Jeffx8{
+
+  background-image: url("img/Friends/friend2.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+#Mariax8{
+
+  background-image: url("img/Friends/friend3.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+#Johnx8{
+
+background-image: url("img/Friends/friend4.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+#Leahx8{
+
+background-image: url("img/Friends/friend5.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#Paulx8{
+
+background-image: url("img/Friends/friend6.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#Jennyx8{
+
+background-image: url("img/Friends/friend7.png");
+background-position:center;
+background-size: cover;
+background-color:white;
+
+}
+
+
+#Gokux8{
+
+background-image: url("img/Friends/friend8.png");
+background-position:center;
+background-size: cover;
+
+}
+
+.ContactNameVamountx8 {
+
+    top: -17px;
+    position: absolute;
+    font-size: 11px;
+    left: 1px;
+    border:none;
+    background-color: transparent;
+    text-align: center;
+    width: 84px;
+    color: grey;
+
+}
+
+
+.ContactNameVamountMOBIx8 {
+
+    top: -29px;
+    position: absolute;
+    font-size: 21px;
+    left: -10px;
+    font-family: calibri;
+    font-weight: 500;
+    width: 121px;
+
+}
+
+
+
+
+
+
+
+  .depositx8, .CardPaymentx8, .checkCashSentx8, .tranToSavingsx8, .tranToCheckingx8, .retrievex8, .GoodByex8, .LoanGrantedx8, .depositCashx8, .QuickSentx8{
+
+  box-shadow: 0 1px 10px black;
+  border:none;
+
+    z-index: 5000;
+position: absolute;
+height: 500px;
+width: 550px;
+display: none;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+transform: translate(25px, 15px);
+padding: 150px 30px;
+font-size: 20px;
+opacity: .95;
+border: none;
+color: rgb(102, 102, 102);
+font-family: candara;
+margin: 10px 3px;
+}
+
+
+
+
+
+
+
+.CardPaymentx8 input, .checkCashSentx8 input, .tranToSavingsx8 input, .tranToCheckingx8 input, .LoanGrantedx8 input, .QuickSentx8 input{
+
+font-size:45px;
+
+}
+
+
+ .friendsx8, .DenominatedBillsx8, .PBillx8, .TLoanx8{
+
+border: 1px solid grey;
+box-shadow: inset 0 1px 10px grey;
+
+}
+
+
+/*///////////////////MOBILE//////////////////////////////*/
+
+
+/* .SerPanLabelsMOBIx8{
+
+  
+  box-shadow: inset 0 0px 10px grey;
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui2MOBIx8{
+
+height: auto;
+border:none;
+position:;
+width: 609px;
+
+
+
+border-radius:50px;
+
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+margin:auto;
+margin-top: 5%;
+
+
+ 
+/*  float:right;
+  clear:right;
+  margin-bottom: 5%;*/
+
+
+
+
+}
+
+
+
+
+.checkinginfo2MOBIx8{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height:370px;
+margin:60px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+
+
+
+}
+.savinginfo2x8{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height:370px;
+margin:60px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+
+border: 3px solid grey;
+
+}
+
+
+
+.assistanceMOBIx8{
+    width: 600px;
+    height: 320px;
+    background-color: white;
+    background-image: url("img/asistance.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    display: none;
+    z-index: 50;
+    position: absolute;
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    color: grey;
+    border-radius: 30px;
+    margin: 4px;
+    font-family: candara;
+}
+
+
+
+
+.lan2MOBIx8{
+  background-color: inherit;
+display:none;
+border-radius: 50px 50px 0px 0px;
+height:103px;
+width: 100%;
+padding: 0px 10px;
+/*border-bottom: 1px dashed white;  */
+
+
+
+}
+
+
+
+.langBMOBIx8{
+    
+    background-color: inherit;
+    padding: 15px 10px;
+    margin: 12px;
+    width: 140px;
+    font-weight: 1px;
+    
+    font-family: arial;
+    height: 85px;
+font-size: 38px;
+border: none;
+
+}
+
+
+
+
+.OtherHeaderx8 {
+
+    position: absolute;
+    height: 849px;
+    background-color: white;
+    z-index: 3000;
+    width: 609px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 200px 50px;
+    font-size: 22px;
+    display:none;
+
+}
+
+
+.HeaderPx8{
+ display:none;
+}
+
+
+
+
+.labelTextx8{
+  display:block;
+  font-size:12px;
+}
+
+.lan2MOBIx8 .dropdown-menu{
+width:200px;
+left:-80px;
+
+}
+
+.lan2MOBIx8 .dropdown-menu button{
+width:170px;
+
+
+}
+
+
+
+
+.serm2MOBIx8{
+
+  position:relative;
+
+ 
+  height:auto;
+  width:100%;
+  display:;
+  z-index: 0;
+  background-size: 97%;
+
+}
+
+
+
+
+
+
+.innerMOBIx8 {
+
+    opacity: .97;
+    margin-top: ;
+    padding: 10px 4px;
+    display: inline-block;
+    height: 100%;
+    background-color: inherit;
+
+}
+
+
+
+
+
+
+
+.sm2MOBIx8{
+
+
+width: 181px;
+margin: 3px 7px 2px 6px;
+padding: 23px 7px;
+border-radius: 25px;
+font-size: 20px;
+font-family: arial;
+height: auto;
+
+
+}
+
+
+
+.acm2MOBIx8 {
+
+    height: 237px;
+    width: 280px;
+    margin: 18px 13px 3px 8px;
+        margin-left: 8px;
+    padding: 21px 28px 10px 25px;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: arial;
+
+}
+
+
+
+
+
+
+
+
+
+/*.acm2MOBIx8 span{
+
+    font-size:17px;
+}
+
+*/
+
+
+
+
+.serDropMOBIx8 {
+    height: 622px;
+    width: 559px;
+    transform: translate(23px, -752px);
+    padding: 20px 19px;
+    border-radius: 15px;
+}
+
+
+
+.serDropMOBIx8 button {
+    margin: 5px 10px 5px 10px;
+    border-radius: 30px;
+    height: 88px;
+    z-index: 5000;
+    width: 236px;
+    padding: 11px 10px;
+    font-size: 22px;
+}
+
+
+/*.glyphicon-arrow-right{
+    z-index:50;
+    color:orange;
+    right:225px;
+    top:20px;
+    position:absolute;
+    display:none;
+}
+
+
+.glyphicon-arrow-left{
+    z-index: 50;
+    color:orange;
+    right:230px;
+    top:20px;
+    position:absolute;
+    display:none;
+
+
+}
+*/
+
+
+.depositMOBIx8 {
+height: 845px;
+margin-top: 0px;
+opacity: .98;
+width:99%;
+margin:-11px -22px;
+padding-top:80px;
+}
+
+
+/*.DepositButtonsMOBIx8{
+  margin-top:33px;
+
+font-size:26px;
+box-shadow: inset 0 1px 5px white;
+border-radius: 15px;
+
+}*/
+
+
+
+#toSavingMOBIx8{
+  display:none;
+  z-index: 50;
+  background-color:black;
+  color:darkgrey;
+  position:absolute;
+  width:150px;
+  height:25px;
+  right:185px;
+  top:-25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+
+#toCheckingMOBIx8{
+  display:none;
+  z-index: 50;
+  background-color:black;
+  color:darkgrey;
+  position:absolute;
+  width:150px;
+  height:25px;
+  right:185px;
+  top:-25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.qty2MOBIx8{
+height: 200px;
+width: 100%;
+font-size:20px;
+text-align: center;
+
+
+font-size:30px;
+height: 217px;
+width: 100%;
+
+}
+
+
+
+.qty2x8:hover{
+
+  cursor: pointer;
+}
+ 
+
+
+   
+.qtyvalue2MOBIx8{
+
+background-color:inherit;
+    height: 80px;
+    width: 250px;
+    margin-left: 0px;
+    color:;
+    font-size: 75px;
+   margin-top: 18px;
+    border:none;
+
+}
+
+
+.QtyValueCoverMOBIx8 {
+    height: 107px;
+    width: 305px;
+    right: 111px;
+}
+
+
+
+
+
+.qtyvalue23MOBIx8 {
+    background-color: inherit;
+    height: 50px;
+    width: 88px;
+    margin-left: 0px;
+    color: white;
+    border: none;
+    font-size: 46px;
+}
+
+
+
+
+
+
+
+.amountMOBIx8{
+margin-left: 78px;
+font-size: 70px;
+ 
+}
+
+
+
+#amountMOBIx8:hover{
+  cursor:pointer;
+ 
+}
+
+
+
+
+
+/*#backSpacex8, #backSpaceRx8, #backSpaceCCx8{
+  float:right;
+  margin-top:10px;
+  margin-right:3px;
+}
+*/
+
+
+
+
+.numVMOBIx8{
+    display:;
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+
+  width: 61px;
+  height: 87px;
+
+  font-size: 35px;
+}
+
+
+.backSpaceMOBIx8 {
+
+    float: right;
+    margin-top: 10px;
+    margin-right: 3px;
+    position: relative;
+    bottom: 190px;
+    left: 540px;
+
+}
+
+
+
+.numRMOBIx8{
+    display:none;
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+
+  width: 61px;
+  height: 87px;
+
+  font-size: 35px;
+
+
+}
+
+.numCCMOBIx8{
+    display:none;
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+
+  width: 61px;
+  height: 87px;
+
+  font-size: 35px;
+
+}
+
+.numTMOBIx8{
+  display: none;
+  z-index:1;
+  position:absolute;
+  transform: translate(0px,  -20px);
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 55.47px;
+    font-size:23px;
+
+
+
+}
+
+.numTDMOBIx8{
+  display: none;
+transform: translate(0px,  -20px);
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 55.47px;
+    font-size:23px;
+
+}
+
+
+
+
+
+
+
+
+.fin2MOBIx8{
+
+    opacity: .93;
+    background-color: #071422;
+border-radius: 0px 0px 50px 50px;
+    height: 153px;
+    width: 100%;
+   padding: 0px;
+}
+
+
+
+
+.finBMOBIx8{
+
+
+    border: none;
+    border-radius: 30px;
+    background-color: #424242;
+    margin-right: 25px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    padding: 28px 30px;
+    width: 271px;
+    height: 94px;
+    margin: 30px 10px;
+}
+
+
+
+ .confBack2YMOBIx8{
+    z-index: 500;
+    position:;
+    height:100%;
+    width: 100%;
+    
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    background-color: #071422;
+    border: none;
+    /*transform: translate(-10px, -14px);*/
+    display: none;
+    padding-top: 40px;
+
+ }
+
+  .ScanconfBack2YMOBIx8{
+    z-index: 500;
+    position:;
+    height:100%;
+    width: 100%;
+    
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    background-color: #071422;
+    border: none;
+    /*transform: translate(-10px, -14px);*/
+    display: none;
+    padding-top: 40px;
+
+ }
+
+
+
+
+
+
+
+.confirm2YMOBIx8{
+
+    height: 93px;
+    width: 239px;
+    font-size: 31px;
+    padding: 11px 0px;
+    margin: 0px 1px -23px 55px;
+    border-radius: 30px;
+
+}
+
+
+.back2YMOBIx8{
+
+    height: 93px;
+    width: 240px;
+    font-size: 31px;
+    padding: 11px 0px;
+    margin: 0px 9px -23px 1px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CardMOBIx8 {
+    width: 227px;
+    height: 269px;
+    font-size: 25px;
+    margin: 0px 40px 36px 7px;
+        margin-left: 7px;
+    margin-left: 7px;
+    padding: 55px 20px 55px 30px;
+}
+
+
+
+.CardMOBIx8 span {
+    display: block;
+display: block;
+margin: 13px 1px;
+font-size: 17px;
+}
+
+
+.CreditcCardsMOBIx8 {
+    width: 100%;
+    padding: 0px 6px 10px 40px;
+    margin-top: -2px;
+}
+
+
+
+
+
+
+
+/*.CardImputLabelMOBIx8{
+    font-size: 47px;
+    width: 100px;
+
+  }
+
+*/
+
+
+
+
+
+
+.billButtonsMOBIx8{
+    padding: 10px 40px 10px 150px;
+}
+
+.DenominatedBillsMOBIx8{
+margin: 51px 100px;
+}
+
+
+
+.DenoImput10LabelMOBIx8{
+
+    margin: 3px 0px 5px 0px;
+    position: relative;
+right: 9px;
+top: 63px;
+
+}
+
+
+.DenoImput20LabelMOBIx8{
+
+    margin: 3px 0px 5px 0px;
+    position: relative;
+    right: 11px;
+    top: 63px;
+
+}
+
+
+.DenoImput50LabelMOBIx8{
+
+    margin: 3px 0px 5px 0px;
+    position: relative;
+left: -11px;
+top: 60px;
+
+}
+
+  .DenoImput100LabelMOBIx8{
+
+    margin: 3px 0px 5px 0px;
+    position: relative;
+    left: -11px;
+   top: 60px;
+
+}
+
+
+
+
+
+
+
+.friendsMOBIx8 {
+
+    width: 105px;
+    height: 119px;
+    margin: 61px 40px 21px 46px;
+    font-size: 19px;
+
+}
+
+
+
+.SearchScanContactLabelInvoicex8{
+
+  margin-top:35px;
+  display:none;
+
+}
+
+
+.servicePanelParratopx8{
+  display: block;
+}
+.servicePanelParraBottomx8{
+  display: none;
+}
+
+
+
+.SeachContactx8 {
+
+    border-radius: 15px;
+    height: 60px;
+    background-color: #fcfcfc;
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    text-align: center;
+    width: 98%;
+}
+
+
+.scanContactInvoicePriceAtgx8 {
+
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    padding-top: 7px;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    top: -58px;
+    right: 18px;
+
+}
+
+
+.scanBadgex8{
+
+  background-color: white;
+  color: lightgrey;
+  font-size: 15px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: 97px;
+  padding: 0px 7px;
+
+}
+
+
+
+
+
+
+  .SelectFriendMOBIx8 {
+padding-top: 10px;
+margin: -33px 5px 5px 24px;
+margin-bottom: 18px;
+
+
+
+ }
+
+ .SendReqMOBIx8 {
+    height: 63px;
+    font-size: 28px;
+    padding: 12px;
+    margin-top: 25px;
+}
+
+
+
+
+  .friendImputMOBIx8 {
+
+width: 100px;
+height: 30px;
+font-size: 34px;
+top: 111px;
+right: 8px;
+
+}
+
+
+
+.friendsSpanMOBIx8 {
+
+position: relative;
+top: 105px;
+color: whitesmoke;
+right: 10px;
+font-size: 19px;
+
+}
+
+
+
+
+
+.sendAccountMOBIx8 {
+
+    width: 457px;
+    height: 77px;
+    margin: 99px 0px -10px 0px;
+    font-size:40px;
+   
+  }
+
+
+  .sendRoutingMOBIx8 {
+
+    width: 457px;
+    height: 77px;
+   margin: 5px 0px -10px 0px;
+    font-size:40px;
+
+  }
+
+
+
+
+
+.wireSpanMOBIx8{
+
+font-size: 25px;
+color:whitesmoke;
+margin-top: 5px;
+
+}
+
+
+
+.TelContainerMOBIx8 {
+
+    margin: 10px;
+    background-color:;
+    height: 80px;
+
+}
+
+
+.ZipContainerMOBIx8{
+
+    margin: -15px;
+    background-color:;
+    height: 80px;
+
+}
+
+
+
+.WireTelephoneMOBIx8{
+width: 280px;
+height:77px;
+font-size:35px;
+
+
+}
+
+
+.WireZipCodeMOBIx8{
+width: 160px;
+height:77px;
+font-size:35px;
+
+
+}
+
+
+.SwipeCardMOBIx8 {
+
+    height: 595px;
+    bottom: 435px;
+    padding: 240px 50px;
+
+}
+
+
+
+.MSwipeCoverMOBIx8 {
+
+    transform: translate(-57px, -121px);
+}
+
+
+
+
+
+
+.SwAccCoverMOBIx8 {
+
+    top: 140px;
+    right: 58px;
+    width: 496px;
+}
+
+
+
+.SwRCoverMOBIx8 {
+
+    top: 275px;
+    right: 58px;
+    width: 496px;
+
+}
+
+
+.SwTelCoverMOBIx8 {
+
+    width: 294px;
+    right: 246px;
+    bottom: 111px;
+
+}
+
+
+
+.SwZipCoverMOBIx8 {
+
+    right: 42px;
+    bottom: 111px;
+    width: 171px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cheTsav2MOBIx8{
+z-index: 50;
+color: orange;
+right: 240px;
+top: 387px;
+position: absolute;
+display: none;
+font-size: 125px;
+
+}
+
+
+
+.savTche2MOBIx8{
+z-index: 50;
+color: orange;
+right: 240px;
+top: 387px;
+position: absolute;
+display: none;
+font-size: 125px;
+
+}
+
+
+.EndPanelsMOBIx8{
+
+  margin: 202px 3px;
+}
+
+
+
+
+
+
+
+/*
+.PBillMOBIx8 {
+
+margin: 42px 44px 13px 60px;
+        margin-left: 60px;
+    box-shadow: none;
+    width: 209px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 5px white;
+    border: 1px solid grey;
+    font-family: calibri;
+    height: 107px;
+
+}
+
+*/
+
+
+.SelectBillPayMOBIx8 {
+    width: 100%;
+    padding: 7px 10px 10px 55px;
+    margin-top: 15px;
+}
+
+
+
+
+.addBillx8 {
+
+    display: ;
+    height: 30px;
+    width: 40px;
+    background-color: transparent;
+    color: grey;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 17px;
+    right: 75px;
+    padding: 1px;
+    
+
+}
+
+
+.addBillMOBIx8 {
+
+    display: ;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: grey;
+    font-size: 33px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 25px;
+    right: 101px;
+
+}
+
+
+
+
+
+
+
+.schedule2x8 {
+    display: ;
+    height: 30px;
+    width: 40px;
+    background-color: transparent;
+    color: red;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    padding: 1px;
+   
+}
+
+
+.schedule2MOBIx8 {
+
+     display: ;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: red;
+    font-size: 37px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    padding: 1px; 
+}
+
+
+
+.closeSer2Panelsx8 {
+
+    display: ;
+    height: 30px;
+    width: 40px;
+    background-color: transparent;
+    color: red;
+    font-size: 23px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 1px;
+    
+}
+
+
+
+.closeSer2PanelsMOBIx8 {
+    display: ;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: red;
+    font-size: 33px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+}
+
+
+
+
+
+
+
+.PBillsMOBIx8 {
+    margin: 0px 30px 56px 24px;
+        margin-left: 24px;
+    margin-left: 24px;
+    margin-left: 24px;
+    margin-left: 60px;
+    width: 224px;
+    padding: 15px 10px 10px 37px;
+    font-family: calibri;
+    height: 146px;
+    font-size: 25px;
+}
+
+
+.SelectBillPayMOBIx8 span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+.PBillImputMOBIx8 {
+
+    font-size: 41px;
+}
+
+
+
+
+
+
+
+
+/*////////Loan Mobi//////////////*/
+
+
+/*//////////// Loans x8///////////////////////*/
+
+
+
+
+
+.TakeLoanx8{
+ 
+  padding: 23px 0px;
+  position: absolute;
+  display:none;
+  z-index: 500;
+  background-color: white;
+
+}
+
+
+
+.SearchLoansx8{
+
+width:70%;
+
+}
+
+
+
+.SelectLoansx8{
+ padding: 0px 4px 20px 20px;
+}
+
+
+
+
+
+
+
+
+.Loanx8 {
+    display: inline-block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 220px;
+    width: 127px;
+    padding: 46px 5px 46px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+}
+
+.LoanMOBIx8 {
+
+display: inline-block;
+margin: 7px 12px 7px 0px;
+border-radius: 34px;
+font-size: 40px;
+font-family: arial;
+height: 279px;
+width: 270px;
+padding: 46px 0px;
+background-color: whitesmoke;
+box-shadow: none;
+background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+border: none;
+
+
+
+}
+
+
+
+
+
+.LoanBadgeAndnamex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.LoanAndAbrex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.MyCurrentPricex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+
+
+
+
+
+
+/*Loan Symbol and name*/
+
+.LoanSymbolx8 {
+    font-size: 36px;
+    display: block;
+}
+
+
+.LoanSymbolMOBIx8{
+font-size: 50px;
+display: block;
+} 
+
+
+
+
+
+.LoanNamex8 {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.LoanNameMOBIx8{
+font-size: 18px;
+display:block;
+margin-bottom: 15px;
+
+}
+
+
+/*Loan Symbol and name*/
+
+
+
+/*Loan Current cost and Abreviation*/
+
+
+.PreApprovedLoanssx8 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 27px;
+    font-family: calibri;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+}
+
+
+
+.PreApprovedLoanssMOBIx8{
+display:inline-block;
+border:none;
+background-color:transparent;
+color: grey;
+font-size: 39px;
+font-family: calibri;
+height: 36px;
+width: 100%;
+text-align: center;
+margin-right: -10px;
+
+}
+
+.LoanBalx8 {
+    font-size: 20px;
+    position: ;
+    color: olive;
+    display: inline-block;
+    width: 5%;
+    margin-right: 35px;
+}
+
+/*Loan Current cost and Abreviation*/
+
+
+
+
+
+
+
+
+
+/*I Currently have*/
+
+
+.Ihavex8{
+  display: block;
+font-size: 14px;
+color:#262626;  
+}
+
+.CurrentPricex8 {
+    display: block;
+    border: none;
+    font-size: 19px;
+    color:;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+
+
+.MyLoaninRealValx8 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 15px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+
+.MyLoaninRealValMOBIx8{
+  display:block;
+border:none;
+background-color:transparent;
+color:olive;
+font-size: 19px;
+font-family: calibri;
+height: 15px;
+width: 100%;
+text-align: center;
+margin-bottom: 13px;
+
+}
+
+/*I Currently have*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BlackedLettersKPT1{
+    color: black;
+}
+
+
+
+
+.SelectOrx8, .ScanOrGiftx8{
+
+  display: none;
+  display: none;
+  background-color: transparent;
+width: 95%;
+height: 94%;
+margin: 0px auto;
+padding-left: 115px;
+
+}
+
+.SelectOrx8 > label, .ScanOrGiftx8 > label{
+
+
+}
+
+
+.EnterLoanQtyx8 {
+    display: none;
+    font-size: 26px;
+    background-color: white;
+    height: 36px;
+    position: absolute;
+    left: 8px;
+    width: 118px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    bottom: -34px;
+    color: lightgrey;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+
+
+.EnterLoanQtyMOBIx8 {
+    display: none;
+    font-size: 20px;
+    background-color: white;
+    height: 47px;
+    position: absolute;
+    left: 48px;
+    width: 181px;
+    padding: 0px;
+        padding-left: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+.InputLoanQtyx8 {
+font-size: 27px;
+text-align: left;
+border: none;
+width: 100%;
+height: 100%;
+background-color: transparent;
+padding-top: 4px;
+}
+
+
+.InputLoanQtyMOBIx8{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  text-align: left;
+  border:none;
+}
+
+
+/*Linear option*/
+
+.LinearLoanx8 {
+
+    display: inline-block;
+    margin: 8px 12px 2px 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    height: 138px;
+    width: 97%;
+    padding: 15px 0px;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+.LinearLoanBadgeAndnamex8 {
+display: block;
+width: 24%;
+background-color: transparent;
+float: left;
+margin-top: 19px;
+}
+
+
+
+
+.LinearLoanNamex8 {
+margin-bottom: 15px;
+margin-left: 45px;
+font-size: 22px;
+text-align: left;
+    }
+
+
+
+
+
+
+
+.LinearLoanAndAbrex8 {
+    display: block;
+    width: 44%;
+    float: right;
+}
+
+
+
+.LinearMyCurrentPricex8 {
+    display: block;
+    width: 40%;
+    background-color: transparent;
+    float: right;
+}
+
+
+.LinearEnterLoanQtyx8 {
+
+    left: 191px;
+    bottom: -10px;
+    border: none;
+    border-bottom: none;
+   
+}
+/*Linear option*/
+
+
+
+.ToogleLoansToLinearx8, .ToogleLoansToSquarex8{
+display:none;
+float: right;
+z-index: 500;
+margin: 7px 20px;
+font-size: 45px;
+border: none;
+background-color: transparent;
+color: grey;
+position: absolute;
+right: 3px;
+top: 22px;
+}
+
+.SearchLoansx8{
+  display:;
+float: right;
+z-index: 500;
+margin: 29px 20px;
+font-size: 40px;
+border: none;
+background-color: transparent;
+color: grey;
+position: absolute;
+width: 30px;
+right: 93px;
+top: 6px;
+}
+
+.ToogleLoansToSquarex8{
+display: none;
+}
+
+
+.totalLoansheaderx8{
+width: 50%;
+border: none;
+background-color: transparent;
+color: black;
+font-size: 40px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+/*//////////// Loans x8///////////////////////*/
+
+
+
+
+
+
+
+
+
+
+/*////////Loan Mobi//////////////*/
+
+
+
+
+
+
+.MerchantLabelsContMOBIx8 {
+
+    margin-top: 111px;
+}
+
+
+
+
+
+.MerchantImputMOBIx8 {
+    height: 90px;
+    font-size: 36px;
+    box-shadow: inset 0 1px 9px grey;
+    border-radius: 20px;
+}
+
+
+.MSwipeMOBIx8 i{
+font-size: 95px;
+color:lightgrey;
+}
+
+
+
+/*/////*/
+
+.clickedSwipex8{
+
+}
+
+.clickedSwipex8 i{
+  color:grey;
+}
+/*//////*/
+
+
+
+
+
+/*////////////////////////////*/
+
+#QuickPay2x8, #QuickPay3x8{
+  display: none;
+}
+
+
+.OperationEndedPanelx8{
+    box-shadow: 0 3px 5px black;
+    z-index: 1000;
+}
+
+
+
+
+
+.OperationEndedPanelMOBIx8 {
+
+    box-shadow: 0 3px 5px black;
+    margin: 97px 5px;
+    height: 900px;
+    padding-top: 300px;
+    border: none;
+
+}
+
+
+
+
+.btn-group, .btn-group-vertical {
+
+    z-index: 0;
+}
+
+
+
+
+
+/*.WireTransferLabelsx8{
+  margin-top: 70px;
+}
+
+
+
+.Sellx8{
+background-color: white;
+border-radius:15px;
+}
+
+.WRLabelNamex8{
+  background-color: white;
+  color: lightgrey;
+  font-size: 12px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+}
+
+.HHH{
+background-color: transparent;
+
+
+color: grey;
+font-size: 25px;
+border:none;
+text-align: center;
+}
+
+
+
+.Thecoverx8 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}*/
+
+
+
+
+
+
+
+
+.WireTransferLabelsx8 {
+    margin-top: 0px;
+    padding: 3px 124px;
+}
+
+.WireTransferLabelsMOBIx8{
+  margin-top: 0px;
+  padding: 60px;
+}
+
+
+
+
+
+
+
+
+.Sellx8{
+background-color: white;
+border-radius:15px;
+}
+
+.WRLabelNamex8{
+  background-color: white;
+  color: grey;
+  font-size: 15px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -14px;
+  padding: 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.HHH {
+    background-color: transparent;
+    color: grey;
+    font-size: 21px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.HHHMOBI{
+background-color: transparent;
+
+
+color: grey;
+font-size: 33px;
+border:none;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.WrtNameInputx8, .WrtAccountInputx8, .WrtRoutingInputx8, .WrtTelephoneInputx8, .WrtZipCodeInputx8{
+
+}
+
+#backSpaceCCx8, #backSpaceRx8, #backSpaceSwTelx8, #backSpaceSwZipx8{
+  
+}
+
+
+
+
+.Thecoverx8 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+
+
+
+
+
+
+.WrtLabelx8 {
+    height: 46px;
+    margin: 9px 0px;
+        margin-left: 0px;
+    border: 1px solid lightgrey;
+}
+
+
+.WrtLabelMOBIx8{
+height: 68px;
+margin: 20px 0px;
+border: 1px solid lightgrey;
+}
+
+
+
+
+
+
+
+
+.NameWrLabelx8{
+  width:100%;
+}
+.AccWrLabelx8{
+  width:100%;
+}
+.RoutWrLabelx8{
+  width:100%;
+}
+
+
+
+
+
+
+.PhoneWrLabelx8 {
+    width: 53%;
+    margin-right: 24px;
+}
+.PhoneWrLabelMOBIx8{
+width: 55%;
+margin-right: 24px;
+}
+
+
+
+
+
+
+.ZipWrLabelx8{
+width: 40%;
+}
+
+.SpecifyWrtValuex8{
+
+  background-color: whitesmoke;
+  font-size: 20px;
+  border-radius: 15px;
+  border:none;
+  color: grey;
+  width:;
+
+}
+
+
+
+
+
+
+
+/*//////////////////new Merchant///////////////////////*/
+
+
+
+/*.WireTransferLabelsx8{
+  margin-top: 70px;
+}
+
+
+
+.Sellx8{
+background-color: white;
+border-radius:15px;
+}
+
+.MerLabelNamex8{
+  background-color: white;
+  color: lightgrey;
+  font-size: 12px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+}
+
+.HHH{
+background-color: transparent;
+
+
+color: grey;
+font-size: 25px;
+border:none;
+text-align: center;
+}
+
+
+
+.Thecoverx8 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}*/
+
+
+
+.MerchantLabelsx8 {
+    margin-top: 0px;
+    padding: 0px 120px;
+}
+
+
+
+.MerchantLabelsMOBIx8{
+  margin-top: 0px;
+  padding: 70px 50px;
+}
+
+
+
+.Sellx8{
+background-color: white;
+border-radius:15px;
+}
+
+
+
+
+
+
+
+
+.MerLabelNamex8 {
+    background-color: white;
+    color: grey;
+    font-size: 11px;
+    float: ;
+    border-radius: 5px;
+    position: absolute;
+    top: -9px;
+    padding: 0px 7px;
+    font-family: calibri;
+}
+
+.MerLabelNameMOBIx8{
+  background-color: white;
+  color: grey;
+  font-size: 16px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -14px;
+  padding: 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+/*.MerHHH {
+
+    background-color: transparent;
+    color: grey;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.MerHHHMOBI{
+background-color: transparent;
+
+
+color: grey;
+font-size: 30px;
+border:none;
+text-align: center;
+width: 100%;
+height: 100%;
+}*/
+
+
+
+
+.MerchantNameInputx8, .MerchantAccountInputx8, .MerchantRoutingInputx8, .MerchantTelephoneInputx8, .MerchantZipCodeInputx8{
+
+}
+
+#backSpaceCCx8, #backSpaceRx8, #backSpaceSwTelx8, #backSpaceSwZipx8{
+  
+}
+
+
+
+
+.Thecoverx8 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+
+
+
+
+.MerchantLabelx8 {
+    height: 45px;
+    margin: 10px 0px;
+        margin-left: 0px;
+    border: 1px solid lightgrey;
+}
+
+.MerchantLabelMOBIx8{
+height: 68px;
+margin: 20px 0px;
+border: 1px solid lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+.SwipeCardMerLabelx8 {
+
+    width: 18%;
+    font-size: 42px;
+    padding: 0px;
+    color: grey;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+
+.SwipeCardMerLabelMOBIx8 {
+    width: 18%;
+    font-size: 58px;
+    padding: 3px;
+    color: grey;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+.NameMerLabelx8 {
+    width: 78%;
+}
+
+.NameMerLabelMOBIx8{
+  width:80%;
+}
+
+
+
+
+.CardMerLabelx8{
+  width:100%;
+}
+
+
+
+
+
+.DateMerLabelx8 {
+    width: 48%;
+    margin-right: 21px;
+}
+
+.DateMerLabelMOBIx8{
+  width: 48%;
+  margin-right: 35px;
+}
+
+
+
+
+
+
+.CVDMerLabelx8{
+width: 45%;
+
+}
+
+.ZipMerLabelx8{
+width: 40%;
+}
+
+.SpecifyMerchantValuex8{
+
+  background-color: whitesmoke;
+  font-size: 20px;
+  border-radius: 15px;
+  border:none;
+  color: grey;
+  width:;
+
+}
+
+
+
+
+
+
+
+/*//////////////////new Merchant///////////////////////*/
+
+
+
+
+
+.SerPanelCompiledx8{
+width: 85%;
+background-color: transparent;
+margin:auto;
+margin-bottom: 10px;
+}
+
+
+.ServicePanelHeaderx8 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: grey;
+    display: block;
+    margin: 0px 0px;
+    font-weight: 700;
+}
+
+
+
+
+.servicePanelParrax8 {
+    font-size: 12px;
+    color: lightgrey;
+    width: 100%;
+}
+
+
+
+
+
+
+/*Service Panel Header MOBI*/
+
+.SerPanelCompiledMOBIx8{
+width: 85%;
+background-color: transparent;
+margin:auto;
+
+}
+
+.ServicePanelHeaderMOBIx8{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 26px;
+color:grey;
+display: block;
+margin: 38px 0px;
+font-weight: 700;
+}
+
+.servicePanelParraMOBIx8{
+
+font-size: 18px;
+color:lightgrey;
+width:100%;
+}
+
+
+/*Service Panel Header MOBI*/
+
+
+/*/////////Select Buy and Sell///////////*/
+
+
+.ScanOrGiftx8, .BuyorGiftGasx8{
+
+
+
+}
+
+
+
+
+/*/////////Select Buy and Sell///////////*/
+
+/*//////////////Change Pin/////////////*/
+
+
+
+
+.ChangePinx8 {
+
+    padding: 33px 164px;
+    position: absolute;
+    display: none;
+    z-index: 500;
+    background-color: white;
+}
+
+.ChangePinMOBIx8{
+  margin-top: 0px;
+  padding: 70px 125px;
+  position: absolute;
+  display:none;
+  z-index: 500;
+  background-color: white;
+}
+
+
+
+
+
+.ChangePinLabelsx8 {
+    margin-top: 0px;
+}
+
+.ChangePinLabelsMOBIx8{
+    margin-top: 90px;
+    padding-left: 130px;
+}
+
+
+
+
+.ChangePinNamex8{
+  background-color: white;
+  color: grey;
+  font-size: 15px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -14px;
+  padding: 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.ChangePinLx8 {
+    height: 42px;
+    margin: 20px 0px;
+        margin-left: 0px;
+    border: 1px solid lightgrey;
+    width: 100%;
+}
+
+.ChangePinLMOBIx8{
+height: 68px;
+margin: 20px 0px;
+border: 1px solid lightgrey;
+width:73%;
+}
+
+
+
+
+
+
+
+.ChangePinHHHx8 {
+    background-color: transparent;
+    color: grey;
+    font-size: 17px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ChangePinHHHMOBIx8{
+background-color: transparent;
+
+
+color: grey;
+font-size: 33px;
+border:none;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+.EnterPinInputx8, .ConfirmPinInputx8{
+
+}
+
+
+
+
+
+.Thecover {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+
+
+
+.MatchedPinYesx8 {
+
+    margin-top: 50px;
+    height: 48px;
+    background-color: whitesmoke;
+    color: Green;
+    display: none;
+    width: 34%;
+    font-weight: 100;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 5000;
+    position: absolute;
+    font-size: 17px;
+    padding: 13px;
+    left: 200px;
+    top: 237px;
+
+}
+
+.MatchedPinYesMOBIx8{
+  margin-top: 50px;
+  height:70px;
+  background-color:whitesmoke;
+  color:Green;
+  display: none;
+  width: 90%;
+  font-weight: 100;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  border-radius: 15px;
+
+      position: static;
+    font-size: 21px;
+    padding: 20px;
+    left:none;
+    top:none;
+}
+
+
+
+
+
+
+.MatchedPinNOx8 {
+
+    margin-top: 50px;
+    height: 48px;
+    background-color: whitesmoke;
+    color: tomato;
+    display: none;
+    width: 34%;
+    font-weight: 100;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 5000;
+    position: absolute;
+    font-size: 17px;
+    padding: 13px;
+    left: 200px;
+    top: 237px;
+
+}
+.MatchedPinNOMOBIx8{
+  margin-top: 50px;
+  height:70px;
+  background-color:whitesmoke;
+  color:tomato;
+  display:none ;
+  width: 90%;
+  font-weight: 100;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+  border-radius: 15px;
+
+    position: static;
+    font-size: 21px;
+    padding: 20px;
+    left:none;
+    top:none;
+}
+
+
+
+
+.ChangepinCoverx8 {
+
+    background-color: white;
+    width: 44%;
+    height: 106px;
+    margin: auto;
+    position: absolute;
+    left: 173px;
+    bottom: -53px;
+    border-radius: 51px;
+
+}
+
+.ChangepinCoverMOBIx8 {
+
+    background-color: white;
+    width: 44%;
+    height: 189px;
+    margin: auto;
+    position: absolute;
+    left: 173px;
+    bottom: -97px;
+    border-radius: 51px;
+
+}
+
+
+
+/*//////////////////Change Pin///////////////////////*/
+
+
+
+
+/*////////////Buy Fuels x8///////////////////////*/
+
+
+
+
+
+.BuyFuelsx8{
+ 
+  padding: 23px 0px;
+  position: absolute;
+  display:none;
+  z-index: 500;
+  background-color: white;
+  overflow-y: hidden;
+
+}
+
+
+
+.SearchFuelsx8{
+
+width:70%;
+
+}
+
+.SelectFuelsx8 {
+    padding: 0px 8px 20px 26px;
+}
+
+
+.SelectFuelsMOBIx8{
+  padding: 0px 0px 20px 24px;
+}
+
+
+
+
+
+
+.Fuelx8 {
+
+    display: inline-block;
+    margin: 0px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 183px;
+    width: 129px;
+    padding: 39px 0px;
+    box-shadow: none;
+    border: none;
+
+}
+
+.FuelNormalx8 {
+    padding: 17px 0px;
+}
+
+
+.FuelMOBIx8 {
+    display: inline-block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+   height: 248px;
+    width: 276px;
+    padding: 26px 0px;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+
+
+.FuelBadgeAndnamex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.FuelAndAbrex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.MyCurrentPricex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+
+
+
+
+
+
+/*Fuel Symbol and name*/
+
+.FuelSymbolx8 {
+    font-size: 26px;
+    display: block;
+    font-weight: 600;
+    font-family: calibri;
+}
+
+.FuelSymbolMOBIx8 {
+    font-size: 38px;
+    display: block;
+    font-family: Calibri;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.FuelNamex8 {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 0px;
+    font-family: candara;
+}
+.FuelNameMOBIx8{
+font-size: 18px;
+display:block;
+margin-bottom: 0px;
+}
+
+
+
+
+/*Fuel Symbol and name*/
+
+
+
+/*Fuel Current cost and Abreviation*/
+
+
+.IhaveThisMuchx8 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: tan;
+    font-size: 27px;
+    font-family: calibri;
+    height: 36px;
+    width: 49%;
+    text-align: center;
+    margin-right: -9px;
+    font-weight: 600;
+    margin-left: 11px;
+}
+.IhaveThisMuchMOBIx8{
+display:inline-block;
+border:none;
+background-color:transparent;
+color:tan;
+font-size: 39px;
+font-family: calibri;
+height: 36px;
+width: 41%;
+text-align: center;
+margin-right: -10px;
+
+
+}
+
+
+
+
+.Galx8 {
+    font-size: 15px;
+    position: ;
+    color: tan;
+    display: inline-block;
+    width: 5%;
+    margin-right: 35px;
+    font-weight: 600;
+}
+
+.GalMOBIx8 {
+    font-size: 30px;
+    position: ;
+    color: tan;
+    display: inline-block;
+    width: 5%;
+    margin-right: 61px;
+    font-weight: 600;
+}
+
+
+
+/*Fuel Current cost and Abreviation*/
+
+
+
+
+
+
+
+
+
+/*I Currently have*/
+
+
+.Ihavex8{
+  display: block;
+font-size: 14px;
+color:#262626;  
+}
+
+
+
+
+.CurrentPricex8 {
+    display: block;
+    border: none;
+    font-size: 15px;
+    color:;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+.CurrentPriceMOBIx8 {
+    display: block;
+    border: none;
+    font-size: 25px;
+    color:;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+.MyFuelinRealValx8 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color:;
+    font-size: 11px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.MyFuelinRealValMOBIx8{
+  display:block;
+border:none;
+background-color:transparent;
+color:;
+font-size: 19px;
+font-family: calibri;
+height: 15px;
+width: 100%;
+text-align: center;
+margin-bottom: 5px;
+
+}
+
+/*I Currently have*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BlackedLettersKPT1{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SelectBuyOrSellMOBIx8, .ScanOrBuyOrGiftGasx8{
+
+background-color: transparent;
+width: 95%;
+height: 94%;
+margin: 0px auto;
+padding-left: 115px;
+
+}
+
+
+
+.BuyorGiftGasx8 > label, .ScanOrGiftx8 > label{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.EnterFuelQtyx8 {
+    display: none;
+    font-size: 24px;
+    background-color: white;
+    height: 35px;
+    position: absolute;
+    left: 11px;
+    width: 110px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    bottom: -31px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+.EnterFuelQtyMOBIx8 {
+    display: none;
+    font-size: 30px;
+    background-color: white;
+    height: 40px;
+    position: absolute;
+    left: 62px;
+    width: 155px;
+    padding: 0px;
+        padding-left: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+
+
+
+
+
+
+.InputFuelQtyx8 {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 29px;
+    text-align: left;
+    border: none;
+}
+.InputFuelQtyMOBIx8{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  text-align: left;
+  border:none;
+}
+
+
+
+.ToogleFuelsToTinyx8, .ToogleFuelsToHorix8,  .ToogleFuelsToLinearx8, .ToogleFuelsToSquarex8, .ToogleFuelsToRectanglex8, .ToogleFuelsToMinix8 {
+    display: none;
+    float: right;
+    z-index: 500;
+    margin: 7px 20px;
+    font-size: 43px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    position: absolute;
+    right: 5px;
+    top: 68px;
+}
+
+
+
+
+.ToogleFuelsToRectanglex8{
+  color: lightgrey;
+}
+
+
+
+.SearchFuelsx8 {
+
+    display: ;
+    float: right;
+    z-index: 500;
+    margin: 29px 20px;
+    font-size: 37px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    position: absolute;
+    width: 28px;
+    right: 104px;
+    top: -8px;
+
+}
+
+
+
+
+.SearchFuelsMOBIx8 {
+    display: ;
+    float: right;
+    z-index: 500;
+    margin: 29px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    position: absolute;
+    width: 30px;
+    right: 144px;
+    top: 59px;
+}
+
+
+
+.ToogleFuelsToSquarex8{
+display: none;
+}
+
+
+
+
+
+
+
+.totalFuelsheaderx8 {
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.totalFuelsheaderMOBIx8{
+width: 50%;
+border: none;
+background-color: transparent;
+color: black;
+font-size: 40px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+/*////////////Buy Fuels x8///////////////////////*/
+
+
+/*//////Buysell senquest finBs//////////*/
+
+.SendReqFundsx8, .BuySellFundsx8{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*////////////Make Transfers x8///////////////////////*/
+
+.MakeTransferx8 {
+
+    display: none;
+    z-index: 600;
+    position: absolute;
+    text-align: center;
+    width: 605px;
+    height: 348px;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin: 2px;
+    font-family: georgia;
+
+}
+
+
+
+.MakeTransfersx8{
+ 
+  padding: 23px 0px;
+  position: absolute;
+  display:none;
+  z-index: 500;
+  background-color: white;
+  overflow-y: hidden;
+
+}
+
+
+
+.SearchTransfersx8{
+
+width:70%;
+
+}
+
+.SelectTransfersx8 {
+    padding: 0px 8px 20px 26px;
+}
+
+.SelectTransfersMOBIx8{
+  padding: 0px 8px 20px 29px;
+}
+
+
+
+
+
+
+.Transferx8 {
+
+    display: inline-block;
+    margin: 0px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 46px;
+    width: 140px;
+    padding: 4px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+    color: #262626;
+
+}
+
+
+
+.TransferMOBIx8 {
+    display:block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 104px;
+    width: 205px;
+    padding: 1px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+}
+
+
+
+
+.TransferBadgeAndnamex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.TransferAndAbrex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.MyCurrentPricex8{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+
+
+
+
+
+
+/*Transfer Symbol and name*/
+
+.TransferBadgeAndnamex8 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    margin-top: -23px;
+
+}
+
+
+.TransferBadgeAndnameMOBIx8 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+
+}
+
+
+
+.TransferSymbolx8 {
+    font-size: 15px;
+    display: inline-block;
+}
+.TransferSymbolMOBIx8 {
+    font-size: 26px;
+    display: inline-block;
+}
+
+
+
+
+
+.TransferNamex8 {
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.TransferNameMOBIx8{
+font-size: 18px;
+display:inline-block;
+margin-bottom: 0px;
+}
+
+
+
+
+/*Transfer Symbol and name*/
+
+
+
+/*Transfer Current cost and Abreviation*/
+
+.TransferAndAbrex8 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    margin-top: -24px;
+
+}
+
+.TransferAndAbreMOBIx8 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+
+}
+
+
+
+
+.TransferIhaveThisMuchx8 {
+
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 16px;
+    font-family: calibri;
+    height: 42px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+
+}
+.TransferIhaveThisMuchMOBIx8 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 28px;
+    font-family: calibri;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+}
+
+.TransferBalx8 {
+    font-size: 20px;
+    position: ;
+    color: olive;
+    display: inline-block;
+    width: 5%;
+    margin-right: 35px;
+}
+
+/*Transfer Current cost and Abreviation*/
+
+
+.SelectTransferFromx8 {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    padding-left: 61px;
+    font-size: 9px;
+    margin-top: -15px;
+}
+
+
+.SelectTransferFromMOBIx8 {
+    display: inline-block;
+    width: 242px;
+    float: left;
+    padding-left: 28px;
+    font-size: 17px;
+    margin-top: -15px;
+}
+
+
+
+
+.SelectTransferTox8 {
+    display: inline-block;
+    width: 183px;
+    float: right;
+    padding-right: 8px;
+    font-size: 9px;
+    padding-left: 31px;
+    margin-top: -15px;
+    margin-right: 47px;
+}
+
+.SelectTransferToMOBIx8 {
+    display: inline-block;
+    width: 231px;
+    float: right;
+    padding-right: 29px;
+    font-size: 17px;
+    padding-left: 0px;
+     margin-right: 0px;
+     margin-top: -15px;
+
+}
+
+
+
+
+
+
+.TransSelectFromx8 {
+
+    display: inline-block;
+    display: ;
+    font-size: 30px;
+    width: 223px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+
+}
+
+
+
+.TransSelectFromMOBIx8{
+  display: inline-block;
+display:;
+font-size: 30px;
+width: 250px;
+border-radius: 30px;
+background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+
+}
+
+
+
+
+
+.TransTox8 {
+
+    color: lightgrey;
+    display: none;
+    width: 250px;
+    font-size: 16px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+
+
+.TransToMOBIx8{
+  color:lightgrey;
+  display:none;
+  width:250px;
+  font-size: 22px;
+  float: right;
+  margin-top: 132px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+.TransFromx8 {
+
+    color: lightgrey;
+    display: none;
+    width: 250px;
+    font-size: 16px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 21px;
+
+}
+
+.TransFromMOBIx8{
+  color:lightgrey;
+  display:none;
+  width:250px;
+  font-size: 22px;
+  float: left;
+  margin-top: 132px;
+  margin-left: 20px;
+}
+
+
+
+
+
+.TransSelectTox8{
+  display: inline-block;
+  display:;
+  font-size: 30px;
+  width: 223px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+
+}
+
+
+.TransSelectToMOBIx8{
+  display: inline-block;
+  display:;
+  font-size: 30px;
+  width: 250px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+
+}
+
+
+
+.TransSelex8{
+  border:none;
+  height: 50px;
+  font-size: 25px;
+  background-color: transparent;
+  width:100%;
+  height: 50%;
+
+
+}
+
+.TransferHideTox8 {
+
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    height: 115px;
+    padding-top: 55px;
+
+}
+
+.TransferHideToMOBIx8{
+  display:none;
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  width:100%;
+  height: 200px;
+  padding-top: 55px;
+
+}
+
+.TransferHideTo0x8{
+
+  display:block;
+  }
+
+
+
+
+
+
+.TransferHideFromx8 {
+
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    height: 115px;
+    padding-top: 55px;
+
+}
+
+.TransferHideFromMOBIx8{
+  display:none;
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  width:100%;
+  height: 200px;
+padding-top: 55px;
+
+}
+
+.TransferHideFrom0x8{
+
+  display:block;
+  }
+
+
+
+
+
+
+.TransferbuttonParentx8{
+  width:100%;
+}
+
+
+
+
+.TransferDropButtonx8{
+  margin-top:4px;
+  margin-bottom: 0px;
+  height:40px;
+  width:100%;
+  background-color: transparent;
+
+  }
+
+
+
+.TransferDropButtonDropdownx8 {
+
+    width: 225px;
+    padding: 10px 40px;
+
+}
+  .TransferDropButtonDropdownMOBIx8{
+
+    width: 250px;
+    padding: 10px 20px;
+
+    }
+
+
+
+/*I Currently have*/
+
+
+.Ihavex8{
+  display: block;
+font-size: 14px;
+color:#262626;  
+}
+
+
+
+
+.CurrentPricex8 {
+    display: block;
+    border: none;
+    font-size: 15px;
+    color:;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+.CurrentPriceMOBIx8 {
+    display: block;
+    border: none;
+    font-size: 25px;
+    color;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+.MyTransferinRealValx8 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 11px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.MyTransferinRealValMOBIx8{
+  display:block;
+border:none;
+background-color:transparent;
+color:olive;
+font-size: 19px;
+font-family: calibri;
+height: 15px;
+width: 100%;
+text-align: center;
+margin-bottom: 13px;
+
+}
+
+/*I Currently have*/
+
+
+.liTransFrom1x8, .liTransFrom2x8, .liTransFrom3x8, .liTransFrom4x8, .liTransFrom5x8{
+
+}
+
+
+/*
+.TranSelectFromx8 {
+    height: 100px;
+    border-radius: 15px;
+    font-size: 19px;
+    background-color: whitesmoke;
+}
+
+.TranSelectTox8 {
+    height: 100px;
+    border-radius: 15px;
+    font-size: 19px;
+    background-color: whitesmoke;
+}
+*/
+
+
+.arrowTransferx8 {
+
+    color: orange;
+    font-size: 83px;
+    position: absolute;
+    top: 162px;
+    left: 255px;
+
+}
+
+.arrowTransferMOBIx8 {
+    color: orange;
+    font-size: 90px;
+    position: absolute;
+    top: 400px;
+    left: 255px;
+}
+
+
+
+
+
+.arrowTransx8 {
+
+    display: none;
+    color: orange;
+    font-size: 77px;
+    position: absolute;
+    top: 138px;
+    left: 266px;
+    z-index: 20;
+
+}
+
+.arrowTransMOBIx8 {
+    display:none;
+    color: orange;
+    font-size: 87px;
+    position: absolute;
+    top: 373px;
+    left: 266px;
+    z-index: 20;
+
+}
+
+
+
+
+
+
+
+.BlackedLettersKPT1{
+    color: black;
+}
+
+
+
+
+
+
+
+
+.SelectMakeOrSellx8 > label, .ScanOrGiftx8 > label{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.EnterTransferQtyx8 {
+
+    display: none;
+    font-size: 13px;
+    background-color: white;
+    height: 16px;
+    position: absolute;
+    left: 35px;
+    width: 76px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    padding-left: 0px;
+    bottom: -11px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+
+}
+
+
+
+
+.EnterTransferQtyMOBIx8 {
+    display: none;
+    font-size: 24px;
+    background-color: white;
+    height: 35px;
+    position: absolute;
+    left: 11px;
+    width: 110px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    bottom: -31px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+.EnterTransferQtyMOBIx8 {
+    display: none;
+    font-size: 25px;
+    background-color: white;
+    height: 33px;
+    position: absolute;
+    left: 41px;
+    width: 126px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+
+
+
+
+
+.InputTransferQtyx8 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    text-align: left;
+    border: none;
+}
+.InputTransferQtyMOBIx8 {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-align: left;
+    border: none;
+}
+
+
+/*Linear option*/
+
+.LinearTransferx8 {
+
+    display: inline-block;
+    margin: 8px 12px 2px 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    height: 138px;
+    width: 97%;
+    padding: 15px 0px;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+.LinearTransferBadgeAndnamex8 {
+display: block;
+width: 24%;
+background-color: transparent;
+float: left;
+margin-top: 19px;
+}
+
+
+
+
+.LinearTransferNamex8 {
+margin-bottom: 15px;
+margin-left: 45px;
+font-size: 22px;
+text-align: left;
+    }
+
+
+
+
+
+
+
+.LinearTransferAndAbrex8 {
+    display: block;
+    width: 44%;
+    float: right;
+}
+
+
+
+.LinearMyCurrentPricex8 {
+    display: block;
+    width: 40%;
+    background-color: transparent;
+    float: right;
+}
+
+
+.LinearEnterTransferQtyx8 {
+
+    left: 191px;
+    bottom: -10px;
+    border: none;
+    border-bottom: none;
+   
+}
+/*Linear option*/
+
+
+
+
+/*Rectangled Transfers*/
+
+
+
+.RectTransferx8{
+  display:;
+}
+
+
+
+.RectangledTransferMOBIx8 {
+    display: inline-block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 273px;
+    width: 176px;
+    padding: 6px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+}
+
+
+
+
+.RectangledMyTransferinRealValMOBIx8 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 14px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+
+.RectangledEnterTransferQtyMOBIx8 {
+    display: none;
+    font-size: 30px;
+    background-color: white;
+    height: 47px;
+    position: absolute;
+    left: 12px;
+    width: 155px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+
+
+
+
+/*Rectangled Transfers*/
+
+
+/*Mini Transfers*/
+
+
+.MiniTransferMOBIx8 {
+    display: inline-block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 17px;
+    font-family: arial;
+    height: 177px;
+    width: 176px;
+    padding: 17px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+}
+
+
+.MiniTransferSymbolMOBIx8 {
+    font-size: 33px;
+    display: inline-block;
+}
+
+.MiniTransferNameMOBIx8 {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.MiniIhaveThisMuchMOBIx8 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 33px;
+    font-family: calibri;
+    height: 36px;
+    width: 50%;
+    text-align: center;
+    margin-right: -10px;
+    margin-right: -6px;
+}
+
+.MiniMyTransferinRealValMOBIx8 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 14px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+
+.MiniEnterTransferQtyMOBIx8 {
+    display: none;
+    font-size: 21px;
+    background-color: white;
+    height: 34px;
+    position: absolute;
+    left: 23px;
+    width: 130px;
+    padding: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+.MiniInputTransferQtyMOBIx8 {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    text-align: left;
+    border: none;
+}
+
+
+
+
+
+
+
+/*Mini Transfers*/
+
+.ToogleTransfersToSquareMOBIx8 {
+
+    display:none;
+}
+
+
+   
+.ToogleTransferToSelectx8, .ToogleTransferToColumnx8 {
+    display: none;
+    float: right;
+    z-index: 500;
+    margin: 7px 20px;
+    font-size: 29px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    position: absolute;
+    right: -6px;
+    top: 8px;
+}
+
+
+                      
+.ToogleTransferToSelectMOBIx8, .ToogleTransferToColumnMOBIx8{
+
+display:none;
+float: right;
+z-index: 500;
+margin: 7px 20px;
+font-size: 45px;
+border: none;
+background-color: transparent;
+color: grey;
+position: absolute;
+right: 3px;
+top: 22px;
+
+}
+
+
+
+.ToogleTransferToSelectx8{
+  display:inline-block;
+}
+
+
+
+.SearchTransferx8 {
+    display: ;
+    float: right;
+    z-index: 500;
+    margin: 29px 20px;
+    font-size: 29px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    position: absolute;
+    width: 28px;
+    right: 36px;
+    top: -8px;
+}
+
+
+.SearchTransfersMOBIx8{
+  display:;
+float: right;
+z-index: 500;
+margin: 29px 20px;
+font-size: 40px;
+border: none;
+background-color: transparent;
+color: grey;
+position: absolute;
+width: 30px;
+right: 93px;
+top: 6px;
+}
+
+.ToogleTransfersToSquarex8{
+display: none;
+}
+
+
+
+
+
+
+
+.totalTransfersheaderx8 {
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.totalTransfersheaderMOBIx8{
+width: 50%;
+border: none;
+background-color: transparent;
+color: black;
+font-size: 40px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+/*////////////Make Transfers x8///////////////////////*/
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////SendGift///////////////////////////////////////*/
+
+
+
+
+
+
+.sendGiftGasx8 {
+
+    display: none;
+    z-index: 800;
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 99%;
+    padding: 20px;
+    background-color: white;
+    padding: 34px 40px 10px 40px;
+    font-size: 19px;
+    color: grey;
+    border-radius: 40px;
+    margin: 4px;
+    font-family: candara;
+    box-shadow: 0 1px 5px grey;
+    top: 3px;
+
+}
+
+
+
+
+
+.SendRequestGasx8{
+}
+
+
+
+
+
+
+.SendReqGasx8 {
+
+    background-color: orange;
+    width: 212px;
+    display: block;
+    border-radius: 15px;
+    font-family: calibri;
+    font-weight: bold;
+    height: 81px;
+    font-size: 37px;
+    padding: 12px;
+    margin-top: 34px;
+    margin-bottom: 20px;
+    color: #603e01;
+    margin-right: 4px;
+
+}
+
+
+
+#SendGiftGasx8{
+border-bottom-right-radius:0px; 
+border-top-right-radius:0px;
+}
+
+
+#RequestGiftGasx8{
+border-bottom-left-radius:0px; 
+border-top-left-radius:0px;
+}
+
+
+
+
+
+.gifttotalGasx8{
+
+font-size: 50px;
+    font-family: ;
+    right: 130px;
+    top: 114px;
+    font-family: calibri;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+
+
+.totalGiftGasx8{
+
+    position: relative;
+   
+    display: inline-block;
+    height: 70px;
+    width: 149px;
+    padding: 0px;
+    font-size: 65px;
+    margin: 0px;
+    border: none;
+    text-align: left;
+  
+    font-family: arial;
+    background-color:whitesmoke;
+    color:black;
+    font-family: calibri;
+
+}
+
+.ConfirmSend{
+background-color: #286090;
+    color: white;
+    height: 74px;
+    width: 204px;
+    font-size: 32px;
+    border-radius: 25px;
+    box-shadow: inset 0 1px 10px white;
+    border: none;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.closeGiftGasx8 {
+
+    display: ;
+    z-index: 1500;
+    position: absolute;
+    text-align: center;
+    width: 70px;
+    height: 71px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    color: grey;
+    /*transform: translate(-275px, 22px);*/
+    border: none;
+    border-radius: 21px;
+    font-size: 48px;
+    color: red;
+    font-family: arial;
+    border: 1px solid lightgrey;
+    position: relative;
+    left: -187px;
+    top: -16px;
+
+}
+
+
+.HistoryGiftGasx8 {
+
+    display: ;
+    z-index: 1500;
+    position: absolute;
+    text-align: center;
+    width: 70px;
+    height: 71px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    color: grey;
+    /*transform: translate(-275px, 22px);*/
+    border: none;
+    border-radius: 21px;
+    font-size: 48px;
+    color: red;
+    font-family: arial;
+    border: 1px solid lightgrey;
+    position: relative;
+    right: -187px;
+    top: -16px;
+
+
+}
+
+
+
+/*/////////////////////////////////////////////////*/
+
+
+
+ .SelectFriendGasx8 {
+
+    margin: 36px 20px;
+    width: 100%;
+    padding-left: 26px;
+ 
+}
+
+
+
+.friendsGasx8 {
+
+    display: inline-block;
+    width: 109px;
+    height: 120px;
+    border-radius: 0px;
+    border: 5px solid lightgrey;
+    margin: 18px 50px;
+        margin-left: 50px;
+    color: whitesmoke;
+    font-size: 15px;
+
+}
+
+
+.ContactNameSamountx8 {
+    top: -32px;
+    position: absolute;
+    font-size: 19px;
+    left: -12px;
+    font-family: calibri;
+    font-weight: 500;
+    width: 122px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    text-align: center;
+}
+
+
+
+
+
+
+.SearchScanContactLabelInvoiceGasx8{
+
+  margin-top:20px;
+  display:;
+
+}
+
+
+
+.SeachContactGasx8 {
+
+    border-radius: 15px;
+    height: 60px;
+    background-color: #f9f9f9;
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    text-align: center;
+    width: 95%;
+    color: grey;
+
+}
+
+
+
+
+
+.scanContactInvoicePriceAtgGasx8 {
+
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    padding-top: 7px;
+    background-color: transparent;
+    position: relative;
+    right: -210px;
+    top: -60px;
+
+}
+
+
+
+.scanBadgeGasx8{
+
+  background-color: white;
+  color: lightgrey;
+  font-size: 15px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: 134px;
+  padding: 0px 7px;
+
+}
+
+
+
+
+
+.friendsGasx8 b {
+    font-size: 53px;
+}
+
+
+
+.friendsSpanGasx8 {
+
+    position: relative;
+    top: 76px;
+    color: whitesmoke;
+    right: 13px;
+
+}
+
+
+
+
+.friendImputGasx8 {
+
+    width: 79px;
+    height: 21px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    position: relative;
+    color: whitesmoke;
+    top: 80px;
+    right: 14px;
+
+}
+
+
+  #MikeGasx8{
+
+background-color: white;
+color: black;
+padding: 24px 5px;
+
+
+
+}
+
+
+#MySelfGasx8{
+
+  background-image: url("img/Friends/friend1.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+
+#JeffGasx8{
+
+  background-image: url("img/Friends/friend2.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+#MariaGasx8{
+
+  background-image: url("img/Friends/friend3.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+#JohnGasx8{
+
+background-image: url("img/Friends/friend4.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+#LeahGasx8{
+
+background-image: url("img/Friends/friend5.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#PaulGasx8{
+
+background-image: url("./img/Friends/friend6.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+#JennyGasx8{
+
+background-image: url("img/Friends/friend7.png");
+background-position:center;
+background-size: cover;
+background-color:white;
+
+}
+
+
+#GokuGasx8{
+
+background-image: url("img/Friends/friend8.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+.GiftSentGasx8 {
+
+    display: none;
+    z-index: 800;
+    position: absolute;
+    height: 938px;
+    width: 550px;
+    border: 5px solid white;
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+    transform: translate(28px, 100px);
+    padding: 247px 70px 10px 70px;
+    font-family: calibri;
+    font-size: 15px;
+    opacity: .98;
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
+    box-shadow: 0 1px 5px black;
+
+}
+
+
+
+
+#GiftPayAmountGasx8{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+
+
+
+#happyFriendGasx8{
+
+    border:none;
+    font-size: 30px;
+    width:20%;
+
+
+}
+
+
+.OperationEndedPanelVMallX8 {
+
+    display: none;
+    z-index: 800;
+    position: absolute;
+    height: 916px;
+    width: 550px;
+    border: 5px solid white;
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+    transform: translate(29px, 102px);
+    padding: 203px 70px 10px 70px;
+    font-family: calibri;
+    font-size: 15px;
+    opacity: .98;
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
+    box-shadow: 0 1px 5px black;
+    opacity: .95;
+
+}
+
+
+
+
+
+
+
+
+
+.SendGasPaymentx8{
+
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    width: 581px;
+    margin: 5px 14px;
+    border-radius: 15px;
+    padding: 90px 40px;
+    top: 344px;
+    opacity: .98;
+    display: none;
+
+}
+
+
+
+
+/*//////////////////////////////////////*/
+
+
+
+/*////////////////////////SendGift///////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/*//////Buysell senquest finBs//////////*/
+
+
+
+
+
+
+
+
+
+
+.Serm, .Sermx2, .Sermx3, .Sermx8, .Sermx5, .Sermx6, .Sermx7{
+
+  display:none;
+}
+
+
+.Serm{
+
+  display:block;
+}
+
+
+
+
+
+
+/*/////////////////////////////////////////*/
+
+
+
+
+
+.qty2MOBIxLargex8 {
+
+    height: 200px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    height: 306px;
+    width: 100%;
+
+}
+
+
+.NumPadMOBIxLargex8 {
+
+    display: ;
+    border-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    padding: 3px 5px 3px 5px;
+    width: 121px;
+    height: 87px;
+    font-size: 35px;
+
+}
+
+
+.backSpaceMOBIxLargex8 {
+
+    float: right;
+    margin-top: 10px;
+    margin-right: 3px;
+    position: relative;
+    bottom: 271px;
+    left: 480px;
+    font-size: 26px;
+
+}
+
+
+
+
+
+/*/////////////////////////////////////////*/
+
+.RightShiftedqty2x8 {
+    height: 115px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font-size: 30px;
+    padding-top: 3px;
+}
+
+
+.RightShiftedamountx8 {
+
+    background-color: inherit;
+    margin-left: 47px;
+    font-size: 38px;
+
+}
+
+
+.RightShiftedamountInputx8 {
+
+    width: 29%;
+    margin-top: 17px;
+    position: absolute;
+    transform: translate(1px, 10px);
+
+}
+
+
+
+.RightShiftedfeesx8 {
+
+    display: block;
+    background-color: inherit;
+    color: lightgrey;
+    border: none;
+    font-size: 14px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 57px;
+    width: 200px;
+    z-index: 1000;
+    transform: translate(15px, 1px);
+
+}
+
+
+
+.RightShiftedLinearNumPadx8 {
+
+    background-color: inherit;
+    margin-bottom: 0px;
+    width: 28%;
+    height: 109px;
+    padding: 0px 4px;
+    float: right;
+    clear: right;
+    position: absolute;
+    transform: translate(268px, -1px);
+
+}
+
+
+
+
+
+
+
+
+
+
+.RightShiftedqty2MOBIx8 {
+    height: 198px;
+ 
+}
+
+
+.RightShiftedbackSpaceMOBIx8{
+  margin-top: 0px;
+margin-right: 0px;
+position: relative;
+bottom: 0px;
+left: 0px;
+}
+
+
+
+.RightShiftedLinearNumPadMOBIx8 {
+
+    background-color: inherit;
+    margin-bottom: 0px;
+    width: 61%;
+    height: 109px;
+    padding: 0px 4px;
+    float: right;
+    clear: right;
+    position: absolute;
+    transform: translate(236px, 13px);
+
+}
+
+
+
+.RightshiftedamountMOBIx8 {
+
+    margin-left: 1px;
+    font-size: 69px;
+    width: 360px;
+
+}
+
+
+
+.RightShiftedamountInputMOBIx8 {
+
+    width: 33%;
+    margin-top: 30px;
+    position: absolute;
+    transform: translate(-18px, 10px);
+
+}
+
+
+.RightShiftedfeesMOBIx8 {
+
+    display: block;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 57px;
+    width: 200px;
+    transform: translate(3px, 7px);
+
+}
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////*/
+
+.LeftShiftedqty2x8 {
+    height: 115px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font-size: 30px;
+    padding-top: 3px;
+}
+
+
+
+
+.LeftShiftedfeesx8 {
+
+    display: block;
+    background-color: inherit;
+    color: lightgrey;
+    border: none;
+    font-size: 14px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 57px;
+    width: 200px;
+    z-index: 1000;
+    transform: translate(373px, 1px);
+
+}
+
+
+.LeftShiftedamountx8 {
+    background-color: inherit;
+    margin-left: 65px;
+    font-size: 38px;
+}
+
+
+.LeftShiftedamountInputx8 {
+
+    width: 22%;
+    margin-top: 17px;
+    position: absolute;
+    transform: translate(336px, 10px);
+
+}
+
+.LeftShiftedqtyvalue2x8 {
+    background-color: inherit;
+    height: 50px;
+    width: 150px;
+    margin-left: 0px;
+    border: none;
+    font-size: 38px;
+}
+
+
+.LeftShiftedLinearNumPadx8 {
+
+    background-color: inherit;
+    margin-bottom: 0px;
+    width: 28%;
+    height: 109px;
+    padding: 0px 4px;
+    float: right;
+    clear: right;
+    position: absolute;
+    transform: translate(5px, -1px);
+
+}
+
+.numPeriodx8{
+  display: none;
+}
+
+.LeftShiftednumPeriodx8{
+  display:inline-block;
+}
+
+
+
+
+
+
+.LeftShiftedqty2MOBIx8 {
+    height: 198px;
+ 
+}
+
+
+.LeftshiftedamountMOBIx8 {
+
+    margin-left: 15px;
+    font-size: 55px;
+    width: 255px;
+
+}
+.LeftShiftedamountInputMOBIx8 {
+
+    width: 33%;
+    margin-top: 30px;
+    position: absolute;
+    transform: translate(336px, 10px);
+   
+
+}
+.LeftShiftedqtyvalue2MOBIx8 {
+
+    background-color: inherit;
+    height: 80px;
+    width: 140px;
+    margin-left: 0px;
+    color: white;
+    font-size: 60px;
+    margin-top: 18px;
+    border: none;
+
+}
+.LeftShiftedLinearNumPadMOBIx8 {
+
+    background-color: inherit;
+    margin-bottom: 0px;
+    width: 62%;
+    height: 109px;
+    padding: 0px 4px;
+    float: right;
+    clear: right;
+    position: absolute;
+    transform: translate(5px, 13px);
+
+}
+.LeftShiftedbackSpaceMOBIx8 {
+
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+
+}
+.LeftShiftedfeesMOBIx8 {
+    display: block;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 57px;
+    width: 200px;
+    transform: translate(372px, 23px);
+
+}
+
+/*/////////////////////////////////////////*/
+
+
+
+.qty2MOBIxHugex8 {
+
+    height: 200px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    height: 462px;
+    width: 100%;
+
+}
+
+.NumPadMOBIxHugex8 {
+
+    display: ;
+    border-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 3px 5px 3px 5px;
+    width: 151px;
+    height: 109px;
+    font-size: 45px;
+  }
+
+.backSpacexHugex8 {
+
+    float: right;
+    margin-top: 0px;
+    margin-right: 3px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+
+
+/*///////////////////////////////////////*/
+
+
+
+.qty2MOBIxExtraHugex8 {
+
+    height: 200px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    height: 520px;
+    width: 100%;
+
+}
+
+
+
+
+
+.NumPadMOBIxExtraHugex8 {
+    display: ;
+    border-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 3px 5px 3px 5px;
+    width: 201px;
+    height: 97px;
+    font-size: 45px;
+    bottom: 0px;
+    left: 0px;
+    margin-top: 0px;
+}
+
+
+
+/*///////////////////////////////////////*/
+
+
+
+.Thecoverlix8 {
+    background-color: transparent;
+    width: 100%;
+    height: 121%;
+    position: relative;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+    top: -52px;
+  
+}
+
+
+.ThecoverliMOBIx8 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+    top: -78px;
+
+}
+
+
+
+.ServicePanelx8 {
+
+    border-radius: 10px 10px 0px 0px;
+    height: 349px;
+    border: none;
+    margin: 0px;
+    position: relative;
+    top: -8px;
+    width: 100%;
+
+}
+
+
+
+ .servicePanelsMOBIx8{
+
+height: 845px;
+font-size: 26px;
+padding: 22px 10px 10px 10px;
+margin: 0px;
+width: 100%;
+border-radius: 50px 50px 0px 0px;
+top: 0px;
+
+ }
+
+
+
+
+
+.BuyorGiftGasx8{
+    display: none;
+    background-color: transparent;
+    width: 95%;
+    height: 94%;
+    margin: 0px auto;
+    padding-left: 155px;
+}
+
+
+
+
+
+ .ScanOrGiftx8 {
+    display:block;
+    background-color: transparent;
+    width: 95%;
+    height: 94%;
+    margin: 0px auto;
+    padding-left: 116px;
+}
+
+#ScanPumpx8{
+
+padding: 8px 1px 0px 9px; 
+}
+
+#GiftGasx8{
+padding: 20px 14px 20px 0px; 
+}
+
+
+
+#ScanPumpOnex8{
+  display:none;
+  width: 220px;
+}
+
+#SubmitGasOrderx8{
+  width: 220px;
+}
+
+
+
+
+
+
+.SelectMakeOrSellMOBIx8, .ScanOrBuyOrGiftGasx8{
+
+  background-color: transparent;
+width: 95%;
+height: 94%;
+margin: 0px auto;
+padding-left: 115px;
+
+}
+
+
+.SelectSendOrRequestx8 {
+    display: none;
+   margin-left: 173px;
+}
+
+
+
+.SelectSendOrRequestMOBIx8 {
+    display: none;
+    margin-left: 75px;
+}
+
+
+.GiftGasx8 {
+    display:none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: -5px;
+    left: 214px;
+    padding: 5px 10px;
+     color:black;
+}
+
+.GiftGasSpanx8, .UseGasSpanx8{
+  display: block;
+  font-size: 19px;
+  color:black;
+  font-family: calibri;
+
+}
+
+
+.UseGasx8 {
+    display:none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: -5px;
+    left: -6px;
+    padding: 5px 10px;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Linear option*/
+
+.LinearFuelx8 {
+    display: inline-block;
+   margin: 0px 12px 11px 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    height: 117px;
+    width: 93%;
+    padding: 4px 16px;
+    box-shadow: none;
+    border: none;
+
+}
+
+
+
+
+.LinearSelectFuelsMOBIx8 {
+    padding: 0px 0px 20px 39px;
+}
+
+
+
+
+
+.LinearFuelBadgeAndnamex8 {
+
+    display: block;
+    width: 24%;
+    background-color: transparent;
+    float: left;
+    margin-top: 19px;
+    position: relative;
+    left: 13px;
+    text-align: left;
+
+}
+
+
+
+
+.LinearFuelNamex8 {
+margin-bottom: 15px;
+margin-left: 5px;
+font-size: 22px;
+text-align: left;
+    }
+
+
+
+
+
+
+
+.LinearFuelAndAbrex8 {
+
+    display: block;
+    width: 44%;
+    float: right;
+    position: relative;
+    top: 21px;
+    left: 22px;
+
+}
+
+
+
+.LinearMyCurrentPricex8 {
+    display: block;
+    width: 40%;
+    background-color: transparent;
+    float: right;
+}
+
+
+.LinearEnterFuelQtyx8 {
+
+    left: 191px;
+    bottom: -8px;
+    border: none;
+    border-bottom: none;
+   
+}
+
+.LinearUseGasx8 {
+
+    display: none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: -2px;
+    left: 202px;
+    padding: 5px 10px;
+
+}
+
+
+.LinearGiftGasx8 {
+
+    display: none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: -2px;
+    left: 280px;
+    padding: 5px 10px;
+
+}
+
+
+
+/*Linear option*/
+
+
+
+
+/*Rectangled Fuels*/
+
+
+
+.RectFuelx8{
+  display:;
+}
+
+.RectangledinnerRightMOBIx8 {
+
+    width: 100%;
+    z-index: 50;
+    margin: 0px;
+    padding: 16px 0px 40px 0px;
+    padding: 0px 0px 40px 0px;
+
+}
+
+
+.RectangledSelectFuelsMOBIx8 {
+
+    padding: 0px 0px 20px 83px;
+
+}
+
+.RectangledFuelMOBIx8 {
+
+    display: inline-block;
+    margin: 7px 77px 23px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 232px;
+    width: 176px;
+    padding: 34px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+
+}
+
+
+.RectangledFuelSymbolMOBIx8{
+
+    font-size: 32px;
+    display: block;
+    font-family: Calibri;
+    font-weight: 600;
+
+}
+
+
+
+
+.RectangledIhaveThisMuchMOBIx8 {
+
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color:tan;
+    font-size: 35px;
+    font-family: calibri;
+    height: 36px;
+    width: 47%;
+    text-align: center;
+    margin-right: -10px;
+
+}
+
+.RectangledGalMOBIx8 {
+
+    font-size: 23px;
+    position: ;
+    color: olive;
+    display: inline-block;
+    width: 5%;
+    margin-right: 35px;
+
+}
+
+
+.RectangledMyFuelinRealValMOBIx8 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color:;
+    font-size: 14px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+
+.RectangledEnterFuelQtyMOBIx8 {
+    display: none;
+    font-size: 30px;
+    background-color: white;
+    height: 44px;
+    position: absolute;
+    left: 12px;
+    width: 155px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    padding-left: 0px;
+    bottom: -21px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+
+
+
+.RectangledUseGasx8 {
+
+    display: none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: 60px;
+    left: -45px;
+    padding: 5px 10px;
+
+}
+
+.RectangledGiftGasx8 {
+
+    display: none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: 60px;
+    left: 163px;
+    padding: 5px 10px;
+
+}
+
+
+/*Rectangled Fuels*/
+
+
+/*Mini Fuels*/
+
+
+.MiniSelectFuelsMOBIx8 {
+
+    padding: 1px 0px 20px 88px;
+
+}
+
+.MiniGiftGasx8 {
+
+    display: none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: 28px;
+    left: 166px;
+    padding: 5px 10px;
+
+}
+
+.MiniUseGasx8 {
+
+    display: none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: 28px;
+    left: -41px;
+    padding: 5px 10px;
+
+}
+
+
+
+.MiniFuelMOBIx8 {
+
+    display: inline-block;
+    margin: 30px 83px 7px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 17px;
+    font-family: arial;
+    height: 177px;
+    width: 176px;
+    padding: 12px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+
+}
+
+
+.MiniFuelSymbolMOBIx8 {
+    font-size: 29px;
+    display: block;
+}
+
+.MiniFuelNameMOBIx8 {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.MiniIhaveThisMuchMOBIx8 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color:tan;
+    font-size: 33px;
+    font-family: calibri;
+    height: 36px;
+    width: 50%;
+    text-align: center;
+    margin-right: -10px;
+}
+
+
+
+
+.MiniMyFuelinRealValMOBIx8 {
+
+    display: block;
+    border: none;
+    background-color: transparent;
+    color:;
+    font-size: 14px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+
+.MiniEnterFuelQtyMOBIx8 {
+    display: none;
+    font-size: 21px;
+    background-color: white;
+    height: 34px;
+    position: absolute;
+    left: 23px;
+    width: 130px;
+    padding: 0px;
+    bottom: -25px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+.MiniInputFuelQtyMOBIx8 {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    text-align: left;
+    border: none;
+}
+
+.MiniGiftGasMOBIx8 {
+
+    display: none;
+    background-color: lightgrey;
+    box-shadow: inset 0 3px 10px lihtgrey;
+    font-size: 42px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    top: -5px;
+    left: 119px;
+    padding: 5px 10px;
+
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+
+
+
+/*SQUARE*/
+.SquareFuelCreditx8 {
+
+    width: 100%;
+    font-size: 27px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 14px;
+
+}
+
+/*MINI*/
+.MiniFuelCreditx8 {
+
+    width: 100%;
+    font-size: 20px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 14px;
+
+}
+
+/*RECTANGLED*/
+
+.RectangledFuelCreditx8 {
+
+    width: 100%;
+    font-size: 21px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 14px;
+
+}
+
+/*LINEAR*/
+
+.LinearFuelCreditx8 {
+
+    width: 100%;
+    font-size: 23px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 71px;
+    right: -37px;
+
+}
+
+
+/*//////////////////////////////////////////////////*/
+
+
+/*Mini Fuels*/
+
+.ToogleFuelsToSquareMOBIx8 {
+
+    display:none;
+}
+
+
+
+
+
+.UseGasInputx8 {
+    display:none;
+    /*position: absolute;*/
+    width: 100%;
+  /*  transform: translate(-112px, 0px);*/
+    padding: 13px 30px 18px 31px;
+    height: 112px;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+
+}
+
+
+.qtyvalueGasx8 {
+
+    width: 84px;
+    height: 77px;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    font-size: 77px;
+
+}
+
+
+
+
+
+.SermSimplex8{
+  display:;
+}
+
+
+.SermCompletex8{
+  display:none;
+}
+
+
+/*.CurrentCoinCostInUSKPT1 {
+
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: 12px;
+    font-family: calibri;
+    height: 19px;
+    width: 100%;
+    text-align: center;
+
+}*/
+
+
+/*.SimpleFuelx8{
+  padding-top: 30px;
+}*/
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+.Hellox8{
+width: 100%;
+padding:0px 50px;
+height: 54px;
+}
+
+
+
+.MenuGasx8{
+ display: inline-block;
+ font-size: 40px;
+ color:white;
+ float:right;
+ margin-top: 19px;
+}
+
+.MenuGasMOBIx8{
+ display: inline-block;
+ font-size: 40px;
+ color:white;
+ float:right;
+ margin-top: 19px;
+}
+
+
+
+.HelloNameGasx8{
+  display: inline-block;
+
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: georgia;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.HelloNameGasMOBIx8{
+  display: inline-block;
+
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: georgia;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.HelloRambox4{
+  font-size: 16px;
+}
+
+
+
+.HelloPhotox8{
+
+  display: inline-block;
+  border-radius:50%;
+  border:none;
+  height:68px;
+  width: 68px;
+  float:left;
+  background-color: white;
+  margin-right:;
+  margin-top: 3px;
+  background-image: url("img/Rambo.jpg");
+  background-size: cover;
+
+
+}
+
+.HelloPhotoMOBIx8{
+
+  display: inline-block;
+  border-radius:50%;
+  border:none;
+  height:68px;
+  width: 68px;
+  float:left;
+  background-color: white;
+  margin-right:;
+  margin-top: 3px;
+  background-image: url("img/Rambo.jpg");
+  background-size: cover;
+
+
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*//////////////////*/
+
+
+
+
+
+
+
+
+.Hellox8{
+width: 100%;
+padding:0px 50px;
+height: 54px;
+display:none;
+}
+
+
+
+
+
+
+
+.LangBx8 {
+
+background-color: inherit;
+padding: 11px 10px;
+
+width: 113px;
+height: 84px;
+  font-size: 36px;
+  margin: 5px 24px;
+  border: none;
+
+   color: #2f2f2f;
+    color: #fff;
+
+    padding:5px;
+    margin:5px;
+    width:110px;
+    font-weight: 1px; 
+    color:white;
+    font-size:18px; 
+    font-family: arial;
+
+}
+
+
+
+
+.langBMOBIx8 {
+
+    background-color: inherit;
+    padding: 7px 10px;
+    margin: 12px;
+    width: 123px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 68px;
+    font-size: 40px;
+    border: none;
+    margin: -6px 12px 9px 12px;
+
+}
+
+
+.ToplangBMOBIx8 {
+
+    background-color: inherit;
+    padding: 9px 10px;
+    margin: 12px;
+    width: 131px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 87px;
+    font-size: 38px;
+    border: none;
+    margin: 10px 12px 9px 12px;
+
+}
+
+
+
+.SmallerLanBMOBIx8{
+
+    background-color: inherit;
+    padding: 7px 10px;
+    margin: 8px 20px;
+    width: 97px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 68px;
+    font-size: 28px;
+    border: none;
+
+}
+
+
+
+
+.RegLanBMOBIx8{
+
+    padding: 5px;
+    margin: 5px;
+    width: 110px;
+    background-color: transparent;
+    border: 3px solid rgb(89, 132, 170);
+    font-weight: 1px;
+    color: white;
+    font-size: 18px;
+    font-family: arial;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.Bottomlan2MOBIx8{
+
+    height: 82px;
+    padding: 25px 10px 5px 55px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display: ;
+    color: #2f2f2f;
+
+    color: #fff;
+
+  border-radius: 0px 0px 50px 50px;
+  padding: 0px 10px 15px 42px;
+  display: none;
+
+}
+
+
+
+
+.Tapbarx8MOBIXX{
+
+padding: 11px 0px 0px 39px;
+height: 114px;
+
+}
+
+
+
+
+
+.ThinTapbarMOBIx8{
+
+    height: 100px;
+    padding: 25px 10px 5px 55px;
+    display: ;
+    padding: 15px 10px 5px 12px;
+
+    color: #fff;
+  
+}
+
+
+
+
+.UserTapbarx8MOBIx8 {
+    padding: 7px 0px 0px 39px;
+    height: 153px;
+}
+
+
+
+/*.fin2MOBIx8 {
+
+    border-radius: 0px;
+}
+*/
+
+
+.Fin2NoRadiusx8 {
+
+    border-radius: 0px;
+}
+
+
+.RoundFinx8{
+
+   border-radius: 0px 0px 50px 50px;
+
+}
+
+
+.AllHeadersFinTech, .AllFinModelsFinTech{
+  display:none;
+}
+
+
+.GiftFuelx8 {
+
+    border-radius: 15px;
+    height: 43px;
+    width: 66px;
+    color: inherit;
+    border: none;
+    box-shadow: inset 0 1px 5px;
+    font-size: 32px;
+    background-color: transparent;
+    display:none;
+
+}
+
+.MGiftFuelx8{
+
+    position: absolute;
+    right: 32px;
+    color:grey;
+    display: block;
+    top: 19px;
+}
+
+
+
+
+.GiftFuelMOBIx8{
+
+  border-radius: 15px;
+  height: 61px;
+  width: 66px;
+  color: ;
+  border:none;
+  box-shadow: inset 0 1px 5px;
+  font-size: 40px;
+  background-color: transparent;
+  
+}
+
+.Thecoverx8{
+  padding-top: 157px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.TapBar2servicePanelsMOBIx8 {
+    margin: -38px 0px 0px 0px;
+    box-shadow: 0 -20px 28px lightgrey;
+}
+
+
+
+
+/*////////////////////////////////*/
+
+
+.GasPurchasedx8 {
+    padding: 54px 30px 10px 30px;
+    margin: -60px 5px;
+    height: 94%;
+}
+
+.GasParraX8 {
+
+    color: lightgrey;
+    font-size: 19px;
+    margin: 15px 15px;
+    font-family: calibri;
+
+}
+
+
+.GasPumpPhotox8 {
+
+    width: 83%;
+    height: 270px;
+    border: 2px dashed #262626;
+    border-radius: 15px;
+   margin: 27px 87px 120px 42px;
+    padding: 67px 40px;
+    background-color: whitesmoke;
+
+}
+
+
+.Confirmed2x8{
+ font-size: 120px;
+ color: lightgrey;
+}
+
+
+
+.CancelGasOrderx8 {
+
+    height: 115px;
+    width: 346px;
+    border-radius: 33px;
+    background-color: #ffd800;
+    color: #262626;
+    box-shadow:none;
+    font-size: 33px;
+    font-weight: 600;
+    border: none;
+    font-family: calibri;
+    background-image: linear-gradient(to bottom right ,#ffd800, #fb8d00);
+
+}
+
+
+
+.CancelGasOrderCarx8 {
+
+    height: 80px;
+    width: 246px;
+    border-radius: 20px;
+    background-color: #ffd800;
+    color: #262626;
+    box-shadow: none;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: calibri;
+    background-image: linear-gradient(to bottom right ,#ffd800, #fb8d00);
+    margin-top: 17px;
+
+}
+
+
+
+.SendFuelx8 {
+
+    position: absolute;
+    z-index: 5000;
+    background-color: white;
+    height: 520px;
+    border-radius: 12px;
+    padding: 20px;
+    top: 334px;
+    display: none;
+    width: 605px;
+    margin: 2px;
+
+}
+
+
+
+.ConfirmSendGasx8{
+
+  width:190px;
+  height:65px;
+  border-radius:20px;
+  font-size: 24px;
+  background-image: linear-gradient(to bottom right ,#fff202, #efb100);
+  color: black;
+  border:none;
+  margin: 12px;
+  font-family: calibri;
+
+}
+
+.SendGasTotalx8 {
+    height: 29px;
+    width: 103px;
+    border: none;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 26px;
+    font-family: calibri;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+.payIconx8 {
+
+    font-size: 46px;
+}
+
+
+.payIconMOBIx8{
+
+  font-size: 56px;
+
+}
+
+
+
+/*////////////////////////////////*/
+
+
+
+
+
+.AllFinModelsGas{
+  display:block;
+  clear: left;
+}
+
+
+
+.OneButtonFinx8{
+  display:block;
+}
+
+
+
+
+
+
+
+.TwoButtonFinx8, .GasFin4x8{
+  display:none;
+}
+
+
+/*////////////////////////////////////////////////*/
+
+
+.HoriButtonFin2ax8 {
+
+    display: none;
+    height: 90px;
+    padding-top: 1px;
+
+}
+
+.HoriButtonFin2aMOBIx8 {
+  
+    height: 165px;
+    padding-top: 1px;
+  
+}
+
+
+.HorizontalFin2aB {
+
+    display: block;
+    margin: 14px auto;
+    width: 88%;
+    height: 60px;
+
+}
+
+.HorizontalFin2aBMOBI {
+
+    display: block;
+    margin: 23px auto;
+    width: 88%;
+    height: 114px;
+    font-size: 30px;
+
+}
+
+
+
+.HoriFuelNamex8{
+  font-size: 20px;
+}
+
+
+
+
+/*////////////////////////////////////////////////*/
+
+/*////////////////////////////////////////////*/
+.HoriButtonFinx8 {
+    display: none;
+    height: 153px;
+    padding-top: 1px;
+}
+
+.HoriButtonFinMOBIx8 {
+
+    display: none;
+    height: 218px;
+    padding-top: 1px;
+
+}
+
+
+
+.HorizontalFinB {
+
+    display: block;
+    margin: 10px auto;
+    width: 88%;
+    height: 60px;
+
+}
+
+.HorizontalFinBMOBI {
+
+    display: block;
+    margin: 10px auto;
+    width: 88%;
+    height: 91px;
+
+}
+
+
+/*////////////////////////////////////////////*/
+
+
+
+.UserNetx8{
+margin-top: 5px;
+padding: 0px 45px 0px 30px;
+padding: 0px 50px 0px 50px;
+display:none;
+}
+
+
+.CCAx8{
+  border-radius: 10px;
+  width:28%;
+  text-align:center;
+  font-size: 12px;
+  display: inline-block;
+  border:1px;
+
+}
+
+
+.CCAbalx8{
+  text-align: center;
+  display:block;
+  border:none;
+  background-color: transparent;
+  width:100%;
+  font-size: 19px;
+  font-family: calibri;
+/*  font-weight: 600;*/
+}
+
+
+
+
+
+
+/*//////////////////////*/
+
+
+.UserNet2x8{
+margin-top: 5px;
+padding: 0px 30px;
+display:none;
+}
+
+.HelloRambox8{
+  font-size: 23px;
+}
+
+
+.Midccax8{
+  width: 42%;
+  font-size: 11px;
+}
+.Midccabalx8{
+  font-size: 21px;
+}
+
+
+
+
+
+.langBMOBIMachinex8 {
+    background-color: inherit;
+    padding: 7px 10px;
+    margin: 12px;
+    width: 123px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 68px;
+    font-size: 28px;
+    border: none;
+    margin: -11px -4px 9px 7px;
+        margin-left: 7px;
+}
+
+/*////////////////////////////////////////////////////*/
+
+
+.LanBgroupx8{
+  display:block;
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+.SQinnerRightx8{
+
+  display:none;
+}
+
+
+.SQinnerRightx8 {
+    width: 100%;
+    z-index: 50;
+    margin: 0px;
+    padding: 0px 36px 0px 52px;
+}
+
+
+.SQFuelx8 {
+    display: inline-block;
+    margin: 0px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 107px;
+    width: 218px;
+    padding: 10px 0px;
+    box-shadow: none;
+    border: none;
+}
+
+
+.SQFuelAndAbrex8 {
+    margin: auto;
+    margin-top: -14px;
+    width: 70%;
+}
+
+
+
+.SQThecoverx8 {
+    padding-top: 0px;
+}
+
+
+.SQGiftFuelx8 {
+
+    height: 51px;
+    width: 51px;
+    position: absolute;
+    right: -1px;
+    top: 65px;
+    font-size: 35px;
+
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+
+
+.MyGasCreditsx8 {
+    font-size: 15px;
+    font-family: calibri;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    width: 20%;
+    color: grey;
+    text-align: left;
+    float: left;
+    margin-left: 36px;
+}
+
+
+.MyGascreditInputx8 {
+
+    font-size: 31px;
+    font-family: calibri;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+
+}
+
+.MyGascreditInputMOBIx8 {
+    font-size: 41px;
+    font-family: calibri;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+}
+
+
+
+
+
+
+.numpadLeftMOBIx8, .numpadRightMOBIx8, .numpadLargex8{
+  display: none;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////*/
+
+
+.MyGasCredits2x8 {
+
+    font-size: 15px;
+    font-family: calibri;
+    border: none;
+    background-color: transparent;
+    display: block;
+    width: 20%;
+    color:inherit;
+    text-align: left;
+    float:;
+    margin-left:;
+    margin: auto;
+
+}
+
+.StationLocation2x8 {
+
+    background-color: transparent;
+    font-size: 29px;
+    border: 1px solid;
+    width: 49%;
+    height: 46px;
+    border-radius: 25px;
+    font-family: calibri;
+    text-align: center;
+    margin-right: 24px;
+    color: inherit;
+    margin-top: 20px;
+
+
+}
+
+.SearchFuels2x8 {
+
+    display: ;
+    float: right;
+    z-index: 500;
+    margin: 29px 20px;
+    font-size: 34px;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    position: absolute;
+    width: 28px;
+    right: 109px;
+    top: 88px;
+
+}
+
+.Menu2x4 {
+
+    display: inline-block;
+    font-size: 30px;
+    color: grey;
+    float: right;
+    margin-top: 12px;
+    margin-right: 33px;
+
+}
+
+.MGiftFuel2x8 {
+    position: absolute;
+    left: 35px;
+    color: inherit;
+    display: block;
+    top: 89px;
+}
+
+
+
+/*//////////////////////////////////////////*/
+
+
+.innerLeft2x8 {
+    width: 100%;
+    z-index: 500;
+    margin: 0px;
+    padding: 14px 0px 20px 0px;
+    display: none;
+    height: 180px;
+}
+
+
+
+
+.CreditGiftTogglesx8, .Locationx8{
+  display:block;
+  width: 100%;
+}
+
+
+
+
+.StationLocation2x8 {
+    background-color: transparent;
+    font-size: 35px;
+    border: 1px solid;
+    width: 79%;
+    height: 67px;
+    border-radius: 25px;
+    font-family: calibri;
+    text-align: center;
+    margin: 10px auto;
+    color: inherit;
+}
+
+
+.SearchFuels2x8 {
+    display: ;
+    float: right;
+    z-index: 500;
+    margin: 29px 20px;
+    font-size: 27px;
+    border: none;
+    background-color: transparent;
+    color:inherit;
+    position: absolute;
+    width: 30px;
+    right: 78px;
+    top: 88px;
+}
+
+
+.MGiftFuel2x8 {
+    position: absolute;
+    right: 32px;
+    color:inherit;
+    display: block;
+    top: 19px;
+    left: 450px;
+}
+
+.Toggfuelx8{
+  top: 22px;
+  color: inherit;
+}
+
+
+
+
+.MyGasCredits2x8 {
+    font-size: 17px;
+    font-family: calibri;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    width: 26%;
+    color:inherit;
+    text-align: left;
+    float: left;
+    margin-left: 36px;
+}
+
+
+
+.MyGascreditInput2x8 {
+    font-size: 48px;
+    font-family: calibri;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+}
+
+
+
+.innerRight3x8{
+  display: none;
+  padding: 21px 7px 0px 0px;
+}
+
+
+.GasModel15x8, .GasModel25x8{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.FuelCreditx8{
+  width:100%;
+  font-size: 14px;
+  color:inherit;
+  background-color: transparent;
+  border:none;
+}
+
+
+.FuelCreditMOBIx8 {
+
+    width: 100%;
+    font-size: 27px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 14px;
+
+}
+
+
+.FuelCreditValx8 {
+    font-weight: 10;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    font-family: calibri;
+    border: none;
+}
+
+.GFuelCoverx8{
+  display: none;
+}
+/*//////////////////////////////////////////////////*/
+
+
+
+/*SQUARE*/
+.SquareFuelCreditx8 {
+
+    width: 100%;
+    font-size: 27px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 14px;
+
+}
+
+/*MINI*/
+.MiniFuelCreditx8 {
+
+    width: 100%;
+    font-size: 20px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 14px;
+
+}
+
+/*RECTANGLED*/
+
+.RectangledFuelCreditx8 {
+
+    width: 100%;
+    font-size: 21px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 14px;
+
+}
+
+/*LINEAR*/
+
+.LinearFuelCreditx8 {
+
+    width: 100%;
+    font-size: 23px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 71px;
+    right: -37px;
+
+}
+
+
+/*//////////////////////////////////////////////////*/
+
+
+.Fuel2x8 {
+
+    padding: 39px 0px;
+
+}
+
+
+
+.FuelMOBI2x8 {
+
+    padding: 53px 0px;
+
+}
+
+
+
+
+.RectangledFuelMOBI2x8 {
+
+    padding: 55px 0px;
+
+}
+
+
+.MiniFuelMOBI2x8 {
+
+    padding: 34px 0px;
+
+}
+
+
+.LinearFuel2x8 {
+    padding: 4px 16px;
+}
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+
+
+.TipStaffx8 {
+    margin-bottom: 70px;
+}
+
+
+
+.TipStaffParrax8 {
+    font-size: 40px;
+}
+
+
+.TipbillsButtonx8 {
+    border: none;
+    color: inherit;
+    background-color: inherit;
+    margin: 3px 5px 2px 2px;
+    border-radius: 1px;
+    box-shadow: inset 0 1px 5px;
+    width: 84px;
+    font-size: 43px;
+    width: 93px;
+}
+
+
+
+
+/*/////////////////////////////////////*/
+
+
+
+.TinyinnerRightx8 {
+    width: 100%;
+    z-index: 50;
+    margin: 0px;
+    padding: 22px 8px 40px 0px;
+    height: 253px;
+}
+
+
+
+.TinyFuelx8 {
+    display: inline-block;
+    margin: 0px 12px 7px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 158px;
+    width: 129px;
+    padding: 30px 0px;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+.TinyFuelNamex8 {
+    font-size: 17px;
+    display: block;
+    margin-bottom: -8px;
+    font-family: candara;
+}
+
+
+
+.TinyFuelSymbolx8 {
+    font-size: 26px;
+    display: block;
+    font-weight: 600;
+    font-family: calibri;
+}
+
+
+.TinyIhaveThisMuchx8 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: tan;
+    font-size: 27px;
+    font-family: calibri;
+    height: 36px;
+    width: 49%;
+    text-align: center;
+    margin-right: -9px;
+    font-weight: 600;
+    margin-left: 11px;
+}
+
+
+.TinyGalx8 {
+    font-size: 15px;
+    position: ;
+    color: tan;
+    display: inline-block;
+    width: 5%;
+    margin-right: 35px;
+    font-weight: 600;
+}
+
+
+
+
+
+.TinyFuelCreditx8 {
+    width: 100%;
+    font-size: 16px;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -6px;
+    display: none;
+}
+
+
+
+
+/*//////////////////////////////////////*/
+
+.HoriinnerRightx8 {
+    width: 100%;
+    z-index: 50;
+    margin: 0px;
+    padding: 20px 0px 40px 0px;
+    height: 451px;
+}
+
+
+
+.HoriSelectFuelsx8 {
+    padding: 0px 8px 20px 41px;
+}
+
+
+
+
+.HoriFuelx8 {
+    display: inline-block;
+    margin: 3px 10px 7px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 17px;
+    font-family: arial;
+    height: 177px;
+    width: 259px;
+    padding: 33px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+.HoriFuelSymbolx8 {
+    font-size: 39px;
+    display: block;
+    font-weight: 600;
+    font-family: calibri;
+    margin-top: -21px;
+}
+
+
+.HoriIhaveThisMuchx8 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: tan;
+    font-size: 37px;
+    font-family: calibri;
+    height: 36px;
+    width: 36%;
+    text-align: center;
+    margin-right: -9px;
+    font-weight: 600;
+    margin-left: 11px;
+}
+
+.HoriGalx8 {
+    font-size: 20px;
+    position: ;
+    color: tan;
+    display: inline-block;
+    width: 5%;
+    margin-right: 34px;
+    font-weight: 600;
+}
+
+
+.HoriFuelCreditx8 {
+    width: 100%;
+    font-size: 22px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -1px;
+}
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////*/
+.BlankTapbarx8{
+  height:50px;
+  width: 100%;
+  border:none;
+  border-radius: 10px 10px 0px 0px;
+display:none;
+}
+
+
+.BlankTapbarMOBIx8{
+  height: 75px;
+  width: 100%;
+  border:none;
+  border-radius: 50px 50px 0px 0px;
+display:none;
+}
+
+
+
+.BlankLogox8 {
+    display:none;
+    height: 35px;
+    width: 45px;
+    border: none;
+    border-radius: 20px;
+    margin: -3px auto 9px auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+
+.BlankLogoMOBIx8 {
+    display: none;
+    height: 58px;
+    width: 62px;
+    border: none;
+    border-radius: 20px;
+    margin: -1px auto 9px auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+
+
+/*/////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+.SelectSendOrRequestx8 {
+    width: 100%;
+    margin: 0px 0px 0px 76px;
+}
+
+
+.SelectSendOrRequestMOBIx8 {
+    width: 100%;
+    margin: 0px 0px 0px 30px;
+}
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+.GasPumpProgressBarx8{
+    display: none;
+    height: 488px;
+    width: 599px;
+    position: absolute;
+    background-color: white;
+    z-index: 5000;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 20px 20px;
+
+}
+
+
+
+.GasProgressnumericvaluex8 {
+
+    font-size: 143px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: white;
+    font-family: calibri;
+
+}
+
+.GasProgressBarx8 {
+
+    height: 45px;
+
+}
+
+.SpecifiedUserAmountx8 {
+
+    width: 49%;
+    display: inline-block;
+    font-size: 31px;
+    background-color: white;
+    border: none;
+    font-family: calibri;
+    height: 27px;
+
+}
+
+
+
+
+
+.ZeroUserAmountx8{
+  text-align: left;
+}
+.MaxUserAmountx8{
+  text-align: right;
+}
+
+.ProgressBarx8{
+  width: 10px;
+  background-color: rgb(45, 165, 0);
+background-color: rgb(15, 59, 248);
+}
+
+
+
+.ProgressBarInstructions{
+
+
+
+}
+
+
+.GasReceiptx8 {
+
+    width: 167px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 69px;
+    padding: 18px 2px;
+    font-size: 25px;
+    margin: 0px 2px;
+
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////////*/
+
+.GasPurchasedPumpx8 {
+
+    display: none;
+    position: absolute;
+    width: 587px;
+    background-color: white;
+    font-family: calibri;
+    border-radius: 30px;
+    height: 479px;
+    margin: 10px 12px;
+    opacity: 1;
+    color: #4d4c4c;
+    padding: 12px 20px;
+
+}
+
+
+
+.CancelGasOrderCarx8 {
+    width: 518px;
+}
+
+
+
+
+
+
+.GasPumpPaymentIllustrationsx8 {
+
+    width: 47%;
+    background-color: white;
+    display: inline-block;
+    height: 257px;
+    margin: 12px 5px 73px 5px;
+    font-size: 62px;
+    color: #0dd8e0;
+
+}
+
+
+
+.GasIllustrationsx8{
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 20px;
+height: 100%;
+width: 100%;
+border: 1px solid lightgrey;
+}
+
+
+.GasIllustration1x8{
+  background-image: url("img/Payment.jpg");
+
+}
+
+.GasIllustration2x8{
+  background-image: url("img/Nozzle.jpg");
+
+}
+
+
+
+
+/*////////////////////////////////*/
+.SQFuelx8{
+
+  padding:10px 0px;
+
+}
+
+/*////////////////////////////////*/

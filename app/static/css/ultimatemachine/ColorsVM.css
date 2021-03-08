@@ -1,0 +1,8153 @@
+
+
+
+/*////////////////////////RegColor UI2///////////////////////////*/
+
+
+.RegUI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.RegBlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.RegLanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.RegLanBxx {
+
+    background-color: transparent;
+   border: 1px solid rgb(16, 107, 186);
+    color: white;
+
+}
+
+
+.RegLanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.RegTopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.RegTapBColor{
+	color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.RegTranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.RegItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.RegitmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.RegFin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.RegitmVxx{
+
+    background-color: white;
+    color: #444;
+    color: #202020;
+    background-image: linear-gradient(to bottom right ,#fff, #ededed);
+}    
+
+.Regitm22Cost{
+	color:red;
+}
+
+
+
+.RegLinears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.RegSpecFonts{
+color: #4b4b4b
+}
+
+.RegSpecFontsCost{
+	color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.RegQty {
+
+    background-color: #286090;
+    color: white;
+
+}
+
+.RegQtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.RegPy2{
+	background-color: orange;
+    background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+	background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+
+}
+
+
+.RegPyB{
+
+    background-color:transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.RegPyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.RegFinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.RegTotal2 {
+
+    background-color: #ede9e9;
+    color: black;
+}
+
+
+
+/*
+////////////////////////RegColor UI2///////////////////////////*/
+
+
+
+/*////////////////////////Reg2Color UI2///////////////////////////*/
+
+
+.Reg2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Reg2BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Reg2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Reg2LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(16, 107, 186);
+    color: white;
+
+}
+
+
+.Reg2LanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.Reg2TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Reg2TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Reg2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Reg2ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Reg2itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .98;
+background-image: linear-gradient(to bottom right ,#ededed, #f3f3f3);
+}
+
+
+.Reg2Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #f3f3f3);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Reg2itmVxx {
+    background-color: white;
+    color: #484848;
+    box-shadow: none;
+}
+.Reg2itm22Cost{
+    color:red;
+}
+
+
+
+.Reg2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Reg2SpecFonts {
+    color: #484848;
+}
+
+.Reg2SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Reg2Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Reg2QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Reg2Py2{
+    background-color: orange;
+    	background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+	background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Reg2PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow:0 1px 13px rgb(177, 83, 0);
+}
+
+.Reg2PyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow:0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Reg2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Reg2Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Reg2Color UI2///////////////////////////*/
+
+/*////////////////////////Reg3Color UI2///////////////////////////*/
+
+
+.Reg3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Reg3BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Reg3Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Reg3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.Reg3LanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.Reg3TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Reg3TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Reg3TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Reg3ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Reg3itmXX{
+
+    background-color: whitesmoke;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Reg3Fin2{
+background-color: whitesmoke;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Reg3itmVxx{
+
+    background-color: white;
+    color: #444;
+    color: #202020;
+    box-shadow: 0 1px 3px black;
+}    
+
+.Reg3itm22Cost{
+    color:red;
+}
+
+
+
+.Reg3Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Reg3SpecFonts{
+color: #454545;
+}
+
+.Reg3SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Reg3Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Reg3QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Reg3Py2{
+    background-color: orange;
+    	background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+	background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Reg3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Reg3PyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Reg3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Reg3Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Reg3Color UI2///////////////////////////*/
+
+
+
+
+
+/*////////////////////////Reg4Color UI2///////////////////////////*/
+
+
+.Reg4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Reg4BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Reg4Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Reg4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.Reg4LanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.Reg4TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Reg4TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Reg4TranspSerLabel{
+    background-color:black;
+    border: 1px solid grey;
+    color: grey;
+
+
+}
+
+
+.Reg4ItmBGxx{
+background-color: black;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Reg4itmXX{
+
+background-color: black;
+color: grey;
+opacity: .98;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.Reg4Fin2{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Reg4itmVxx{
+
+    background-color: black;
+    color: grey;
+    color: #a7a7a7;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#353535, #080808);
+}    
+
+.Reg4itm22Cost{
+    color:red;
+}
+
+
+
+.Reg4Linears{
+color: #a8a8a8;
+background-color: #111;
+border:none;
+box-shadow: none;
+}
+
+.Reg4SpecFonts{
+color: white;
+}
+
+.Reg4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Reg4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Reg4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Reg4Py2{
+    background-color: orange;
+      background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+  background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Reg4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Reg4PyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Reg4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+    box-shadow: inset 0px 0px 3px white;
+}
+
+
+.Reg4Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Reg4Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////AwhiteColor UI2///////////////////////////*/
+
+
+.AwhiteUI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.AwhiteBlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.AwhiteLanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+.AwhiteLanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.AwhiteLanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.AwhiteTopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.AwhiteTapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.AwhiteTranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.AwhiteItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.AwhiteitmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.AwhiteFin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.AwhiteitmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}    
+
+.Awhiteitm22Cost{
+    color:red;
+}
+
+
+
+.AwhiteLinears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.AwhiteSpecFonts{
+color: #454545;
+}
+
+.AwhiteSpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.AwhiteQty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.AwhiteQtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.AwhitePy2{
+    background-color: orange;
+    	background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+	background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.AwhitePyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.AwhitePyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.AwhiteFinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.AwhiteTotal {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////AwhiteColor UI2///////////////////////////*/
+
+
+
+/*////////////////////////BlackColor UI2///////////////////////////*/
+
+
+.BlackUI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.BlackBlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.BlackLanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.BlackLanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(16, 107, 186);
+    color: white;
+
+}
+
+
+.BlackTopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.BlackTapBColor{
+	color:white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+.BlackTranspSerLabel{
+    background-color:black;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.BlackItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.BlackitmXX{
+
+    background-color: black;
+    color: grey;
+    opacity: .98;
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.BlackFin2{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.BlackitmVxx{
+
+    background-color: transparent;
+    color: white;
+    background-image: linear-gradient(to bottom right ,#353535, #000);
+
+}    
+
+
+.Blackitm22Cost{
+	color:red;
+}
+
+
+
+.BlackLinears{
+color: white;
+background-color: #272727;
+border:none;
+box-shadow: none;
+}
+
+.BlackSpecFonts{
+color: #bababa;
+}
+
+.BlackSpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.BlackQty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.BlackQtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.BlackPy2{
+    background-color: orange;
+    	background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+	background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.BlackPyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.BlackPyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.BlackFinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+    box-shadow: inset 0px 0px 3px white;
+}
+
+
+.BlackTotal {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////BlackColor UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////DarkColor UI2///////////////////////////*/
+
+
+.DarkUI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.DarkBlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.DarkLanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.DarkLanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(16, 107, 186);
+    color: white;
+
+}
+
+
+.DarkTopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+.DarkTapBColor{
+	color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.DarkTranspSerLabel{
+    background-color:black;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.DarkItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.DarkitmXX {
+    background-color: black;
+    color: grey;
+    opacity: .98;
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+.DarkFin2{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.DarkitmVxx {
+    background-color: #424242;
+    color: #cbcbcb;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#5d5d5d, #393939);
+}
+
+.Darkitm22Cost{
+    color:red;
+}
+
+
+
+.DarkLinears{
+color: white;
+background-color: #353535;
+border:none;
+box-shadow: none;
+}
+
+.DarkSpecFonts{
+color: white;
+}
+
+.DarkSpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.DarkQty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.DarkQtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.DarkPy2{
+    background-color: orange;
+    	background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+	background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.DarkPyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.DarkPyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.DarkFinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.DarkTotal {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////DarkColor UI2///////////////////////////*/
+
+
+
+/*////////////////////////Dark2Color UI2///////////////////////////*/
+
+
+.Dark2UI22{
+background-color: Dark22;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Dark2BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Dark2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Dark2LanBxx {
+
+    background-color: transparent;
+   border: 1px solid rgb(16, 107, 186);
+    color: white;
+
+}
+
+
+.Dark2TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+.Dark2TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Dark2TranspSerLabel{
+    background-color:Dark22;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Dark2ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Dark2itmXX {
+    background-color: Dark22;
+    color: grey;
+    opacity: .98;
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+.Dark2Fin2{
+background-color: Dark22;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Dark2itmVxx {
+    background-color: #323232;
+    color: #cbcbcb;
+    box-shadow:;
+    background-image: linear-gradient(to bottom right ,#5d5d5d, #232323);
+}
+
+.Dark2itm22Cost{
+    color:red;
+}
+
+
+
+.Dark2Linears{
+color: white;
+background-color: #353535;
+border:none;
+box-shadow: none;
+}
+
+.Dark2SpecFonts{
+color:white;
+}
+
+.Dark2SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Dark2Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Dark2QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Dark2Py2{
+    background-color: orange;
+    	background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+	background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Dark2PyB{
+
+    background-color: transparent;
+    color: Dark22;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.Dark2PyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Dark2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Dark2Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Dark2Color UI2///////////////////////////*/
+
+
+
+/*////////////////////////SDMColor UI2///////////////////////////*/
+
+
+.SDMUI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.SDMBlankLogoVM{
+background-image: url("../img/Transplogos/Virgin.png");
+}
+
+
+
+.SDMLanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,green, green);
+    background-image: linear-gradient(to bottom right ,#b00101, #604);
+}
+.SDMLanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(176, 3, 3);
+    color: white;
+
+}
+
+
+.SDMLanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.SDMTopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.SDMTapBColor{
+    color:white;
+}
+
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.SDMTranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.SDMItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/Virgin.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.SDMitmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.SDMFin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.SDMitmVxx{
+
+    background-color: white;
+    color: #444;
+    color: #202020;
+}    
+
+.SDMitm22Cost{
+	color:red;
+}
+
+
+
+.SDMLinears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.SDMSpecFonts{
+color: #4b4b4b
+}
+
+.SDMSpecFontsCost{
+	color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+
+
+.SDMQty {
+
+    background-color: #420101;
+    color: white;
+   
+}
+
+.SDMQtyB {
+
+    background-color: #8d0b01;
+    border: 3px solid #8d0b01;
+    color: white;
+
+}
+
+
+/*///////////////////////////////////////////*/
+
+.SDMPy2{
+     background-image: linear-gradient(to bottom right ,#b00101, #604);
+     color: white;
+}
+
+
+.SDMPyB {
+    background-color: transparent;
+    color: white;
+    box-shadow: inset 0 1px 13px rgb(245, 73, 73);
+}
+
+
+
+.SDMPyBMOBI {
+    background-color: transparent;
+    color: #f9f9f9;
+    box-shadow: inset 0 1px 13px rgb(245, 73, 73);
+}
+
+/*///////////////////////////////////////////*/
+
+.SDMFinB{
+
+    color: #fff;
+    background-color: #286090;
+background-image: linear-gradient(to bottom right ,#b00101, #604);
+}
+
+
+.SDMTotal{
+
+    background-color:transparent;
+    color: #202020;
+}
+
+
+
+/*
+////////////////////////SDMColor UI2///////////////////////////*/
+
+
+
+/*////////////////////////SDM2Color UI2///////////////////////////*/
+
+
+.SDM2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.SDM2BlankLogoVM{
+background-image: url("../img/Transplogos/Uhaul.png");
+}
+
+.SDM2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#014202, #018d07);
+}
+.SDM2LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(48, 128, 43);
+    color: white;
+
+}
+
+
+.SDM2LanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.SDM2TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.SDM2TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.SDM2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.SDM2ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/Uhaul.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+.SDM2itmXX {
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.SDM2Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.SDM2itmVxx {
+    background-color: white;
+    color: #444;
+    color: #202020;
+}
+
+.SDM2itm22Cost{
+    color:red;
+}
+
+
+
+.SDM2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.SDM2SpecFonts{
+color: #6f6e6e;
+}
+
+.SDM2SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.SDM2Qty {
+
+    background-color: #014202;
+    color: white;
+   
+}
+
+.SDM2QtyB {
+
+    background-color: #018d07;
+    border: 3px solid #018d07;
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.SDM2Py2{
+	background-color: orange;
+    background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+	background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+
+}
+
+
+.SDM2PyB{
+
+    background-color:transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.SDM2PyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.SDM2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#014202, #018d07);
+}
+
+
+.SDM2Total{
+
+    background-color:transparent;
+    color: #292929;
+}
+
+
+
+/*
+////////////////////////SDM2Color UI2///////////////////////////*/
+
+
+/*////////////////////////SDM3Color UI2///////////////////////////*/
+
+
+.SDM3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.SDM3BlankLogoVM{
+background-image: url("../img/Transplogos/RepDom1.png");
+}
+
+
+.SDM3Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.SDM3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(53, 102, 165);
+    color: white;
+
+}
+
+
+.SDM3LanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.SDM3TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.SDM3TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.SDM3TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.SDM3ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/RepDom1.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.SDM3itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.SDM3Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.SDM3itmVxx {
+    background-color: #fbfbfb;
+    color: #444;
+    color: #414141;
+    color: #151515;
+    /*box-shadow: inset 0 1px 10px #151515;
+*/}
+
+.SDM3itm22Cost{
+    color:red;
+}
+
+
+
+.SDM3Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.SDM3SpecFonts{
+color: #595959;
+}
+
+.SDM3SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.SDM3Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.SDM3QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.SDM3Py2{
+    background-image: linear-gradient(to bottom right ,#b00101, #ff1200);
+    color: white;
+}
+
+
+.SDM3PyB {
+    background-color: transparent;
+    color: white;
+   box-shadow: inset 0 1px 13px rgb(117, 35, 12);
+}
+
+.SDM3PyBMOBI{
+
+    background-color: transparent;
+    color: whitesmoke;
+    box-shadow: inset 0 1px 13px rgb(117, 35, 12);
+}
+
+/*///////////////////////////////////////////*/
+
+.SDM3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.SDM3Total{
+
+    background-color:transparent;
+    color: #595959;
+}
+
+
+
+/*
+////////////////////////SDM3Color UI2///////////////////////////*/
+
+
+/*////////////////////////UBEColor UI2///////////////////////////*/
+
+
+.UBEUI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.UBEBlankLogoVM{
+background-image: url("../img/Transplogos/Uber.png");
+}
+
+
+.UBELanxx{
+background-image: linear-gradient(to bottom right ,#000, #444);
+}
+
+.UBELanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(62, 62, 62);
+    color: white;
+
+}
+
+
+.UBELanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.UBETopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.UBETapBColor{
+	color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.UBETranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.UBEItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/Uber.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.UBEitmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.UBEFin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.UBEitmVxx{
+
+    background-color: white;
+    color: #444;
+    color: #202020;
+}    
+
+.UBEitm22Cost{
+	color:red;
+}
+
+
+
+.UBELinears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.UBESpecFonts{
+color: #4b4b4b
+}
+
+.UBESpecFontsCost{
+	color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.UBEQty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.UBEQtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.UBEPy2{
+	background-color: orange;
+	background-image: linear-gradient(to bottom right ,#000, #444);
+	color: white;
+
+}
+
+
+.UBEPyB{
+
+    background-color:transparent;
+    color: white;
+    box-shadow: inset 0 1px 13px rgb(141, 141, 141);
+}
+
+.UBEPyBMOBI {
+
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 0 1px 13px rgb(182, 182, 182);
+
+}
+
+/*///////////////////////////////////////////*/
+
+.UBEFinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#000, #444);
+}
+
+
+.UBETotal2 {
+
+    background-color: #ede9e9;
+    color: black;
+}
+
+
+
+/*
+////////////////////////UBEColor UI2///////////////////////////*/
+
+
+
+/*////////////////////////BluColor UI2///////////////////////////*/
+
+
+.BluUI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.BluBlankLogoVM{
+background-image: url("../img/Transplogos/RepDom2.png");
+}
+
+
+.BluLanxx{
+    background-color: #286090;
+background-image: linear-gradient(to bottom right ,#02305a, #1e4b74);
+}
+.BluLanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.BluLanBMOBIxxx{
+background-color: inherit;
+color: #fff;
+}
+
+
+.BluTopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.BluTapBColor{
+	color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.BluTranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.BluItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/RepDom2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.BluitmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.BluFin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.BluitmVxx{
+
+    background-color: white;
+    color: #444;
+    color: #202020;
+}    
+
+.Bluitm22Cost{
+	color:red;
+}
+
+
+
+.BluLinears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.BluSpecFonts{
+color: #4b4b4b
+}
+
+.BluSpecFontsCost{
+	color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.BluQty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.BluQtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.BluPy2{
+
+	background-image: linear-gradient(to bottom right ,#02305a, #1e4b74);
+    color: white;
+}
+
+
+.BluPyB {
+
+    background-color: transparent;
+    color: white;
+    box-shadow: inset 0 1px 13px rgb(53, 140, 237);
+}
+
+
+
+.BluPyBMOBI {
+
+    background-color: transparent;
+    color: rgb(243, 243, 243);
+    box-shadow: inset 0 1px 13px rgb(53, 140, 237);
+}
+
+/*///////////////////////////////////////////*/
+
+.BluFinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#02305a, #1e4b74);
+}
+
+
+.BluTotal2 {
+
+    background-color: #ede9e9;
+    color: black;
+}
+
+
+
+/*
+////////////////////////BluColor UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Cbike1Color UI2///////////////////////////*/
+
+
+.Cbike1UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Cbike1BlankLogoVM{
+background-image: url("../img/Transplogos/cbike.html");
+}
+
+.Cbike1Lanxx{
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+.Cbike1LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Cbike1LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Cbike1TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Cbike1TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Cbike1TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Cbike1ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/cbike.html");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Cbike1itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Cbike1Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Cbike1itmVxx{
+background-color:#009ddb;
+color: White;
+box-shadow: none;
+box-shadow: none;
+background-image: linear-gradient(to bottom right ,#00bfff, #1d8db3);
+}    
+
+.Cbike1itm22Cost{
+    color:red;
+}
+
+
+
+.Cbike1Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Cbike1SpecFonts{
+color: white;
+}
+
+.Cbike1SpecFontsCost{
+    color:red;
+    color: #ad0000;
+}
+
+/*//////////////////////////////////////////*/
+
+.Cbike1Qty {
+
+    background-color: #840000;
+    color: white;
+    border-top: none;
+}
+
+.Cbike1QtyB {
+
+    background-color: rgb(191, 0, 0);
+    border: 3px solid rgb(191, 0, 0);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Cbike1Py2{
+background-color: orange;
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Cbike1PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194)
+}
+
+.Cbike1PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194)
+}
+
+/*///////////////////////////////////////////*/
+
+.Cbike1FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+    background-image: linear-gradient(to bottom right ,#0d385f, #184369);
+}
+
+
+.Cbike1Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Cbike1Color UI2///////////////////////////*/
+
+
+
+
+/*////////////////////////CbikeColor UI2///////////////////////////*/
+
+
+.Cbike2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Cbike2BlankLogoVM{
+background-image: url("../img/Transplogos/cbike.html");
+}
+
+.Cbike2Lanxx{
+background-image: linear-gradient(to bottom right ,#083157, #001d38);
+}
+
+.Cbike2LanBxx {
+
+    background-color: transparent;
+    border: 1px solid #234571;
+    color: white;
+
+}
+
+
+.Cbike2LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Cbike2TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Cbike2TapBColor{
+    color: #484848;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Cbike2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Cbike2ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/cbike.html");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Cbike2itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+background-image: linear-gradient(to bottom right ,#083157, #001d38);
+}
+
+
+.Cbike2Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#083157, #001d38);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Cbike2itmVxx{
+background-color:#009ddb;
+color: White;
+box-shadow: inset 0px 0px 10px aliceblue;
+background-image: linear-gradient(to bottom right ,#00bfff, #1d8db3);
+}    
+
+.Cbike2itm22Cost{
+    color:red;
+}
+
+
+
+.Cbike2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Cbike2SpecFonts{
+color: white;
+}
+
+.Cbike2SpecFontsCost{
+    color:red;
+    color: #ad0000;
+}
+
+/*//////////////////////////////////////////*/
+
+.Cbike2Qty {
+
+    background-color: #840000;
+    color: white;
+    border-top: none;
+}
+
+.Cbike2QtyB {
+
+    background-color: rgb(191, 0, 0);
+    border: 3px solid rgb(191, 0, 0);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Cbike2Py2{
+background-color: orange;
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Cbike2PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Cbike2PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Cbike2FinB{
+
+  color: #fff;
+  background-image: linear-gradient(to bottom right ,#0074b3, #00527e);
+  border: 1px solid white;
+
+}
+
+
+.Cbike2Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////CbikeColor UI2///////////////////////////*/
+
+
+
+
+
+/*////////////////////////Cbike3Color UI2///////////////////////////*/
+
+
+.Cbike3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Cbike3BlankLogoVM{
+background-image: url("../img/Transplogos/cbike.html");
+}
+
+.Cbike3Lanxx{
+background-image: linear-gradient(to bottom right ,#083157, #001d38);
+}
+
+.Cbike3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid #003171;
+    color: white;
+
+}
+
+
+.Cbike3LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Cbike3TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Cbike3TapBColor{
+    color: #484848;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Cbike3TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Cbike3ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/cbike.html");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Cbike3itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+background-image: linear-gradient(to bottom right ,#00a6e9, #007eb0);
+}
+
+
+.Cbike3Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#00a6e9, #007eb0);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Cbike3itmVxx{
+background-color: #0c2a51;
+color: White;
+box-shadow: none;
+background-image: linear-gradient(to bottom right ,#0a1226, #262e4b);
+}    
+
+.Cbike3itm22Cost{
+    color:red;
+}
+
+
+
+.Cbike3Linears{
+color: #e4e4e4;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Cbike3SpecFonts{
+color: white;
+}
+
+.Cbike3SpecFontsCost{
+    color:red;
+    color: #fc3d3d;
+}
+
+/*//////////////////////////////////////////*/
+
+.Cbike3Qty {
+
+    background-color: #f3f3f3;
+    color: black;
+    border-top: none;
+}
+
+.Cbike3QtyB {
+
+    background-color: rgb(203, 203, 203);
+    border: 3px solid rgb(203, 203, 203);
+    color: black;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Cbike3Py2{
+background-color: orange;
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Cbike3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Cbike3PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Cbike3FinB{
+
+color: #fff;
+background-image: linear-gradient(to bottom right ,#04162a, #081830);
+border:1px solid white;
+
+}
+
+
+.Cbike3Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Cbike3Color UI2///////////////////////////*/
+
+
+
+
+
+
+
+/*////////////////////////Cbike4Color UI2///////////////////////////*/
+
+
+.Cbike4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Cbike4BlankLogoVM{
+background-image: url("../img/Transplogos/cbike.html");
+}
+
+.Cbike4Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}
+.Cbike4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Cbike4LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Cbike4TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Cbike4TapBColor{
+    color: #000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Cbike4TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Cbike4ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/cbike.html");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Cbike4itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Cbike4Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Cbike4itmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+}    
+
+.Cbike4itm22Cost{
+    color:red;
+}
+
+
+
+.Cbike4Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Cbike4SpecFonts{
+color: #454545;
+}
+
+.Cbike4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Cbike4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Cbike4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Cbike4Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Cbike4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.Cbike4PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Cbike4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Cbike4Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Cbike4Color UI2///////////////////////////*/
+
+
+
+
+
+/*////////////////////////Uhaul1Color UI2///////////////////////////*/
+
+
+.Uhaul1UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Uhaul1BlankLogoVM{
+background-image: url("../img/Transplogos/Uhaul.png");
+}
+
+.Uhaul1Lanxx{
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+.Uhaul1LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Uhaul1LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Uhaul1TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Uhaul1TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Uhaul1TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Uhaul1ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/Uhaul.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Uhaul1itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Uhaul1Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Uhaul1itmVxx{
+background-color:#009ddb;
+color: black;
+box-shadow: none;
+box-shadow: inset 0px 0px 10px #bd6b00;
+background-image: linear-gradient(to bottom right ,#f9c100, #ff8700);
+background-image: linear-gradient(to bottom right ,#ff7500, #fc6d03);
+box-shadow: none;
+}    
+
+.Uhaul1itm22Cost{
+    color:red;
+}
+
+
+
+.Uhaul1Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Uhaul1SpecFonts{
+color:black;
+}
+
+.Uhaul1SpecFontsCost{
+    color:red;
+    color: white;
+}
+
+/*//////////////////////////////////////////*/
+
+.Uhaul1Qty {
+
+    background-color: #00530a;
+    color: white;
+    border-top: none;
+}
+
+.Uhaul1QtyB {
+
+    background-color: rgb(0, 146, 22);
+    border: 3px solid rgb(0, 146, 22);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Uhaul1Py2{
+background-color: orange;
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Uhaul1PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Uhaul1PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Uhaul1FinB{
+
+    color: #fff;
+    background-color: #286090;
+background-image: linear-gradient(to bottom right ,#000, #262626);
+/*box-shadow: inset 0px 0px 10px #080e08;*/
+}
+
+
+.Uhaul1Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////uhaul1Color UI2///////////////////////////*/
+
+
+
+
+
+
+
+/*////////////////////////Uhaul2Color UI2///////////////////////////*/
+
+
+.Uhaul2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Uhaul2BlankLogoVM{
+background-image: url("../img/Transplogos/Uhaul.png");
+}
+
+.Uhaul2Lanxx{
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+.Uhaul2LanBxx {
+
+background-color: transparent;
+border: 1px solid #c6c6c6;
+color: #2f2d2d;
+
+}
+
+
+.Uhaul2LanBMOBIxxx{
+background-color: inherit;
+color: #2f2d2d;
+}
+
+
+.Uhaul2TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Uhaul2TapBColor{
+   color: #2f2d2d;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Uhaul2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Uhaul2ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/Uhaul.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Uhaul2itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-color: rgb(255, 192, 0);
+    background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Uhaul2Fin2{
+    background-color: white;
+    background-color: rgb(255, 192, 0);
+    background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Uhaul2itmVxx{
+background-color:white;
+color: black;
+box-shadow: none;
+/*box-shadow: inset 0px 0px 10px #0b0b0b;*/
+/*background-image: linear-gradient(to bottom right ,#fff, #f0f0f0);*/
+
+}    
+
+.Uhaul2itm22Cost{
+    color:red;
+}
+
+
+
+.Uhaul2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Uhaul2SpecFonts{
+    color: #565656;
+}
+
+.Uhaul2SpecFontsCost{
+    color:red;
+    color: #393939;
+}
+
+/*//////////////////////////////////////////*/
+
+.Uhaul2Qty {
+
+    background-color: #00530a;
+    color: white;
+    border-top: none;
+}
+
+.Uhaul2QtyB {
+
+    background-color: rgb(0, 146, 22);
+    border: 3px solid rgb(0, 146, 22);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Uhaul2Py2{
+background-color: orange;
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Uhaul2PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(194, 194, 194);
+}
+
+.Uhaul2PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Uhaul2FinB{
+
+    color: black;
+    background-color: #286090;
+    box-shadow:none;
+   /* box-shadow: inset 0px 0px 10px #bd6b00;*/
+    background-image: linear-gradient(to bottom right ,#ff7500, #fc6d03);
+
+}
+
+
+.Uhaul2Total {
+
+    background-color: transparent;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Uhaul2Color UI2///////////////////////////*/
+
+
+
+
+
+/*////////////////////////Uhaul3Color UI2///////////////////////////*/
+
+
+.Uhaul3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Uhaul3BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Uhaul3Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Uhaul3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.Uhaul3LanBMOBIxxx{
+background-color: inherit;
+color: white;
+
+}
+
+
+.Uhaul3TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Uhaul3TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Uhaul3TranspSerLabel{
+    background-color:black;
+    border: 1px solid grey;
+    color: grey;
+
+
+}
+
+
+.Uhaul3ItmBGxx{
+background-color: black;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Uhaul3itmXX{
+
+background-color: black;
+color: grey;
+opacity: .98;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.Uhaul3Fin2{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Uhaul3itmVxx{
+
+    background-color: black;
+    color: grey;
+    color: #a7a7a7;
+    box-shadow: none;
+}    
+
+.Uhaul3itm22Cost{
+    color:red;
+}
+
+
+
+.Uhaul3Linears{
+color: #a8a8a8;
+background-color: #111;
+border:none;
+box-shadow: none;
+}
+
+.Uhaul3SpecFonts{
+color: white;
+}
+
+.Uhaul3SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Uhaul3Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Uhaul3QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Uhaul3Py2{
+    background-color: orange;
+      background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+  background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Uhaul3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Uhaul3PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Uhaul3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Uhaul3Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Uhaul3Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Uhaul4Color UI2///////////////////////////*/
+
+
+.Uhaul4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Uhaul4BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Uhaul4Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}
+.Uhaul4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Uhaul4LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Uhaul4TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Uhaul4TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Uhaul4TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Uhaul4ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Uhaul4itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Uhaul4Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Uhaul4itmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+}    
+
+.Uhaul4itm22Cost{
+    color:red;
+}
+
+
+
+.Uhaul4Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Uhaul4SpecFonts{
+color: #454545;
+}
+
+.Uhaul4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Uhaul4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Uhaul4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Uhaul4Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Uhaul4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.Uhaul4PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Uhaul4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Uhaul4Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Uhaul4Color UI2///////////////////////////*/
+
+
+
+/
+/*////////////////////////Dr1Color UI2///////////////////////////*/
+
+
+.Dr1UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Dr1BlankLogoVM{
+background-image: url("../img/Transplogos/RepDom1.png");
+}
+
+
+.Dr1Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+.Dr1LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(216, 216, 216);
+    color: black;
+
+}
+
+
+.Dr1LanBMOBIxxx{
+background-color: inherit;
+color: black;
+}
+
+
+.Dr1TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Dr1TapBColor{
+    color: #484848;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Dr1TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Dr1ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/RepDom1.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Dr1itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Dr1Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Dr1itmVxx {
+    background-color: #fbfbfb;
+    color: #444;
+    color: #414141;
+    color: #151515;
+    /*box-shadow: inset 0 1px 10px #151515;
+*/}
+
+.Dr1itm22Cost{
+    color:red;
+}
+
+
+
+.Dr1Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Dr1SpecFonts{
+color: #595959;
+}
+
+.Dr1SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Dr1Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Dr1QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Dr1Py2{
+    background-image: linear-gradient(to bottom right ,#b00101, #ff1200);
+    color: white;
+}
+
+
+.Dr1PyB {
+    background-color: transparent;
+    color: white;
+   box-shadow: inset 0 1px 13px rgb(117, 35, 12);
+}
+
+.Dr1PyBMOBI{
+
+    background-color: transparent;
+    color: white;
+   box-shadow: inset 0 1px 13px rgb(117, 35, 12);
+}
+
+/*///////////////////////////////////////////*/
+
+.Dr1FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#0d385f, #1f486c);
+}
+
+
+.Dr1Total{
+
+    background-color:transparent;
+    color:black;
+}
+
+
+
+/*
+////////////////////////Dr1Color UI2///////////////////////////*/
+
+
+/*////////////////////////Dr2Color UI2///////////////////////////*/
+
+
+.Dr2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Dr2BlankLogoVM{
+background-image: url("../img/Transplogos/RepDom1.png")
+}
+
+
+.Dr2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#fff, #ededed);
+}
+.Dr2LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(200, 200, 200);
+    color: #4e4e4e;
+}
+
+
+.Dr2LanBMOBIxxx{
+background-color: inherit;
+color: #4e4e4e;
+}
+
+
+.Dr2TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Dr2TapBColor{
+    color: #484848;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Dr2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Dr2ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/RepDom1.png")
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Dr2itmXX{
+
+    background-color: whitesmoke;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Dr2Fin2{
+background-color: whitesmoke;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Dr2itmVxx{
+
+    background-color: white;
+    color: white;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,red, #620909);
+}    
+
+.Dr2itm22Cost{
+    color:red;
+}
+
+
+
+.Dr2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Dr2SpecFonts{
+color: white;
+}
+
+.Dr2SpecFontsCost{
+   color: #e1e1e1;
+}
+
+/*//////////////////////////////////////////*/
+
+.Dr2Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Dr2QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Dr2Py2{
+    background-color: orange;
+    background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Dr2PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Dr2PyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Dr2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #1f486c);
+}
+
+
+.Dr2Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Dr2Color UI2///////////////////////////*/
+
+
+
+
+/*////////////////////////Dr3Color UI2///////////////////////////*/
+
+
+.Dr3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Dr3BlankLogoVM{
+background-image: url("../img/Transplogos/RepDom1.png")
+}
+
+
+.Dr3Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#fff, #ededed);
+}
+.Dr3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(200, 200, 200);
+    color: #4e4e4e;
+}
+
+
+.Dr3LanBMOBIxxx{
+background-color: inherit;
+color: #4e4e4e;
+}
+
+
+.Dr3TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Dr3TapBColor{
+    color: #484848;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Dr3TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Dr3ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/RepDom1.png")
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Dr3itmXX{
+
+    background-color: whitesmoke;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Dr3Fin2{
+background-color: whitesmoke;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Dr3itmVxx{
+
+    background-color: white;
+    color: white;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#001d38, #183d5f);
+}    
+
+.Dr3itm22Cost{
+    color:red;
+}
+
+
+
+.Dr3Linears{
+color: #e4e4e4;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Dr3SpecFonts{
+color: white;
+}
+
+.Dr3SpecFontsCost{
+color: #d5d5d5;
+}
+
+/*//////////////////////////////////////////*/
+
+.Dr3Qty {
+
+    background-color: rgb(149, 0, 0);
+    color: white;
+    border-top: none;
+}
+
+.Dr3QtyB {
+
+    background-color: rgb(195, 0, 0);
+    border: 3px solid rgb(195, 0, 0);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Dr3Py2{
+    background-color: orange;
+    background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Dr3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Dr3PyBMOBI{
+
+    background-color: transparent;
+    color: rgb(156, 73, 0);
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Dr3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,red, #620909);
+}
+
+
+.Dr3Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Dr3Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Dr4Color UI2///////////////////////////*/
+
+
+.Dr4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Dr4BlankLogoVM{
+background-image: url("../img/Transplogos/RepDom1.png")
+}
+
+.Dr4Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}
+.Dr4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Dr4LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Dr4TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Dr4TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Dr4TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Dr4ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/RepDom1.png")
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Dr4itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Dr4Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Dr4itmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+}    
+
+.Dr4itm22Cost{
+    color:red;
+}
+
+
+
+.Dr4Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Dr4SpecFonts{
+color: #454545;
+}
+
+.Dr4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Dr4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Dr4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Dr4Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Dr4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.Dr4PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Dr4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Dr4Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Dr4Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Ent1Color UI2///////////////////////////*/
+
+
+.Ent1UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Ent1BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Ent1Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+.Ent1LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Ent1LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Ent1TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Ent1TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Ent1TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Ent1ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Ent1itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Ent1Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Ent1itmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}    
+
+.Ent1itm22Cost{
+    color:red;
+}
+
+
+
+.Ent1Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Ent1SpecFonts{
+color: #454545;
+}
+
+.Ent1SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Ent1Qty {
+
+    background-color:black;
+    color: white;
+    border-top: none;
+}
+
+.Ent1QtyB {
+
+    background-color: rgb(47, 47, 47);
+    border: 3px solid rgb(47, 47, 47);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Ent1Py2{
+    background-color: orange;
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.Ent1PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Ent1PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Ent1FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#00ab50, #005f3d);
+}
+
+
+.Ent1Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Ent1Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Ent2Color UI2///////////////////////////*/
+
+
+.Ent2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Ent2BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Ent2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+.Ent2LanBxx {
+
+    background-color: transparent;
+    border: 1px solid #535353;
+    color: #b0b0b0;
+
+}
+
+
+.Ent2LanBMOBIxxx{
+background-color: inherit;
+color: #b0b0b0;
+}
+
+
+.Ent2TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Ent2TapBColor{
+    color: #b0b0b0;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Ent2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Ent2ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Ent2itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.Ent2Fin2{
+    background-color: white;
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Ent2itmVxx{
+
+    background-color: white;
+    color: #a7a7a7;
+    background-image: linear-gradient(to bottom right ,#353535, #000);
+}    
+
+.Ent2itm22Cost{
+    color:red;
+}
+
+
+
+.Ent2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Ent2SpecFonts{
+color: #cfcfcf;
+}
+
+.Ent2SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Ent2Qty {
+
+    background-color:black;
+    color: white;
+    border-top: none;
+}
+
+.Ent2QtyB {
+
+    background-color: rgb(47, 47, 47);
+    border: 3px solid rgb(47, 47, 47);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Ent2Py2{
+    background-color: orange;
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+    color:grey;
+}
+
+
+.Ent2PyB{
+
+    background-color: transparent;
+    color: #d4d4d4;
+    box-shadow: inset 0 1px 13px rgb(104, 101, 101);
+}
+
+.Ent2PyBMOBI{
+
+    background-color: transparent;
+    color: #d4d4d4;
+    box-shadow: inset 0 1px 13px rgb(104, 101, 101);
+}
+
+/*///////////////////////////////////////////*/
+
+.Ent2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#00ab50, #005f3d);
+}
+
+
+.Ent2Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Ent2Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Ent3Color UI2///////////////////////////*/
+
+
+.Ent3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Ent3BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Ent3Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+.Ent3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Ent3LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Ent3TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Ent3TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Ent3TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Ent3ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Ent3itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Ent3Fin2{
+
+    background-color: white;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+    color:white;
+
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Ent3itmVxx{
+
+    background-color: white;
+    background-image: linear-gradient(to bottom right ,#00ab50, #005f3d);
+    box-shadow: none;
+    color: white;
+}    
+
+.Ent3itm22Cost{
+    color:red;
+}
+
+
+
+.Ent3Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Ent3SpecFonts{
+   color: white;
+}
+
+.Ent3SpecFontsCost{
+    color: #c1fb51;
+}
+
+/*//////////////////////////////////////////*/
+
+.Ent3Qty {
+
+    background-color:black;
+    color: white;
+    border-top: none;
+}
+
+.Ent3QtyB {
+
+    background-color: rgb(47, 47, 47);
+    border: 3px solid rgb(47, 47, 47);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Ent3Py2{
+    background-color: orange;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Ent3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Ent3PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Ent3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#545454, #000);
+}
+
+
+.Ent3Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Ent3Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Ent4Color UI2///////////////////////////*/
+
+
+.Ent4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Ent4BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Ent4Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}
+.Ent4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Ent4LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Ent4TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Ent4TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Ent4TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Ent4ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Ent4itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Ent4Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Ent4itmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+}    
+
+.Ent4itm22Cost{
+    color:red;
+}
+
+
+
+.Ent4Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Ent4SpecFonts{
+color: #454545;
+}
+
+.Ent4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Ent4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Ent4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Ent4Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Ent4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.Ent4PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Ent4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Ent4Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Ent4Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Virg1Color UI2///////////////////////////*/
+
+
+.Virg1UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Virg1BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Virg1Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+.Virg1LanBxx {
+
+    background-color: transparVirg;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Virg1LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Virg1TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Virg1TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Virg1TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Virg1ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Virg1itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Virg1Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Virg1itmVxx{
+
+    background-color: white;
+    background-image: linear-gradient(to bottom right ,#db0000, #860000);
+    box-shadow: none;
+}    
+
+.Virg1itm22Cost{
+    color:red;
+}
+
+
+
+.Virg1Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Virg1SpecFonts{
+color: white;
+}
+
+.Virg1SpecFontsCost{
+ color: #dbdbdb;
+}
+
+/*//////////////////////////////////////////*/
+
+.Virg1Qty {
+
+    background-color: #8a0000;
+    color: white;
+    border-top: none;
+}
+
+.Virg1QtyB {
+
+    background-color: rgb(177, 6, 6);
+    border: 3px solid rgb(177, 6, 6);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Virg1Py2{
+    background-color: orange;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Virg1PyB{
+
+    background-color: transparVirg;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Virg1PyBMOBI{
+
+    background-color: transparVirg;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Virg1FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#b10000, #470000);
+}
+
+
+.Virg1Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Virg1Color UI2///////////////////////////*/
+
+
+
+
+
+
+
+/*////////////////////////Virg2Color UI2///////////////////////////*/
+
+
+.Virg2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Virg2BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Virg2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+.Virg2LanBxx {
+
+    background-color: transparVirg;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Virg2LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Virg2TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Virg2TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Virg2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Virg2ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Virg2itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Virg2Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Virg2itmVxx{
+
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    
+}    
+
+.Virg2itm22Cost{
+    color:red;
+}
+
+
+
+.Virg2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Virg2SpecFonts{
+color: black;
+}
+
+.Virg2SpecFontsCost{
+ color: #484848;
+}
+
+/*//////////////////////////////////////////*/
+
+.Virg2Qty {
+
+    background-color: #8a0000;
+    color: white;
+    border-top: none;
+}
+
+.Virg2QtyB {
+
+    background-color: rgb(177, 6, 6);
+    border: 3px solid rgb(177, 6, 6);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Virg2Py2{
+    background-color: orange;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Virg2PyB{
+
+    background-color: transparVirg;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Virg2PyBMOBI{
+
+    background-color: transparVirg;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Virg2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#b10000, #470000);
+}
+
+
+.Virg2Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Virg2Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Virg3Color UI2///////////////////////////*/
+
+
+.Virg3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Virg3BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Virg3Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Virg3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.Virg3LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Virg3TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Virg3TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Virg3TranspSerLabel{
+    background-color:black;
+    border: 1px solid grey;
+    color: grey;
+
+
+}
+
+
+.Virg3ItmBGxx{
+background-color: black;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Virg3itmXX{
+
+background-color: black;
+color: grey;
+opacity: .98;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.Virg3Fin2{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Virg3itmVxx{
+
+    background-color: black;
+    color: grey;
+    color: #a7a7a7;
+    box-shadow: none;
+}    
+
+.Virg3itm22Cost{
+    color:red;
+}
+
+
+
+.Virg3Linears{
+color: #a8a8a8;
+background-color: #111;
+border:none;
+box-shadow: none;
+}
+
+.Virg3SpecFonts{
+color: white;
+}
+
+.Virg3SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Virg3Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Virg3QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Virg3Py2{
+    background-color: orange;
+      background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+  background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Virg3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Virg3PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Virg3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Virg3Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Virg3Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Virg4Color UI2///////////////////////////*/
+
+
+.Virg4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Virg4BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Virg4Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}
+.Virg4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Virg4LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Virg4TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Virg4TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Virg4TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Virg4ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Virg4itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Virg4Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Virg4itmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+}    
+
+.Virg4itm22Cost{
+    color:red;
+}
+
+
+
+.Virg4Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Virg4SpecFonts{
+color: #454545;
+}
+
+.Virg4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Virg4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Virg4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Virg4Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Virg4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.Virg4PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Virg4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Virg4Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Virg4Color UI2///////////////////////////*/
+
+
+
+
+
+/*////////////////////////Ube1Color UI2///////////////////////////*/
+
+
+.Ube1UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Ube1BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Ube1Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Ube1LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(16, 107, 186);
+    color: white;
+
+}
+
+
+.Ube1LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Ube1TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Ube1TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Ube1TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Ube1ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Ube1itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .98;
+background-image: linear-gradient(to bottom right ,#ededed, #f3f3f3);
+}
+
+
+.Ube1Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #f3f3f3);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Ube1itmVxx {
+    background-color: white;
+    color: #484848;
+    box-shadow: none;
+}
+.Ube1itm22Cost{
+    color:red;
+}
+
+
+
+.Ube1Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Ube1SpecFonts {
+    color: #484848;
+}
+
+.Ube1SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Ube1Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Ube1QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Ube1Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Ube1PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow:0 1px 13px rgb(177, 83, 0);
+}
+
+.Ube1PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow:0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Ube1FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Ube1Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Ube1Color UI2///////////////////////////*/
+
+/*////////////////////////Ube2Color UI2///////////////////////////*/
+
+
+.Ube2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Ube2BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Ube2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Ube2LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.Ube2LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Ube2TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Ube2TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Ube2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Ube2ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Ube2itmXX{
+
+    background-color: whitesmoke;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Ube2Fin2{
+background-color: whitesmoke;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Ube2itmVxx{
+
+    background-color: white;
+    color: #444;
+    color: #202020;
+    box-shadow: 0 1px 3px black;
+}    
+
+.Ube2itm22Cost{
+    color:red;
+}
+
+
+
+.Ube2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Ube2SpecFonts{
+color: #454545;
+}
+
+.Ube2SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Ube2Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Ube2QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Ube2Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Ube2PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Ube2PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Ube2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Ube2Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Ube2Color UI2///////////////////////////*/
+
+
+
+
+
+/*////////////////////////Ube3Color UI2///////////////////////////*/
+
+
+.Ube3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#636363, #000);
+background-image: url("../img/BackGphotos/Photo1.jpg");
+background-image: url("../img/BackGphotos/photo2.jpg");
+background-image: url("../img/BackGphotos/Photo3.jpg");
+background-image: url("../img/BackGphotos/photo4.jpg");
+background-image: url("../img/BackGphotos/photo5.jpg");
+
+
+
+}
+
+.Ube3BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Ube3Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Ube3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.Ube3LanBMOBIxxx{
+background-color: inherit;
+ color: white;
+}
+
+
+.Ube3TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}
+
+.Ube3TapBColor{
+    color:#585858;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Ube3TranspSerLabel{
+    background-color:black;
+    border: 1px solid grey;
+    color: white;
+
+
+}
+
+
+.Ube3ItmBGxx{
+background-color: transparent;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+background-image: none;
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Ube3itmXX{
+
+background-color:transparent;
+color: grey;
+opacity: 1;
+background-image:none;
+}
+
+
+.Ube3Fin2{
+background-color:transparent;
+background-image: none;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Ube3itmVxx {
+    background-color: black;
+    color: grey;
+    color: #a7a7a7;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#e3e3e3, #fff);
+}   
+
+
+.Ube3itm22Cost{
+    color:red;
+}
+
+
+
+.Ube3Linears{
+color: #a8a8a8;
+background-color: #111;
+border:none;
+box-shadow: none;
+}
+
+.Ube3SpecFonts{
+color: black;
+}
+
+.Ube3SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Ube3Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Ube3QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Ube3Py2{
+    background-color: orange;
+      background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+  background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Ube3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Ube3PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Ube3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Ube3Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Ube3Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Ube4Color UI2///////////////////////////*/
+
+
+.Ube4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#545454, #000);
+background-image: url("../img/BackGphotos/Photo1.jpg");
+background-image: url("../img/BackGphotos/photo2.jpg");
+background-image: url("../img/BackGphotos/Photo3.jpg");
+background-image: url("../img/BackGphotos/photo4.jpg");
+background-image: url("../img/BackGphotos/photo5.jpg");
+
+}
+
+.Ube4BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Ube4Lanxx{
+    background-color: transparent;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: none;
+}
+
+
+.Ube4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: white;
+
+}
+
+
+.Ube4LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Ube4TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+   color: #fff;
+   background-image: none;
+}
+
+.Ube4TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Ube4TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+}
+
+
+.Ube4ItmBGxx{
+background-color: transparent;
+/*background-repeat: no-repeat;*/
+background-image: none;
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Ube4itmXX{
+
+    background-color:transparent;
+    color: grey;
+    opacity: 1;
+    background-image: none;
+}
+
+
+.Ube4Fin2{
+background-color:transparent;
+background-image: none;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Ube4itmVxx {
+
+    background-color: white;
+    color: #2a2a2a;
+    background-image: linear-gradient(to bottom right ,#f0f0f0, #fff);
+    box-shadow: none;
+
+}    
+
+.Ube4itm22Cost{
+    color:red;
+}
+
+
+
+.Ube4Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Ube4SpecFonts{
+color: #454545;
+}
+
+.Ube4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Ube4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Ube4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Ube4Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Ube4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Ube4PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Ube4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#d59600, #e3b800);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+    box-shadow: inset 0px 0px 3px white;
+}
+
+
+.Ube4Total {
+
+    background-color:transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Ube4Color UI2///////////////////////////*/
+
+
+
+
+/*////////////////////////Lyft1Color UI2///////////////////////////*/
+
+
+.Lyft1UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Lyft1BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Lyft1Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Lyft1LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(16, 107, 186);
+    color: white;
+
+}
+
+
+.Lyft1LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Lyft1TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Lyft1TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Lyft1TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Lyft1ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Lyft1itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .98;
+background-image: linear-gradient(to bottom right ,#ededed, #f3f3f3);
+}
+
+
+.Lyft1Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #f3f3f3);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Lyft1itmVxx {
+    background-color: white;
+    color: #484848;
+    box-shadow: none;
+}
+.Lyft1itm22Cost{
+    color:red;
+}
+
+
+
+.Lyft1Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Lyft1SpecFonts {
+    color: #484848;
+}
+
+.Lyft1SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Lyft1Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Lyft1QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Lyft1Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Lyft1PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow:0 1px 13px rgb(177, 83, 0);
+}
+
+.Lyft1PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow:0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Lyft1FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Lyft1Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Lyft1Color UI2///////////////////////////*/
+
+/*////////////////////////Lyft2Color UI2///////////////////////////*/
+
+
+.Lyft2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Lyft2BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Lyft2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Lyft2LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.Lyft2LanBMOBIxxx{
+background-color: inherit;
+ color: white;
+}
+
+
+.Lyft2TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Lyft2TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Lyft2TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Lyft2ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Lyft2itmXX{
+
+    background-color: whitesmoke;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Lyft2Fin2{
+background-color: whitesmoke;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Lyft2itmVxx{
+
+    background-color: white;
+    color: #444;
+    color: #202020;
+    box-shadow: 0 1px 3px black;
+}    
+
+.Lyft2itm22Cost{
+    color:red;
+}
+
+
+
+.Lyft2Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Lyft2SpecFonts{
+color: #454545;
+}
+
+.Lyft2SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Lyft2Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Lyft2QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Lyft2Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Lyft2PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Lyft2PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Lyft2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Lyft2Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Lyft2Color UI2///////////////////////////*/
+
+
+
+
+
+/*////////////////////////Lyft3Color UI2///////////////////////////*/
+
+
+.Lyft3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Lyft3BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Lyft3Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+.Lyft3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid rgb(42, 95, 141);
+    color: white;
+
+}
+
+
+.Lyft3LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Lyft3TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Lyft3TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Lyft3TranspSerLabel{
+    background-color:black;
+    border: 1px solid grey;
+    color: grey;
+
+
+}
+
+
+.Lyft3ItmBGxx{
+background-color: black;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Lyft3itmXX{
+
+background-color: black;
+color: grey;
+opacity: .98;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.Lyft3Fin2{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Lyft3itmVxx{
+
+    background-color: black;
+    color: grey;
+    color: #a7a7a7;
+    box-shadow: none;
+}    
+
+.Lyft3itm22Cost{
+    color:red;
+}
+
+
+
+.Lyft3Linears{
+color: #a8a8a8;
+background-color: #111;
+border:none;
+box-shadow: none;
+}
+
+.Lyft3SpecFonts{
+color: white;
+}
+
+.Lyft3SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Lyft3Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Lyft3QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Lyft3Py2{
+    background-color: orange;
+      background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+  background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Lyft3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Lyft3PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Lyft3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Lyft3Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Lyft3Color UI2///////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////Lyft4Color UI2///////////////////////////*/
+
+
+.Lyft4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Lyft4BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Lyft4Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}
+.Lyft4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Lyft4LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Lyft4TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Lyft4TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Lyft4TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Lyft4ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Lyft4itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Lyft4Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Lyft4itmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+}    
+
+.Lyft4itm22Cost{
+    color:red;
+}
+
+
+
+.Lyft4Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Lyft4SpecFonts{
+color: #454545;
+}
+
+.Lyft4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Lyft4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Lyft4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Lyft4Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Lyft4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.Lyft4PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Lyft4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Lyft4Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Lyft4Color UI2///////////////////////////*/
+
+
+
+
+
+
+
+/*////////////////////////Mta1Color UI2///////////////////////////*/
+
+
+.Mta1UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Mta1BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Mta1Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+.Mta1LanBxx {
+
+    background-color: transparent;
+    border: 1px solid #484848;
+    color: white;
+
+}
+
+
+.Mta1LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Mta1TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Mta1TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Mta1TranspSerLabel{
+    background-color:black;
+    border: 1px solid grey;
+    color: grey;
+
+
+}
+
+
+.Mta1ItmBGxx{
+background-color: black;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Mta1itmXX{
+
+background-color: black;
+color: grey;
+opacity: .98;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.Mta1Fin2{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Mta1itmVxx{
+
+    background-color: black;
+    color: grey;
+    color: #a7a7a7;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#353535, #080808);
+}    
+
+.Mta1itm22Cost{
+    color:red;
+}
+
+
+
+.Mta1Linears{
+color: #a8a8a8;
+background-color: #111;
+border:none;
+box-shadow: none;
+}
+
+.Mta1SpecFonts{
+color: white;
+}
+
+.Mta1SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Mta1Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Mta1QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Mta1Py2{
+    background-color: orange;
+      background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+  background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Mta1PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Mta1PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Mta1FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Mta1Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Mta1Color UI2///////////////////////////*/
+
+
+
+
+
+
+
+
+/*////////////////////////Mta2Color UI2///////////////////////////*/
+
+
+.Mta2UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+.Mta2BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+
+.Mta2Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+.Mta2LanBxx {
+
+    background-color: transparent;
+    border: 1px solid #484848;
+    color: white;
+
+}
+
+
+.Mta2LanBMOBIxxx{
+background-color: inherit;
+color: white;
+}
+
+
+.Mta2TopBotapxx {
+
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+}
+
+.Mta2TapBColor{
+    color:white;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Mta2TranspSerLabel{
+    background-color:black;
+    border: 1px solid grey;
+    color: grey;
+
+
+}
+
+
+.Mta2ItmBGxx{
+background-color: black;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Mta2itmXX{
+
+background-color: black;
+color: grey;
+opacity: .98;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+.Mta2Fin2{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#000, #151515);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Mta2itmVxx{
+
+    background-color: black;
+    color: grey;
+    color: #a7a7a7;
+    background-image: linear-gradient(to bottom right ,#353535, #000);
+}    
+
+.Mta2itm22Cost{
+    color:red;
+}
+
+
+
+.Mta2Linears{
+color: #a8a8a8;
+background-color: #111;
+border:none;
+box-shadow: none;
+}
+
+.Mta2SpecFonts{
+color: white;
+}
+
+.Mta2SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Mta2Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Mta2QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Mta2Py2{
+    background-color: orange;
+      background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+  background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Mta2PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+.Mta2PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Mta2FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Mta2Total {
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*
+////////////////////////Mta2Color UI2///////////////////////////*/
+
+
+
+
+
+
+
+
+/*////////////////////////Mta3Color UI2///////////////////////////*/
+
+
+.Mta3UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Mta3BlankLogoVM{
+background-image: url("../img/Transplogos/Mta3.html");
+}
+
+.Mta3Lanxx{
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+.Mta3LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Mta3LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Mta3TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Mta3TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Mta3TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Mta3ItmBGxx{
+background-color: white;
+background-image: url("../img/Transplogos/Mta3.html");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Mta3itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Mta3Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Mta3itmVxx{
+background-color:#009ddb;
+color: White;
+box-shadow: inset 0px 0px 12px #001e45;
+box-shadow: none;
+background-image: linear-gradient(to bottom right ,#0065ba, #004d71);
+}    
+
+.Mta3itm22Cost{
+    color:red;
+}
+
+
+
+.Mta3Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Mta3SpecFonts{
+color: white;
+}
+
+.Mta3SpecFontsCost{
+    color:red;
+    color: #f90;
+}
+
+/*//////////////////////////////////////////*/
+
+.Mta3Qty {
+
+    background-color: #c65502;
+    color: white;
+    border-top: none;
+    opacity: 1;
+}
+
+.Mta3QtyB {
+
+    background-color: rgb(242, 121, 18);
+    border: 3px solid rgb(242, 121, 18);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Mta3Py2{
+background-color: orange;
+background-image: linear-gradient(to bottom right ,#fff, #d8d8d8);
+}
+
+
+.Mta3PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+.Mta3PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(194, 194, 194);
+}
+
+/*///////////////////////////////////////////*/
+
+.Mta3FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#0d385f, #184369);
+}
+
+
+.Mta3Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Mta3Color UI2///////////////////////////*/
+
+
+
+
+
+/*////////////////////////Mta4Color UI2///////////////////////////*/
+
+
+.Mta4UI22{
+background-color: black;
+background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+.Mta4BlankLogoVM{
+background-image: url("../img/mta2.png");
+}
+
+.Mta4Lanxx{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+}
+.Mta4LanBxx {
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #000020;
+
+}
+
+
+.Mta4LanBMOBIxxx{
+background-color: inherit;
+color: #000020;
+}
+
+
+.Mta4TopBotapxx {
+
+   background-image: linear-gradient(to bottom right ,#fff, #f3f3f3);
+    color: #fff;
+}
+
+.Mta4TapBColor{
+    color:#000020;
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+
+.Mta4TranspSerLabel{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+
+}
+
+
+.Mta4ItmBGxx{
+background-color: white;
+background-image: url("../img/mta2.png");
+/*background-repeat: no-repeat;*/
+}
+
+
+/*///////////////////////////////////////////*/
+
+
+
+.Mta4itmXX{
+
+    background-color: white;
+    color: grey;
+    opacity: .96;
+    background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+.Mta4Fin2{
+background-color: white;
+background-image: linear-gradient(to bottom right ,#ededed, #fff);
+}
+
+
+
+/*///////////////////////////////////////////*/
+
+.Mta4itmVxx{
+
+    background-color: white;
+    color: #2a2a2a;
+}    
+
+.Mta4itm22Cost{
+    color:red;
+}
+
+
+
+.Mta4Linears{
+color: #000033;
+background-color: whitesmoke;
+border:none;
+box-shadow: none;
+}
+
+.Mta4SpecFonts{
+color: #454545;
+}
+
+.Mta4SpecFontsCost{
+    color:red;
+}
+
+/*//////////////////////////////////////////*/
+
+.Mta4Qty {
+
+    background-color: #286090;
+    color: white;
+    border-top: 1px solid #286090;
+}
+
+.Mta4QtyB {
+
+    background-color: rgb(52, 121, 184);
+    border: 3px solid rgb(52, 121, 184);
+    color: white;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.Mta4Py2{
+    background-color: orange;
+        background-image: linear-gradient(to bottom right ,#e66900, #e4c800);
+    background-image: linear-gradient(to bottom right ,#e6a200, #ffe000);
+}
+
+
+.Mta4PyB{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+.Mta4PyBMOBI{
+
+    background-color: transparent;
+    color: black;
+    box-shadow: inset 0 1px 13px rgb(177, 83, 0);
+}
+
+/*///////////////////////////////////////////*/
+
+.Mta4FinB{
+
+    color: #fff;
+    background-color: #286090;
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#0d385f, #296599);
+}
+
+
+.Mta4Total {
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/*
+////////////////////////Mta4Color UI2///////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+.BlankLogoVM {
+    height: 46px;
+    width: 50px;
+    border: none;
+    border-radius: 20px;
+    margin: 2px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cVirger;
+    background-color: transparent;
+}
+
+
+.BlankLogoMOBIVM {
+    height: 55px;
+    width: 63px;
+    border: none;
+    border-radius: 20px;
+    margin: 9px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cVirger;
+}
+
+.ItmBGxx{
+
+ background-size: 50%;
+ background-repeat: repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.btn-group-vertical > .btn.active, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:hover, .btn-group > .btn.active, .btn-group > .btn:active, .btn-group > .btn:focus, .btn-group > .btn:hover {
+    z-index: -2;
+}*/

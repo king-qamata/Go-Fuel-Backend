@@ -17,7 +17,7 @@ def ajax_list_signup(request):
         signed_up.send(sender=ajax_list_signup, entry=entry)
         try:
             data = {
-                "location": reverse("pinax_waitinglist:survey", args=[entry.surveyinstance.code])
+                "location": reverse("survey", args=[entry.surveyinstance.code])
             }
         except SurveyInstance.DoesNotExist:
             data = {
@@ -59,14 +59,14 @@ class ListSignupView(CreateView):
 
         try:
             success_url = reverse(
-                "pinax_waitinglist:survey",
+                "survey",
                 args=[self.object.surveyinstance.code]
             )
         except SurveyInstance.DoesNotExist:
             pass
 
         if success_url is None:
-            success_url = reverse("pinax_waitinglist:success")
+            success_url = reverse("success")
         elif not success_url.startswith("/"):
             success_url = reverse(success_url)
         return success_url
@@ -81,7 +81,7 @@ class SurveyView(UpdateView):
     slug_url_kwarg = "code"
     slug_field = "code"
     template_name = "pinax/waitinglist/survey.html"
-    success_url = reverse_lazy("pinax_waitinglist:survey_thanks")
+    success_url = reverse_lazy("survey_thanks")
 
     def get_form_kwargs(self):
         kwargs = super().get_form_kwargs()

@@ -1,0 +1,14008 @@
+
+
+
+
+.numpadLeftMOBIx4, .numpadRightMOBIx4, .numpadLargex4{
+  display: none;
+}
+
+
+
+
+
+.AccPerformancex4 {
+    margin-left: 5px;
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    width: 41px;
+    border-radius: 5px;
+}
+
+
+
+.AccPerformanceMOBIx4{
+margin-left: 5px;
+font-size: 16px;
+} 
+
+
+
+
+
+.PerformanceUpx4{
+  color: lawngreen;
+}
+.PerformanceDownx4{
+ color:red;
+}
+
+
+.TradePerformanceUpx4 {
+    color: #56a708;
+}
+
+
+
+
+
+
+.buttonsx4{
+
+  
+  margin:5% auto 5% auto;
+
+}
+
+
+.ScreenTColorsx4{
+width:100%;
+background-color:rgb(250, 250, 250);
+padding-top: 10px;
+}
+
+
+
+
+
+.screenTypex4{
+border:none;
+background-color:;
+color:grey;
+font-family: calibri;
+font-size:25px;
+display:block;
+
+
+background-color:;
+width: 30%;
+display: inline-block;
+float:right;
+}
+
+
+/*/////*/
+
+
+.denoOptionsx4{
+font-size: 5px;
+font-family: candara;
+border: none;
+border-radius: 7px;
+width: 100%;
+margin: auto;
+padding: 5px 0px 0px 0px;
+color: grey;
+background-color:;
+display:block;
+
+
+}
+
+
+.Denox4 label{
+font-size: 2px;
+padding: 2px 5px;
+border-radius: 5px;
+}
+
+/*//*/
+
+
+
+
+
+.BothColorsx4{
+display: inline-block;
+width: 58%;
+background-color:;
+color: grey;
+font-family: calibri;
+font-size: 25px;
+}
+
+
+
+#ATM1Mobilex4, #ATM1Machinex4{
+  background-color: inherit;
+  border:none;
+height:100px;
+width: 100px;
+font-size: 73px;
+color: black;
+}
+
+
+
+.stText{
+display: block;
+font-size: 12px;
+color:grey;
+}
+
+
+
+
+.Colorsx4 button {
+    height: 50px;
+    width: 65px;
+    border-radius: 11px;
+    border: none;
+    margin: 0px 2px 20px 0px;
+    display: ;
+    border: none;
+    box-shadow: inset 0 1px 3px grey;
+}
+
+
+.Colorsx4 button:hover{
+
+  box-shadow: 0px 3px 15px 3px lightgrey;
+
+}
+
+
+
+
+.priBluex4{
+/*  background-color: #286090;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+  background-image: url("../img/chase.png");
+background-position:center;
+background-size: cover;
+
+}
+
+.Chasex4{
+/*  background-color: #286090;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+  background-image: url("../img/chase.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+.DarkBluex4{
+/*  background-color: #286090;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+  background-image: url("../img/chase.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+.blue1x4{
+/*  bax4ckground-color: #337ab7;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+
+  background-image: url("../img/chase.png");
+background-position:center;
+background-size: cover;
+
+}
+
+
+
+.redx4{
+
+  background-image: url("../img/bankOfamer.png");
+/*background-image: url("../img/hsbc.jpg");*/
+background-position:center;
+background-size: cover;
+}
+
+
+.red4x4{
+
+  background-image: url("../img/bankOfamer.png");
+/*background-image: url("../img/hsbc.jpg");*/
+background-position:center;
+background-size: cover;
+}
+
+.Boamerx4{
+
+  background-image: url("../img/bankOfamer.png");
+/*background-image: url("../img/hsbc.jpg");*/
+background-position:center;
+background-size: cover;
+}
+
+
+
+
+
+
+.greenx4{
+ /* background-color: green;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+
+background-image: url("../img/tdbank.jpg");
+background-position:center;
+background-size: 78%;
+
+
+}
+
+
+
+.green2x4{
+ /* background-color: green;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+
+background-image: url("../img/sber.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+.Green3x4{
+ /* background-color: green;
+  box-shadow: 0px 5px 10px 5px lightgrey;*/
+
+background-image: url("../img/sber.png");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+.navyBluex4{
+
+  background-image: url("../img/popul.png");
+/*background-image: url("../img/europe.png");*/
+background-position:center;
+background-size: cover;
+}
+
+.navy2Bluex4{
+/*  background-color: #000034;
+  box-shadow: 0px 5px 10px 5px lightgrey;
+  border:none;*/
+
+  background-image: url("../img/euro.png");
+background-position:center;
+background-size: cover;
+}
+
+.lightBluex4{
+
+  background-image: url("../img/lay.png");
+background-position:center;
+
+background-size: cover;
+
+}
+
+
+.Barclayx4{
+
+  background-image: url("../img/lay.png");
+background-position:center;
+
+background-size: cover;
+
+}
+
+
+
+.lightBlue2x4{
+
+  background-image: url("../img/lay.png");
+background-position:center;
+
+background-size: cover;
+
+}
+
+
+
+
+.red2x4{
+
+background-image: url("../img/Wells-Fargo.jpg");
+background-position:center;
+background-size: cover;
+}
+
+.orangex4{
+ 
+
+  background-image: url("../img/Wells-Fargo.jpg");
+background-position:center;
+background-size: cover;
+
+
+}
+
+
+.banresx4{
+
+background-image: url("../img/banresgreen.png");
+background-position:center;
+background-size: cover;
+}
+
+
+
+.banres2x4{
+
+background-image: url("../img/banreser.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.banres3x4{
+
+background-image: url("../img/banreser.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.Ponce1x4, .Ponce2x4{
+
+background-image: url("../img/ponce1.png");
+background-position:center;
+background-size: cover;
+}
+
+
+
+
+.poncex4{
+ 
+
+background-image: url("../img/euro.png");
+background-position:center;
+background-size: cover;
+
+}
+
+.Paypalx4{
+ 
+
+background-image: url("../img/paypal.png");
+background-position:center;
+background-size: cover;
+
+}
+
+.red3x4{
+
+
+  background-image: url("../img/china.png");
+background-position:center;
+background-size: cover;
+}
+
+.blue2x4{
+
+
+  background-image: url("../img/citi.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.blue22x4{
+
+
+  background-image: url("../img/citi.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.yellowx4{
+
+
+background-image: url("../img/brazil.png");
+background-position:center;
+background-size: cover;
+}
+
+.Blackx4{
+ background-image: url("../img/Black.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.Whitex4{
+ background-image: url("../img/white.png");
+background-position:center;
+background-size: cover;
+}
+
+
+
+.Dribx4{
+ background-image: url("../img/drib.png");
+background-position:center;
+background-size: cover;
+}
+
+.Robinx4, .Robin2x4, .Robin3x4{
+
+
+background-image: url("../img/robin.png");
+background-position:center;
+background-size: cover;
+}
+
+.Binancex4{
+
+
+background-image: url("../img/binance.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.Coinbasex4{
+
+
+background-image: url("../img/coinbase%20-%20Copy.png");
+background-position:center;
+background-size: cover;
+}
+
+
+.Ria1x4, .Ria2x4{
+
+
+background-image: url("../img/ria2.png");
+background-position:center;
+background-size: cover;
+}
+
+
+
+.Westunx4{
+
+
+background-image: url("../img/westun.png");
+background-position:center;
+background-size: cover;
+}
+
+
+
+.Sofix4{
+
+
+background-image: url("../img/sofi.png");
+background-position:center;
+background-size: cover;
+}
+
+
+
+
+
+/*Colors MOBI*/
+
+.ColorsMOBIx4{
+display:none;
+
+}
+
+
+.ColorsMOBIx4 button{
+height: 45px;
+width: 65px;
+border-radius: 30px;
+border: none;
+margin: 0px 2px 20px 0px;
+display:;
+border: none;
+box-shadow: inset 0 1px 3px grey;
+}
+
+.Colorsx4 button:hover{
+
+  box-shadow: 0px 3px 15px 3px lightgrey;
+
+}
+
+
+
+
+
+
+/*////////////*/
+
+
+
+
+
+.FintColor {
+    background-color: white;
+    border: none;
+    height: 61px;
+    width: 78px;
+    margin: 2px 5px 2px 0px;
+    margin-left: 0px;
+    padding: 5px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui2x4{
+
+height: auto;
+
+position:;
+width: 650px;
+
+
+
+border-radius:15px;
+
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+
+
+
+ 
+/*  float:right;
+  clear:right;
+  margin-bottom: 5%;*/
+border:none;
+box-shadow: 0 20px 50px grey;
+background-color: grey;
+background-size: 139%;
+
+
+
+}
+
+
+.Damount{
+  color:crimson;
+}
+
+.checkinginfo2x4{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height:370px;
+margin:60px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+
+
+
+}
+.savinginfo2x4{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height:370px;
+margin:60px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+
+border: 3px solid grey;
+
+}
+
+
+
+.assistancex4{
+    width: 600px;
+    height: 320px;
+    background-color: white;
+    background-image: url("../img/asistance.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    display: none;
+    z-index: 50;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: grey;
+    border-radius: 30px;
+    margin: 4px;
+    font-family: candara;
+}
+
+
+
+
+
+.lan2x4{
+
+border-top-right-radius: 7px;
+border-top-left-radius: 7px;
+height:50px;
+width: 100%;
+padding:2px 10px 10px 15px;
+
+
+
+}
+
+
+
+
+/*
+.lan2x4 label{
+    
+    padding:8px;
+    margin:5px;
+    width:110px;
+
+    font-weight: 1px; 
+    
+    font-size:18px; 
+    font-family: arial;
+}
+
+
+.lan2x4 button {
+
+ padding:8px;
+    margin:5px 5px 5px 12px;
+    width:110px;
+
+    font-weight: 1px; 
+    
+    font-size:18px; 
+}
+*/
+
+
+
+
+
+
+.langBx4 {
+
+ padding:6px;
+ margin:5px 5px 5px 12px;
+ width:110px;
+ font-weight: 1px; 
+ font-size:18px; 
+
+}
+
+
+
+.lan2x4 .dropdown-menu{
+width:60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.ServicePanelx4{
+
+}
+
+
+
+.serm2x4 {
+    position: relative;
+    height: 283px;
+    width: 100%;
+    display: ;
+    z-index: 0;
+    background-size: 50%;
+    background-position: center;
+}
+
+
+.serm2MOBIx4{
+
+
+  position:relative;
+
+ 
+  height:290px;
+  width:100%;
+  display:;
+  z-index: 0;
+/*background-size: 50%;*/
+
+background-position: center;
+
+}
+
+
+.innerx4{
+opacity: .95;
+margin-top: ;
+padding: 10px 20px 30px 32px;
+display: inline-block;
+height: 100%;
+background-color: inherit;
+color: grey;
+font-size: 10px;
+
+}
+
+.sm3Buttons {
+
+    margin-top: 0px;
+
+}
+
+
+
+
+.sm3ButtonsMOBI {
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.innerLeftx4{
+ 
+  width:100%;
+z-index: 500;
+margin: 0px;
+padding: 20px 0px 6px 76px;
+
+}
+
+.innerLeftMOBIx4{
+ 
+  width:100%;
+z-index: 500;
+margin: 0px;
+padding: 8px 0px 11px 45px;
+
+}
+
+
+
+
+.innerRightx4 {
+    width: 100%;
+    z-index: 50;
+    margin: 0px;
+    padding: 19px 54px 34px 69px;
+}
+
+
+
+
+.innerRightMOBIx4{
+ 
+  width:100%;
+  z-index: 50;
+  margin: 0px;
+padding: 23px 0px 40px 36px;
+
+}
+
+
+.sm2x4 {
+    height: 42px;
+    width: 150px;
+    margin: 2px 3px 0px 3px;
+        margin-left: 3px;
+    margin-left: 3px;
+    margin-left: 3px;
+    margin-left: 3px;
+    padding: 11px 7px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+
+
+
+
+.sm2MOBIx4{
+
+height: 64px;
+width: 113px;
+margin: 25px 3px 0px 3px;
+padding: 19px 7px;
+border-radius: 15px;
+font-size: 15px;
+font-family: arial;
+font-weight: bold;
+
+
+}
+
+.acm2x4 {
+    height: 132px;
+    width: 227px;
+    margin: 0px 14px 3px 8px;
+        margin-left: 8px;
+    padding: 10px 35px 10px 34px;
+    border-radius: 30px;
+    font-size: 28px;
+    font-family: arial;
+}
+
+.acm2MOBIx4 {
+    height: 140px;
+    width: 227px;
+    margin: 0px 13px 3px 8px;
+        margin-left: 8px;
+    padding: 16px 35px 10px 34px;
+    border-radius: 30px;
+    font-size: 28px;
+    font-family: arial;
+}
+
+
+
+
+/*.ExtraAcx4{
+  display:none;
+}*/
+
+
+.CoinTypeKPT1 {
+font-size: 30px;
+display: inline-block;
+}
+
+.CoinTypeKPT1MOBI{
+font-size: 37px;
+display: inline-block;
+margin-bottom: -3px;
+} 
+
+
+
+
+
+
+.CoinnameKPT1 {
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+.CoinnameKPT1MOBI{
+font-size: 18px;
+display:block;
+margin-bottom: 15px;
+}
+
+
+
+
+.BalKPT1 {
+    display: none;
+    font-size: 15px;
+    position:;
+    color: white;
+ 
+}
+
+
+.MyCoinsKPT1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: witet;
+    font-size: 27px;
+    font-family: calibri;
+    height: 43px;
+    width: 100%;
+    text-align: center;
+}
+.MyCoinsKPT1MOBI {
+
+    display:block;
+    border: none;
+    background-color: transparent;
+    color: witet;
+    font-size: 37px;
+    font-family: calibri;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+.CoinLettersKPT1{
+display: none;
+font-size: 25px;
+color: white;
+}
+
+
+.MyCoinsInUSKPT1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: none;
+    font-size: 16px;
+    font-family: calibri;
+    height: 12px;
+    width: 100%;
+    text-align: center;
+}
+.MyCoinsInUSKPT1MOBI{
+  display:block;
+border:none;
+background-color:transparent;
+color: none;
+font-size: 20px;
+font-family: calibri;
+height: 26px;
+width: 100%;
+text-align: center;
+
+}
+
+.CurrentCoinCostInUSKPT1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    
+    font-size: 12px;
+    font-family: calibri;
+    height: 19px;
+    width: 100%;
+    text-align: center;
+}
+
+.CurrentCoinCostInUSKPT1MOBI{
+display:block;
+border:none;
+background-color:transparent;
+
+font-size: 20px;
+font-family: calibri;
+height: 36px;
+width: 100%;
+text-align: center;
+
+}
+
+
+
+
+.CurrentCoinCostInUSKPT1 {
+
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: 12px;
+    font-family: calibri;
+    height: 19px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.CurrentCoinCostInUSKPT1MOBI{
+display:block;
+border:none;
+background-color:transparent;
+color:;
+font-size: 20px;
+font-family: calibri;
+height: 23px;
+width: 100%;
+text-align: center;
+
+}
+
+.CurrentSecond1 {
+  color:none;
+  display: none;
+}
+
+.CurrentSecond3 {
+  display: none;
+}
+
+
+/*///////////New /////////////////////////////////*/
+
+
+.CoinTypeKPT1 {
+font-size: 22px;
+display: inline-block;
+margin-right: 5px;
+}
+
+.CoinTypeKPT1MOBI{
+font-size: 37px;
+display: inline-block;
+margin-bottom: -3px;
+} 
+
+
+
+
+
+
+.CoinnameKPT1 {
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+.CoinnameKPT1MOBI{
+font-size: 18px;
+display:block;
+margin-bottom: 15px;
+}
+
+
+
+
+.BalKPT1 {
+    display: none;
+    font-size: 15px;
+    position:;
+    color: white;
+ 
+}
+
+
+.MyCoinsKPT1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: witet;
+    font-size: 24px;
+    font-family: calibri;
+    height: 34px;
+    width: 100%;
+    text-align: center;
+}
+
+.MyCoinsKPT1x1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: witet;
+    font-size: 28px;
+    font-family: calibri;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.MyCoinsKPT1MOBI {
+
+    display:block;
+    border: none;
+    background-color: transparent;
+    color: witet;
+    font-size: 37px;
+    font-family: calibri;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+
+
+.CoinLettersKPT1{
+display: none;
+font-size: 25px;
+color: white;
+}
+
+
+.MyCoinsInUSKPT1 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: none;
+    font-size: 15px;
+    font-family: calibri;
+    height: 15px;
+    width: 93%;
+    text-align: center;
+    margin-top: -8px;
+}
+
+
+.MyCoinsInUSKPT1MOBI{
+  display:block;
+border:none;
+background-color:transparent;
+color: none;
+font-size: 23px;
+font-family: calibri;
+height: 26px;
+width: 93%;
+text-align: center;
+margin-top:4px;
+}
+
+
+.CurrentCoinCostInUSKPT1 {
+
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: 13px;
+    font-family: calibri;
+    height: 13px;
+    width: 93%;
+    text-align: center;
+    color:none;
+
+}
+
+.CurrentCoinCostInUSKPT1MOBI{
+display:block;
+border:none;
+background-color:transparent;
+color:;
+font-size: 20px;
+font-family: calibri;
+height: 23px;
+width: 93%;
+text-align: center;
+
+}
+
+.CurrentSecond1{
+  color:none;
+  display: none;
+}
+
+
+.CurrentSecond3 {
+  display: none;
+}
+
+.ActivityValuesx4{
+  background-color: transparent;
+  width:80%;
+  border:none;
+  text-align: center;
+
+}
+
+
+
+
+
+.ActivityIconx4{
+  font-size: 10px;
+}
+.ActivityIconMOBIx4 {
+    font-size: 15px;
+}
+
+
+.TransaDatex4{
+  border:none;
+  height: inherit;
+  width:15px;
+  background-color: transparent;
+}
+
+
+
+
+/*///////////New /////////////////////////////////*/
+
+
+/*.acm2x4 span{
+
+    font-size:15px;
+}
+*/
+
+
+/*
+.serDropx4div{
+
+transform: translate(-325px, -5px);
+opacity: 1;
+padding: 15px;
+height: 240px;
+width: 380px;
+/*transform:translate(275px, -280px);*/
+
+
+
+
+
+
+.serDropx4 {
+    display:none;
+    opacity: 1;
+    padding: 18px 15px;
+    height: 409px;
+    width: 482px;
+    transform: translate(79px, -435px);
+    z-index: 5000;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 1px 5px grey;
+
+}
+
+
+.serDropx4 button {
+    margin:5px 10px 5px 10px;
+    border-radius: 15px;
+    height:53px;
+    z-index: 5000;
+    width: 200px;
+}
+
+
+.serDropx4 button {
+    margin: 5px 10px 5px 10px;
+    border-radius: 15px;
+    height: 84px;
+    z-index: 5000;
+    width: 120px;
+    font-size: 27px;
+    padding: 0px 10px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+.serDropMOBIx4 button {
+
+    margin: 5px 5px 5px 5px;
+    border-radius: 30px;
+    height: 137px;
+    z-index: 5000;
+    width: 150px;
+    padding: 11px 10px;
+    font-size: 22px;
+}
+
+
+
+
+
+.OtherlabelText {
+
+    display: block;
+    font-size: 12px;
+
+}
+
+
+.OtherlabelTextMOBI {
+
+    display: block;
+    font-size: 15px;
+
+}
+
+
+
+
+
+/*.glyphicon-arrow-right{
+    z-index:50;
+    color:orange;
+    right:225px;
+    top:20px;
+    position:absolute;
+    display:none;
+}
+
+
+.glyphicon-arrow-left{
+    z-index: 50;
+    color:orange;
+    right:230px;
+    top:20px;
+    position:absolute;
+    display:none;
+
+
+}*/
+
+
+.cheTsav2x4{
+z-index: 50;
+color: orange;
+right: 257px;
+top: 152px;
+position: absolute;
+display: none;
+font-size: 90px;
+}
+
+
+
+.savTche2x4{
+z-index: 50;
+color: orange;
+right: 257px;
+top: 152px;
+position: absolute;
+display: none;
+font-size: 90px;
+}
+
+
+
+
+
+
+#toSavingx4{
+  display:none;
+  z-index: 50;
+  background-color:black;
+  color:darkgrey;
+  position:absolute;
+  width:150px;
+  height:25px;
+  right:185px;
+  top:-25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+
+#toCheckingx4{
+  display:none;
+  z-index: 50;
+  background-color:black;
+  color:darkgrey;
+  position:absolute;
+  width:150px;
+  height:25px;
+  right:185px;
+  top:-25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+
+
+
+
+
+
+
+
+/*/////////////////BILL DENO OFFICIAL////////////////////*/
+
+
+
+
+
+      /*//////////////BILL DenomiNation Withdraw////////////////////////////*/
+
+
+.BillDenominationWdrawx4{
+  display:none;
+  z-index: 600;
+position: absolute;
+text-align: center;
+width: 600px;
+height: 320px;
+padding: 20px;
+background-color:white;
+font-size:20px;
+color:grey;
+border-radius: 30px;
+border:1px solid lightgrey;
+margin: 4px;
+font-family: georgia;
+}
+
+
+
+
+
+.SelectBillDenomix4{
+ padding: 0px 0px 0px 70px;
+ margin-top: -12px;
+
+}
+
+
+.SelectBillDenomiMOBIx4{
+ padding: 0px 0px 0px 41px;
+ margin-top: -12px;
+
+}
+
+
+
+
+.BillDenominationWdrawx4 span{
+
+font-size:10px;
+ font-weight:bold;
+
+}
+
+
+
+.BillDenomi1x4, .BillDenomi2x4, .BillDenomi3x4, .BillDenomi4x4, .BillDenomi5x4, .BillDenomi6x4{
+
+margin: 13px 44px 13px 60px;
+box-shadow: none;
+width: 130px;
+padding: 10px 8px;
+border-radius: 10px;
+box-shadow: inset 0 1px 5px white;
+border: none;
+font-family: calibri;
+height: 96px;
+background-color: #3c530e;
+font-size:45px;
+color:white;
+
+}
+
+
+.BillDenomiImputLabelx4 {
+
+    background-color: white;
+    height: 34px;
+    width: 130px;
+    position: absolute;
+    color: lightgrey;
+    font-size: 18px;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    box-shadow: inset 0 0px 2px grey;
+    bottom: -14px;
+    right: 0px;
+    padding-left: 10px;
+
+}
+
+
+
+.BillDenomiImputx4{
+  width:100%;
+  height:100%;
+  background-color: transparent;
+  font-size: lightgrey;
+  border:none;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////End of Bill Denomination Withdraw////////////////////////////////*/
+
+
+
+/*///////////////Bill Denomi MOBI////////////*/
+
+
+.SelectBillDenomiMOBIx4 {
+    padding: 0px 0px 0px 66px;
+}
+
+
+
+.BillDenomiMOBIx4{
+    margin: 23px 44px 35px 60px;
+    box-shadow: none;
+    width: 202px;
+    padding: 24px 8px;
+    height: 139px;
+    font-size: 52px;
+
+}
+
+
+.BillDenomiImputLabelMOBIx4 {
+
+    height: 53px;
+    width: 206px;
+    font-size: 22px;
+    bottom: -13px;
+    right: 0px;
+    padding-left: 10px;
+}
+
+
+.BillDenomiImputMOBIx4 {
+
+    font-size: 40px;
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.qty2x4{
+
+height:108px;
+width: 100%;  
+font-size:20px;
+text-align: center;
+margin-bottom:0px;
+padding-left:0px;
+font-size:30px;
+z-index: 0;
+
+
+}
+
+
+
+
+
+.feesx4 {
+
+    display: block;
+    background-color: inherit;
+    color:transparent;
+     color:inherit;
+    border: none;
+    font-size: 12px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: left;
+    position: absolute;
+    padding: 2px 0px 5px 29px;
+    width: 133px;
+    z-index: 200;
+    transform: translate(259px, 1px);
+    height: 20px;
+    margin:-10px auto;
+    z-index: 700;
+
+
+}
+.feeInputx4 {
+
+    display: inline-block;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    font-size: 14px;
+    width: 38%;
+    height: 100%;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+.feesMOBIx4 {
+    display: block;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+  
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 46px;
+    width: 200px;
+   transform: translate(197px, 4px);
+    height: 37px;
+    border-radius: 28px 28px 0px 0px;
+    
+    margin:-19px auto;
+}
+
+.feeInputMOBIx4 {
+
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+
+}
+
+
+
+.pinChangefeesx4{
+
+  background-color: white;
+  color:white;
+}
+
+
+
+
+.qty2x4:hover{
+
+  cursor: pointer;
+}
+ 
+
+
+   
+.qtyvalue2x4{
+background-color:inherit;
+height:50px;
+width:250px;
+
+margin-left:0px;
+
+border:none;
+font-size:35px;
+
+}
+
+
+
+.QtyValueCoverx4 {
+
+    height: 50px;
+    width: 305px;
+    position: absolute;
+    right: 413px;
+   
+
+}
+
+
+
+
+
+.qtyvalue23x4{
+
+background-color:inherit;
+height:50px;
+width:70px;
+
+margin-left:0px;
+color:inherit;
+border:none;
+font-size:35px;
+
+}
+
+
+
+.amountInputx4{
+  width:100%;
+}
+
+
+.amountx4{
+  background-color: inherit;
+margin-left: 180px;
+font-size: 35px;
+
+ 
+}
+
+
+
+.amountx4:hover{
+  cursor:pointer;
+ 
+}
+
+
+.NumPadx4{
+
+    transform: translate(0px, -43px);
+        display:none;
+    border-radius:;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 58.7px;
+    font-size:23px;
+}
+
+
+
+
+.NumPadMOBIx4{
+
+    transform: translate(0px, -43px);
+        display:none;
+    border-radius:;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 55.47px;
+    font-size:23px;
+}
+
+
+
+.numVx4{
+    display:inline-block;
+    border-radius:;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 58.7px;
+    font-size:23px;
+    transform:none;
+}
+
+
+
+
+
+
+.LinearNumPadx4{
+  background-color: inherit;
+  margin-bottom:0px;
+  width:100%;
+  height:57px;
+  padding: 0px 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.pyx4{
+display:none;
+background-color: inherit;
+height: 100%;
+width: 100%;
+padding: 1px 5px 5px 10px;
+font-size: 20px;
+position: relative;
+bottom: 46px;
+
+}
+
+
+
+.PayButtonsBx4{
+
+width: 123px;
+padding: 8px;
+margin: 0px 7px 3px 7px;
+background-color: inherit;
+border: none;
+font-size: 20px;
+color:inherit;
+font-family: arial;
+box-shadow: inset 0 1px 5px;
+height: 53px;
+
+}
+
+
+
+
+
+.payButtonNameandIconx4{
+font-size:12px;
+width: 100%;
+border-radius: inherit;
+display: block;
+height:20px;
+
+}
+
+
+.payButtonNameandIconx4 {
+    font-size: 23px;
+    margin-top: -4px;
+    margin-bottom: 5px;
+}
+
+
+
+.payButtonNameandIconMOBIx4 {
+    font-size: 32px;
+    width: 100%;
+    border-radius: inherit;
+    display: block;
+    height: 30px;
+    margin-top: -6px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.payButtonIconx4{
+  border-radius: 5px;
+background-position: cover;
+background-size: 100%;
+background-repeat: no-repeat;
+background-color: white;
+display:inline-block;
+width: 40%;
+margin-right: 4px;
+padding: 2px;
+
+}
+.payButtonIconMOBIx4 {
+    border-radius: 5px;
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 44%;
+  
+    margin-right: 4px;
+}
+
+
+
+
+.PayIcon1x4, .PayIcon3x4 {
+font-size: 18px;
+color: black;
+height: inherit;
+}
+
+
+
+.PayIconMOBIx4{
+font-size: 21px;
+}
+
+ .PayIcon2x4, .PayIcon4x4{
+
+height: inherit;
+background-image: url("../img/visa.png");
+}
+
+
+
+
+
+
+
+
+.PaybuttonNamex4{
+  display: inline-block;
+  font-size: 12px;
+}
+.PaybuttonNameMOBIx4 {
+    display: inline-block;
+    font-size: 16px;
+    color:;
+}
+
+
+
+
+
+
+
+
+.PayButtonValuex4{
+display: block;
+font-size:16px;
+color:;
+}
+
+.PayButtonValueMOBIx4 {
+    display: block;
+    font-size: 20px;
+    color:;
+}
+
+
+
+
+
+.pyMOBIlabelx4 {
+
+    width: 125px;
+    padding: 13px 1px;
+    margin: 0px 7px 5px 7px;
+    background-color: inherit;
+    border: none;
+    font-size: 25px;
+    color: inherit;
+    font-family: arial;
+    box-shadow: inset 0 1px 8px;
+    height: 81px;
+
+}
+
+
+
+
+
+
+
+.fin2x4{
+
+opacity: .93;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+height:84px;
+width:100;
+   
+}
+
+
+
+
+.finBx4{
+
+border-radius:20px;
+padding:15px;
+width: 153px;
+margin:16px 10px;
+/*margin-right: 25px;*/
+font-family: arial;
+
+
+}
+
+
+
+
+#Scan2Yx4{
+
+   display:none;
+   padding: 27px 30px;
+
+ 
+}
+
+
+#ScanBILLDEx4{
+  display:none;
+}
+
+
+
+.ScanMachinex4 {
+
+border: none;
+z-index: 5000;
+position: absolute;
+height: 500px;
+width: 550px;
+display: none;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+transform: translate(25px, 15px);
+padding: 150px 30px;
+    padding-top: 150px;
+font-size: 20px;
+opacity: .95;
+border: none;
+color: rgb(102, 102, 102);
+font-family: candara;
+margin: 10px 3px;
+
+}
+
+
+
+.ATMQrCodePhotox4 {
+    width: 75%;
+    height: 238px;
+    border: 3px dashed black;
+    border-radius: 15px;
+    margin: -6px 10px 11px 54px;
+}
+
+
+
+.CaptureorCancelx4{
+
+background-color: inherit;
+padding: 15px 10px;
+margin: 12px 0px;
+width: 140px;
+font-weight: 1px;
+font-family: arial;
+height: 85px;
+font-size: 65px;
+border: none;
+color: grey;
+
+}
+
+
+.VerySmallMachine {
+    display: block;
+    font-size: 16px;
+}
+
+
+
+#ScanWithdrawx4, #ScanWithdrawx25{
+display: none;
+
+}
+
+
+#Withdraw4x1{
+  display:inline-block;
+}
+
+#ScanWithdrawx1{
+display: none;
+
+}
+
+.scanbil
+
+
+#submit2Yx4{
+
+}
+
+
+#submit2x4{
+display:none;
+}
+
+
+
+#exit2x4{
+display:none;
+
+}
+
+
+
+
+
+/*
+
+
+.confirm2x4{
+    z-index: 500;
+position:;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);
+   padding:;
+   font-size:20px;
+   opacity: 1;
+/*   left:90px;
+   bottom:2px;
+
+}*/
+
+
+/*
+.back2x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+
+ }
+*/
+
+
+ .confBack2Yx4{
+    z-index: 500;
+    position:;
+    height:100%;
+    width: 100%;
+    
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #071422;
+    border: none;
+    /*transform: translate(-10px, -14px);*/
+    display: none;
+    padding-top: 7px;
+    color: #3f3f3f;
+    padding-left: 24px;
+
+ }
+
+
+  .ScanconfBack2Yx4{
+
+    z-index: 500;
+    position:;
+    height:100%;
+    width: 100%;
+    
+border-bottom-right-radius: inherit;
+border-bottom-left-radius: inherit;
+
+    background-color: #071422;
+    border: none;
+    /*transform: translate(-10px, -14px);*/
+    display: none;
+    padding-top: 26px;
+
+ }
+
+
+
+
+.confirm2Yx4, .Scanconfirm2Yx4{
+
+z-index: 500;
+position: ;
+height: 70px;
+width: 210px;
+display:;
+border: none;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+/*transform: translate(80px, 439px);*/
+padding: ;
+font-size: 20px;
+opacity: 1;
+left: 90px;
+bottom: 2px;
+box-shadow: inset 0 1px 5px black;
+padding: 2px 0px;
+margin: 0px 1px 0px 90px;
+
+}
+
+
+
+.back2Yx4, .Scanback2Yx4{
+
+z-index: 500;
+position: relative;
+height: 70px;
+width: 210px;
+display:;
+border: none;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+/*transform: translate(310px, 439px);*/
+padding: 4px 0px 5px 0px;
+font-size: 20px;
+opacity: 1;
+left: 310px;
+bottom: 70px;
+box-shadow: inset 0 1px 5px black;
+
+ }
+
+
+ 
+
+
+
+ .confBack2x4{
+    z-index: 500;
+    position: relative;
+    height: 81px;
+    width: 601px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #071422;
+    border: none;
+    transform: translate(-10px, -14px);
+    display: none;
+
+ }
+
+
+
+
+
+
+
+  .confBack24x4{
+z-index: 2;
+position: absolute;
+height: 79px;
+width: 600px;
+background-color: #071422;
+border: none;
+transform: translate(0px, 435px);
+display: none;
+ }
+
+
+ .confirm24x4{
+    z-index: 500;
+position:absolute;
+   height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+  /* transform: translate(80px,  439px);*/
+   padding:;
+   font-size:20px;
+   opacity: 1;
+   left:90px;
+   bottom:2px;
+
+}
+
+
+
+.back24x4{
+    z-index: 500;
+position:absolute;
+    height:70px;
+   width:210px;
+   display:;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   /*transform: translate(310px,  439px);*/
+   padding:0px;
+   font-size:20px;
+   opacity: 1;
+   left:310px;
+   bottom:2px;
+}
+
+
+
+
+
+/*///////Schedule//////////*/
+.Schedulex4{
+
+position: absolute;
+font-size: 33px;
+height: 50px;
+width: 80px;
+transform: translate(222px, -53px);
+z-index: 1500;
+color: red;
+display:none;
+
+}
+
+
+
+
+
+.Schedulex4 > #datepicker {
+
+height: 19px;
+padding: 5px;
+margin: 5px 5px 5px 12px;
+width: 79px;
+background-color: white;
+border: none;
+font-weight: 1px;
+color:red;
+font-size: 13px;
+font-family: arial;
+text-align: center;
+float: ;
+clear: ;
+display: inline-block;
+position: relative;
+right: 11px;
+bottom: 30px;
+
+
+}
+
+
+.ScheduleMOBIx4 {
+    font-size: 40px;
+    transform: translate(207px, -107px);
+    display: none;
+}
+
+
+.ScheduleMOBIx4 > #datepicker {
+
+    height: 19px;
+    width: 85px;
+    font-size: 15px;
+    display: none;
+
+}
+
+
+
+
+/*/////////////////////////*/
+
+
+.depositCashx4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  90px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+    color:rgb(102, 102, 102);
+       font-family:candara;
+   
+}
+
+.depositCashx4  p{
+
+font-size:25px;
+}
+
+
+
+
+
+
+
+.DepositCCx4 label {
+
+    height: 82px;
+    width: 169px;
+    font-size: 39px;
+    border: 1px solid grey;
+    color: grey;
+    box-shadow: inset 0 1px 5px grey;
+    border-radius: 20px;
+    opacity: initial;
+    font-family: georgia;
+    padding: 14px 10px;
+
+}
+
+
+.DepositCx4{
+margin-top: -70px;
+display:none;
+}
+
+.DepositCx4 i{
+font-size: 50px;
+}
+
+
+.CheckPhoto {
+
+    width: 102%;
+    height: 230px;
+    border: 2px dashed black;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-top: 34px;
+
+}
+
+
+
+
+.CaptureDepositx4{
+  display:none;
+}
+
+
+
+
+.retrievex4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:90px 30px;
+   font-size:20px;
+   opacity: .99;
+   border:1px solid grey;
+}
+
+.retrievex4  p{
+
+font-size:12px;
+}
+
+
+
+.MerchCardChargedx4{
+
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:none;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px, 15px);
+   padding:115px 30px;
+   font-size:20px;
+   opacity: .99;
+  
+}
+
+
+
+.Confirmedx4{
+
+font-size: 80px;
+color: green;
+}
+
+.PanelCloseP{
+  font-size: 12px;
+}
+
+
+
+
+
+#billsx4{
+  margin-left:-130px;
+}
+
+
+.billsx4 {
+  display: none;
+   font-size: 20px;
+padding: 0px 0px 0px 76px
+}
+
+
+
+.billsButtonx4 {
+
+    border: none;
+    color:inherit;
+    background-color: inherit;
+    margin: -10px 12px 2px 16px;
+    border-radius: 1px;
+    box-shadow: inset 0 1px 5px;
+    width: 77px;
+
+}
+
+
+.billsMOBIx4 {
+
+    margin-left: 52px;
+    font-size: 40px;
+    padding-top: 22px;
+
+}
+
+
+
+
+.billsButtonMOBIx4 {
+
+    border: none;
+    color: inherit;
+    background-color: inherit;
+    margin: -10px 5px 2px 2px;
+    border-radius: 41px;
+    box-shadow: inset 0 1px 10px;
+    width: 120px;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+.BillWCountx4{
+
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    height: 20px;
+    width: 39px;
+    font-family: calibri;
+    position: absolute;
+    border-radius: 10px;
+    padding: 0px 1px 7px 10px;
+    font-size: 14px;
+    margin: 30px 10px 10px -31px;
+}
+  
+
+
+
+
+.BillWCountinputx4{
+  background-color: transparent;
+  border:none;
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+.LessBillWx4, .MoreBillWx4 {
+
+  border-radius: 20px;
+  height:30px;
+  width: 30px;
+  border:none;
+  position: absolute;
+background-color: inherit;
+border:1px solid;
+padding: 3px 1px;
+display: none;
+
+}
+
+
+
+
+
+/*.LessBillWx4{
+
+display: inline-block;
+margin: 27px 0px 21px -3px;
+}
+
+.MoreBillWx4{
+   margin: -3px 0px 9px 22px;
+   display: inline-block;
+}
+*/
+
+
+
+
+.LessBillW1x4{
+margin: -3px 0px 9px -57px;
+}
+.LessBillW2x4{
+margin: -3px 0px 9px -51px;
+}
+
+.LessBillW3x4{
+margin: -3px 0px 9px -51px;
+}
+.LessBillW4x4{
+margin: -3px 0px 9px -53px;
+}
+.LessBillW5x4{
+margin: -3px 0px 9px -47px;
+}
+
+
+
+
+.MoreBillW1x4{
+margin: -3px 0px 9px 27px;
+}
+.MoreBillW2x4{
+margin: -3px 0px 9px 22px;
+}
+.MoreBillW3x4{
+margin: -3px 0px 9px 22px;
+}
+.MoreBillW4x4{
+margin: -3px 0px 9px 22px;
+}
+.MoreBillW5x4{
+margin: -3px 0px 9px 17px;
+}
+
+
+
+
+
+
+.SpecifyWbillsx4{
+  display:none;
+}
+
+
+
+
+
+
+.wrongAmountx4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   color:red;
+   border:1px solid grey;
+     box-shadow: inset 0 1px 10px black;
+}
+
+
+
+
+
+
+.depositCheckx4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+
+
+.depositCheckx4  p{
+
+font-size:25px;
+}
+
+
+.checkCashSentx4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:60px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+   font-family:60px;
+}
+
+.checkCashSentx4 p{
+
+font-size:25px;
+}
+
+.savCashSentx4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+.savCashSentx4 p{
+
+font-size:25px;
+}
+
+
+.selectx4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(35px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+
+}
+
+.selectx4 p{
+
+font-size:25px;
+}
+
+
+
+.goodbyex4{
+    z-index: 800;
+position:absolute;
+   height:485px;
+   width:568px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(42px, 25px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:none;
+   box-shadow: 0px 2px 4px;
+}
+
+
+.goodbyex4 p{
+
+font-size:25px;
+}
+
+.goodbyex4 h2{
+
+font-size:40px;
+}
+
+
+
+
+
+
+
+.TapBx4:hover{
+  cursor: pointer;
+
+  
+}
+
+
+.goodbyex4 label{
+  height:60px;
+  width:100px;
+  font-size:25px;
+ border: 1px solid grey;
+box-shadow: inset 0 1px 5px grey;
+border-radius: 20px;
+padding: 13px 5px;
+}
+
+
+
+
+
+
+
+
+
+/*///////////////GoodBye MOBI /////////////////*/
+/*///////////////GoodBye MOBI /////////////////*/
+
+
+.goodbyeMOBIx4 {
+
+    z-index: 800;
+    position: absolute;
+    height: 93%;
+    width: 550px;
+    display: none;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    /*transform: translate(30px, 100px);*/
+    padding: 292px 30px;
+    font-size: 15px;
+    opacity: 1;
+    border: 1px solid grey;
+    margin: 30px;
+    color: #262626;
+
+}
+
+
+.goodbyeMOBIx4 p{
+
+font-size:25px;
+margin: 20px;
+}
+
+.goodbyeMOBIx4 h2{
+
+font-size:40px;
+}
+
+
+
+
+.TapBx4 {
+
+    color: white;
+    background-color: grey;
+    width: 201px;
+    height: 60px;
+    padding: 11px 0px 0px 0px;
+    border-radius: 15px;
+    box-shadow: none;
+    margin: 59px auto;
+
+}
+
+
+
+.TapBx4:hover{
+  cursor: pointer;
+
+  
+}
+
+
+.goodbyeMOBIx4 label {
+
+    height: 115px;
+    width: 227px;
+    font-size: 53px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 1px 2px grey;
+    border-radius: 38px;
+        border-top-right-radius: 38px;
+        border-bottom-right-radius: 38px;
+    border-top-right-radius: 38px;
+    border-bottom-right-radius: 38px;
+    border-top-right-radius: 38px;
+    border-bottom-right-radius: 38px;
+    padding: 18px 5px;
+    font-family: calibri;
+    background-color: black;
+    color: white;
+
+}
+
+
+/*///////////////GoodBye MOBI /////////////////*/
+/*///////////////GoodBye MOBI /////////////////*/
+
+
+
+/*///////////////Send Wire Transfer////////////////////*/
+
+
+
+
+
+.sendMoney2x4{
+  display:none;
+  z-index: 50;
+  position: absolute;
+  text-align: center;
+  width: 600px;
+  height: 323px;
+  padding: 20px;
+  background-color: white;
+  font-size: 15px;
+  color: grey;
+  /* transform: translate(25px, 65px); */
+  border-radius: 30px;
+  margin: 3.5px;
+  padding-top: 20px;
+  border:1px solid grey;
+  font-family:candara;
+   
+}
+
+
+
+/*.sendMoney2x4 input{
+width: 360px;
+height:60px;
+margin:10px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+
+
+}*/
+
+
+
+
+
+
+.sendAccountx4{
+width: 425px;
+height:58px;
+margin:0px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+font-size:28px;
+background-color: white;
+
+}
+
+
+.sendRoutingx4{
+width: 425px;
+height:58px;
+margin:0px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+font-size:28px;
+background-color: white;
+
+}
+
+
+
+
+
+.TelContainerx4 {
+
+    margin: 10px;
+    background-color:;
+    height: 80px;
+
+}
+
+
+.ZipContainerx4{
+
+    margin: -15px;
+    background-color:;
+    height: 80px;
+
+}
+
+
+
+.WireTelephonex4{
+width: 250px;
+height:58px;
+margin:0px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+font-size:28px;
+background-color: white;
+
+}
+
+
+.WireZipCodex4{
+width: 160px;
+height:58px;
+margin:0px 20px ;
+font-size:30px;
+color:#286090;
+text-align: center;
+border:none;
+border-radius: 15px;
+font-family: calibri;
+box-shadow: inset 0 1px 5px grey;
+font-size:28px;
+background-color: white;
+
+}
+
+
+.wireSpanx4{
+display:block;
+font-size: 17px;
+color:whitesmoke;
+
+}
+
+
+
+
+/*.SwContainers{
+background-color: green;
+opacity: .97;
+height:80px;
+
+}
+*/
+
+/*///////////*/
+.SwCoversx4{
+
+  background-color:;
+  opacity: .97;
+  height:80px;
+  width:100px;
+  position:absolute;
+
+}
+
+
+.SwAccCoverx4{
+
+    right: 84px;
+    width: 439px;
+}
+
+
+.SwRCoverx4{
+
+    top: 145px;
+    right: 84px;
+    width: 439px;
+
+}
+
+
+.SwTelCoverx4{
+
+    width: 270px;
+    right: 253px;
+    bottom: 15px;
+
+}
+
+
+
+.SwZipCoverx4{
+
+    right: 64px;
+    bottom: 16px;
+    width: 171px;
+}
+
+/*/////////*/
+
+
+.SwImputx4{
+
+}
+
+.SelectedSwImputx4{
+  border:5px solid grey;
+}
+
+
+
+
+
+
+
+
+.sendMoney2x4 input:focus{
+
+box-shadow: 0px 0px 15px 0px lightblue;
+
+}
+
+
+
+/*#closeSendx4{
+
+
+  z-index: 50;
+position: absolute;
+text-align: center;
+width: 60px;
+height: 60px;
+padding: 5px;
+background-color:white;
+font-size:15px;
+color:grey;
+transform: translate(190px, 24px);
+border:none;
+border-radius: 30px;
+font-size: 20px;
+color:red;
+font-family: arial;
+box-shadow: inset 0 1px 10px lightgrey;
+
+}*/
+
+
+.sendMoney3x4{
+  display:none;
+  z-index: 50;
+position: absolute;
+text-align: center;
+width: 550px;
+height: 260px;
+padding: 20px;
+background-color:white;
+font-size:15px;
+color:grey;
+transform: translate(25px,  65px);
+border-radius: 30px;
+
+
+}
+
+
+
+.sendMoney3x4 input{
+width: 360px;
+height:60px;
+margin:10px 20px ;
+font-size:20px;
+color:#286090;
+text-align: center;
+border:1px solid black;
+border-radius: 10px;
+font-family: calibri;
+
+
+}
+
+
+.sendMoney3x4 input:focus{
+width: 360px;
+height:60px;
+margin:10px;
+font-size:20px;
+color:#286090;
+text-align: center;
+border:1px solid blue;
+border-radius: 10px;
+box-shadow: 0px 0px 15px 0px lightblue;
+
+}
+
+
+
+
+
+.sendMoney11x4{
+  display:none;
+  z-index: 500;
+position: absolute;
+text-align: center;
+width: 600px;
+height: 320px;
+padding: 20px;
+background-color:white;
+padding: 15px 20px 10px 17px;
+font-size:10px;
+color:grey;
+
+border-radius: 30px;
+border:1px solid grey;
+margin:4px;
+   font-family:candara;
+  
+
+}
+
+
+
+
+
+.SendRequestx4{
+}
+
+
+
+.SendReqx4 {
+
+    background-color: orange;
+    height: 40px;
+    width: 160px;
+    display: block;
+    border-radius: 15px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px;
+
+}
+
+
+
+#SendQuickx4{
+border-bottom-right-radius:0px; 
+border-top-right-radius:0px;
+}
+
+
+#RequestQuickx4{
+border-bottom-left-radius:0px; 
+border-top-left-radius:0px;
+}
+
+
+
+
+
+
+/* .servicePanelsMOBIx4 span{
+  font-size: 16px;
+  font-family:;
+ }
+*/
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+.QuickSentx4{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 70px 10px 70px;
+      font-family:candara;
+   
+   font-size:15px;
+   opacity: .98;
+   border:1px solid grey;
+   color:rgb(102, 102, 102);
+}
+
+#quickPayAmountx4{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+#happyFriendx4{
+
+    border:none;
+    font-size: 30px;
+    width:20%;
+
+
+}
+
+
+/*////////*/
+
+
+
+.CreditCardsx4{
+  display:none;
+  z-index: 600;
+position: absolute;
+text-align: center;
+width: 701px;
+height: 320px;
+padding: 20px;
+background-color:white;
+font-size:20px;
+color:grey;
+border-radius: 30px;
+border:1px solid lightgrey;
+margin: 4px;
+font-family: georgia;
+}
+
+
+
+
+
+
+
+
+.CreditCardsx4 span{
+
+font-size:11px;
+
+}
+
+
+
+
+
+
+.creditcCardsx4{
+
+    margin-left: 5px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+.card1x4, .card2x4, .card3x4, .card4x4 {
+    margin: 5px 9px;
+    box-shadow: none;
+    box-shadow: none;
+    border-radius: 25px;
+
+    border: none;
+    font-family: calibri;
+    width: 133px;
+    /*background-image: linear-gradient(to bottom right ,#f6f0f0, #dedede);*/
+    box-shadow: inset 0 1px 10px grey;
+    padding-top: 47px;
+}
+
+
+.Cardx4 span{
+
+  display:block;
+  margin:10px 1px;
+}
+
+
+
+
+.CardPaymentx4{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 70px 10px 70px;
+      font-family:candara;
+   
+   font-size:15px;
+   opacity: .98;
+   border:1px solid grey;
+   color:rgb(102, 102, 102);
+   font-family: arial;
+}
+
+#cardPaymentAmountx4{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+#happyCardx4{
+
+    border:none ;
+    font-size: 30px;
+    width:50%;
+
+
+
+
+}
+
+
+
+.CardStatementx4{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height: 500px;
+margin:10px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.CardLabel {
+    padding: 13px 0px;
+    font-weight: bold;
+    font-size: 18px;
+
+    box-shadow: none;
+    border-radius: 25px 25px 0px 0px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    font-weight: bold;
+    background-color: grey;
+    height: 44px;
+    color: white;
+    background-image: linear-gradient(to bottom right ,grey, #47474a);
+  
+}
+
+
+
+
+.CardLabelMOBI {
+
+    height: 54px;
+    font-size: 28px;
+ 
+}
+
+.CardLogox4{
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 5000;
+    background-color: white;
+    width: 55px;
+    height: 27px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+
+.CardLogoMOBIx4{
+
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 5000;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    width: 86px;
+    height: 39px;
+    margin: -6px 5px -6px 1px;
+}
+
+
+
+
+
+
+.CardLogo1x4 {
+    background-image: url("../img/visa.png");
+}
+
+
+.CardLogo2x4 {
+    background-image: url("../img/visa.png");
+}
+
+.CardLogo3x4 {
+    background-image: url("../img/master.jpg");
+}
+
+
+.CardLogo4x4 {
+    background-image: url("../img/visa.png");
+}
+
+
+
+
+.CardLabelStatsx4{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    color: #b9b2b2;
+    font-size: 11px;
+    text-align: left;
+    height: 19px;
+    font-weight: 10;
+}
+
+
+
+.CardLabelStatsMOBIx4{
+display: block;
+width: 100%;
+background-color: transparent;
+color:  #b9b2b2;
+font-size: 17px;
+text-align: left;
+height: 31px;
+}
+
+
+
+
+
+
+.cardStatsInputx4{
+    width: 71%;
+    background-color: transparent;
+    font-size: 17px;
+    color: grey;
+    border: none;
+}
+.cardStatsInputMOBIx4{
+width: 71%;
+background-color: transparent;
+font-size: 30px;
+color: grey;
+border: none;
+
+}
+
+
+.lockUnlockCardx4{
+
+width: 33px;
+height: 33px;
+border-radius: 12px;
+border: none;
+box-shadow: inset 0 1px 5px grey;
+color: grey;
+opacity: 0.75;
+font-size: 17px;
+position: absolute;
+top: 48px;
+right: -6px;
+display: none;
+}
+
+
+.lockUnlockCardMOBIx4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 0 1px 5px grey;
+    font-size: 28px;
+    position: absolute;
+    top: 62px;
+    right: -14px;
+}
+
+
+
+.Unlock1x4, .Unlock2x4, .Unlock3x4, .Unlock4x4{
+  display:inline-block;
+}
+
+.lock1x4, .lock2x4, .lock3x4, .lock4x4{
+ background-color: yellow;
+ color: black;
+}
+
+.CreditBalMinInputx4 {
+    font-size: 16px;
+}
+
+.CreditBalMinMOBIx4{
+  height:30px;
+}
+
+
+
+
+
+
+
+.CreditBalMinInputMOBIx4{
+font-size: 24px;
+}
+
+
+.Damountx4{
+color:#b00e0e;
+}
+
+
+
+
+.CardImputLabelx4 {
+
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: calibri;
+    position: absolute;
+    right: 20px;
+    border-radius: 0px 0px 15px 15px;
+    bottom: -31px;
+    padding-left: 14px;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 27px;
+    box-shadow: inset 0px 0px 4px grey;
+    width: 92px;
+
+}
+
+
+.CardImputLabelMOBIx4 {
+
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: calibri;
+    position: absolute;
+    right: 19px;
+    border-radius: 15px 15px 31px 31px;
+    bottom: -25px;
+    padding-left: 29px;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 50px;
+    box-shadow: inset 0 1px 7px grey;
+    width: 134px;
+    font-size: 23px;
+    width: 188px;
+
+}
+
+
+
+
+
+
+.CardImputx4 {
+    height: 40px;
+    font-size: 23px;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    color: whitesmoke;
+    border: none;
+    padding-left: 2px;
+}
+.CardImputMOBIx4{
+  height: 40px;
+  font-size:34px;
+  background-color: transparent;
+  width:100%;
+  height:100%;
+  border-radius: inherit;
+  color:whitesmoke;
+  border:none;
+  padding-left: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#CardNamex4{
+
+width:40%;
+color:navy;
+font-size: 30px;
+font-family: candara;
+border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////BILL PAYMENTS////////////////////////////*/
+
+
+.PayBillsx4{
+  display:none;
+  z-index: 600;
+position: absolute;
+text-align: center;
+width: 600px;
+height: 320px;
+padding: 20px;
+background-color:white;
+font-size:20px;
+color:grey;
+border-radius: 30px;
+border:1px solid lightgrey;
+margin: 4px;
+font-family: georgia;
+}
+
+
+
+
+
+.PayBillsx4 span{
+
+font-size:10px;
+ font-weight:bold;
+
+}
+
+.SelectBillPayx4{
+  padding-left: 52px;
+  margin-top: -6px;
+}
+
+
+.SelectBillPayMOBIx4{
+  padding-left: 31px;
+  margin-top: -6px;
+}
+
+
+
+.PBillx4 {
+    margin: 8px 30px 20px 63px;
+        margin-left: 63px;
+    box-shadow: none;
+    width: 105px;
+    padding: 18px 13px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 10px grey;
+    border:none;
+    font-family: calibri;
+    height: 98px;
+}
+
+
+.PBillx4 span{
+
+    display: block;
+    margin: 3px 0px;
+    font-size: 11px;
+
+}
+
+
+.BillPaySentx4{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px, 15px);
+   padding:80px 30px 10px 30px;
+   font-family: georgia;
+   font-size:20px;
+   opacity: .98;
+   border:none;
+   font-family:candara;
+}
+
+
+
+
+.PbillLabelStatsx4 {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    color: #b9b2b2;
+    font-size: 11px;
+    text-align: left;
+    height: 11px;
+}
+
+.PbillLabelStatsMOBIx4{
+display: block;
+width: 100%;
+background-color: transparent;
+color:  #b9b2b2;
+font-size: 17px;
+text-align: left;
+height:20px;
+}
+
+
+
+
+
+
+.PbillLabelSmallx4 {
+    height: 10px;
+}
+
+.PbillLabelSmallMOBIx4{
+  height:19px;
+}
+
+
+
+
+.PbillStatsInputx4 {
+    width: 78%;
+    background-color: transparent;
+    font-size: 14px;
+    color: grey;
+    border: none;
+}
+
+
+.PbillStatsInputMOBIx4{
+width: 59%;
+background-color: transparent;
+font-size: 26px;
+color: grey;
+border: none;
+}
+
+
+
+
+
+.PbillSmallInputx4 {
+    font-size: 15px;
+}
+
+.PbillSmallInputMOBIx4{
+  font-size: 18px;
+}
+
+
+
+
+.PbillDamountx4{
+  color: #da1a1a;
+}
+
+
+
+
+
+
+
+.PBillImputLabelx4 {
+
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: calibri;
+    border-bottom: none;
+    position: absolute;
+    left: 2px;
+    bottom: -20px;
+    background-color: white;
+    border-radius: 3px 3px 20px 20px;
+    width: 101px;
+    height: 32px;
+    padding-left: 17px;
+    box-shadow: inset 0 0px 4px grey;
+
+}
+
+
+
+
+
+.PBillImputLabelMOBIx4 {
+
+    font-size: 26px;
+    color: whitesmoke;
+    font-family: calibri;
+    border-bottom: none;
+    position: absolute;
+    left: 38px;
+    bottom: -29px;
+    background-color: white;
+    border-radius: 22px;
+    width: 150px;
+    height: 48px;
+    padding-left: 17px;
+    box-shadow: inset 0 0px 4px grey;
+
+}
+
+
+
+
+
+.PBillImputx4{
+
+padding: 0px 0px 0px 0px;
+border: none;
+
+color:whitesmoke;
+width:100%;
+height: 100%;
+background-color: transparent;
+font-size: 24px;
+
+}
+
+.PBillImputMOBIx4 {
+
+    padding: 1px 0px 0px 0px;
+    font-size: 39px;
+
+}
+
+
+
+
+
+.BillPaymentx4{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 70px 10px 70px;
+      font-family:candara;
+   
+   font-size:15px;
+   opacity: .98;
+   border:1px solid grey;
+   color:rgb(102, 102, 102);
+}
+
+
+
+/*////////////////End of Bill Payment////////////////////////////////*/
+
+
+
+
+
+
+
+
+#cardPaymentAmountx4{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+#happyCardx4{
+
+    border:none ;
+    font-size: 30px;
+    width:50%;
+
+
+
+
+}
+
+
+
+.CardStatementx4{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height: 500px;
+margin:10px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+
+
+
+}
+
+#CardNamex4{
+
+width:40%;
+color:navy;
+font-size: 30px;
+font-family: candara;
+border:none;
+}
+
+
+/*//////////////////////////////////////////////////////////////*/
+
+.PbillLogox4{
+
+    box-shadow:none;
+    height: 35%;
+    width: 100%;
+    background: grey;
+    opacity: 0.9;
+    padding: 0px 1px;
+    border-radius: inherit;
+    font-family: calibri;
+    font-size: 21px;
+    position: absolute;
+    left: 0px;
+    border-radius: 27px 27px 0px 0px;
+    top: 10px;
+    background-color: transparent;
+    background-image: none;
+}
+
+
+
+.PbillLogoMOBIx4 {
+
+    box-shadow: none;
+    height: 38%;
+    width: 100%;
+    background: grey;
+    background-color: grey;
+    background-image: none;
+    opacity: 0.9;
+    padding: 1px 3px;
+    border-radius: inherit;
+    font-family: calibri;
+    font-size: 21px;
+    position: absolute;
+    left: 0px;
+    border-radius: 27px 27px 0px 0px;
+top: 10px;
+background-color: white;
+/*background-image: linear-gradient(to bottom right ,grey, #47474a);
+background-image: linear-gradient(to bottom right ,#e7e7e7, #575757);*/
+background-image: none;
+background-color: transparent;
+
+}
+
+
+
+
+.pbcoverx4 {
+
+    box-hadow: inset 0 1px 5px grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 84%;
+    border-radius: 10px;
+    margin: 4px 3px 0px 12px;
+    background-color: wheat;
+    width: 80px;
+}
+
+
+.pbcoverMOBIx4 {
+    box-hadow: inset 0 1px 5px grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 84%;
+    border-radius: 10px;
+    margin: 4px 3px 0px 29px;
+    background-color: wheat;
+    width: 166px;
+}
+
+
+.pbcover1x4{
+  /*box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/bluc.png");
+
+}
+
+.pbcover2x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+  background-image: url("../img/verizon.jpg");
+
+
+}
+
+.pbcover3x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/fit.jpg");
+
+}
+
+.pbcover4x4{
+  /*box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/StateFarm.jpg");
+
+}
+
+.pbcover5x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/Netflix.png");
+
+}
+
+.pbcover6x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/pblogos/pblogo7.jpg");
+
+}
+
+.pbcover7x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/pblogos/pblogo7.jpg");
+
+}
+
+.pbcover8x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/pblogos/pblogo8.png");
+
+}
+
+.pbcover9x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/pblogos/pblogo9.png");
+
+}
+
+.pbcover10x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/pblogos/pblogo10.jpg");
+
+}
+
+.pbcover11x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/pblogos/pblogo11.jpg");
+
+}
+
+.pbcover12x4{
+ /* box-shadow:inset 0 1px 5px grey;*/
+background-image: url("../img/pblogos/pblogo12.jpg");
+
+}
+
+
+
+
+
+
+/*////////////////////////////////////////////////*/
+
+
+
+.Merchantx4{
+
+    display:none;
+    z-index: 600;
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 320px;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+    color: grey;
+    border-radius: 30px;
+    border:;
+    margin: 4px;
+    font-family:;
+
+}
+
+
+
+
+
+
+.MerchantLabelsContx4{
+
+width:100%;
+padding:;
+margin-top: 15px;
+height: 238px;
+}
+
+
+
+
+
+.MerchantLabelx4{
+
+height:118px;
+padding: 25px 0px 5px 0px;
+margin-bottom: 10px;
+font-size: 15px;
+color: whitesmoke;
+border:none;
+padding:11px;
+}
+
+.MerchantImputx4{
+
+height: 65px;
+background-color: white;
+border: none;
+box-shadow: inset 0 1px 7px grey;
+border-radius: 10px;
+text-align: center;
+color:grey;
+font-family: calibri;
+font-size:28px;
+
+}
+
+
+
+
+.SelectedMerchantLabel{
+border:6px solid grey;
+}
+
+
+
+
+
+
+.MCardx4 {
+width:450px;
+float:left;
+
+}
+
+
+.MSwipex4{
+  width:111px;
+  color:;
+  font-size: 15px;
+}
+
+.MSwipex4 i{
+font-size: 60px;
+color:lightgrey;
+}
+
+
+
+
+
+
+
+
+.MDatex4{
+  width:190px;
+margin:0px 5px;
+float:left;
+}
+
+
+.MCBDx4{
+  width:150px;
+margin:0px 5px;
+float:left;
+}
+
+.MZipCodex4{
+  width:190px;
+margin:0px 5px;
+float:right;
+}
+
+
+
+
+
+
+/*covers*/
+
+.MCardCoverx4 {
+width:450px;
+float:left;
+height:inherit;
+background-color: transparent;
+position:absolute;
+transform: translate(-220px, -103px);
+
+}
+
+
+.MSwipeCoverx4{
+  width:111px;
+  color:;
+  font-size: 15px;
+  height:inherit;
+  background-color: transparent;
+  position:absolute;
+  transform: translate(-85px, -38px);
+}
+
+
+
+.MDateCoverx4{
+  width:190px;
+margin:0px 5px;
+float:left;
+height:inherit;
+background-color: transparent;
+position:absolute;
+transform: translate(-107px, -104px);
+}
+
+
+.MCBDCoverx4{
+  width:150px;
+margin:0px 5px;
+float:left;
+height:inherit;
+background-color: transparent;
+position:absolute;
+transform: translate(-83px, -104px);
+}
+
+.MZipCodeCoverx4{
+  width:190px;
+margin:0px 5px;
+float:right;
+height:inherit;
+background-color: transparent;
+position:absolute;
+transform: translate(-107px, -104px);
+}
+
+/*/////*/
+
+
+
+
+
+.MCardImputx4{
+  display:block;
+width: 95%;
+}
+
+.MSwipex4 span{
+ display:block;
+ font-size: 50px;
+ color:grey;
+}
+
+.MDateImputx4{
+  display:block;
+width: 95%;
+}
+
+.MCBDImputx4{
+  display:block;
+width: 95%;
+}
+
+.MZipCodeImputx4{
+  display:block;
+width: 95%;
+}
+
+
+
+
+.SwipeCardx4 {
+    display:none;
+    height: 335px;
+    background-color:white;
+    border: none;
+    position: relative;
+    bottom: 324px;
+    padding: 100px 50px;
+}
+
+
+.SWcardx4{
+  font-size: 60px;
+}
+
+
+
+.SwButtonx4 {
+    display:;
+    background-color: transparent;
+    color: red;
+    font-size: 43px;
+    width: 60px;
+    height: 70px;
+    border: none;
+    float: left;
+    position: absolute;
+   right: 524px;
+top: -10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*//////////////*/
+
+
+.Loanx4 {
+    display: none;
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 320px;
+    padding: 20px 45px;
+    background-color: white;
+    font-size: 12px;
+    color: grey;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    margin: 4px;
+    font-family: georgia;
+}
+
+
+
+
+
+
+
+.TakeLoansx4 span{
+
+font-size:10px;
+
+}
+
+.TakeLoanx4{
+  margin-left: 20px;
+}
+
+.LoanParrax4{
+  font-size: 13px;
+}
+
+
+
+.loanLabelx4 {
+
+    box-shadow: inset 0 1px 10px grey;
+    border-radius: 6px 6px 0px 0px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding: 7px 0px;
+    font-weight: bold;
+    background-color: whitesmoke;
+   border-radius: 15px 15px 0px 0px;
+
+}
+
+
+
+
+.TLoan1x4, .TLoan2x4, .TLoan3x4, .TLoan4x4, .TLoan5x4, .TLoan6x4 {
+    margin: 18px 30px 19px 10px;
+        margin-left: 11px;
+    box-shadow: none;
+    width: 130px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 5px white;
+    border: 1px solid grey;
+    font-family: calibri;
+    height: 137px;
+    font-size: 20px;
+
+}
+
+
+.TLoanx4 span{
+
+  display: block;
+}
+
+
+.TLoanSpanx4{
+
+  font-size: 14px;
+}
+
+.TLoanPamount{
+  font-size: 25px;
+  color:darkGreen;
+}
+
+
+
+/*#closeSendCard{
+
+
+  z-index: 50;
+position: absolute;
+text-align: center;
+width: 60px;
+height: 60px;
+padding: 5px;
+background-color:white;
+font-size:15px;
+color:grey;
+
+border:none;
+border-radius: 30px;
+font-size: 20px;
+color:red;
+font-family: arial;
+box-shadow: inset 0 1px 10px lightgrey;
+position: relative;
+bottom: 59px;
+left: 269px;
+
+}*/
+
+.BillPaymentx4{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:50px 70px 10px 70px;
+      font-family:candara;
+   
+   font-size:15px;
+   opacity: .98;
+   border:none;
+   color:rgb(102, 102, 102);
+}
+
+#cardPaymentAmountx4{
+
+    border:none ;
+    font-size: 30px;
+    width:15%;
+}
+
+#happyCardx4{
+
+    border:none ;
+    font-size: 30px;
+    width:50%;
+
+
+
+
+}
+
+
+
+.CardStatementx4{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height: 500px;
+margin:10px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+
+
+
+}
+
+#CardNamex4{
+
+width:40%;
+color:navy;
+font-size: 30px;
+font-family: candara;
+border:none;
+}
+
+
+
+
+.TLoanImputLabelx4{
+
+font-size: 17px;
+color:whitesmoke;
+font-family: calibri;
+
+}
+
+
+
+.TLoanImputx4{
+
+width: 80px;
+height: 23px;
+border: ;
+/*margin: 3px 31px 5px 41px;*/
+padding: 0px 0px 0px 0px;
+border: none;
+border-bottom: 1px solid whitesmoke;
+background-color: white;
+color:whitesmoke;
+
+}
+
+.TLoanImputx4{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+.TLoan1ImputLabelx4{
+
+margin: 3px 0px 5px 0px;
+position: relative;
+right: 3px;
+top: 14px;
+
+}
+
+.TLoan2ImputLabelx4{
+margin: 3px 0px 5px 0px;
+position: relative;
+right: 2px;
+top: 14px;
+  
+}
+
+.TLoan3ImputLabelx4{
+margin: 3px 0px 5px 0px;
+position: relative;
+right: -1px;
+top: 14px;
+  
+}
+
+.TLoan4ImputLabelx4{
+margin: 3px 0px 5px 0px;
+  position: relative;
+right: 287px;
+bottom: 16px;
+}
+
+.TLoan5ImputLabelx4{
+margin: 3px 0px 5px 0px;
+  position: relative;
+right: 209px;
+bottom: 16px;
+
+  
+}
+
+/*.TLoan6ImputLabelx4{
+margin: 3px 0px 5px 0px;
+  position: relative;
+right: 62px;
+bottom: 16px;
+}*/
+
+
+/*////////////////////////////////////////////////*/
+
+
+
+.LoanGrantedx4, .OkChangePinx4, .BuyThanksx4, .WrTransferSentx4{
+  display:none;
+  z-index: 500;
+  position:absolute;
+   height:400px;
+   width:550px;
+   
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px, 15px);
+   padding:50px 30px 10px 30px;
+   font-family: georgia;
+   font-size:20px;
+   opacity: .98;
+   border:1px solid grey;
+   font-family:candara;
+
+}
+
+
+
+
+#loanAmountx4 {
+    border: none;
+    font-size: 50px;
+    width: 40%;
+}
+
+
+
+/*///////////////////*/
+
+
+
+
+.sendMoney3x4 button{
+
+
+  z-index: 50;
+position: absolute;
+text-align: center;
+width: 60px;
+height: 60px;
+padding: 5px;
+background-color:white;
+font-size:15px;
+color:grey;
+transform: translate(85px,  -5px);
+border:1px solid grey;
+border-radius: 30px;
+font-size: 20px;
+
+
+
+
+}
+
+.sendMoney3x4 button:hover{
+
+
+cursor:pointer;
+  box-shadow: 0px 0px 15px 0px lightblue;
+      color:red;
+
+
+
+
+}
+
+
+
+
+/*
+#routingx4{
+  font-size:27px;
+
+
+}
+
+#accountx4{
+  font-size:27px;
+
+
+}*/
+
+
+.tranToCheckingx4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+
+
+
+
+.tranToSavingsx4{
+    z-index: 500;
+position:absolute;
+   height:400px;
+   width:550px;
+   display:none;
+   border:5px solid white;
+   border-radius:20px;
+   background-color: white;
+   text-align: center;
+   transform: translate(25px,  100px);
+   padding:30px 30px;
+   font-size:20px;
+   opacity: .95;
+   border:1px solid grey;
+}
+
+
+
+
+
+.tranToCheckingx4, .tranToSavingsx4 input{
+  font-size:30px;
+}
+
+
+.tranToSavingsx4 input{
+
+  font-size:36px;
+  border:none;
+
+}
+
+
+#inCheckSentx4{
+  width:100px;
+   color:black;
+   font-size:30px;
+   border:none;
+   left:200px;
+
+} 
+
+
+#inSavSentx4{
+   width:100px;
+   color:black;
+   font-size:30px;
+   border:none;
+  left:200px;
+
+
+}
+
+
+
+#inCheckx4{
+   width:100px;
+   color:black;
+   font-size:30px;
+   border:none;
+
+
+
+  } 
+
+
+
+  #inSavx4{
+   width:100px;
+   color:black;
+   font-size:30px;
+   border:none;
+
+
+  }
+
+  .SelectFriendx4 {
+
+    margin: 5px 10px 5px 78px;
+    width: 100%;
+ 
+}
+
+
+
+.friendsx4 {
+
+    display: inline-block;
+    width: 78px;
+    height: 69px;
+    margin: 14px 50px 49px 50px;
+    margin-left: 50px;
+    color: whitesmoke;
+    font-size: 8px;
+background-position:center;
+background-size: cover;
+background-color: white;
+
+}
+
+
+
+
+.ToogleLSx4{
+  border:none;
+  border-radius: 50%;
+  background-color:whitesmoke;
+  height: 15px;
+  width: 15px;
+  
+}
+
+.ToogleLShowParrax4{
+
+  border:none;
+  border-radius: 50%;
+  background-color:whitesmoke;
+  height: 15px;
+  width: 15px;
+  display: none;
+
+}
+
+
+.ToogleLSx4, .ToogleLShowParrax4{
+top: 40px;
+left: 89px;
+border: 1px solid lightgrey;
+height: 45px;
+width: 35px;
+border-radius: 6px;
+font-size: 16px;
+padding: 1px 2px;
+color: grey;
+background-color: transparent;
+}
+
+
+.ToggleFriendsx4{
+  position: absolute;
+  right: 22px;
+}
+
+
+
+.SpecifySendReQAmountx4 {
+
+    background-color: white;
+    border: none;
+    box-shadow:none;
+    border-radius: 12px;
+    position: absolute;
+    top: 68px;
+    right: 1px;
+    width: 117px;
+    height: 30px;
+    padding: 5px 5px 0px 6px;
+    color: grey;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 3px lightgrey;
+}
+
+
+
+.SpecifySendReQAmountMOBIx4 {
+
+    background-color: white;
+    border: none;
+    box-shadow: inset 0px 0px 4px lightgrey;
+    border-radius: 18px;
+    position: absolute;
+    top: 114px;
+    right: 0px;
+    width: 129px;
+    height: 45px;
+    padding: 2px 5px 0px 6px;
+    color:grey;
+    border: 1px solid lightgrey;
+
+}
+
+
+
+.SpecifySendReQAmountLinearx4 {
+
+    background-color: white;
+    box-shadow: none;
+    border-radius: 0px 18px 18px 0px;
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    width: 129px;
+    height: 90%;
+    padding: 18px 5px 0px 6px;
+    color: lightgrey;
+    border: none;
+    z-index: 10;
+
+}
+
+
+
+
+
+.friendImputx4 {
+
+    width: 79px;
+    height: 21px;
+    font-size: 23px;
+    font-family: arial;
+    font-weight: 10;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    color:lightgrey;
+    top: 0px;
+    right: 2px;
+}
+
+
+  .friendImputMOBIx4 {
+
+width: 100px;
+height: 30px;
+font-size: 34px;
+top: 6px;
+right: 2px;
+
+}
+
+
+.ContactNamex4 {
+
+    top: -85px;
+    position: absolute;
+    font-size: 11px;
+    left: -9px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    width: 90px;
+    font-weight: 100;
+    color: grey;
+
+}
+
+
+.ContactNameMOBIx4 {
+
+    top: -144px;
+    position: absolute;
+    font-size: 21px;
+    left: -10px;
+    font-family: calibri;
+    font-weight: 500;
+    width: 121px;
+
+}
+
+
+
+.ContactNameLinearx4 {
+    top: 24px;
+    position: absolute;
+    font-size: 21px;
+    left: -278px;
+    font-family: calibri;
+    font-weight: 500;
+    width: 121px;
+    text-align: left;
+}
+
+
+
+
+
+.friendsSpanx4 {
+    position: relative;
+    top: -3px;
+    color: lightgrey;
+    right: -1px;
+    margin-bottom: 16px;
+}
+
+
+.friendsSpanMOBIx4 {
+    position: relative;
+    top: -5px;
+    color: lightgrey;
+    right: -2px;
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+/*////////Memo////////////*/
+
+.FriendMemox4{
+  display:none;
+  background-color: transparent;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    color: #424242;
+    padding: 2px 10px;
+    position:absolute;
+ left: 53px;
+top: 8px;
+    box-shadow: inset 0 1px 5px;
+    opacity: .95;
+}
+
+
+.FriendMemoMOBIx4 {
+    top: 17px;
+    left: 61px;
+    opacity: .95;
+    height: 82px;
+    width: 73px;
+    font-size: 38px;
+    box-shadow: inset 0 1px 10px;
+}
+
+
+.FriendMemoMOBIxLinearx4 {
+
+top: -2px;
+left: 254px;
+opacity: .95;
+height: 62px;
+width: 73px;
+font-size: 27px;
+box-shadow: inset 0 1px 10px;
+display: inline-block;
+color: white;
+
+}
+
+
+
+
+.JeffMemox4, .MariaMemox4, .JohnMemox4, .LeahMemox4, .PaulMemox4, .JennyMemox4, .GokuMemox4{
+}
+
+
+
+
+
+.labelTextmemox4{
+
+  font-size: 10px;
+  display: block;
+  
+  }
+
+  .labelTextmemoMOBIx4 {
+    font-size: 17px;
+    display: block;
+}
+
+
+.WriteMemox4 {
+    display: none;
+    background-color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px black;
+    padding: 20px 20px;
+    height: 263px;
+    width: 519px;
+    position: absolute;
+    bottom: 31px;
+    z-index: 500;
+    right:65px;
+}
+
+
+
+.WriteMemox4 p{
+
+  display:block;
+  font-size: 16px;
+}
+
+/*////////*/
+
+.WriteMemoMOBIx4 {
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px black;
+    padding: 20px 20px;
+    height: 296px;
+    width: 519px;
+    position: absolute;
+    bottom: 111px;
+    z-index: 500;
+    right: 51px;
+
+}
+
+
+
+.WriteMemoMOBIx4 span {
+font-size: 41px
+}
+
+
+.WriteMemoMOBIx4 p {
+    display: block;
+    font-size: 23px;
+}
+
+
+
+/*////////*/
+
+.TMemox4{
+
+  display:none;
+  background-color: transparent;
+  border-radius: 15px;
+  color:#424242;
+  height: 54px;
+  border:none;
+  box-shadow: 0 1px 4px #424242;
+  text-align: center;
+  width: 400px;
+  font-size: 24px;
+}
+
+
+
+.JeffTTMemox4, .MariaTTMemox4, .JohnTTMemox4, .LeahTTMemox4, .PaulTTMemox4, .JennyTTMemox4, .GokuTTMemox4{
+}
+
+
+
+.SubmitMemox4 {
+
+    background-color: whitesmoke;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 0 0px 5px grey;
+    font-size: 35px;
+    margin: 20px 10px;
+    padding: 15px 15px;
+
+}
+
+
+
+
+.SubmitMx4{
+color:green;
+  } 
+
+.CancelMx4{
+color:red;
+}
+
+
+
+
+/*///////////////////////////////*/
+
+
+/*
+  #Mikex4{
+
+
+color: black;
+padding: 8px 5px;
+
+}
+
+#Mikex4 b{
+  color:#424242;
+  font-size: 30px;
+  display:block;
+}
+*/
+
+.Mikex4{
+color: black;
+padding: 9px 5px 10px 5px;
+font-size: 12px;
+}
+
+.MikeMOBIx4{
+color: grey;
+padding: 23px 5px 10px 5px;
+font-size: 18px
+}
+
+
+.MikeLinearx4 {
+
+    color: grey;
+    padding: 18px 31px;
+    text-align: left;
+
+}
+
+
+
+.MikeBx4{
+  color:#424242;
+  font-size: 38px;
+  display:block;
+  margin: 7px 5px 5px 5px;
+
+}
+
+.MikeBMOBIx4 {
+    color: #424242;
+    font-size: 59px;
+    display: block;
+    margin: 7px 5px 5px 5px;
+}
+
+.MikeBLinearx4 {
+
+    color: grey;
+    font-size: 27px;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+#Jeffx4{
+
+  background-image: url("../img/Friends/friend2.png");
+
+
+}
+
+#Mariax4{
+
+  background-image: url("../img/Friends/friend3.png");
+
+}
+
+
+#Johnx4{
+
+background-image: url("../img/Friends/friend4.png");
+
+}
+
+
+#Leahx4{
+
+background-image: url("../img/Friends/friend5.png");
+}
+
+
+#Paulx4{
+
+background-image: url("../img/Friends/friend6.png");
+}
+
+
+#Jennyx4{
+
+background-image: url("../img/Friends/friend7.png");
+
+}
+
+
+#Gokux4{
+
+background-image: url("../img/Friends/friend8.png");
+}
+
+
+
+
+ .CardPaymentx4, .checkCashSentx4, .tranToSavingsx4, .tranToCheckingx4, .retrievex4, .GoodByex4, .LoanGrantedx4, .depositCashx4, .QuickSentx4{
+
+  box-shadow: 0 1px 10px black;
+  border:none;
+
+    z-index: 5000;
+position: absolute;
+height: 500px;
+width: 550px;
+display: none;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+transform: translate(25px, 15px);
+padding: 150px 30px;
+font-size: 20px;
+opacity: .95;
+border: none;
+color: rgb(102, 102, 102);
+font-family: candara;
+margin: 10px 3px;
+}
+
+
+
+
+
+
+
+.CardPaymentx4 input, .checkCashSentx4 input, .tranToSavingsx4 input, .tranToCheckingx4 input, .LoanGrantedx4 input, .QuickSentx4 input{
+
+font-size:45px;
+
+}
+
+
+ .friendsx4, .DenominatedBillsx4,  .TLoanx4{
+
+border: 1px solid grey;
+box-shadow: inset 0 1px 10px grey;
+
+}
+
+
+/*///////////////////MOBILE//////////////////////////////*/
+
+
+/* .SerPanLabelsMOBIx4{
+
+  
+  box-shadow: inset 0 0px 10px grey;
+
+}*/
+
+
+
+
+
+/*///////////////////Machine Horizontal friends///////////////*/
+
+
+.ToggleFriendsMachineHorizx4 {
+position: absolute;
+    top: 20px;
+    left: 63px;
+    border: 1px solid lightgrey;
+    height: 25px;
+    width: 26px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 1px 2px;
+    color: lightgrey;
+    background-color: transparent;
+
+}
+
+.friendsMachineHorizx4 {
+
+    display: inline-block;
+    width: 213px;
+    height: 45px;
+    margin: 14px 50px 0px 50px;
+        margin-left: 50px;
+    margin-left: 50px;
+    color: whitesmoke;
+    font-size: 8px;
+    background-position: center;
+    background-size: 40%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left;
+
+    border: 1px solid lightgrey;
+    box-shadow: inset 0 0px 5px lightgrey;
+
+}
+
+.SpecifySendReQAmountMachineHorizx4 {
+
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-radius: 12px;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    width: 117px;
+    height: 30px;
+    padding: 5px 5px 0px 6px;
+    color: grey;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    border: none;
+
+}
+
+
+.ContactNameMachineHorizx4 {
+
+    top: -21px;
+    position: absolute;
+    font-size: 11px;
+    left: -92px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    width: 90px;
+    font-weight: 100;
+    color: grey;
+
+}
+
+
+.MikeBMachineHorizx4 {
+
+    color: #424242;
+    font-size: 30px;
+    display: block;
+    margin: -2px 123px 6px 0px;
+
+}
+
+
+.FriendMemoMachineHorizx4 {
+
+display: none;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    color: #424242;
+    padding: 0px 10px;
+    position: absolute;
+    left: 202px;
+    top: -2px;
+    box-shadow: inset 0 1px 5px;
+    opacity: .95;
+    width: 51px;
+    height: 46px;
+
+}
+
+
+
+
+
+
+
+
+
+/*///////////////////Machine Horizontal friends///////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui2MOBIx4{
+
+height: auto;
+border:none;
+position:;
+width: 609px;
+
+
+
+border-radius:50px;
+
+background-position:center;
+background-size: cover;
+padding-bottom: 0px;
+margin:auto;
+margin-top: 5%;
+
+
+ 
+/*  float:right;
+  clear:right;
+  margin-bottom: 5%;*/
+
+
+background-size: 335%;
+
+}
+
+
+
+
+.checkinginfo2MOBIx4{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height:370px;
+margin:60px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+border: 3px solid grey;
+
+
+
+
+}
+.savinginfo2x4{
+
+z-index:1000;
+border:2px solid white;
+border-radius:20px;
+width: 450px;
+height:370px;
+margin:60px 80px;
+
+position:;
+background-color:white;
+position:absolute;
+display:none;
+text-align: center;
+
+border: 3px solid grey;
+
+}
+
+
+
+.assistanceMOBIx4{
+    width: 600px;
+    height: 320px;
+    background-color: white;
+    background-image: url("../img/asistance.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    display: none;
+    z-index: 50;
+    position: absolute;
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    color: grey;
+    border-radius: 30px;
+    margin: 4px;
+    font-family: candara;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.lan2MOBIx4{
+  background-color: inherit;
+display:none;
+border-radius: 50px 50px 0px 0px;
+height:83px;
+width: 100%;
+padding: 15px 10px;
+/*border-bottom: 1px dashed white;  */
+
+
+
+}
+
+
+
+.lan2MobileTop {
+
+  height:122px;
+
+}
+
+
+
+
+
+.langBMOBIx4 {
+
+    background-color: inherit;
+    padding: 7px 10px;
+    margin: 12px;
+      
+    width: 123px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 68px;
+    font-size: 28px;
+    border: none;
+    margin: 7px 12px 9px 12px;
+
+}
+
+.langBMOBIMachinex4 {
+
+    background-color: inherit;
+    padding: 6px 10px;
+    margin: 12px;
+    width: 107px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 47px;
+    font-size: 19px;
+    border: none;
+    margin: 1px 19px 9px 10px;
+        margin-left: 10px;
+    margin-left: 10px;
+    margin-left: 7px;
+
+}
+
+
+.labelText0x4 {
+    display: block;
+    font-size: 8px;
+    font-family: calibri;
+}
+
+
+
+
+.OtherHeaderx4 {
+
+    position: absolute;
+    height: 90%;
+    background-color: white;
+    z-index: 3000;
+    width: 609px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 30px 50px;
+    font-size: 19px;
+    display: none;
+    text-align: left;
+
+}
+
+
+.HeaderPx4{
+ display:none;
+}
+
+
+
+
+.labelTextx4{
+  display:block;
+  font-size:12px;
+}
+
+.lan2MOBIx4 .dropdown-menu{
+width:200px;
+left:-80px;
+
+}
+
+.lan2MOBIx4 .dropdown-menu button{
+width:170px;
+
+
+}
+
+
+
+
+.serm2MOBIx4{
+
+  position:relative;
+
+ 
+  height:645px;
+  height:auto;
+  width:100%;
+  display:;
+  z-index: 0;
+  background-size: 97%;
+
+}
+
+
+
+
+
+
+.innerMOBIx4 {
+
+    opacity: .97;
+    margin-top: ;
+    padding: 10px 4px;
+    display: inline-block;
+    height: 100%;
+    background-color: inherit;
+
+}
+
+
+
+
+
+
+
+.sm2MOBIx4{
+
+
+width: 169px;
+margin: 3px 7px 2px 6px;
+padding: 23px 7px;
+border-radius: 25px;
+font-size: 20px;
+font-family: arial;
+height: auto;
+
+
+}
+
+
+
+.acm2MOBIx4 {
+    height: 277px;
+    width: 262px;
+    margin: 7px 13px 3px 8px;
+        margin-left: 8px;
+    margin-left: 8px;
+    margin-left: 8px;
+    padding: 24px 28px 10px 25px;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: arial;
+}
+
+
+
+
+.sm4Buttons{
+    padding:0px;
+    padding-left: 0px;
+}
+
+
+
+
+.sm4ButtonsMOBI {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+
+
+
+/*.acm2MOBIx4 span{
+
+    font-size:17px;
+}
+
+*/
+
+
+
+
+.serDropMOBIx4 {
+  opacity: 1;
+    height: 698px;
+    width: 559px;
+    transform: translate(23px, -882px);
+    padding: 20px 19px;
+    border-radius: 15px;
+}
+
+
+
+
+
+.serDropMOBIx4 button {
+
+    margin: 5px 5px 5px 5px;
+    border-radius: 30px;
+    height: 137px;
+    z-index: 5000;
+    width: 150px;
+    padding: 11px 10px;
+    font-size: 58px;
+
+}
+
+
+
+
+
+/*.glyphicon-arrow-right{
+    z-index:50;
+    color:orange;
+    right:225px;
+    top:20px;
+    position:absolute;
+    display:none;
+}
+
+
+.glyphicon-arrow-left{
+    z-index: 50;
+    color:orange;
+    right:230px;
+    top:20px;
+    position:absolute;
+    display:none;
+
+
+}
+*/
+
+
+.depositMOBIx4 {
+    height: 759px;
+    margin-top: 0px;
+    opacity:none;
+    width: 99%;
+    margin: -11px -22px;
+    padding-top: 80px;
+    border-radius: 50px 50px 10px 10px;
+    z-index: 699;
+    box-shadow: none;
+    height: 788px;
+}
+
+
+/*.DepositButtonsMOBIx4{
+  margin-top:33px;
+
+font-size:26px;
+box-shadow: inset 0 1px 5px white;
+border-radius: 15px;
+
+}*/
+
+
+
+#toSavingMOBIx4{
+  display:none;
+  z-index: 50;
+  background-color:black;
+  color:darkgrey;
+  position:absolute;
+  width:150px;
+  height:25px;
+  right:185px;
+  top:-25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+
+#toCheckingMOBIx4{
+  display:none;
+  z-index: 50;
+  background-color:black;
+  color:darkgrey;
+  position:absolute;
+  width:150px;
+  height:25px;
+  right:185px;
+  top:-25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.qty2MOBIx4{
+height: 200px;
+width: 100%;
+font-size:20px;
+text-align: center;
+
+
+font-size:30px;
+height: 200px;
+width: 100%;
+
+}
+
+
+
+.qty2x4:hover{
+
+  cursor: pointer;
+}
+ 
+
+
+   
+.qtyvalue2MOBIx4{
+
+background-color:inherit;
+    height: 80px;
+    width: 250px;
+    margin-left: 0px;
+    color: white;
+    font-size: 75px;
+   margin-top: 18px;
+    border:none;
+
+}
+
+
+.QtyValueCoverMOBIx4 {
+    height: 107px;
+    width: 305px;
+    right: 111px;
+}
+
+
+
+
+
+.qtyvalue23MOBIx4 {
+    background-color: inherit;
+    height: 50px;
+    width: 88px;
+    margin-left: 0px;
+    color:inherit;
+    border: none;
+    font-size: 46px;
+}
+
+
+
+
+
+
+
+.amountMOBIx4{
+margin-left: 78px;
+font-size: 70px;
+ 
+}
+
+
+
+#amountMOBIx4:hover{
+  cursor:pointer;
+ 
+}
+
+
+
+
+
+/*#backSpacex4, #backSpaceRx4, #backSpaceCCx4{
+  float:right;
+  margin-top:10px;
+  margin-right:3px;
+}
+*/
+
+
+
+
+.numVMOBIx4{
+    display:;
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+
+  width: 61px;
+  height: 87px;
+
+  font-size: 35px;
+}
+
+
+.backSpaceMOBIx4 {
+
+    float: right;
+    margin-top: 10px;
+    margin-right: 3px;
+    position: relative;
+    bottom: 190px;
+    left: 540px;
+    font-size: 26px;
+
+}
+
+
+
+.numRMOBIx4{
+    display:none;
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+
+  width: 61px;
+  height: 87px;
+
+  font-size: 35px;
+
+
+}
+
+.numCCMOBIx4{
+    display:none;
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+
+  width: 61px;
+  height: 87px;
+
+  font-size: 35px;
+
+}
+
+.numTMOBIx4{
+  display: none;
+  z-index:1;
+  position:absolute;
+  transform: translate(0px,  -20px);
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 55.47px;
+    font-size:23px;
+
+
+
+}
+
+.numTDMOBIx4{
+  display: none;
+transform: translate(0px,  -20px);
+    border-radius:0px;
+    padding: 3px 5px 3px 5px;
+    height: 55px;
+    width: 55.47px;
+    font-size:23px;
+
+}
+
+
+
+
+
+
+
+
+.fin2MOBIx4{
+
+    opacity: .93;
+    background-color: #071422;
+    border-radius: 0px 0px 50px 50px;
+    height: 170px;
+    width: 100%;
+   padding: 0px;
+ 
+}
+
+.Bottomlan2MOBIx4{
+  border-radius: 0px 0px 50px 50px;
+  padding: 0px 0px 0px 48px;
+}
+
+
+
+
+
+.finBMOBIx4 {
+    border: none;
+    border-radius: 30px;
+    background-color: #424242;
+    margin-right: 25px;
+    color: white;
+    font-family: arial;
+    font-size: 27px;
+    padding: 34px 30px;
+    width: 227px;
+    height: 101px;
+    margin: 34px 10px;
+}
+
+
+
+ .confBack2YMOBIx4{
+    z-index: 500;
+    position:;
+    height:100%;
+    width: 100%;
+    
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    background-color: #071422;
+    border: none;
+    /*transform: translate(-10px, -14px);*/
+    display: none;
+    padding-top: 40px;
+    color: #595959;
+    padding-left: 0px;
+
+ }
+
+
+
+
+
+
+
+.confirm2YMOBIx4{
+
+    height: 93px;
+    width: 239px;
+    font-size: 31px;
+    padding: 11px 0px;
+    margin: 0px 1px -23px 55px;
+    border-radius: 30px;
+
+}
+
+
+.back2YMOBIx4{
+
+    height: 93px;
+    width: 240px;
+    font-size: 31px;
+    padding: 11px 0px;
+    margin: 0px 9px -23px 1px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CardMOBIx4 {
+    width: 227px;
+    height: 269px;
+    font-size: 25px;
+    margin: 0px 40px 48px 7px;
+ 
+    margin-left: 7px;
+    padding: 55px 20px 55px 30px;
+}
+
+
+
+.CardMOBIx4 span {
+    display: block;
+display: block;
+margin: 13px 1px;
+font-size: 17px;
+}
+
+
+.CreditcCardsMOBIx4 {
+    width: 100%;
+    padding: 0px 6px 10px 40px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+/*.CardImputLabelMOBIx4{
+    font-size: 47px;
+    width: 100px;
+
+  }
+
+*/
+
+
+
+
+
+
+.billButtonsMOBIx4{
+    padding: 10px 40px 10px 150px;
+}
+
+.DenominatedBillsMOBIx4{
+margin: 51px 100px;
+}
+
+
+
+.DenoImput10LabelMOBIx4{
+
+    margin: 3px 0px 5px 0px;
+    position: relative;
+right: 9px;
+top: 63px;
+
+}
+
+
+.DenoImput20LabelMOBIx4{
+
+    margin: 3px 0px 5px 0px;
+    position: relative;
+    right: 11px;
+    top: 63px;
+
+}
+
+
+.DenoImput50LabelMOBIx4{
+
+    margin: 3px 0px 5px 0px;
+    position: relative;
+left: -11px;
+top: 60px;
+
+}
+
+  .DenoImput100LabelMOBIx4{
+
+    margin: 3px 0px 5px 0px;
+    position: relative;
+    left: -11px;
+   top: 60px;
+
+}
+
+
+
+
+
+
+
+.friendsMOBIx4 {
+
+    width: 105px;
+    height: 115px;
+    margin: 61px 40px 41px 46px;
+    font-size: 19px;
+
+
+
+}
+
+
+.friendsMOBIxLinearx4 {
+    width: 92%;
+    height: 77px;
+    margin: 4px 40px 4px 46px;
+        margin-left: 46px;
+    margin-left: 46px;
+    font-size: 19px;
+    background-position: left;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: none;
+}
+
+.friendsNoShowx4{
+
+
+}
+
+
+.friendsNoShowLinearx4{
+
+  display:none;
+}
+
+
+
+
+
+
+
+.SearchScanContactLabelInvoicex4{
+
+  margin-top:35px;
+  display:none;
+
+}
+
+
+.servicePanelParratopx4{
+  display: block;
+}
+.servicePanelParraBottomx4{
+  display: none;
+}
+
+.servicePanelParraBottomLinearx4{
+  display: none;
+}
+
+
+
+.SeachContactx4 {
+    border-radius: 20px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    text-align: center;
+    width: 96%;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px lightgrey;
+}
+
+
+.scanContactInvoicePriceAtgx4 {
+
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 15px;
+    font-size: 28px;
+    padding-top: 7px;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    top: -65px;
+    right: 15px;
+
+}
+
+
+.scanBadgex4{
+
+  background-color: white;
+  color: lightgrey;
+  font-size: 15px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: 97px;
+  padding: 0px 7px;
+
+}
+
+
+
+
+
+
+  .SelectFriendMOBIx4 {
+padding-top: 10px;
+margin: -38px 5px 5px 24px;
+margin-bottom: 18px;
+
+
+
+ }
+
+ .SendReqMOBIx4 {
+    height: 63px;
+    font-size: 28px;
+    padding: 12px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+.sendAccountMOBIx4 {
+
+    width: 457px;
+    height: 77px;
+    margin: 99px 0px -10px 0px;
+    font-size:40px;
+   
+  }
+
+
+  .sendRoutingMOBIx4 {
+
+    width: 457px;
+    height: 77px;
+   margin: 5px 0px -10px 0px;
+    font-size:40px;
+
+  }
+
+
+
+
+
+.wireSpanMOBIx4{
+
+font-size: 25px;
+color:whitesmoke;
+margin-top: 5px;
+
+}
+
+
+
+.TelContainerMOBIx4 {
+
+    margin: 10px;
+    background-color:;
+    height: 80px;
+
+}
+
+
+.ZipContainerMOBIx4{
+
+    margin: -15px;
+    background-color:;
+    height: 80px;
+
+}
+
+
+
+.WireTelephoneMOBIx4{
+width: 280px;
+height:77px;
+font-size:35px;
+
+
+}
+
+
+.WireZipCodeMOBIx4{
+width: 160px;
+height:77px;
+font-size:35px;
+
+
+}
+
+
+.SwipeCardMOBIx4 {
+
+    height: 595px;
+    bottom: 435px;
+    padding: 240px 50px;
+
+}
+
+
+
+.MSwipeCoverMOBIx4 {
+
+    transform: translate(-57px, -121px);
+}
+
+
+
+
+
+
+.SwAccCoverMOBIx4 {
+
+    top: 140px;
+    right: 58px;
+    width: 496px;
+}
+
+
+
+.SwRCoverMOBIx4 {
+
+    top: 275px;
+    right: 58px;
+    width: 496px;
+
+}
+
+
+.SwTelCoverMOBIx4 {
+
+    width: 294px;
+    right: 246px;
+    bottom: 111px;
+
+}
+
+
+
+.SwZipCoverMOBIx4 {
+
+    right: 42px;
+    bottom: 111px;
+    width: 171px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cheTsav2MOBIx4{
+z-index: 50;
+color: orange;
+right: 240px;
+top: 387px;
+position: absolute;
+display: none;
+font-size: 125px;
+
+}
+
+
+
+.savTche2MOBIx4{
+z-index: 50;
+color: orange;
+right: 240px;
+top: 387px;
+position: absolute;
+display: none;
+font-size: 125px;
+
+}
+
+
+.EndPanelsMOBIx4{
+
+  margin: 202px 3px;
+}
+
+
+
+
+
+
+
+/*
+.PBillMOBIx4 {
+
+margin: 42px 44px 13px 60px;
+        margin-left: 60px;
+    box-shadow: none;
+    width: 209px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 5px white;
+    border: 1px solid grey;
+    font-family: calibri;
+    height: 107px;
+
+}
+
+*/
+
+
+.SelectBillPayMOBIx4 {
+    width: 100%;
+    padding: 7px 10px 10px 55px;
+    margin-top: 15px;
+}
+
+
+
+
+.addBillx4 {
+
+    display: ;
+    height: 30px;
+    width: 40px;
+    background-color: transparent;
+    color: grey;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 17px;
+    right: 67px;
+    padding: 1px;
+    
+
+}
+
+
+.addBillMOBIx4 {
+
+    display: ;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: grey;
+    font-size: 33px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 25px;
+    right: 101px;
+    width: 53px;
+   height: 63px;
+
+}
+
+
+
+
+
+
+
+.schedule2x4 {
+    display: ;
+    height: 30px;
+    width: 40px;
+    background-color: transparent;
+    color: red;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 17px;
+    right: 18px;
+    padding: 1px;
+   
+}
+
+
+.schedule2MOBIx4 {
+
+     display: ;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: red;
+    font-size: 37px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    padding: 1px; 
+    width: 53px;
+    height: 63px;
+}
+
+
+
+.closeSer2Panelsx4 {
+
+    display: ;
+    height: 30px;
+    width: 40px;
+    background-color: transparent;
+    color: red;
+    font-size: 23px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 1px;
+    
+}
+
+
+
+.closeSer2PanelsMOBIx4 {
+    display: ;
+    height: 63px;
+    width: 50px;
+    background-color: transparent;
+    color: red;
+    font-size: 33px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    absolutely: 1;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+}
+
+
+
+
+
+.PBillShapesx4 {
+display: none;
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fbfbfb;
+    margin: 0px 20px;
+    position: absolute;
+    left: 47px;
+    top: 20px;
+    border: 1px solid lightgrey;
+
+}
+
+.PBillShapesMOBIx4 {
+
+    display: none;
+    height: 37px;
+    width: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fbfbfb;
+    margin: 0px 20px;
+    position: absolute;
+    left: 76px;
+    top: 42px;
+    border: 1px solid lightgrey;
+
+}
+
+
+
+
+.HidePbillInputx4{
+  display: none;
+}
+
+
+
+.pbshape01x4{
+  display: inline-block;
+}
+
+
+
+.PBillsMOBIx4 {
+    margin: 0px 30px 68px 24px;
+  
+    margin-left: 24px;
+    margin-left: 24px;
+    margin-left: 60px;
+    width: 224px;
+    padding: 24px 10px 10px 37px;
+    font-family: calibri;
+    height: 146px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+.HidePBillsMOBI7and8x4{
+   display: none;
+}
+
+
+
+
+
+
+
+
+.PBillsMOBIxLinearx4 {
+
+    margin: 3px 30px 5px 24px;
+    width: 92%;
+    padding: 0px 10px 0px 37px;
+    font-family: calibri;
+    height: 95px;
+    font-size: 25px;
+
+}
+
+
+
+
+
+.PBillImputLabelMOBIxLinearx4 {
+
+    font-size: 26px;
+    color: whitesmoke;
+    font-family: calibri;
+    border-bottom: none;
+    position: absolute;
+    left: 292px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 22px;
+    width: 150px;
+    height: 48px;
+    padding-left: 17px;
+    box-shadow: inset 0 1px 5px grey;
+
+}
+
+.PbillLogoMOBIxLinearx4 {
+
+    background-color: transparent;
+    background-image: none;
+}
+
+
+/*///////////PbDoublex4////////////////*/
+
+
+
+
+
+
+.PbillLogoMOBIxDoublex4 {
+
+    box-shadow: none;
+    height: 38%;
+    width: 100%;
+    background: grey;
+        background-color: grey;
+        background-image: none;
+    background-color: grey;
+    background-image: none;
+    opacity: 0.9;
+    padding: 1px 3px;
+    border-radius: inherit;
+    font-family: calibri;
+    font-size: 21px;
+    position: absolute;
+    left: 0px;
+    border-radius: 27px 27px 0px 0px;
+    top: 8px;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom right ,grey, #47474a);
+    background-image: none;
+
+}
+
+
+
+
+.pbcoverMOBIxDoublex4 {
+
+    box-hadow: inset 0 1px 5px grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 84%;
+    border-radius: 10px;
+   margin: 5px 3px 0px 26px;
+    background-color: wheat;
+    width: 166px;
+
+}
+
+
+
+
+.PBillsMOBIxDoublex4 {
+
+    margin: 0px 30px 17px 24px;
+    width: 224px;
+    padding: 24px 10px 10px 37px;
+    font-family: calibri;
+    height: 135px;
+    font-size: 25px;
+
+}
+
+
+
+
+/*///////////PbDoublex4////////////////*/
+
+/*///////////PB Plain Linear x4///////////*/
+
+
+
+
+
+
+.PbillLogoMOBIxLinix4{
+  background-image: none;
+  background-color: transparent;
+}
+
+
+
+.pbcoverMOBIxLinix4 {
+
+    box-hadow: inset 0 1px 5px grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45px;
+    border-radius: 10px;
+    margin: -3px 3px 0px 29px;
+    background-color: wheat;
+    width: 166px;
+    position: absolute;
+    top: 15px;
+
+}
+
+
+.PBillsMOBIxLinix4 {
+
+    margin: -1px 30px 13px 24px;
+    width: 92%;
+    padding: 1px 10px 16px 258px;
+    font-family: calibri;
+    height: 91px;
+    font-size: 25px;
+
+}
+
+
+.PBill1xLinix4 {
+
+    padding: 2px 20px;
+
+}
+
+
+.PbillLabelStatsMOBIxLinix4 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    color: #b9b2b2;
+    font-size: 17px;
+    text-align: left;
+    height: 20px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    bottom: 20px;
+    position: relative;
+
+}
+
+
+
+
+
+/*///////////PB Plain Linear x4///////////*/
+
+/*///////////PB  triplets x4 ////////////////*/
+
+.PBTripletsx4{
+  padding: 7px 10px 10px 35px;
+}
+
+.PbillLogoMOBIxTripletsx4 {
+    box-shadow: none;
+    height: 38%;
+    width: 100%;
+    background: grey;
+        background-color: grey;
+        background-image: none;
+    background-color: grey;
+    background-image: none;
+    opacity: 0.9;
+    padding: 1px 0px 4px 0px;
+    border-radius: inherit;
+    font-family: calibri;
+    font-size: 21px;
+    position: absolute;
+    left: 0px;
+    border-radius: 27px 27px 0px 0px;
+    top: 0px;
+    background-color: white;
+    background-image: linear-gradient(to bottom right ,grey, #47474a);
+    background-image: linear-gradient(to bottom right ,#e7e7e7, #575757);
+    background-image: none;
+    background-color: transparent;
+}
+
+
+
+
+.pbcoverMOBIxTrippletsx4 {
+
+    box-hadow: inset 0 1px 5px grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 84%;
+    border-radius: 10px;
+    margin: 11px 3px 0px 14px;
+    background-color: wheat;
+    width: 141px;
+
+}
+
+
+.PBillsMOBIxTripletsx4 {
+
+    margin: 5px 8px 13px 4px;
+    width: 31%;
+    padding: 22px 10px 1px 17px;
+    font-family: calibri;
+    height: 135px;
+    font-size: 25px;
+
+}
+
+.PbillStatsInputMOBIxTripletsx4 {
+
+    width: 77%;
+    background-color: transparent;
+    font-size: 24px;
+    border: none;
+
+}
+
+
+
+/*///////////PB  triplets x4 ////////////////*/
+
+
+/*////////// */
+
+
+
+
+
+
+
+/*////////// */
+
+
+.PBLinearPlusx4, .PBDoublex4, .PBLinix4, .PBTripletsx4{
+
+display:none;
+
+}
+
+
+
+
+
+.PBill1x4{
+padding: 20px 20px;
+}
+
+
+.PBill1xLinix4 {
+
+    padding: 2px 20px;
+}
+
+
+.PBill1Linearx4{
+padding: 7px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SelectBillPayMOBIx4 span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+.PBillImputMOBIx4 {
+
+    font-size: 41px;
+}
+
+
+
+
+
+
+
+
+/*////////Loan Mobi//////////////*/
+
+
+/*//////////// Loans x4///////////////////////*/
+
+
+
+
+
+.TakeLoanx4{
+ 
+  padding: 23px 0px;
+  position: absolute;
+  display:none;
+  z-index: 500;
+  background-color: white;
+
+}
+
+
+
+.SearchLoansx4{
+
+width:70%;
+
+}
+
+
+
+.SelectLoansx4{
+ padding: 0px 4px 20px 20px;
+}
+
+
+
+
+
+
+
+
+.Loanx4 {
+    display: inline-block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 220px;
+    width: 127px;
+    padding: 46px 5px 46px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+}
+
+.LoanMOBIx4 {
+
+display: inline-block;
+margin: 7px 12px 7px 0px;
+border-radius: 34px;
+font-size: 40px;
+font-family: arial;
+height: 279px;
+width: 270px;
+padding: 46px 0px;
+background-color: whitesmoke;
+box-shadow: none;
+background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+border: none;
+
+
+
+}
+
+
+
+
+
+.LoanBadgeAndnamex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.LoanAndAbrex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.MyCurrentPricex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+
+
+
+
+
+
+/*Loan Symbol and name*/
+
+.LoanSymbolx4 {
+    font-size: 36px;
+    display: block;
+}
+
+
+.LoanSymbolMOBIx4{
+font-size: 50px;
+display: block;
+} 
+
+
+
+
+
+.LoanNamex4 {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.LoanNameMOBIx4{
+font-size: 18px;
+display:block;
+margin-bottom: 15px;
+
+}
+
+
+/*Loan Symbol and name*/
+
+
+
+/*Loan Current cost and Abreviation*/
+
+
+.PreApprovedLoanssx4 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 27px;
+    font-family: calibri;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+}
+
+
+
+.PreApprovedLoanssMOBIx4{
+display:inline-block;
+border:none;
+background-color:transparent;
+color: grey;
+font-size: 39px;
+font-family: calibri;
+height: 36px;
+width: 100%;
+text-align: center;
+margin-right: -10px;
+
+}
+
+.LoanBalx4 {
+    font-size: 20px;
+    position: ;
+    color: olive;
+    display: inline-block;
+    width: 5%;
+    margin-right: 35px;
+}
+
+/*Loan Current cost and Abreviation*/
+
+
+
+
+
+
+
+
+
+/*I Currently have*/
+
+
+.Ihavex4{
+  display: block;
+font-size: 14px;
+color:#262626;  
+}
+
+.CurrentPricex4 {
+    display: block;
+    border: none;
+    font-size: 19px;
+    color:grey;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+
+
+.MyLoaninRealValx4 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 15px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+
+.MyLoaninRealValMOBIx4{
+  display:block;
+border:none;
+background-color:transparent;
+color:olive;
+font-size: 19px;
+font-family: calibri;
+height: 15px;
+width: 100%;
+text-align: center;
+margin-bottom: 13px;
+
+}
+
+/*I Currently have*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BlackedLettersKPT1{
+    color: black;
+}
+
+
+
+
+
+
+
+
+.EnterLoanQtyx4 {
+    display: ;
+    font-size: 26px;
+    background-color: white;
+    height: 36px;
+    position: absolute;
+    left: 5px;
+    width: 118px;
+    padding: 0px;
+    bottom: -34px;
+    color: lightgrey;
+    border: none;
+    
+    border-radius: 16px;
+    box-shadow: inset 0 0px 3px lightgrey;
+    padding-left: 14px;
+    border: 1px solid lightgrey;
+    bottom: -9px;
+
+}
+
+
+
+
+.EnterLoanQtyMOBIx4 {
+    display:;
+    font-size: 20px;
+    background-color: white;
+    height: 47px;
+    position: absolute;
+    left: 48px;
+    width: 181px;
+    padding: 0px;
+        padding-left: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom: none;
+    border-radius: 20px;
+    box-shadow: none;
+    padding-left: 14px;
+    border: 1px solid lightgrey;
+}
+
+
+.InputLoanQtyx4 {
+font-size: 27px;
+text-align: left;
+border: none;
+width: 100%;
+height: 100%;
+background-color: transparent;
+padding-top: 4px;
+}
+
+
+.InputLoanQtyMOBIx4{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  text-align: left;
+  border:none;
+}
+
+
+/*Linear option*/
+
+.LinearLoanx4 {
+
+    display: inline-block;
+    margin: 8px 12px 2px 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    height: 138px;
+    width: 97%;
+    padding: 15px 0px;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+.LinearLoanBadgeAndnamex4 {
+display: block;
+width: 24%;
+background-color: transparent;
+float: left;
+margin-top: 19px;
+}
+
+
+
+
+.LinearLoanNamex4 {
+margin-bottom: 15px;
+margin-left: 45px;
+font-size: 22px;
+text-align: left;
+    }
+
+
+
+
+
+
+
+.LinearLoanAndAbrex4 {
+    display: block;
+    width: 44%;
+    float: right;
+}
+
+
+
+.LinearMyCurrentPricex4 {
+    display: block;
+    width: 40%;
+    background-color: transparent;
+    float: right;
+}
+
+
+.LinearEnterLoanQtyx4 {
+
+    left: 191px;
+    bottom: -10px;
+    border: none;
+    border-bottom: none;
+   
+}
+/*Linear option*/
+
+
+
+.ToogleLoansToLinearx4, .ToogleLoansToSquarex4{
+display:none;
+float: right;
+z-index: 500;
+margin: 7px 20px;
+font-size: 45px;
+border: none;
+background-color: transparent;
+color: grey;
+position: absolute;
+right: 3px;
+top: 22px;
+}
+
+.SearchLoansx4{
+  display:;
+float: right;
+z-index: 500;
+margin: 29px 20px;
+font-size: 40px;
+border: none;
+background-color: transparent;
+color: grey;
+position: absolute;
+width: 30px;
+right: 93px;
+top: 6px;
+}
+
+.ToogleLoansToSquarex4{
+display: none;
+}
+
+
+.totalLoansheaderx4{
+width: 50%;
+border: none;
+background-color: transparent;
+color: black;
+font-size: 40px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+/*//////////// Loans x4///////////////////////*/
+
+
+
+
+
+
+
+
+
+
+/*////////Loan Mobi//////////////*/
+
+
+
+
+
+
+.MerchantLabelsContMOBIx4 {
+
+    margin-top: 111px;
+}
+
+
+
+
+
+.MerchantImputMOBIx4 {
+    height: 90px;
+    font-size: 36px;
+    box-shadow: inset 0 1px 9px grey;
+    border-radius: 20px;
+}
+
+
+.MSwipeMOBIx4 i{
+font-size: 95px;
+color:lightgrey;
+}
+
+
+
+/*/////*/
+
+.clickedSwipex4{
+
+}
+
+.clickedSwipex4 i{
+  color:grey;
+}
+/*//////*/
+
+
+
+
+
+/*////////////////////////////*/
+
+#QuickPay2x4, #QuickPay3x4{
+  display: none;
+}
+
+
+.OperationEndedPanelx4{
+
+  box-shadow: 0 1px 10px black;
+  border:none;
+
+z-index: 5000;
+position: absolute;
+height: 500px;
+width: 550px;
+display: none;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+transform: translate(49px, 2px);
+padding: 110px 30px;
+font-size: 20px;
+opacity: .97;
+border: none;
+color: rgb(102, 102, 102);
+font-family: candara;
+margin: 10px 3px;
+
+box-shadow: 0 3px 5px black;
+z-index: 1000;
+
+
+}
+
+
+
+
+.OperationEndedPanelMOBIx4 {
+
+    box-shadow: 0 3px 5px black;
+    transform: translate(24px, 2px);
+    margin: 22px 5px;
+    height: 95%;
+    padding-top: 428px;
+    border-radius: 30px;
+
+}
+
+
+.ScanMachinex4 {
+
+  padding-top: 107px;
+  opacity: 1;
+ 
+}
+
+
+
+.btn-group, .btn-group-vertical {
+
+    z-index: 0;
+}
+
+
+
+
+
+/*.WireTransferLabelsX4{
+  margin-top: 70px;
+}
+
+
+
+.Sellx4{
+background-color: white;
+border-radius:15px;
+}
+
+.WRLabelNamex4{
+  background-color: white;
+  color: lightgrey;
+  font-size: 12px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+}
+
+.HHH{
+background-color: transparent;
+
+
+color: grey;
+font-size: 25px;
+border:none;
+text-align: center;
+}
+
+
+
+.Thecoverx4 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}*/
+
+
+
+
+
+
+
+
+.WireTransferLabelsX4 {
+    margin-top: 0px;
+    padding: 3px 124px;
+}
+
+.WireTransferLabelsMOBIX4{
+  margin-top: 0px;
+  padding: 35px 68px;
+}
+
+
+
+
+
+
+
+
+.Sellx4{
+background-color: white;
+border-radius:15px;
+}
+
+
+
+
+.WRLabelNamex4 {
+
+    background-color: white;
+    color: grey;
+    font-size: 11px;
+    float: ;
+    border-radius: 5px;
+    position: relative;
+    top: 6px;
+    padding: 0px 7px;
+    width: 64px;
+    left: 10px;
+    font-weight: 10;
+}
+
+
+
+.WRLabelNameMOBIx4 {
+
+    background-color: white;
+    color: grey;
+    font-size: 17px;
+    float: ;
+    border-radius: 5px;
+    position: relative;
+    top: 14px;
+    padding: 0px 7px;
+    width: 91px;
+    left: 27px;
+
+}
+
+
+
+
+
+
+
+.HHH {
+    background-color: transparent;
+    color: grey;
+    font-size: 21px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.HHHMOBI{
+background-color: transparent;
+
+
+color: grey;
+font-size: 33px;
+border:none;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.WrtNameInputx4, .WrtAccountInputx4, .WrtRoutingInputx4, .WrtTelephoneInputx4, .WrtZipCodeInputx4{
+
+}
+
+#backSpaceCCx4, #backSpaceRx4, #backSpaceSwTelx4, #backSpaceSwZipx4{
+  
+}
+
+
+
+
+.Thecoverx4 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+
+
+
+
+
+.WrtLabelx4 {
+
+    height: 43px;
+    margin: -2px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 3px lightgrey;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    font-weight: 10;
+
+}
+
+
+
+
+.WrtLabelMOBIx4 {
+
+    height: 85px;
+    margin: 7px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    border: 3px solid lightgrey;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 8px lightgrey;
+    border-radius: 25px;
+
+}
+
+
+
+
+.Wrtx4{
+  width: 100%;
+}
+
+
+.WrtTelX4 {
+    display: inline-block;
+    width: 53%;
+
+}
+
+
+.WrtZipX4 {
+   display: inline-block;
+    width: 41%;
+    margin-left: 13px;
+}
+
+
+
+.NameWrLabelx4{
+  width:100%;
+}
+.AccWrLabelx4{
+  width:100%;
+}
+.RoutWrLabelx4{
+  width:100%;
+}
+
+
+
+
+
+
+.PhoneWrLabelx4 {
+    width: 40%;
+ /*   margin-right: 24px;*/
+}
+.PhoneWrLabelMOBIx4{
+width: 40%;
+/*margin-right: 24px;*/
+}
+
+
+
+
+
+
+.ZipWrLabelx4{
+width: 40%;
+}
+
+.SpecifyWrtValuex4{
+
+  background-color: whitesmoke;
+  font-size: 20px;
+  border-radius: 15px;
+  border:none;
+  color: grey;
+  width:;
+
+}
+
+
+
+
+
+
+
+/*//////////////////new Merchant///////////////////////*/
+
+
+
+/*.WireTransferLabelsX4{
+  margin-top: 70px;
+}
+
+
+
+.Sellx4{
+background-color: white;
+border-radius:15px;
+}
+
+.MerLabelNamex4{
+  background-color: white;
+  color: lightgrey;
+  font-size: 12px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+}
+
+.HHH{
+background-color: transparent;
+
+
+color: grey;
+font-size: 25px;
+border:none;
+text-align: center;
+}
+
+
+
+.Thecoverx4 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}*/
+
+
+
+.MerchantLabelsX4 {
+    margin-top: 0px;
+    padding: 0px 120px;
+}
+
+
+
+.MerchantLabelsMOBIX4{
+  margin-top: 0px;
+  padding: 27px 50px;
+}
+
+
+
+.Sellx4{
+background-color: white;
+border-radius:15px;
+}
+
+
+
+
+
+
+
+
+.MerLabelNamex4 {
+    background-color: white;
+    color: grey;
+    font-size: 11px;
+    float: ;
+    border-radius: 5px;
+    position: absolute;
+    top: -9px;
+    padding: 0px 7px;
+    font-family: calibri;
+}
+
+.MerLabelNameMOBIx4{
+  background-color: white;
+  color: grey;
+  font-size: 15px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -14px;
+  padding: 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.MerHHH {
+
+    background-color: transparent;
+    color: grey;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.MerHHHMOBI{
+background-color: transparent;
+
+
+color: grey;
+font-size: 30px;
+border:none;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+.MerchantNameInputx4, .MerchantAccountInputx4, .MerchantRoutingInputx4, .MerchantTelephoneInputx4, .MerchantZipCodeInputx4{
+
+}
+
+#backSpaceCCx4, #backSpaceRx4, #backSpaceSwTelx4, #backSpaceSwZipx4{
+  
+}
+
+
+
+
+.Thecoverx4 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+
+.Merchx4{
+
+}
+
+.MerchantLabelx4 {
+
+    height: 42px;
+    margin: 10px 0px;
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 2px lightgrey;
+    padding: 0px 0px 19px 0px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 13px;
+
+}
+
+
+
+.MerchantLabelMOBIx4 {
+
+    height: 91px;
+    margin: 27px 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    border: 3px solid lightgrey;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 7px lightgrey;
+    padding: 0px 0px 16px 0px;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 24px;
+
+}
+
+
+.MerchantInputx4{
+
+ width: 98%;
+ height: 98%;
+ font-size: inherit;
+ color: grey;
+ font-weight: 10;
+ border:none;
+ border-radius: inherit;
+ background-color:transparent;
+ text-align: center;
+ margin-top: -10px;
+
+}
+
+
+.MerchDatex4{
+  width: 55%;
+}
+
+
+.MerchCVDx4{
+  width: 39%;
+  margin-left: 10px;
+}
+
+
+.MerchZipx4 {
+    width: 44%;
+    margin-right: 25px;
+}
+
+.MerchZipMOBIx4 {
+
+    width: 44%;
+    margin-right: 78px;
+
+}
+
+
+
+
+.MerchButtonx4 {
+    width: 15%;
+    margin-right: 94px;
+}
+
+
+
+
+
+.MerchLabelNamex4 {
+
+    background-color: white;
+    color: grey;
+    font-size: 9px;
+    float: ;
+    border-radius: 5px;
+    position: relative;
+    top: -11px;
+    padding: 0px 7px;
+    font-family: calibri;
+    width: 73px;
+    right: -16px;
+    font-weight: 10;
+
+}
+
+
+.MerchLabelNameMOBIx4 {
+
+    background-color: white;
+    color: grey;
+    font-size: 16px;
+    float: ;
+    border-radius: 5px;
+    position: relative;
+    top: -12px;
+    padding: 0px 7px;
+    font-family: calibri;
+    width: 108px;
+    right: -27px;
+    font-weight: 10;
+
+}
+
+
+
+
+
+
+
+
+.SwipeCardMerLabelx4 {
+
+    width: 18%;
+    font-size: 38px;
+    padding: 0px;
+    color: grey;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+
+.SwipeCardMerLabelMOBIx4 {
+    width: 18%;
+    font-size: 58px;
+    padding: 3px;
+    color: grey;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+.NameMerLabelx4 {
+    width: 78%;
+}
+
+.NameMerLabelMOBIx4{
+  width:80%;
+}
+
+
+
+
+.CardMerLabelx4{
+  width:100%;
+}
+
+
+
+
+
+.DateMerLabelx4 {
+    width: 48%;
+    margin-right: 21px;
+}
+
+.DateMerLabelMOBIx4{
+  width: 48%;
+  margin-right: 35px;
+}
+
+
+
+
+
+
+.CVDMerLabelx4{
+width: 45%;
+
+}
+
+.ZipMerLabelx4{
+width: 40%;
+margin-right: 21px;
+}
+
+.SpecifyMerchantValuex4{
+
+  background-color: whitesmoke;
+  font-size: 20px;
+  border-radius: 15px;
+  border:none;
+  color: grey;
+  width:;
+
+}
+
+
+
+
+.SaveMerLabelx4{
+  
+}
+
+
+.MerchantSaveCustomerInputx4 {
+
+}
+
+.SelectedMerchantSaveCustomerInputx4 {
+
+    color: green;
+
+}
+
+
+
+
+/*//////////////////new Merchant///////////////////////*/
+
+
+
+
+
+.SerPanelCompiledx4{
+width: 85%;
+background-color: transparent;
+margin:auto;
+margin-bottom: 10px;
+}
+
+
+.ServicePanelHeaderx4 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: grey;
+    display: block;
+    margin: 0px 0px;
+    font-weight: 700;
+}
+
+
+
+
+.servicePanelParrax4 {
+    font-size: 12px;
+    color: lightgrey;
+    width: 100%;
+}
+
+
+
+
+
+
+/*Service Panel Header MOBI*/
+
+.SerPanelCompiledMOBIx4{
+width: 85%;
+background-color: transparent;
+margin:auto;
+
+}
+
+.ServicePanelHeaderMOBIx4{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 26px;
+color:grey;
+display: block;
+margin:10px 0px;
+font-weight: 700;
+}
+
+.servicePanelParraMOBIx4{
+
+font-size: 17px;
+color:lightgrey;
+width:100%;
+}
+
+.servicePanelParraBottomLinearx4{
+  display: none;
+}
+
+
+/*Service Panel Header MOBI*/
+
+
+/*/////////Select Buy and Sell///////////*/
+
+
+
+
+
+
+
+/*/////////Select Buy and Sell///////////*/
+
+/*//////////////Change Pin/////////////*/
+
+
+
+
+.ChangePinx4 {
+
+    padding: 33px 164px;
+    position: absolute;
+    display: none;
+    z-index: 500;
+    background-color: white;
+}
+
+.ChangePinMOBIx4{
+  margin-top: 0px;
+  padding: 70px 125px;
+  position: absolute;
+  display:none;
+  z-index: 500;
+  background-color: white;
+}
+
+
+
+
+
+.ChangePinLabelsX4 {
+    margin-top: 0px;
+}
+
+.ChangePinLabelsMOBIX4 {
+    margin-top: 90px;
+    padding-left: 78px;
+}
+
+
+
+
+.ChangePinNamex4{
+  background-color: white;
+  color: grey;
+  font-size: 15px;
+  float:;
+  border-radius: 5px;
+  position: absolute;
+  top: -14px;
+  padding: 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.ChangePinLx4 {
+    height: 51px;
+    margin: 20px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    border: 1px solid lightgrey;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 4px lightgrey;
+}
+
+
+.ChangePinLMOBIx4 {
+    height: 100px;
+    margin: 20px 0px;
+        margin-left: 0px;
+    border: 3px solid lightgrey;
+    width: 86%;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 8px lightgrey;
+}
+
+
+
+
+
+
+
+.ChangePinHHHx4 {
+    background-color: transparent;
+    color: grey;
+    font-size: 17px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ChangePinHHHMOBIx4{
+background-color: transparent;
+
+
+color: grey;
+font-size: 33px;
+border:none;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+.EnterPinInputx4, .ConfirmPinInputx4{
+
+}
+
+
+
+
+
+.Thecover {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+
+
+
+.MatchedPinYesx4 {
+
+    margin-top: 50px;
+    height: 48px;
+    background-color: whitesmoke;
+    color: Green;
+    display: none;
+    width: 34%;
+    font-weight: 100;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 5000;
+    position: absolute;
+    font-size: 17px;
+    padding: 13px;
+    left: 200px;
+    top: 237px;
+
+}
+
+.MatchedPinYesMOBIx4{
+  margin-top: 50px;
+  height:70px;
+  background-color:whitesmoke;
+  color:Green;
+  display: none;
+  width: 90%;
+  font-weight: 100;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  border-radius: 15px;
+
+      position: static;
+    font-size: 21px;
+    padding: 20px;
+    left:none;
+    top:none;
+}
+
+
+
+
+
+
+.MatchedPinNOx4 {
+
+    margin-top: 50px;
+    height: 48px;
+    background-color: whitesmoke;
+    color: tomato;
+    display: none;
+    width: 34%;
+    font-weight: 100;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 5000;
+    position: absolute;
+    font-size: 17px;
+    padding: 13px;
+    left: 200px;
+    top: 237px;
+
+}
+.MatchedPinNOMOBIx4{
+  margin-top: 50px;
+  height:70px;
+  background-color:whitesmoke;
+  color:tomato;
+  display:none ;
+  width: 90%;
+  font-weight: 100;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+  border-radius: 15px;
+
+    position: static;
+    font-size: 21px;
+    padding: 20px;
+    left:none;
+    top:none;
+}
+
+
+
+
+.ChangepinCoverx4 {
+
+    background-color: white;
+    width: 44%;
+    height: 106px;
+    margin: auto;
+    position: absolute;
+    left: 173px;
+    bottom: -53px;
+    border-radius: 51px;
+
+}
+
+.ChangepinCoverMOBIx4 {
+
+    background-color: white;
+    width: 44%;
+    height: 189px;
+    margin: auto;
+    position: absolute;
+    left: 173px;
+    bottom: -97px;
+    border-radius: 51px;
+
+}
+
+
+
+/*//////////////////Change Pin///////////////////////*/
+
+
+
+
+/*////////////Buy Assets x4///////////////////////*/
+
+
+
+
+
+.BuyAssetsx4{
+ 
+  padding: 23px 0px;
+  position: absolute;
+  display:none;
+  z-index: 500;
+  background-color: white;
+  overflow-y: hidden;
+
+}
+
+
+
+.SearchAssetsx4{
+
+width:70%;
+
+}
+
+.SelectAssetsx4 {
+    padding: 0px 8px 20px 51px;
+}
+
+.SelectAssetsMOBIx4{
+  padding: 0px 0px 20px 20px;
+}
+
+
+
+
+
+
+
+
+.Assetx4 {
+
+    display: inline-block;
+    margin: 0px 12px 31px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 100px;
+    width: 129px;
+    padding: 13px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+
+}
+
+
+
+.AssetMOBIx4 {
+
+display: inline-block;
+margin: 7px 12px 7px 0px;
+border-radius: 34px;
+font-size: 40px;
+font-family: arial;
+height: 273px;
+width: 270px;
+padding: 38px 0px;
+background-color: whitesmoke;
+box-shadow: none;
+background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+border: none;
+
+
+
+}
+
+
+
+
+
+.AssetBadgeAndnamex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.AssetAndAbrex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.MyCurrentPricex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+
+
+
+
+
+
+/*Asset Symbol and name*/
+
+.AssetSymbolx4 {
+    font-size: 35px;
+    display: block;
+}
+.AssetSymbolMOBIx4{
+font-size: 50px;
+display: block;
+} 
+
+
+
+
+
+
+.AssetNamex4 {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 15px;
+}
+.AssetNameMOBIx4{
+font-size: 18px;
+display:block;
+margin-bottom: 15px;
+}
+
+
+
+
+/*Asset Symbol and name*/
+
+
+
+/*Asset Current cost and Abreviation*/
+
+
+.IhaveThisMuchx4 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 27px;
+    font-family: calibri;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+}
+.IhaveThisMuchMOBIx4{
+display:inline-block;
+border:none;
+background-color:transparent;
+color: grey;
+font-size: 39px;
+font-family: calibri;
+height: 36px;
+width: 100%;
+text-align: center;
+margin-right: -10px;
+
+}
+
+.AssetBalx4 {
+    font-size: 20px;
+    position: ;
+    color: olive;
+    display: inline-block;
+    width: 5%;
+    margin-right: 35px;
+}
+
+/*Asset Current cost and Abreviation*/
+
+
+
+
+
+
+
+
+
+/*I Currently have*/
+
+
+.Ihavex4{
+  display: block;
+font-size: 14px;
+color:#262626;  
+}
+
+
+
+
+.CurrentPricex4 {
+    display: block;
+    border: none;
+    font-size: 15px;
+    color: grey;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+.CurrentPriceMOBIx4 {
+    display: block;
+    border: none;
+    font-size: 19px;
+    color:grey;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+.MyAssetinRealValx4 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 11px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.MyAssetinRealValMOBIx4{
+  display:block;
+border:none;
+background-color:transparent;
+color:olive;
+font-size: 19px;
+font-family: calibri;
+height: 15px;
+width: 100%;
+text-align: center;
+margin-bottom: 13px;
+
+}
+
+/*I Currently have*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BlackedLettersKPT1{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.EnterAssetQtyx4 {
+
+    display: ;
+    font-size: 17px;
+    background-color: white;
+    height: 25px;
+    position: absolute;
+    left: 16px;
+    width: 101px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-left: 0px;
+    padding-left: 0px;
+    bottom: -9px;
+    color: lightgrey;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: none;
+    padding-left: 11px;
+    border: 1px solid lightgrey;
+    box-shadow: inset 0 0px 3px lightgrey;
+    padding: 1px 11px;
+
+}
+
+
+
+.EnterAssetQtyMOBIx4 {
+    display:;
+    font-size: 30px;
+    background-color: white;
+    height: 47px;
+    position: absolute;
+    left: 62px;
+    width: 155px;
+    padding: 0px;
+        padding-left: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border:1px solid lightgrey;
+    border-radius: 20px;
+    /*box-shadow: inset 0 1px 7px grey;*/
+    padding-left: 14px;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+.InputAssetQtyx4 {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    /*font-size: 29px;*/
+    text-align: left;
+    border: none;
+}
+.InputAssetQtyMOBIx4{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  text-align: left;
+  border:none;
+}
+
+
+/*Linear option*/
+
+.LinearAssetx4 {
+
+    display: inline-block;
+    margin: 8px 12px 2px 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    height: 138px;
+    width: 97%;
+    padding: 15px 0px;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+.LinearAssetBadgeAndnamex4 {
+display: block;
+width: 24%;
+background-color: transparent;
+float: left;
+margin-top: 19px;
+}
+
+
+
+
+.LinearAssetNamex4 {
+margin-bottom: 15px;
+margin-left: 45px;
+font-size: 22px;
+text-align: left;
+    }
+
+
+
+
+
+
+
+.LinearAssetAndAbrex4 {
+    display: block;
+    width: 44%;
+    float: right;
+}
+
+
+
+.LinearMyCurrentPricex4 {
+    display: block;
+    width: 40%;
+    background-color: transparent;
+    float: right;
+}
+
+
+.LinearEnterAssetQtyx4 {
+
+    left: 191px;
+    bottom: -10px;
+    border: none;
+    border-bottom: none;
+    border: 1px solid lightgrey;
+    box-shadow:none;
+   
+}
+/*Linear option*/
+
+
+
+
+/*Rectangled assets*/
+
+
+
+.RectAssetx4{
+  display:;
+}
+
+
+
+.RectangledAssetMOBIx4 {
+    display: inline-block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 273px;
+    width: 176px;
+    padding: 38px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+}
+
+
+.RectangledMyAssetinRealValMOBIx4 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 14px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+
+.RectangledEnterAssetQtyMOBIx4 {
+    display:;
+    font-size: 30px;
+    background-color: white;
+    height: 47px;
+    position: absolute;
+    left: 12px;
+    width: 155px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+  /*  box-shadow: inset 0 1px 7px grey;*/
+    padding-left: 14px;
+    box-shadow: none;
+}
+
+
+
+
+
+
+/*Rectangled assets*/
+
+
+/*Mini Assets*/
+
+
+.MiniAssetMOBIx4 {
+
+    display: inline-block;
+    margin: 7px 12px 21px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 17px;
+    font-family: arial;
+    height: 180px;
+    width: 176px;
+    padding: 19px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+
+}
+
+
+.MiniAssetSymbolMOBIx4 {
+    font-size: 33px;
+    font-size: 23px;
+    display:block;
+}
+
+.MiniAssetNameMOBIx4 {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.MiniIhaveThisMuchMOBIx4 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 33px;
+    font-family: calibri;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+}
+
+.MiniMyAssetinRealValMOBIx4 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 14px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+
+.MiniEnterAssetQtyMOBIx4 {
+    display:;
+    font-size: 21px;
+    background-color: white;
+    height: 34px;
+    position: absolute;
+    left: 23px;
+    width: 130px;
+    padding: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 13px;
+    /*box-shadow: inset 0 1px 7px grey;*/
+    padding-left: 14px;
+    box-shadow: none;
+}
+
+
+.MiniInputAssetQtyMOBIx4 {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    text-align: left;
+    border: none;
+}
+
+
+
+
+
+
+
+/*Mini Assets*/
+
+.ToogleAssetsToSquareMOBIx4 {
+
+    display:none;
+}
+
+
+
+
+.ToogleAssetsToLinearx4, .ToogleAssetsToSquarex4, .ToogleAssetsToRectanglex4, .ToogleAssetsToMinix4{
+
+display:none;
+float: right;
+z-index: 500;
+margin: 7px 20px;
+font-size: 45px;
+border: none;
+background-color: transparent;
+color: grey;
+position: absolute;
+right: 440px;
+top: 22px;
+
+}
+
+.ToogleAssetsToRectanglex4{
+  color: lightgrey;
+}
+
+
+
+.SearchAssetsx4 {
+    display: ;
+    float: right;
+    z-index: 500;
+    margin: 29px 20px;
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    position: absolute;
+    width: 40px;
+    right: 64px;
+    top: -13px;
+    border: 1px solid lightgrey;
+    padding: 3px;
+    border-radius: 11px;
+}
+
+
+
+.SearchAssetsMOBIx4 {
+    display: ;
+    float: right;
+    z-index: 500;
+    margin: 29px 20px;
+    font-size: 38px;
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    color: grey;
+    position: absolute;
+    width: 60px;
+    right: 83px;
+    top: -5px;
+    padding: 5px;
+    width: 53px;
+    height: 63px;
+}
+
+
+
+.ToogleAssetsToSquarex4{
+display: none;
+}
+
+
+
+
+
+
+
+.totalAssetsheaderx4 {
+    width: 50%;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 0px;
+    border-radius: 12px;
+}
+
+
+
+.totalAssetsheaderMOBIx4 {
+
+    width: 50%;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    border: ;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+.Ihavex4{
+  display: block;
+font-size: 14px;
+color:#262626;  
+}
+
+
+
+
+.CurrentPricex4 {
+    display: block;
+    border: none;
+    font-size: 15px;
+    color: grey;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+.CurrentPriceMOBIx4 {
+    display: block;
+    border: none;
+    font-size: 19px;
+    color:grey;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/*///////////Machine//////*/
+
+
+
+.AssetSymbolMachinex4 {
+
+font-size: 16px;
+display: inline-block;
+position: relative;
+top: -30px;
+margin-right: -5px;
+margin-left: 11px;
+
+}
+
+
+.AssetNameMachinex4 {
+
+    font-size: 11px;
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative;
+    top: -30px;
+
+}
+
+
+
+.IhaveThisMuchMachinex4 {
+
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 21px;
+    font-family: calibri;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+    position: relative;
+    top: -68px;
+
+}
+
+
+.MyAssetinRealValMachinex4 {
+
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 11px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+    position: relative;
+    top: -78px;
+
+}
+
+.CurrentPriceMachinex4 {
+
+    display: block;
+    border: none;
+    font-size: 12px;
+    color: grey;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    top: -93px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*///////////Machine//////*/
+
+
+
+/*////////////Buy Assets x4///////////////////////*/
+
+
+/*//////Buysell senquest finBs//////////*/
+
+.SendReqFundsx4, .BuySellFundsx4{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*////////////Make Transfers x4///////////////////////*/
+
+.MakeTransferx4 {
+
+    display: none;
+    z-index: 600;
+    position: absolute;
+    text-align: center;
+    width: 605px;
+    height: 348px;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin: 2px;
+    font-family: georgia;
+
+}
+
+
+
+.MakeTransfersx4{
+ 
+  padding: 23px 0px;
+  position: absolute;
+  display:none;
+  z-index: 500;
+  background-color: white;
+  overflow-y: hidden;
+
+}
+
+
+
+.SearchTransfersx4{
+
+width:70%;
+
+}
+
+.SelectTransfersx4 {
+    padding: 0px 8px 20px 26px;
+}
+
+.SelectTransfersMOBIx4{
+  padding: 0px 8px 20px 29px;
+}
+
+
+
+
+
+
+.Transferx4 {
+
+    display: inline-block;
+    margin: 0px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 44px;
+    width: 140px;
+    padding: 4px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+  /*  background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);*/
+    border: none;
+    color: #262626;
+
+}
+
+
+
+.TransferMOBIx4 {
+    display:block;
+    margin: 7px 12px 21px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 93px;
+    width: 205px;
+    padding: 1px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+ /*
+ */
+    border: none;
+}
+
+
+
+
+.TransferBadgeAndnamex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.TransferAndAbrex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+.MyCurrentPricex4{
+  display:block;
+  width:100%;
+  background-color: transparent;
+}
+
+
+
+
+
+
+/*Transfer Symbol and name*/
+
+.TransferBadgeAndnamex4 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    margin-top: -23px;
+
+}
+
+
+.TransferBadgeAndnameMOBIx4 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+
+}
+
+
+
+.TransferSymbolx4 {
+    font-size: 15px;
+    display: inline-block;
+}
+.TransferSymbolMOBIx4 {
+    font-size: 26px;
+    display: inline-block;
+}
+
+
+
+
+
+.TransferNamex4 {
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.TransferNameMOBIx4{
+font-size: 18px;
+display:inline-block;
+margin-bottom: 0px;
+}
+
+
+
+
+/*Transfer Symbol and name*/
+
+
+
+/*Transfer Current cost and Abreviation*/
+
+.TransferAndAbrex4 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    margin-top: -24px;
+
+}
+
+.TransferAndAbreMOBIx4 {
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+
+}
+
+
+
+
+.TransferIhaveThisMuchx4 {
+
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 12px;
+    font-family: calibri;
+    height: 42px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+
+}
+.TransferIhaveThisMuchMOBIx4 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 22px;
+    font-family: calibri;
+    height: 18px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+}
+
+
+
+.TransferBalx4 {
+    font-size: 20px;
+    position: ;
+    color: olive;
+    display: inline-block;
+    width: 5%;
+    margin-right: 35px;
+}
+
+/*Transfer Current cost and Abreviation*/
+
+
+.SelectTransferFromx4 {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    padding-left: 61px;
+    font-size: 9px;
+    margin-top: -15px;
+}
+
+
+.SelectTransferFromMOBIx4 {
+    display: inline-block;
+    width: 242px;
+    float: left;
+    padding-left: 28px;
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+
+
+
+.SelectTransferTox4 {
+    display: inline-block;
+    width: 183px;
+    float: right;
+    padding-right: 8px;
+    font-size: 9px;
+    padding-left: 31px;
+    margin-top: -15px;
+    margin-right: 47px;
+}
+
+.SelectTransferToMOBIx4 {
+    display: inline-block;
+    width: 231px;
+    float: right;
+    padding-right: 29px;
+    font-size: 17px;
+    padding-left: 0px;
+     margin-right: 0px;
+     margin-top: 4px;
+
+}
+
+
+
+
+
+
+.TransSelectFromx4 {
+
+    display: inline-block;
+    display: ;
+    font-size: 30px;
+    width: 223px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+
+}
+
+
+
+.TransSelectFromMOBIx4{
+  display: inline-block;
+display:;
+font-size: 30px;
+width: 250px;
+border-radius: 30px;
+background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+
+}
+
+
+
+
+
+.TransTox4 {
+
+    color: lightgrey;
+    display: none;
+    width: 250px;
+    font-size: 16px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+
+
+.TransToMOBIx4{
+  color:lightgrey;
+  display:none;
+  width:250px;
+  font-size: 22px;
+  float: right;
+  margin-top: 132px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+.TransFromx4 {
+
+    color: lightgrey;
+    display: none;
+    width: 250px;
+    font-size: 16px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 21px;
+
+}
+
+.TransFromMOBIx4{
+  color:lightgrey;
+  display:none;
+  width:250px;
+  font-size: 22px;
+  float: left;
+  margin-top: 132px;
+  margin-left: 20px;
+}
+
+
+
+
+
+.TransSelectTox4{
+  display: inline-block;
+  display:;
+  font-size: 30px;
+  width: 223px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+
+}
+
+
+.TransSelectToMOBIx4{
+  display: inline-block;
+  display:;
+  font-size: 30px;
+  width: 250px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+
+}
+
+
+
+.TransSelex4{
+  border:none;
+  height: 50px;
+  font-size: 25px;
+  background-color: transparent;
+  width:100%;
+  height: 50%;
+
+
+}
+
+.TransferHideTox4 {
+
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    height: 115px;
+    padding-top: 55px;
+
+}
+
+.TransferHideToMOBIx4{
+  display:none;
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  width:100%;
+  height: 200px;
+  padding-top: 55px;
+
+}
+
+.TransferHideTo0x4{
+
+  display:block;
+  }
+
+
+
+
+
+
+.TransferHideFromx4 {
+
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    height: 115px;
+    padding-top: 55px;
+
+}
+
+.TransferHideFromMOBIx4{
+  display:none;
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  width:100%;
+  height: 200px;
+padding-top: 55px;
+
+}
+
+.TransferHideFrom0x4{
+
+  display:block;
+  }
+
+
+
+
+
+
+.TransferbuttonParentx4{
+  width:100%;
+}
+
+
+
+
+.TransferDropButtonx4{
+  margin-top:4px;
+  margin-bottom: 0px;
+  height:40px;
+  width:100%;
+  background-color: transparent;
+  border-top: 1px solid lightgrey;
+
+  }
+
+
+
+.TransferDropButtonDropdownx4 {
+
+    width: 225px;
+    padding: 10px 40px;
+    transform: translate(-0px, -115px);
+
+}
+  .TransferDropButtonDropdownMOBIx4{
+
+    width: 250px;
+    padding: 10px 20px;
+    transform: translate(-0px, -155px);
+
+    }
+
+
+
+/*I Currently have*/
+
+
+
+
+
+
+
+.MyTransferinRealValx4 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 11px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.MyTransferinRealValMOBIx4{
+  display:block;
+border:none;
+background-color:transparent;
+color:olive;
+font-size: 19px;
+font-family: calibri;
+height: 15px;
+width: 100%;
+text-align: center;
+margin-bottom: 13px;
+
+}
+
+/*I Currently have*/
+
+
+.liTransFrom1x4, .liTransFrom2x4, .liTransFrom3x4, .liTransFrom4x4, .liTransFrom5x4{
+
+}
+
+
+/*
+.TranSelectFromx4 {
+    height: 100px;
+    border-radius: 15px;
+    font-size: 19px;
+    background-color: whitesmoke;
+}
+
+.TranSelectTox4 {
+    height: 100px;
+    border-radius: 15px;
+    font-size: 19px;
+    background-color: whitesmoke;
+}
+*/
+
+
+.arrowTransferx4 {
+
+    color: orange;
+    font-size: 83px;
+    position: absolute;
+    top: 162px;
+    left: 282px;
+}
+
+
+.arrowTransferMOBIx4 {
+    color: orange;
+    font-size: 90px;
+    position: absolute;
+    top: 400px;
+    left: 255px;
+}
+
+
+
+
+
+.arrowTransx4 {
+
+    display: none;
+    color: orange;
+    font-size: 77px;
+    position: absolute;
+    top: 138px;
+    left: 266px;
+    z-index: 20;
+
+}
+
+.arrowTransMOBIx4 {
+    display:none;
+    color: orange;
+    font-size: 87px;
+    position: absolute;
+    top: 373px;
+    left: 266px;
+    z-index: 20;
+
+}
+
+
+
+
+
+
+
+.BlackedLettersKPT1{
+    color: black;
+}
+
+
+.SelectBuyOrSellx4, .SelectSendOrRequestx4, .SelectChargeOrRefundx4 {
+    display: none;
+    background-color: transparent;
+    width: 95%;
+    height: 94%;
+    margin: 0px auto;
+    padding-left: 153px;
+}
+
+
+
+.SelectBuyOrSellMOBIx4, .SelectSendOrRequestMOBIx4, .SelectChargeOrRefundMOBIx4 {
+
+display: none;
+background-color: transparent;
+width: 95%;
+height: 94%;
+margin: 0px auto;
+padding-left: 57px;
+
+}
+
+
+
+.SelectsB2{
+ padding-left: 43px;
+}
+
+
+
+.SelectsB3{
+ padding-left: 43px;
+}
+
+
+
+.SelectsB4{
+ padding-left: 43px;
+}
+
+
+.SelectsB5{
+ padding-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+.EnterTransferQtyx4 {
+
+    display:;
+    font-size: 13px;
+    background-color: white;
+    position: absolute;
+    left: 116px;
+    width: 64px;
+    padding: 1px 0px 0px 0px;
+    bottom: -11px;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px;
+    padding-left: 6px;
+    top: 11px;
+    font-weight: 10;
+    height: 21px;
+
+}
+
+
+
+
+
+
+.EnterTransferQtyMOBIx4 {
+    display:;
+    font-size: 24px;
+    background-color: white;
+    height: 35px;
+    position: absolute;
+    left: 11px;
+    width: 110px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    bottom: -31px;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    box-shadow:none;
+    padding-left: 14px;
+}
+
+
+.EnterTransferQtyMOBIx4 {
+
+    display:;
+    font-size: 22px;
+    background-color: white;
+    height: 29px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    padding: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+    border-radius: 2px 2px 15px 15px;
+    box-shadow: 0px 1px 2px;
+    padding-left: 14px;
+    top: 80px;
+
+}
+
+
+
+
+
+
+.InputTransferQtyx4 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    text-align: left;
+    border: none;
+}
+.InputTransferQtyMOBIx4 {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    text-align: left;
+    border: none;
+}
+
+
+/*Linear option*/
+
+.LinearTransferx4 {
+
+    display: inline-block;
+    margin: 8px 12px 2px 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    height: 138px;
+    width: 97%;
+    padding: 15px 0px;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+.LinearTransferBadgeAndnamex4 {
+display: block;
+width: 24%;
+background-color: transparent;
+float: left;
+margin-top: 19px;
+}
+
+
+
+
+.LinearTransferNamex4 {
+margin-bottom: 15px;
+margin-left: 45px;
+font-size: 22px;
+text-align: left;
+    }
+
+
+
+
+
+
+
+.LinearTransferAndAbrex4 {
+    display: block;
+    width: 44%;
+    float: right;
+}
+
+
+
+.LinearMyCurrentPricex4 {
+    display: block;
+    width: 40%;
+    background-color: transparent;
+    float: right;
+}
+
+
+.LinearEnterTransferQtyx4 {
+
+    left: 191px;
+    bottom: -10px;
+    border: none;
+    border-bottom: none;
+   
+}
+/*Linear option*/
+
+
+
+
+/*Rectangled Transfers*/
+
+
+
+.RectTransferx4{
+  display:;
+}
+
+
+
+.RectangledTransferMOBIx4 {
+    display: inline-block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    border-radius: 34px;
+    font-size: 40px;
+    font-family: arial;
+    height: 273px;
+    width: 176px;
+    padding: 6px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+}
+
+
+.RectangledMyTransferinRealValMOBIx4 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 14px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+
+.RectangledEnterTransferQtyMOBIx4 {
+    display: none;
+    font-size: 30px;
+    background-color: white;
+    height: 47px;
+    position: absolute;
+    left: 12px;
+    width: 155px;
+    padding: 0px;
+        padding-left: 0px;
+    padding-left: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+
+
+
+
+/*Rectangled Transfers*/
+
+
+/*Mini Transfers*/
+
+
+.MiniTransferMOBIx4 {
+    display: inline-block;
+    margin: 7px 12px 7px 0px;
+        margin-left: 0px;
+    margin-left: 0px;
+    border-radius: 34px;
+    font-size: 17px;
+    font-family: arial;
+    height: 177px;
+    width: 176px;
+    padding: 17px 0px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right ,#f5f1f1, #dddde0);
+    border: none;
+}
+
+
+.MiniTransferSymbolMOBIx4 {
+    font-size: 33px;
+    display: inline-block;
+}
+
+.MiniTransferNameMOBIx4 {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.MiniIhaveThisMuchMOBIx4 {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 33px;
+    font-family: calibri;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    margin-right: -10px;
+}
+
+.MiniMyTransferinRealValMOBIx4 {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: olive;
+    font-size: 14px;
+    font-family: calibri;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+
+.MiniEnterTransferQtyMOBIx4 {
+    display: none;
+    font-size: 21px;
+    background-color: white;
+    height: 34px;
+    position: absolute;
+    left: 23px;
+    width: 130px;
+    padding: 0px;
+    bottom: -15px;
+    color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 7px grey;
+    padding-left: 14px;
+}
+
+
+.MiniInputTransferQtyMOBIx4 {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    text-align: left;
+    border: none;
+}
+
+
+
+
+
+
+
+/*Mini Transfers*/
+
+.ToogleTransfersToSquareMOBIx4 {
+
+    display:none;
+}
+
+
+   
+.ToogleTransferToSelectx4, .ToogleTransferToColumnx4 {
+    display: none;
+    float: right;
+    z-index: 500;
+    margin: 7px 20px;
+    font-size: 29px;
+    border: none;
+    background-color: transparent;
+    color: lightgrey;
+    position: absolute;
+    right: 48px;
+    top: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 11px;
+    width: 40px;
+    padding: 1px;
+}
+
+
+                      
+.ToogleTransferToSelectMOBIx4, .ToogleTransferToColumnMOBIx4{
+
+display:none;
+float: right;
+z-index: 500;
+margin: 7px 20px;
+font-size: 45px;
+border: 1px solid lightgrey;
+background-color: transparent;
+color: lightgrey;
+position: absolute;
+right: 81px;
+top: 19px;
+padding: 1px;
+width: 53px;
+height: 63px;
+
+}
+
+
+
+.ToogleTransferToSelectx4{
+  display:inline-block;
+}
+
+
+
+.SearchTransferx4 {
+    display: ;
+    float: right;
+    z-index: 500;
+    margin: 29px 20px;
+    font-size: 29px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    position: absolute;
+    width: 28px;
+    right: 36px;
+    top: -8px;
+}
+
+
+.SearchTransfersMOBIx4{
+  display:;
+float: right;
+z-index: 500;
+margin: 29px 20px;
+font-size: 40px;
+border: none;
+background-color: transparent;
+color: grey;
+position: absolute;
+width: 30px;
+right: 93px;
+top: 6px;
+}
+
+.ToogleTransfersToSquarex4{
+display: none;
+}
+
+
+
+
+
+
+
+.totalTransfersheaderx4 {
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.totalTransfersheaderMOBIx4{
+width: 50%;
+border: none;
+background-color: transparent;
+color: black;
+font-size: 40px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+/*////////////Make Transfers x4///////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////Buysell senquest finBs//////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Serm, .Sermx2, .Sermx3, .Sermx4, .Sermx5, .Sermx6, .Sermx7{
+
+  display:none;
+}
+
+
+.Serm{
+
+  display:block;
+}
+
+
+
+
+
+
+/*/////////////////////////////////////////*/
+
+
+
+
+
+.qty2MOBIxLargex4 {
+
+    height: 200px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    height: 288px;
+    width: 100%;
+
+}
+
+
+.NumPadMOBIxLargex4 {
+
+    display: ;
+    border-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    padding: 3px 5px 3px 5px;
+    width: 121px;
+    height: 87px;
+    font-size: 35px;
+
+}
+
+
+.backSpaceMOBIxLargex4 {
+
+    float: right;
+    margin-top: 10px;
+    margin-right: 3px;
+    position: relative;
+    bottom: 271px;
+    left: 480px;
+    font-size: 26px;
+
+}
+
+
+
+
+
+/*/////////////////////////////////////////*/
+
+.RightShiftedqty2x4 {
+    height: 115px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font-size: 30px;
+    padding-top: 3px;
+}
+
+
+.RightShiftedamountx4 {
+
+    background-color: inherit;
+    margin-left: 47px;
+    font-size: 38px;
+
+}
+
+
+.RightShiftedamountInputx4 {
+
+    width: 29%;
+    margin-top: 17px;
+    position: absolute;
+    transform: translate(1px, 10px);
+
+}
+
+
+
+.RightShiftedfeesx4 {
+
+    display: block;
+    background-color: inherit;
+    color: lightgrey;
+    border: none;
+    font-size: 14px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 57px;
+    width: 200px;
+    z-index: 1000;
+    transform: translate(15px, 1px);
+
+}
+
+
+
+.RightShiftedLinearNumPadx4 {
+
+    background-color: inherit;
+    margin-bottom: 0px;
+    width: 28%;
+    height: 109px;
+    padding: 0px 4px;
+    float: right;
+    clear: right;
+    position: absolute;
+    transform: translate(268px, -1px);
+
+}
+
+.RightShiftedbackSpaceMOBIx4{
+  margin-top: 0px;
+margin-right: 0px;
+position: relative;
+bottom: 0px;
+left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.RightShiftedLinearNumPadMOBIx4 {
+
+    background-color: inherit;
+    margin-bottom: 0px;
+    width: 61%;
+    height: 109px;
+    padding: 0px 4px;
+    float: right;
+    clear: right;
+    position: absolute;
+    transform: translate(236px, 13px);
+
+}
+
+
+
+.RightshiftedamountMOBIx4 {
+
+    margin-left: 1px;
+    font-size: 69px;
+    width: 360px;
+
+}
+
+
+
+.RightShiftedamountInputMOBIx4 {
+
+    width: 33%;
+    margin-top: 30px;
+    position: absolute;
+    transform: translate(-18px, 10px);
+
+}
+
+
+.RightShiftedfeesMOBIx4 {
+
+    display: block;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 57px;
+    width: 200px;
+    transform: translate(3px, 7px);
+
+}
+
+
+.RightShiftedqtyvalue2MOBIx4{
+  font-size: 64px;
+}
+
+
+
+
+
+/*/////////////////////////////////////*/
+
+.LeftShiftedqty2x4 {
+    height: 115px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font-size: 30px;
+    padding-top: 3px;
+}
+
+
+
+
+.LeftShiftedfeesx4 {
+
+    display: block;
+    background-color: inherit;
+    color: lightgrey;
+    border: none;
+    font-size: 14px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 57px;
+    width: 200px;
+    z-index: 1000;
+    transform: translate(373px, 1px);
+
+}
+
+
+.LeftShiftedamountx4 {
+    background-color: inherit;
+    margin-left: 65px;
+    font-size: 38px;
+}
+
+
+.LeftShiftedamountInputx4 {
+
+    width: 22%;
+    margin-top: 17px;
+    position: absolute;
+    transform: translate(336px, 10px);
+
+}
+
+.LeftShiftedqtyvalue2x4 {
+    background-color: inherit;
+    height: 50px;
+    width: 150px;
+    margin-left: 0px;
+    border: none;
+    font-size: 38px;
+}
+
+
+.LeftShiftedLinearNumPadx4 {
+
+    background-color: inherit;
+    margin-bottom: 0px;
+    width: 28%;
+    height: 109px;
+    padding: 0px 4px;
+    float: right;
+    clear: right;
+    position: absolute;
+    transform: translate(5px, -1px);
+
+}
+
+.numPeriodx4{
+  display: none;
+}
+
+.LeftShiftednumPeriodx4{
+  display:inline-block;
+}
+
+
+
+
+
+
+.LeftshiftedamountMOBIx4 {
+
+    margin-left: 15px;
+    font-size: 55px;
+    width: 255px;
+
+}
+.LeftShiftedamountInputMOBIx4 {
+
+    width: 33%;
+    margin-top: 30px;
+    position: absolute;
+    transform: translate(336px, 10px);
+   
+
+}
+.LeftShiftedqtyvalue2MOBIx4 {
+
+    background-color: inherit;
+    height: 80px;
+    width: 140px;
+    margin-left: 0px;
+    color: white;
+    font-size: 60px;
+    margin-top: 18px;
+    border: none;
+
+}
+.LeftShiftedLinearNumPadMOBIx4 {
+
+    background-color: inherit;
+    margin-bottom: 0px;
+    width: 62%;
+    height: 109px;
+    padding: 0px 4px;
+    float: right;
+    clear: right;
+    position: absolute;
+    transform: translate(5px, 13px);
+
+}
+.LeftShiftedbackSpaceMOBIx4 {
+
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+
+}
+.LeftShiftedfeesMOBIx4 {
+    display: block;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    padding: 5px 2px 5px 57px;
+    width: 200px;
+    transform: translate(372px, 23px);
+
+}
+
+
+
+
+
+.Thecoverlix4 {
+    background-color: transparent;
+    width: 100%;
+    height: 121%;
+    position: relative;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+    top: -52px;
+  
+}
+
+
+.ThecoverliMOBIx4 {
+
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: inherit;
+    left: 0px;
+    top: 0px;
+    top: -78px;
+
+}
+
+
+
+.ServicePanelx4{
+border-radius: 5px 5px 0px 0px;
+height: 346px;
+margin: 0px;
+width: 650px;
+position:relative;
+border:none;
+
+}
+
+
+
+ .servicePanelsMOBIx4{
+
+height: 810px;
+font-size: 26px;
+padding: 40px 10px 10px 10px;
+margin: 0px;
+width: 100%;
+border-radius: 50px 50px 0px 0px;
+
+ }
+
+
+
+.AllAccountsx4 {
+    height: 97%;
+    width: 208%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Hellox4{
+width: 100%;
+padding:0px 50px;
+height: 54px;
+}
+
+
+
+
+.Menux4 {
+    display: inline-block;
+    font-size: 21px;
+    color: white;
+    float: right;
+    margin-top: 12px;
+}
+
+
+.MenuMOBIx4{
+ display: inline-block;
+ font-size: 38px;
+ color:white;
+ float:right;
+ margin-top: 12px;
+
+
+}
+
+
+
+
+.HelloNamex4 {
+    display: inline-block;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-family: georgia;
+    float: left;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+.HelloNameMOBIx4{
+  display: inline-block;
+
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: georgia;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+
+
+
+.HelloPhotox4 {
+    display: inline-block;
+    border-radius: 50%;
+    border: none;
+    height: 36px;
+    width: 36px;
+    float: left;
+    background-color: white;
+    margin-right: ;
+    margin-top: 3px;
+    background-image: url("../img/Rambo.jpg");
+    background-size: cover;
+}
+
+
+
+.HelloPhotoMOBIx4{
+
+  display: inline-block;
+  border-radius:50%;
+  border:none;
+  height:65px;
+  width: 65px;
+  float:left;
+  background-color: white;
+  margin-right:;
+  margin-top: 3px;
+  background-image: url("../img/Rambo.jpg");
+  background-size: cover;
+
+
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*//////////////////*/
+
+
+.ToplangBMOBIx4 {
+
+    background-color: inherit;
+    padding: 9px 10px;
+    margin: 12px;
+    width: 131px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 87px;
+    font-size: 38px;
+    border: none;
+    margin: 10px 12px 9px 12px;
+
+}
+
+
+
+
+
+.Hellox4{
+width: 100%;
+padding:0px 50px;
+height: 54px;
+display:none;
+}
+
+
+
+
+
+
+
+.LangBx4 {
+
+background-color: inherit;
+padding: 11px 10px;
+
+width: 113px;
+height: 84px;
+  font-size: 36px;
+  margin: 5px 24px;
+  border: none;
+
+   color: #2f2f2f;
+    color: #fff;
+
+    padding:5px;
+    margin:5px;
+    width:110px;
+    font-weight: 1px; 
+    color:white;
+    font-size:18px; 
+    font-family: arial;
+
+}
+
+.SmallerLanBMOBIx4{
+
+    background-color: inherit;
+    padding: 7px 10px;
+    margin: 8px 20px;
+    width: 97px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 68px;
+    font-size: 28px;
+    border: none;
+
+}
+
+
+.RegLanBMOBIx4{
+
+    padding: 5px;
+    margin: 5px;
+    width: 110px;
+    background-color: transparent;
+    border: 3px solid rgb(89, 132, 170);
+    font-weight: 1px;
+    color: white;
+    font-size: 18px;
+    font-family: arial;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.Bottomlan2MOBIx4{
+
+    height: 82px;
+    padding: 25px 10px 5px 55px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display: ;
+    color: #2f2f2f;
+
+    color: #fff;
+
+  border-radius: 0px 0px 50px 50px;
+  padding: 0px 10px 15px 42px;
+  display: none;
+
+}
+
+
+
+
+.Tapbarx4MOBIXX{
+
+padding: 11px 0px 0px 39px;
+height: 114px;
+
+}
+
+
+
+
+
+
+
+.ThinTapbarx4x4 {
+    height: 48px;
+    padding: 25px 10px 5px 55px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display: ;
+    padding: 3px 10px 5px 12px;
+
+    /*  
+    background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#929292, #d5d5d5);
+    color: #2f2f2f;
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+
+    */
+
+    border-radius: 11px 11px 0px 0px;
+}
+
+
+
+
+
+.ThinTapbarx4MOBIx4{
+
+    height: 82px;
+    padding: 25px 10px 5px 55px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display: ;
+    padding: 15px 10px 5px 12px;
+
+   /*  
+   background-image: linear-gradient(to bottom right ,#1e5789, #4180b7);
+    background-image: linear-gradient(to bottom right ,#929292, #d5d5d5);
+    color: #2f2f2f;
+    background-image: linear-gradient(to bottom right ,#262626, #4d4d4d);
+    color: #fff;
+    */
+
+  border-radius: 50px 50px 0px 0px;
+  
+}
+
+
+.UserTapbarx4MOBIx4 {
+    padding: 7px 0px 0px 39px;
+    height: 153px;
+}
+
+
+
+/*.fin2MOBIx4 {
+
+    border-radius: 0px;
+}
+*/
+
+
+.Fin2NoRadiusx4 {
+
+    border-radius: 0px;
+}
+
+
+
+
+
+.AllHeadersFinTech, .AllFinModelsFinTech{
+  display:none;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////All Assets//////*/
+
+.AllNetworthx4{
+  background-color: white;
+  border:none;
+  height:700px;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: 0 1px 5px grey;
+  position: absolute;
+  z-index: 800;
+  margin: 33px 54px;
+  padding-top: 71px;
+  font-family: calibri;
+  display:none;
+}
+
+
+.TotalAssetsx4{
+background-color: white;
+border: none;
+display: block;
+width: 90%;
+color: lightgrey;
+font-size: 25px;
+margin-bottom: 50px;
+margin: auto;
+border-radius: 30px;
+padding: 10px;
+ 
+}
+
+
+.TotalAssetBalx4{
+ background-color: transparent;
+ border:none;
+ display:block;
+ width:100%;
+ text-align: center;
+font-size: 40px;
+color: grey;
+}
+
+
+.AllAsssetsx4{
+
+background-color: whitesmoke;
+border: none;
+display: inline-block;
+width: 45%;
+color: #262626;
+font-size: 22px;
+margin: 12px 0px;
+padding: 22px 0px;
+border-radius: 30px;
+
+}
+
+
+.AllAssetsBalx4{
+ background-color: transparent;
+ border:none;
+ display:block;
+ text-align: center;
+ width:100%;
+ font-size: 30px;
+ color: grey;
+
+}
+
+
+/*///////All Assets//////*/
+
+
+.UserNetx4{
+margin-top: 5px;
+padding: 0px 45px 0px 30px;
+padding: 0px 35px 0px 30px;
+display:none;
+}
+
+
+.CCAx4{
+  border-radius: 10px;
+  width:28%;
+  text-align:center;
+  font-size: 9px;
+  display: inline-block;
+  border:1px;
+
+}
+
+
+.CCAbalx4 {
+    text-align: center;
+    display: block;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 16px;
+    font-family: calibri;
+}
+
+
+
+
+
+
+/*//////////////////////*/
+
+
+.UserNet2x4{
+margin-top: 5px;
+padding: 0px 30px;
+display:none;
+}
+
+.HelloRambox4{
+  font-size: 19px;
+}
+
+
+.Midccax4{
+  width: 42%;
+  font-size: 9px;
+}
+.Midccabalx4{
+  font-size: 16px;
+}
+
+/*////////////////////*/
+
+.UserNet3x4{
+
+margin-top: 5px;
+padding: 0px 30px;
+display:none;
+
+}
+
+
+/*////////////////////*/
+
+
+
+
+.UserNet4x4{
+  display:none;
+  padding-top: 5px;
+}
+
+
+
+/*/////////UserNet11//////////////////*/
+
+.HelloPhotoRightx4 {
+    float: none;
+    position: relative;
+    left: 151px;
+}
+
+.HelloPhotoRightMOBIx4 {
+    float: none;
+    position: relative;
+    left: 93px;
+    height: 55px;
+    width: 55px;
+}
+
+
+
+
+.MenuRightx4 {
+
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    float: none;
+    margin-top: 12px;
+    position: relative;
+    left: 158px;
+    top: -4px;
+
+}
+
+.MenuRightMOBIx4 {
+
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    float: none;
+    margin-top: 12px;
+    position: relative;
+    left: 98px;
+    top: -8px;
+
+}
+
+
+
+
+
+
+
+
+.CCARightx4 {
+
+    border-width: 1px;
+    text-align:left;
+    float: left;
+    margin: 2px 0px 0px 0px;
+
+}
+
+.CCARightMOBIx4 {
+
+    border-width: 1px;
+    text-align: left;
+    font-size: 17px;
+    width: 40%;
+    float: left;
+    margin: -5px 0px 7px 0px;
+
+}
+
+
+
+
+
+
+
+.CCAbalRightx4 {
+    text-align: left;
+}
+
+
+.CCAbalRightMOBIx4 {
+
+    text-align: left;
+    display: block;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 33px;
+    font-family: calibri;
+
+}
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////*/
+
+.depositx4 {
+
+    box-shadow:none;
+    border: none;
+    z-index: 700;
+ 
+/*    height: 500px;
+    width: 550px;*/
+    display: none;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+    text-align: center;
+/*    transform: translate(25px, 15px);*/
+    padding: 77px 30px;
+    padding: 20px 30px;
+    font-size: 20px;
+    opacity:none;
+    border: none;
+    color: rgb(102, 102, 102);
+    font-family: candara;
+    height: 336px;
+
+}
+
+
+
+.InsertCashCheckx4 {
+    border: none;
+    border-radius: 22px;
+    font-size: 19px;
+    color: #787878;
+    margin: 28px 10px 10px 10px;
+    width: 271px;
+    height: 179px;
+    font-family: calibri;
+    display: inline-block;
+    background-color: #f3f3f3;
+    background-color: white;
+    font-weight: 10;
+    box-shadow: 0px 4px 5px;
+}
+
+
+
+.IncashLabelx4 {
+
+    border: none;
+    width: 100%;
+    border-radius: 22px 22px 0px 0px;
+    background-color: #f0f0f0;
+    font-size: 19px;
+    margin-bottom: 3px;
+}
+
+.InsertedDepox4 {
+
+    background-color: transparent;
+    border: 1px solid #f6f6f6;
+    font-size: 15px;
+    width: 100%;
+    padding: 0px 20px;
+
+}
+
+
+.InsertedDepox4 {
+
+    background-color: transparent;
+    border: 1px solid #f3f3f3;
+    font-size: 15px;
+    width: 48%;
+    padding: 7px 13px;
+    display: inline;
+    margin: 1px 0px;
+    border-radius: 0px;
+    height: 34px;
+
+}
+
+
+.totalInsertedx4 {
+
+    background-color: transparent;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    color: #161736;
+    text-align: center;
+    padding: 0px 20px;
+    background-color: #f0f0f0;
+    height: 38px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 3px;
+}
+
+
+
+
+
+
+.RetCashChecksx4 {
+    background-color: transparent;
+    color: inherit;
+    border-radius: 10px;
+    width: 26%;
+    font-size: 20px;
+    font-family: calibri;
+    border: 1px solid;
+    padding: 9px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.depositMOBIx4 {
+
+    /*height: 759px;*/
+    margin-top: 0px;
+    opacity: 1;
+    /*width: 99%;*/
+    /*margin: -11px -22px;*/
+    padding-top: 80px;
+    border-radius: 50px 50px 0px 0px;
+    z-index: 699;
+    box-shadow: none;
+    padding: 100px 50px;
+    height: 788px;
+
+}
+
+.depositMOBIx4 {
+
+   
+    margin-top: 0px;
+    opacity: 1;
+    padding-top: 80px;
+    border-radius: 50px 50px 0px 0px;
+    z-index: 699;
+    box-shadow: none;
+    padding: 123px 50px;
+    height: 810px;
+
+}
+
+.Depositbillsx4, .DepositChecksx4{
+  display:none;
+}
+
+
+.BillCountx4 {
+
+    position: absolute;
+    background-color: white;
+    color: #303030;
+    border: none;
+    height: 14px;
+    width: 22px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 14px;
+    margin-top: 3px;
+    box-shadow: 0 1px 2px grey;
+
+}
+
+
+
+.checkNumberx4 {
+
+    position: absolute;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    height: 28px;
+    width: 147px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: -92px;
+    margin-top: 51px;
+    font-family: calibri;
+    display:none;
+
+}
+
+
+
+
+.InsertBillCheckx4 {
+    display: none;
+    font-family: calibri;
+    color: #d10000;
+    font-size: 25px;
+    font-weight: 10;
+}
+
+
+
+
+
+
+
+/*/////////////////////////////*/
+
+
+
+/*.AccStatsx4 {
+    left: 51px;
+}
+*/
+
+.AccMiniBsx4 {
+
+    position: relative;
+    height: 28px;
+    width: 100px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: none;
+    box-shadow: inset 0 1px 5px;
+    display:;
+    color: inherit;
+    padding-top: 3px;
+    top: -15px;
+
+}
+
+
+
+.AccMiniBsMOBIx4 {
+    position: relative;
+    height: 44px;
+    width: 137px;
+    font-size: 18px;
+    border-radius: 17px;
+    border: none;
+    padding-top: 3px;
+    top: 9px;
+}
+
+
+
+
+
+.labelStats2x4 {
+    display: inline-block;
+    font-size: 16px;
+    font-family: calibri;
+    margin-left: 7px;
+}
+
+
+/*///////////////////*/
+
+.Statsx1 {
+    display: none;
+    top: -37px;
+    width: 152px;
+    height: 42px;
+    border-radius: 18px;
+}
+
+
+.Statsx13, .Statsx14{
+  display:none;
+  top: -37px;
+  width: 106px;
+  height: 46px;
+}
+
+.Statsx5, .Statsx55, .Statsx57{
+  display:none;
+top: -32px;
+}
+
+.Statsx15{
+display:none;
+top: -29px;
+width:100px;
+}
+
+
+.Statsx3 {
+  display:none;
+  height: 42px;
+  width: 130px;
+  border-radius: 14px;
+  background-color: inherit;
+  top: -35px;
+}
+
+
+/*///////////////////*/
+
+.StatsMOBIx1{
+display: inline-block;
+width: 147px;
+top: 6px;
+height: 50px;
+}
+
+
+.StatsMOBIx13, .StatsMOBIx14{
+top: 20px;
+display: inline-block;
+width: 134px;
+height: 50px;
+}
+
+
+
+.StatsMOBIx5{
+display:none;
+top: -59px;
+width: 196px;
+height: 60px;
+border-radius: 21px;
+ }
+
+
+
+.StatsMOBIx55, .StatsMOBIx57{
+  display:none;
+top: -59px;
+width: 175px;
+height: 59px;
+}
+
+.StatsMOBIx15{
+  display:none;
+  top: -32px;
+  width: 175px;
+}
+
+
+.StatsMOBIx3 {
+height: 74px;
+width: 207px;
+font-size: 24px;
+border-radius: 29px;
+border: none;
+top: -63px;
+}
+
+/*///////////////*/
+
+
+
+.ViewStatsx4 {
+    height: 527px;
+    width: 642px;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 9000;
+    margin: 4px;
+    padding:7px 0px;
+    display:none;
+}
+
+.ViewStatsMOBIx4 {
+
+    height: 99%;
+    width: 600px;
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 9000;
+    margin: 4px;
+    padding: 15px 0px;
+
+}
+
+/*/////////////////*/
+
+.ViewStatsChartx4 {
+
+    height: 20%;
+    width: 95%;
+    margin: 6px auto 2px auto;
+    border: none;
+    border-radius: inherit;
+    background-color: white;
+    color: grey;
+    font-size: 70px;
+    padding: 12px;
+
+}
+
+
+.ViewStatsChartMOBIx4 {
+
+    height: 28%;
+    width: 95%;
+    margin: 20px auto;
+    border: none;
+    border-radius: inherit;
+    background-color: white;
+    color: grey;
+    font-size: 172px;
+    padding: 60px;
+
+}
+/*/////////////////*/
+
+.StatsDateTimex4 {
+
+    display: inline-block;
+    font-family: candara;
+    color:grey;
+    width: 100%;
+    font-size: 15px;
+    padding: 0px;
+
+}
+
+
+
+
+
+.SelYearMonthx4 {
+
+    height: 31px;
+    padding: 5px;
+    margin: 5px 5px 5px 12px;
+    width: 91px;
+    background-color: white;
+    border: none;
+    box-shadow: inset 0 1px 6px grey;
+    font-weight: 1px;
+    color: #000033;
+    font-size: 14px;
+    font-family: arial;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.SelYearMonthMOBIx4 {
+
+    height: 48px;
+    padding: 5px;
+    margin: 5px 5px 5px 12px;
+    width: 161px;
+    background-color: white;
+    border: none;
+    box-shadow: inset 0 1px 6px grey;
+    font-weight: 1px;
+    color: #393939;
+    font-size: 22px;
+    font-family: arial;
+    text-align: center;
+    border-radius: 18px;
+
+}
+
+
+.StatMenusx4 {
+
+    display: inline-block;
+    font-size: 10px;
+
+}
+
+.StatMenusMOBIx4 {
+
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+/*//////////*/
+
+.StatsButtonsBalx4 {
+
+    height: 70px;
+    width: 174px;
+    margin: auto;
+    border: none;
+    border-radius: inherit;
+    background-color: white;
+    color: grey;
+    font-size: 21px;
+    margin: 5px;
+
+}
+.StatsButtonsBalMOBIx4 {
+
+    height: 80px;
+    width: 198px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: grey;
+    font-size: 33px;
+    margin: 5px;
+
+}
+
+
+
+
+.StatsButtonsx4{
+
+  height:70px;
+  width:80px;
+  margin:auto;
+  border:none;
+  border-radius:inherit;
+  background-color: white;
+  color: grey;
+  font-size: 30px;
+  margin:5px;
+}
+
+.StatsButtonsMOBIx4 {
+
+    height: 85px;
+    width: 82px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: grey;
+    font-size: 42px;
+    margin: 8px 1px;
+
+}
+
+.StatIconButx4{
+display:block;
+}
+
+.labelStats3x4 {
+
+    display: block;
+    font-size: 16px;
+    font-family: calibri;
+    
+
+}
+
+
+
+.Balancex4 {
+
+    height: 52%;
+    width: 95%;
+    margin: 0px 15px;
+    border: none;
+    border-radius: inherit;
+    background-color: white;
+    color: grey;
+    font-size: 15px;
+    display: block;
+
+}
+
+.BalanceMOBIx4 {
+
+    height: 50%;
+    width: 95%;
+    margin: 15px;
+    border: none;
+    border-radius: inherit;
+    background-color: white;
+    color: grey;
+    font-size: 21px;
+    display: block;
+
+}
+
+
+.extraStatsx4{
+display:none;
+}
+
+.extraStatsMOBIx4{
+display:table-row;
+}
+
+
+
+
+
+
+/*.AccMiniBsLUx4{
+ right: 51px;
+
+}
+
+.AccStatsx4{
+left: 51px;
+}
+
+*/
+
+
+
+.LanInnerx4{
+  display: none;
+}
+
+
+/*////////////bstrap glitch solution///////*/
+
+.BorderBottomx4{
+border: none;
+border-bottom: 1px solid lightgrey;
+}
+
+/*////////////bstrap glitch solution///////*/
+
+
+.Bbotx4 {
+    height: 13px;
+    width: 15px;
+    border-radius: 7px;
+    background-color: #fcfcfc;
+    border: none;
+    position: absolute;
+    left: 164px;
+    top: 27px;
+}
+
+
+
+
+
+
+
+.SPtopBarx4{
+background-color: whitesmoke;
+width: 100%;
+border-radius: inherit 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////Remittancex4///////////////////////////////////*/
+
+.Remittancex4{
+  display:none;
+    padding: 20px 0px;
+}
+
+
+.RemitElementsx4{
+  padding-top:;
+}
+
+.RemitElementsMOBIx4{
+  padding-top: 100px;
+}
+
+
+
+
+
+.RemitLabelsx4 {
+    background-color: transparent;
+    color: grey;
+    font-size: 21px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    width: 70%;
+    height: 57px;
+    border-radius: 20px;
+    margin: 19px 0px;
+    box-shadow: inset 0 0px 4px lightgrey;
+/*height: 50px;
+margin: 10px 0px;
+font-size: 15px;*/
+}
+
+.RemitLabelsMOBIx4 {
+
+    background-color: transparent;
+    color: grey;
+    font-size: 26px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    width: 80%;
+    height: 106px;
+    border-radius: 39px;
+    margin: 19px 0px;
+    box-shadow: inset 0 0px 4px lightgrey;
+  
+}
+
+
+
+
+
+.RemitLabels2x4 {
+    background-color: transparent;
+    color: grey;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    width: 33%;
+    height: 57px;
+    border-radius: 20px;
+    margin: 19px 16px;
+    box-shadow: inset 0 0px 4px lightgrey;
+/*height: 50px;
+margin: 10px 10px;
+font-size: 15px;*/
+
+}
+
+.RemitLabels2MOBIx4 {
+
+    background-color: transparent;
+    color: grey;
+    font-size: 21px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    width: 38%;
+    height: 102px;
+    border-radius: 39px;
+    margin: 19px 9px;
+    box-shadow: inset 0 0px 4px lightgrey;
+
+
+}
+
+
+
+
+
+
+.RemitReceivex4 {
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 35%;
+    font-size: ;
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+
+.RemitRatesx4 {
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 35%;
+    font-size: ;
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+
+
+/*////////////////////Remittancex4///////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////*/
+
+
+.uiXX{
+margin: 8% auto 5% auto;  
+margin-top: 10%;
+margin-bottom: 110%;
+
+}
+
+.uiXXMOBI{
+  
+margin-top: 14%;
+margin-bottom: 37%;
+
+}
+
+
+/*//////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+@media screen and (min-width: 1100px) and (max-width: 1200px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+margin-bottom: 88%;
+
+}
+
+
+/*//////////   Machine  ///////////////*/
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+
+
+.uiXXMOBI{
+
+
+margin-bottom: 35%;
+
+}
+
+
+
+
+
+
+}
+/*////////////////////////////////////////////////////////////*/
+
+
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+
+
+/*//////////Machine ///////////////*/
+
+.uiXX{
+  
+
+margin-bottom: 80%;
+
+}
+
+/*//////////   Machine  ///////////////*/
+
+
+
+
+
+/*/////////   MOBILE  ////////////////*/
+
+
+.uiXXMOBI{
+
+
+margin-bottom: 19%;
+
+}
+
+
+
+
+
+
+}
+
+
+
+.FlagIconsx4, .NoFlagIconsx4{
+  display:none;
+}
+
+.FlagIcons2x4{
+  display:none;
+}
+
+
+
+.Flag {
+
+    height: 21px;
+    width: 31px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/flags/usa.jpg");
+    margin-right: 0px;
+    border-radius: 3px;
+    filter: grayscale(54%);
+
+}
+
+.FlagMOBI {
+
+height: 25px;
+width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/flags/usa.jpg");
+    margin-right: 0px;
+    border-radius: 3px;
+
+}
+
+
+.flagMOBIx14{
+  margin: 0px auto 11px auto;
+}
+
+
+.flag1{
+background-image: url("../img/flags/usa.jpg");
+}
+.flag2{
+  background-image: url("../img/flags/dr2.jpg");
+}
+
+
+
+
+
+
+
+
+.flagfixedlarge {
+
+    display: block;
+    margin: 17px auto;
+
+}
+
+
+
+
+
+
+.py2x4 {
+    display: none;
+    font-size: 20px;
+}
+
+.py2Buttonx4 {
+    padding: 13px 0px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+.AddNewSymbolx4{
+  font-size:90px;
+}
+
+.AddNewSymbolx15 {
+    font-size: 51px;
+    margin-top: -14px;
+}
+
+.AddNewSymbolx17 {
+font-size: 41px;
+margin-top: -22px;
+}
+
+.AddNewSymbolx27 {
+    font-size: 43px;
+    margin-top: -12px;
+}
+
+.AddNewSymbolx37 {
+    font-size: 43px;
+    margin-top: -12px;
+}
+
+
+
+
+
+
+.SendRemittancex4{
+
+    position: absolute;
+    z-index: 5000;
+    background-color: white;
+    height: 520px;
+    border-radius: 12px;
+    padding: 20px;
+    display:none;
+
+}
+
+
+
+.SendRemitx4{
+  font-size: 15px;
+}
+
+
+
+
+.ConfirmRemitx4{
+
+  width:190px;
+  height:65px;
+  border-radius:20px;
+  font-size: 24px;
+  background-image: linear-gradient(to bottom right ,#fff202, #efb100);
+  color: black;
+  border:none;
+  margin: 12px;
+  font-family: calibri;
+
+}
+
+
+
+
+
+.ConfirmRemitMOBIx4 {
+
+height: 115px;
+width: 346px;
+border-radius: 33px;
+background-color: #ffd800;
+color: #262626;
+box-shadow: none;
+font-size: 33px;
+font-weight: 600;
+border: none;
+font-family: calibri;
+margin: 22px auto;
+background-image: linear-gradient(to bottom right ,#ffd800, #fb8d00);
+display: block;
+
+}
+
+
+
+
+.OriginalSendRemitTotalx4, .SendRemitTotal3x4 {
+    height: 29px;
+    width: 103px;
+    border: none;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 26px;
+    font-family: calibri;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+.SendRemitTotalx4, .SendRemitTotal3x4 {
+
+    height: 26px;
+    width: 221px;
+    border: none;
+    border-radius: 19px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: calibri;
+    color: black;
+    text-align: right;
+      display: block;
+
+}
+
+
+.CryptoTotalx4{
+  display: inline-block;
+  width: 153px;
+}
+
+
+
+.OriginalSendRemitTotalx4 {
+    height: 29px;
+    width: 103px;
+    border: none;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 26px;
+    font-family: calibri;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+.SendRemitTotal3x4{
+
+  font-size: 25px;
+  height: 30px;
+
+}
+
+
+
+
+
+
+.RemitPaymentx4 {
+
+    box-shadow: 0 1px 10px black;
+    border: none;
+    z-index: 5000;
+    position: absolute;
+    height: 506px;
+    width: 644px;
+    display:none;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    transform: translate(0px, -7px);
+    padding: 34px 30px;
+    font-size: 20px;
+    opacity: .98;
+    border: none;
+    color: rgb(102, 102, 102);
+    font-family: calibri;
+    margin: 10px 3px;
+    box-shadow: 0 3px 5px black;
+    z-index: 1000;
+
+}
+
+
+
+.DuePayAmountx4 {
+    background-color: whitesmoke;
+    padding: 52px 0px 0px 80px;
+    height: 151px;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 94%;
+    margin: auto;
+}
+
+
+.DuePayAmount2x4{
+  display: inline-block;
+}
+
+
+
+
+.DueInForeignCurrencyx4 {
+
+    width: 118px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    height: 34px;
+    color: blue;
+    margin: 0px 0px 0px -41px;
+
+}
+
+
+
+.TransactionFeesx4 {
+
+    position: absolute;
+    bottom: 140px;
+    right: 273px;
+
+}
+
+
+
+
+.DueTotalx4 {
+
+    display: block;
+    position: relative;
+    top: 47px;
+    right: -96px;
+
+}
+
+
+
+
+.ExchangeFeex4 {
+
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    display: block;
+    text-align: right;
+}
+
+
+.TransactionFeex4 {
+
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    display: block;
+    text-align: right;
+}
+
+
+
+
+
+
+.Confirmed2x4 {
+
+    font-size: 31px;
+    color: grey;
+    display: inline-block;
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.PaymentTotalx4 {
+
+    height: 53px;
+    width: 151px;
+    border: none;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 37px;
+    font-family: calibri;
+    color: black;
+    text-align: center;
+
+}
+
+
+
+
+
+.Paycurrenciesx4 {
+
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 15px;
+
+}
+
+
+
+.PCflagx4{
+    height: 21px;
+    width: 31px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/flags/dr2.jpg");
+    margin-right: 0px;
+    border-radius: 3px;
+    filter: grayscale(54%);
+    margin: auto;
+}
+
+
+
+/*/////////////////////*/
+
+.CancelATMOrderx4{
+
+    height: 115px;
+    width: 346px;
+    border-radius: 33px;
+    background-color: #ffd800;
+    color: #262626;
+    box-shadow:none;
+    font-size: 33px;
+    font-weight: 600;
+    border: none;
+    font-family: calibri;
+    margin: 22px auto;
+    background-image: linear-gradient(to bottom right ,#ffd800, #fb8d00);
+    display: block;
+
+}
+
+
+
+.TrulyCancelOrderx4 {
+    background-image: none;
+    background-color: white;
+    border: 1px solid orange;
+}
+
+
+
+/*/////////////BS Coins//////////////////////////*/
+
+
+.BScoinsx4{
+
+    position: absolute;
+    z-index: 5000;
+    background-color: white;
+    height: 520px;
+    border-radius: 12px;
+    padding: 20px;
+    display:none;
+
+}
+
+
+
+.BSgroupx4{
+width: 100%;
+margin: auto 75px;
+}
+
+
+
+.SelectBSbuttonx4 {
+
+    width: 35%;
+    margin: 20px 8px;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    height: 136px;
+    box-shadow: inset 0px 0px 4px lightgrey;
+    padding:22px 0px; 
+
+}
+
+
+
+.LabeltextBSx4 {
+
+    font-weight: 10;
+    font-family: calibri;
+    color: grey;
+    font-size: 18px;
+    display: block;
+
+}
+
+
+.BSiconSelectx4{
+  color: grey;
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////BS Coins//////////////////////////*/
+
+
+
+.Quanti2x4{
+  display: none;
+}
+
+
+
+.Amount2ndx4{
+
+    background-color: inherit;
+    margin-left: 150px;
+    font-size: 35px;
+    margin-top: 26px;
+
+}
+
+
+.QtyValue2ndx4{
+
+    background-color: inherit;
+    height: 50px;
+    width: 250px;
+    margin-left: 0px;
+    border: none;
+   font-size: 60px;
+
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
+
+.TapBarx4{
+  height: 50px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  width: 100%;
+  padding: 5px 38px;
+  display: none;
+} 
+
+.TapBarMOBIx4{
+    height: 95px;
+    padding: 18px 38px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+.BottomTapBarx4 {
+
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 65px;
+    width: 100%;
+    padding: 2px 1px 10px 63px;
+    display: none;
+}
+
+
+.BottomTapBarMOBIx4 {
+    height: 95px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    width: 100%;
+    padding: 6px 0px 20px 34px;
+}
+
+
+
+
+
+
+.BottomTapbarButtonsx4 {
+
+    background-color: inherit;
+    padding: 6px 10px;
+    margin: 12px;
+    width: 107px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 60px;
+    font-size: 29px;
+    border: none;
+    margin: 1px 37px 9px 10px;
+
+}
+
+.BottomTapbarButtonsMOBIx4 {
+
+    background-color: inherit;
+    padding: 6px 10px;
+    margin: 12px;
+    width: 107px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 75px;
+    font-size: 42px;
+    border: none;
+    margin: 1px 37px 9px 10px;
+
+}
+
+
+
+
+
+
+
+
+.labelText0x4 {
+    display: block;
+    font-size: 10px;
+    font-family: calibri;
+    font-weight: 10;
+    margin-top: -5px;
+}
+
+.labelText0MOBIx4 {
+    display: block;
+    font-size: 16px;
+    font-family: calibri;
+    font-weight: 10;
+    margin-top: -5px;
+}
+
+
+/*////////////////////////////////////////////////////////*/
+
+
+
+
+.TapBar1x4 {
+  height: 50px;
+  padding: 5px 22px 3px 74px;
+  display: block;
+}
+.TapBar1MOBIx4{
+
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    height: 111px;
+    width: 100%;
+    padding: 15px 0px 20px 34px;
+}
+
+
+
+
+/*.langBMOBIMachinex4 {
+
+    background-color: inherit;
+    padding: 6px 10px;
+    margin: 12px;
+    width: 107px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 47px;
+    font-size: 19px;
+    border: none;
+    margin: 1px 29px 9px 10px;
+}*/
+
+.langBMOBIMachinex4 {
+
+    background-color: inherit;
+    padding: 6px 10px;
+    margin: 12px;
+    width: 107px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 39px;
+    font-size: 17px;
+    border: none;
+    margin: 1px 29px 9px 10px;
+        margin-left: 10px;
+
+}
+
+
+.langBMOBIMachineMOBIx4 {
+
+    background-color: inherit;
+    padding: 6px 10px;
+    margin: 12px;
+    width: 107px;
+    font-weight: 1px;
+    font-family: arial;
+    height: 85px;
+    font-size: 42px;
+    border: none;
+    margin: 1px 33px 9px 14px;
+
+}
+
+
+
+.labelText0x4 {
+
+    display: block;
+    font-size: 12px;
+    font-family: calibri;
+    font-weight: 10;
+    margin-top: -5px;
+}
+
+
+.labelText0MOBIx4 {
+    display: block;
+    font-size: 16px;
+    font-family: calibri;
+    font-weight: 10;
+}
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////*/
+
+
+.TapBar2x4{
+
+}
+
+.TapBar2MOBIx4{
+
+}
+
+
+/*///////////////////////////////////////////////////////////*/
+
+.TapBar3x4{
+
+}
+.TapBar3MOBIx4{
+
+}
+
+/*////////////////////////////////////////////////////////////*/
+
+.TapBar3ax4{
+
+}
+.TapBar3aMOBIx4{
+
+}
+
+/*////////////////////////////////////////////////////////////*/
+.TapBar4x4{
+
+}
+.TapBar4MOBIx4{
+
+}
+
+
+
+
+.CCA4x4 {
+    border-width: 1px;
+    position: relative;
+    left: 102px;
+    top: 1px;
+    background-color: transparent;
+}
+
+
+.CCA4MOBIx4 {
+    font-size: 15px;
+    border-width: 1px;
+    position: relative;
+    left: 20px;
+    top: -6px;
+    background-color: transparent;
+
+}
+
+
+
+
+
+.CCAbal4x4 {
+
+    text-align: center;
+    display: block;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 16px;
+    font-family: calibri;
+
+}
+
+.CCAbal4MOBIx4 {
+
+    text-align: center;
+    display: block;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 28px;
+    font-family: calibri;
+
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+
+.TapBar5x4{
+
+}
+.TapBar5MOBIx4{
+
+}
+
+
+.CCA5x4{
+
+}
+.CCAbal5x4{
+
+}
+
+
+.HelloPhoto5MOBIx4, .Menu5MOBIx4 {
+  display: none;
+}
+
+
+.CCA5MOBIx4 {
+
+    border-radius: 10px;
+    width: 32%;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px;
+
+}
+
+.CCAbal5MOBIx4 {
+
+    text-align: center;
+    display: block;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 29px;
+    font-family: calibri;
+
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+
+.TapBar6x4{
+
+}
+.TapBar6MOBIx4{
+
+}
+
+/*///////////////////////////////////////////////////////////*/
+
+
+.TapBar6ax4{
+
+}
+
+.TapBar6aMOBIx4{
+
+}
+
+
+/*///////////////////////////////////////////////////////////*/
+
+.TapBar7x4{
+
+}
+
+.TapBar7MOBIx4{
+
+}
+
+
+/*/////////////////////////////////////////////////////////*/
+
+
+.TapBar7ax4{
+
+}
+
+.TapBar7aMOBIx4{
+
+}
+
+
+
+/*/////////////////////////////////////////////////////////*/
+
+
+
+
+.TapBar8x4{
+padding: 2px 38px;
+}
+
+.TapBar8MOBIx4{
+
+}
+
+/*/////////////////////////////////////////////////////////*/
+
+.TapBar8ax4{
+
+}
+
+.TapBar8aMOBIx4{
+
+}
+
+
+/*/////////////////////////////////////////////////////////*/
+
+.TapBar9x4{
+ height:135px;
+ padding: 8px 0px 0px 0px;
+}
+
+.TapBar9MOBIx4{
+
+}
+
+.Netx11Fixed{
+    display:block;
+    height: 135px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/LineGraph6.png");
+    border:none;
+
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+

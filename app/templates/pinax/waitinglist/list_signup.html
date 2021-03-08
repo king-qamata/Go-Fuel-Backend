@@ -1,15 +1,17 @@
 {% extends "base.html" %}
+{% block body %}
 <div class="site-wrapper-inner">
     <div class="cover-container">
         <div class="inner cover">
-            <h1 class="cover-heading">Sign up on our waiting list!</h1>
+            <h1 class="cover-heading">Are you interested in fueling your vehicle at any time of the day or night!</h1>
             <p class="lead">
-                Once this site is ready to launch, you will be emailed.
+                Welcome to EAZYPAY, a mobile app that connects drivers to the nearest filling station that operates 24 hours of the day. 
+                Join our waiting list to be the first to receive the download link.
             </p>
             {% if form.email.errors %}
                 <b>{{ form.email.errors.0 }}</b>
             {% endif %}
-            {% url "waitinglist_list_signup" as url %}
+            {% url "list_signup" as url %}
             <form method="POST" action="{{ url }}" class="form-inline">
                 {% csrf_token %}
                 <div class="form-group">
@@ -26,3 +28,4 @@
         </div>
     </div>
 </div>
+{% endblock %}
