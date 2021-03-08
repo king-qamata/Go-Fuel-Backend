@@ -196,7 +196,7 @@ STATICFILES_DIRS = [
 ]
 
 MEDIA_ROOT = '/vol/web/media'
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 LOGIN_REDIRECT_URL = 'home'
 
