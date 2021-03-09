@@ -1,33 +1,118 @@
 body {
-    padding-top: 50px;
-    position: relative;
+  padding-top: 50px;
+  position: relative;
+}
+section {
+  padding: 20px 0px;
+}
+.modal form {
+  margin-bottom: 0px;
+}
+footer {
+  padding-bottom: 20px;
+}
+p.login-signup {
+  margin-top: 20px;
+}
+
+// ------------------------  Stripe
+
+#payment-exp-month,
+#payment-exp-cvc {
+  padding: 6px;
+  min-width: 40px;
+}
+
+#payment-exp-year {
+  margin-left: -15px;
+}
+
+.for-cvc {
+  max-width: 50px;
+}
+
+.cbody {
+  background-color: white;
+  color: grey;
+
+  text-align: center;
+  font-size: 70px;
+  color: #262626;
+  padding: 80px 0px 80px 0px;
+}
+
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+}
+footer .footer-above {
+  padding-top: 0px;
+  background-color: rgb(56, 56, 56);
+  border-top: 3px solid white;
+}
+footer .footer-col {
+  margin-bottom: 0px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
+
+.footer .icons {
+  display: none;
+}
+.footer .icons {
+  display: none;
+}
+
+.footer {
+  margin-bottom: 0%;
+  width: 100%;
+  height: 50px;
+  background-color: darkgray;
+  color: red;
+  clear: right;
+  padding: 10px;
+  text-align: left;
+}
+.footer {
+  margin-bottom: 1px;
+  position: relative;
+
+  width: 100%;
+  height: 70px;
+  background-color: darkgray;
+  color: red;
+  clear: right;
+  padding: 10px;
+  text-align: left;
+}
+
+.footer .icons {
+  position: relative;
+  bottom: 20px;
+
+  display: ;
+  font-size: 20px;
+}
+footer {
+    padding-top: 25px;
+    /*padding: 25px 0;*/
+    text-align: center;
   }
-  section {
-    padding: 20px 0px;
+  footer span.copyright {
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
   }
-  .modal form {
-    margin-bottom: 0px;
-  }
-  footer {
-      padding-bottom: 20px;
-  }
-  p.login-signup {
-      margin-top: 20px;
-  }
-  
-  
-  // ------------------------  Stripe
-  
-  #payment-exp-month, #payment-exp-cvc {
-      padding: 6px;
-      min-width: 40px;
-  }
-  
-  #payment-exp-year {
-      margin-left: -15px;
-  }
-  
-  .for-cvc {
-      max-width: 50px;
+  footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
   }
   
