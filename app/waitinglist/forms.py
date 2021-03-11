@@ -10,17 +10,13 @@ class WaitingListEntryForm(forms.ModelForm):
     campaign = forms.CharField(required=False, widget=forms.HiddenInput())
     email = forms.CharField(required=True)
     phone_number = forms.CharField(required=True)
-    car_name = forms.CharField(required=False)
-    car_model = forms.CharField(required=False)
-    car_year = forms.CharField(required=False)
+    car_type = forms.CharField(required=False)
     class Meta:
         model = WaitingListEntry
         fields = [
             "email",
             "phone_number",
-            "car_name",
-            "car_model",
-            "car_year",
+            "car_type",
             "campaign",
             "referrer"
         ]
@@ -44,9 +40,7 @@ class WaitingListEntryForm(forms.ModelForm):
         self.fields["email"].widget.attrs["placeholder"] = "your@email.com"
         self.fields["email"].label = "Email Address"
         self.fields["phone_number"].widget.attrs["placeholder"] = "08023456789"
-        self.fields["car_name"].widget.attrs["placeholder"] = "Toyota"
-        self.fields["car_model"].widget.attrs["placeholder"] = "Corolla"
-        self.fields["car_year"].widget.attrs["placeholder"] = "1999"
+        self.fields["car_type"].widget.attrs["placeholder"] = "Toyota Corolla, Honda Accord, etc."
 
 
 class SurveyForm(forms.ModelForm):

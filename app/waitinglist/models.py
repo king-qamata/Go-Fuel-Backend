@@ -14,9 +14,7 @@ SURVEY_SECRET = getattr(settings, "WAITINGLIST_SURVEY_SECRET", settings.SECRET_K
 class WaitingListEntry(models.Model):
 
     email = models.EmailField(_("email address"), unique=True)
-    car_name = models.CharField(max_length=255, blank=True)
-    car_model = models.CharField(max_length=255, blank=True)
-    car_year = models.CharField(max_length=255, blank=True)
+    car_type = models.CharField(max_length=255, blank=True)
     #age = models.PositiveIntegerField(null=True, blank=True)
     phone_number = models.CharField(max_length=11, blank=True)
     created = models.DateTimeField(_("created"), default=timezone.now, editable=False)
