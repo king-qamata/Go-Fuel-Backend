@@ -4,6 +4,8 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, \
 
 import uuid
 from django.conf import settings
+from users.models.customers import Customers
+from users.models.administrator import Administrator
 # Create your models here.
 
 class UserManager(BaseUserManager):
@@ -15,7 +17,12 @@ class UserManager(BaseUserManager):
         user = self.model(email=self.normalize_email(email), **extra_fields)
         user.set_password(password)
         user.save(using=self._db)
-
+        user_obj.moderator = is_moderator
+        user_obj.administrator = is_administrator
+        user_obj.customers = is_customers
+        user_obj.vendors = is_vendors
+        user_obj.attendants = is_attendants
+        user_obj.managers = is_managers
         return user
 
     def create_superuser(self, email, password):
@@ -31,7 +38,12 @@ class UserManager(BaseUserManager):
 class User(AbstractBaseUser, PermissionsMixin):
     """Custom user model that suppors using email instead of username"""
     email = models.EmailField(max_length=255, unique=True)
-    #name = models.CharField(max_length=255)
+    administrator = models.BooleanField(default=False)
+    moderator = models.BooleanField(default=False)
+    customers = models.BooleanField(default=True)
+    vendors = models.BooleanField(default=False)
+    attendants = models.BooleanField(default=False)
+    managers = models.BooleanField(default=False)
     #age = models.PositiveIntegerField(null=True, blank=True)
     phone_number = models.CharField(max_length=11, blank=True)
     #date_joined = models.DateTimeField(auto_now_add=True)
@@ -45,6 +57,42 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     USERNAME_FIELD = 'email'
 
+
+    @property
+    def is_moderator(self):
+        if self.is_administrator:
+            return True
+        return self.moderator
+
+    @property
+    def is_administrator(self):
+        Administrator(user=user).save()
+        return self.administrator
+
+    @property
+    def is_customers(self):
+        Customers(user=user).save()
+        if self.is_administrator:
+            return True
+        return self.customers
+
+    @property
+    def is_vendors(self):
+        if self.is_administrator:
+            return True
+        return self.vendors
+
+    @property
+    def is_managers(self):
+        if self.is_administrator:
+            return True
+        return self.managers
+
+    @property
+    def is_attendants(self):
+        if self.is_administrator:
+            return True
+        return self.attendants
 
 class Profile(models.Model):
     image = models.ImageField(blank=True)

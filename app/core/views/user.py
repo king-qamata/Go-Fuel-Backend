@@ -7,7 +7,7 @@ from core.models import User, Profile
 from core.serializers.user import UserSerializer, UserSerializerCreate, UserSerializerLogin, UserSerializerUpdate
 from utils import constants
 from utils.permissions import is_administrator, is_moderator
-
+from users.models.customers import Customers
 
 # users
 class UserView(APIView):
@@ -33,6 +33,7 @@ class UserView(APIView):
             user.set_password(serializer.validated_data['password'])
             user.save()
             Profile(user=user).save()
+            Customers(user=user).save()
             return Response(UserSerializer(user).data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 

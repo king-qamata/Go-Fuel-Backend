@@ -6,9 +6,9 @@ from django.utils.translation import ugettext_lazy as _
 
 class AppConfig(BaseAppConfig):
 
-    name = "pinax.cohorts"
-    label = "pinax_cohorts"
-    verbose_name = _("Pinax Cohorts")
+    name = "cohorts"
+    label = "cohorts"
+    verbose_name = _("Cohorts")
 
     def ready(self):
-        importlib.import_module("pinax.cohorts.receivers")
+        importlib.import_module("cohorts.receivers")

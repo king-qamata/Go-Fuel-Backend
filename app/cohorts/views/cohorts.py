@@ -2,12 +2,12 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import permission_required
 from django.shortcuts import get_object_or_404, redirect, render
 
-from account.decorators import login_required
-from account.models import SignupCode
-from pinax.waitinglist.models import WaitingListEntry  # @@@ decouple?
+from cohorts.decorators import login_required
+from cohorts.models.accounts import SignupCode
+from waitinglist.models import WaitingListEntry  # @@@ decouple?
 
-from .forms import CohortCreateForm
-from .models import Cohort, SignupCodeCohort
+from cohorts.forms.cohorts import CohortCreateForm
+from cohorts.models.cohorts import Cohort, SignupCodeCohort
 
 
 @login_required
@@ -29,7 +29,7 @@ def cohort_create(request):
 
         if form.is_valid():
             cohort = form.save()
-            return redirect("pinax_cohorts:detail", cohort.id)
+            return redirect("detail", cohort.id)
     else:
         form = CohortCreateForm()
 
@@ -69,7 +69,7 @@ def cohort_member_add(request, pk):
         try:
             N = int(request.POST["invite_next"])
         except ValueError:
-            return redirect("pinax_cohorts:detail", cohort.pk)
+            return redirect("detail", cohort.pk)
         # people who are NOT invited or on the site already
         waiting_list = WaitingListEntry.objects.exclude(
             email__in=SignupCode.objects.values("email")
@@ -90,7 +90,7 @@ def cohort_member_add(request, pk):
             signup_code.save()
             SignupCodeCohort.objects.create(signup_code=signup_code, cohort=cohort)
 
-    return redirect("pinax_cohorts:detail", cohort.pk)
+    return redirect("detail", cohort.pk)
 
 
 @login_required
@@ -100,4 +100,4 @@ def cohort_send_invitations(request, pk):
     cohort = Cohort.objects.get(pk=pk)
     cohort.send_invitations()
 
-    return redirect("pinax_cohorts:detail", cohort.pk)
+    return redirect("detail", cohort.pk)

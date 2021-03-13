@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Cohort
+from cohorts.models.cohorts import Cohort
 
 
 class CohortCreateForm(forms.ModelForm):

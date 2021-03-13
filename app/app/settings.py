@@ -68,6 +68,7 @@ INSTALLED_APPS = [
     'filters',
     'fuelcredit',
     'waitinglist',
+    'cohorts',
 ]
 
 MIDDLEWARE = [

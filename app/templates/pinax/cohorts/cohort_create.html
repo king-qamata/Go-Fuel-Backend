@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% load bootstrap %}
+
+{% block body_class %}authed cohorts{% endblock %}
+
+{% block head_title %}Cohort Create{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-9">
+            <h1>Create a cohort</h1>
+            <form class="form" method="POST" action="{% url "create" %}">
+                {% csrf_token %}
+                <fieldset>
+                    {{ form|bootstrap }}
+                </fieldset>
+                <fieldset class="form-actions">
+                    <button class="btn btn-info">Create</button>
+                    <a class="btn btn-default" href="{% url "list" %}">Cancel</a>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+{% endblock %}

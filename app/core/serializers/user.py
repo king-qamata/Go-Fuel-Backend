@@ -4,7 +4,7 @@ from rest_framework.authtoken.models import Token
 from core.models import Profile, User
 #from core.models.user import User
 from utils import constants
-from utils.permissions import is_administrator, is_moderator
+from utils.permissions import is_administrator, is_moderator, is_customers, is_vendors, is_attendants, is_managers
 from .profile import ProfileSerializer
 
 
@@ -36,6 +36,15 @@ class UserSerializer(serializers.ModelSerializer):
             return constants.USER_ROLE_ADMINISTRATOR
         if is_moderator(user):
             return constants.USER_ROLE_MODERATOR
+        if is_customers(user):
+            return constants.USER_ROLE_CUSTOMERS
+        if is_vendors(user):
+            return constants.USER_ROLE_VENDORS
+        if is_managers(user):
+            return constants.USER_ROLE_MANAGERS
+        if is_attendants(user):
+            return constants.USER_ROLE_ATTENDANTS
+        
 
 
 class UserSerializerCreate(serializers.ModelSerializer):

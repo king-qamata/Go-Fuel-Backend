@@ -1,8 +1,8 @@
 from django.dispatch import receiver
 
-from account.signals import user_signed_up
+from cohorts.signals.account as import user_signed_up
 
-from .models import SignupCodeCohort, UserCohort
+from .models.cohorts import SignupCodeCohort, UserCohort
 
 
 @receiver(user_signed_up)

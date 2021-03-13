@@ -5,7 +5,7 @@ from django.db import models
 from django.utils import timezone
 from django.utils.translation import ugettext_lazy as _
 
-from account.models import SignupCode, SignupCodeResult
+from cohorts.models.accounts import SignupCode, SignupCodeResult
 
 Member = collections.namedtuple("Member", ["email", "signup_code", "user", "invited", "expired"])
 

@@ -2,6 +2,11 @@ from rest_framework import serializers
 from core import models
 from users.models.customers import Customers
 from rest_framework.authtoken.models import Token
+from rest_framework import serializers
+from core.serializers.user import UserSerializer
+#from users.models.customers import Customers
+from utils import constants
+from utils.permissions import is_administrator, is_customers
 
 
 class CustomerSerializer(serializers.ModelSerializer):
@@ -100,3 +105,37 @@ class CustomerSerializerUpdate(serializers.ModelSerializer):
         extra_kwargs = {'password': {'write_only': True},
                         'date_joined': {'read_only': True}
                         }
+
+class CustomerSerializer(serializers.ModelSerializer):
+    #sponsor = UserSerializer()
+    user = UserSerializer()
+
+    class Meta:
+        model = Customers
+        fields = '__all__'
+
+
+class CustomerSerializerCreate(serializers.ModelSerializer):
+    #sponsor = serializers.HiddenField(default=serializers.CurrentUserDefault())
+
+    class Meta:
+        model = Customers
+        fields = '__all__'
+
+    def validate(self, data):
+        """
+        Administrator permissions needed
+        """
+
+        if not is_administrator(self.context['request'].user):
+            raise serializers.ValidationError(constants.PERMISSION_ADMINISTRATOR_REQUIRED)
+        return data
+
+    def validate_user(self, user):
+        """
+        Ensure user is not already moderator or higher
+        """
+
+        if is_customers(user):
+            raise serializers.ValidationError('User already has customer permissions')
+        return user
