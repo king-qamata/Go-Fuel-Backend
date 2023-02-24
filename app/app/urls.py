@@ -18,6 +18,7 @@ from django.urls import path, include
 from users.views.customers import CustomerWaitListView 
 from core.views.custom_user import HomePageView, AboutPageView
 from django.views.generic import TemplateView
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,10 +28,12 @@ urlpatterns = [
     #path('', include('users.urls')),
    # path('signup/', CustomUserSignUpView.as_view(), name='signup'),
     #path('signup/customers', CustomerWaitListView.as_view(), name='signup_customer'),
-    #path('', HomePageView.as_view(), name='home'),
+    path("login", auth_views.LoginView.as_view(), name="login"),
+    path("logout", auth_views.LogoutView.as_view(), name="logout"),
+    path('', HomePageView.as_view(), name='home'),
     #path('about/', AboutPageView.as_view(), name='about'),
-    path('', include('waitinglist.urls'), name='waitinglist'),
-    path('', include('cohorts.urls'), name='cohorts'),
+    #path('', include('waitinglist.urls'), name='waitinglist'),
+    #path('', include('cohorts.urls'), name='cohorts'),
     
     
 ]

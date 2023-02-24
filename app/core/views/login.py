@@ -9,7 +9,7 @@ from core.serializers.user import UserSerializerLogin
 
 # login
 class LoginView(APIView):
-    authentication_classes = ()
+    #authentication_classes = ()
     permission_classes = ()
 
     @staticmethod
