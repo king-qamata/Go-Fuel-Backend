@@ -2,7 +2,7 @@ from django import forms
 from django.forms import ModelForm
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
 from .models import CustomUser, OisStaffProfile, OisAlumniProfile, OisAlumniGuardianProfile
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.db import transaction
 #from allauth.account.forms import SignupForm
 from allauth.account.adapter import DefaultAccountAdapter

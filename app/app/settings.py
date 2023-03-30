@@ -45,6 +45,24 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'wagtail.contrib.forms',
+    'wagtail.contrib.redirects',
+    'wagtail.embeds',
+    'wagtail.sites',
+    'wagtail.users',
+    'wagtail.snippets',
+    'wagtail.documents',
+    'wagtail.images',
+    'wagtail.search',
+    'wagtail.admin',
+    'wagtail',
+    'wagtail.contrib.modeladmin',
+    'wagtail.contrib.settings',
+    'wagtail.api.v2',
+    'taggit',
+    'modelcluster',
+
 
     'rest_framework',
     'rest_framework.authtoken',
@@ -57,6 +75,14 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     'bootstrapform',
     'crispy_forms',
+    'longclaw.core2',
+    'longclaw.configuration',
+    'longclaw.shipping',
+    'longclaw.products',
+    'longclaw.orders',
+    'longclaw.checkout',
+    'longclaw.basket',
+    'longclaw.stats',
     # "pinax.waitinglist",
     # "bootstrapform",
     # "pinax.templates",
@@ -66,9 +92,10 @@ INSTALLED_APPS = [
     'core',
     'users',
     'filters',
+    'webfuel',
     'fuelcredit',
-    'waitinglist',
-    'cohorts',
+    #'waitinglist',
+    #'cohorts',
 ]
 
 MIDDLEWARE = [
@@ -81,12 +108,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+     'django.middleware.security.SecurityMiddleware',
+    'wagtail.contrib.legacy.sitemiddleware.SiteMiddleware',
+    'wagtail.contrib.redirects.middleware.RedirectMiddleware',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 ROOT_URLCONF = 'app.urls'
-
+WAGTAIL_SITE_NAME = 'example.com'
 AUTH_USER_MODEL = 'core.User'
 
 TEMPLATES = [
@@ -100,6 +130,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'longclaw.configuration.context_processors.currency',
             ],
         },
     },
@@ -239,3 +270,8 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
 ]
+
+
+PRODUCT_VARIANT_MODEL = 'webfuel.ProductVariant'
+PAYMENT_GATEWAY = 'longclaw.checkout.gateways.BasePayment'
+

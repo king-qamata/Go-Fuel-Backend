@@ -1,0 +1,300 @@
+:root {
+    --brand-primary: #b14344;
+    --border-radius-default: 5px;
+    --header-height: 70px;
+  }
+
+ /* 
+body {
+    margin: 0;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: var(--header-height) 1fr auto;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+    min-height: 100vh;
+ 
+}
+
+.header {
+    grid-area: header;
+    padding: 5px;
+    background-color: var(--brand-primary)
+}
+
+
+
+.main {
+    grid-area: main;
+    margin: 1em;
+}
+*/
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 60px;
+}
+
+.font-titillium{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.nounderline {
+  text-decoration: none !important
+}
+
+.top-nav-color{
+    background-color: #3C0000;
+}
+
+.secondary-color{
+    color: #FC814A;
+}
+
+.cart-button-color{
+    color: #2A2D34;
+}
+
+.add-to-cart {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+	border-radius:8px;
+	border:2px solid #fc824a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:4px 11px;
+	text-decoration:none;
+}
+.add-to-cart:hover {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+}
+.add-to-cart:active {
+	position:relative;
+	top:1px;
+}
+
+.add-to-cart:focus{
+	outline: none;
+}
+
+.empty-cart-btn {
+	background:linear-gradient(to bottom, #3C0000 5%, #3C0000 100%);
+	background-color:#3C0000;
+	border-radius:8px;
+	border:1px solid #3C0000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.empty-cart-btn:hover {
+	background:linear-gradient(to bottom, #3C0000 5%, #3C0000 100%);
+	background-color:#3C0000;
+}
+.empty-cart-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.empty-cart-btn:focus{
+	outline: none;
+}
+
+.asteriskField {
+    display: none;
+}
+
+
+.razorpay-payment-button {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+	border-radius:7px;
+	border:2px solid #fc824a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:5px 12px;
+	text-decoration:none;
+}
+.razorpay-payment-button:hover {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+}
+.razorpay-payment-button:active {
+	position:relative;
+	top:1px;
+}
+
+.razorpay-payment-button:focus{
+	outline: none;
+}
+
+
+.back-btn {
+	background-color:#2a2d34;
+	border-radius:9px;
+	border:3px solid #2a2d34;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:16px 69px;
+	text-decoration:none;
+}
+.back-btn:hover {
+	background-color:#2a2d34;
+}
+.back-btn:active {
+	position:relative;
+	top:1px;
+}
+.back-btn:focus{
+	outline: none;
+}
+
+.checkout-btn {
+	background:linear-gradient(to bottom, #3C0000 5%, #3C0000 100%);
+	background-color:#3C0000;
+	border-radius:8px;
+	border:1px solid #3C0000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.checkout-btn:hover {
+	background:linear-gradient(to bottom, #3C0000 5%, #3C0000 100%);
+	background-color:#3C0000;
+}
+.checkout-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.checkout-btn:focus{
+	outline: none;
+}
+
+.signup-checkout-btn {
+	background:linear-gradient(to bottom, #3C0000 5%, #3C0000 100%);
+	background-color:#3C0000;
+	border-radius:8px;
+	border:1px solid #3C0000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.signup-checkout-btn:hover {
+	background:linear-gradient(to bottom, #3C0000 5%, #3C0000 100%);
+	background-color:#3C0000;
+}
+.signup-checkout-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.signup-checkout-btn:focus{
+	outline: none;
+}
+
+.show-addresses-btn {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+	border-radius:8px;
+	border:2px solid #fc824a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:4px 11px;
+	text-decoration:none;
+}
+.show-addresses-btn:hover {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+}
+.show-addresses-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.show-addresses-btn:focus{
+	outline: none;
+}
+
+
+.order-history-btn {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+	border-radius:8px;
+	border:2px solid #fc824a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:4px 11px;
+	text-decoration:none;
+}
+.order-history-btn:hover {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+}
+.order-history-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.order-history-btn:focus{
+	outline: none;
+}
+
+.delete-address-btn {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+	border-radius:8px;
+	border:2px solid #fc824a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:14px;
+	padding:4px 11px;
+	text-decoration:none;
+}
+.delete-address-btn:hover {
+	background:linear-gradient(to bottom, #fc824a 5%, #fc824a 100%);
+	background-color:#fc824a;
+}
+.delete-address-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.delete-address-btn:focus{
+	outline: none;
+}
+
