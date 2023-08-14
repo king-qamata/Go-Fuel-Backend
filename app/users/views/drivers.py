@@ -44,7 +44,7 @@ class CustomUserSignUpView(CreateView):
         #if user.user_type == 1:
             #return Order.objects.all()
         #return Order.objects.filter(creator=user.pk)
-class StaffProfileView(CreateView):
+class DriverProfileView(CreateView):
     msg = None
     success = False
     model = User
@@ -52,7 +52,7 @@ class StaffProfileView(CreateView):
     template_name = 'account/signup_form.html'
 
     def get_context_data(self,*args,**kwargs):
-        kwargs['user_type'] = 'OIS Staff'
+        kwargs['user_type'] = 'Regular Users'
         return super().get_context_data(*args,**kwargs)
 
     #def post(self, form, request):
@@ -88,13 +88,13 @@ class StaffProfileView(CreateView):
 #class MyLoginView(LoginView):
     #template_name = 'my_login.html'
 
-class AlumniProfileView(CreateView):
+class ProDriverProfileView(CreateView):
     model = User
     form_class = OisAlumniProfileForm
     template_name = 'account/signup_form.html'
 
     def get_context_data(self, **kwargs):
-        kwargs['user_type'] = 'OIS Alumni'
+        kwargs['user_type'] = 'Commercial Drivers'
         return super().get_context_data(**kwargs)
 
     def form_valid(self, form):
@@ -116,13 +116,13 @@ class AlumniProfileView(CreateView):
         #login(self.request, user, backend='django.contrib.auth.backends.ModelBackend')
         #return redirect('home')
 
-class GuardianProfileView(CreateView):
+class VendorProfileView(CreateView):
     model = User
     form_class = OisAlumniGuardianForm
     template_name = 'account/signup_form.html'
 
     def get_context_data(self, **kwargs):
-        kwargs['user_type'] = 'OIS Guardian'
+        kwargs['user_type'] = 'Partner Vendors'
         return super().get_context_data(**kwargs)
 
     def form_valid(self, form):

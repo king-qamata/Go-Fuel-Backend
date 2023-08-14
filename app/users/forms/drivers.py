@@ -125,7 +125,7 @@ class OisStaffProfileForm(CustomUserCreationForm):
         widget=forms.EmailInput(
             attrs={
                 "placeholder": "Email",
-                "class": "form-control", 
+                "class": "form-control" "icon-envelope", 
                 #"class": "input-group mb-3",
                 #"class": "input-group-prepend",
                 #"class": "input-group-text",
