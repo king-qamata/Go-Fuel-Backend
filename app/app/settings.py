@@ -71,6 +71,13 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.instagram',
+    'allauth.socialaccount.providers.twitter',
+    'allauth.socialaccount.providers.linkedin_oauth2',
+    'django_forms_bootstrap',
     'rest_auth.registration',
     'corsheaders',
     'rest_framework_swagger',
@@ -95,6 +102,7 @@ INSTALLED_APPS = [
     'filters',
     'webfuel',
     'fuelcredit',
+    'googlegeo.apps.GoogleConfig', 
     #'waitinglist',
     #'cohorts',
 ]
@@ -280,4 +288,112 @@ CORS_ALLOW_HEADERS = [
 
 PRODUCT_VARIANT_MODEL = 'webfuel.ProductVariant'
 PAYMENT_GATEWAY = 'longclaw.checkout.gateways.BasePayment'
+# Django-Allauth Config
 
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
+ACCOUNT_LOGOUT_REDIRECT_URL = 'home'
+
+AUTHENTICATION_BACKENDS = (
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
+)
+
+#SITE_ID = 1
+#ALGOLIA = {
+#    'APPLICATION_ID': 'YFK1XCRMK5',
+#    'API_KEY': '1a2d9493f2e22123cd6e9baf45334ef7'
+#}
+
+ACCOUNT_SESSION_REMEMBER = True
+ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = True
+ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_EMAIL_VERIFICATION = 'optional'
+ACCOUNT_EMAIL_CONFIRMATION_HMAC = True
+ACCOUNT_SESSION_REMEMBER = None
+SOCIALACCOUNT_QUERY_EMAIL = ACCOUNT_EMAIL_REQUIRED
+SOCIALACCOUNT_STORE_TOKENS = True
+
+SOCIALACCOUNT_PROVIDERS = {
+
+    'google': {
+                'SCOPE': [
+                    'profile',
+                    'email',
+                ],
+                'AUTH_PARAMS': {
+                    'access_type': 'online',
+                    }
+        }
+}
+SOCIALACCOUNT_PROVIDERS = {
+    'linkedin_oauth2': {
+                'SCOPE': [
+                    'r_fullprofile',
+                    'r_emailaddress',
+                    'w_member_social'
+                ],
+                'PROFILE_FIELDS': [
+                    'id',
+                    'first-name',
+                    'last-name',
+                    'email-address',
+                    'picture-url',
+                    'public-profile-url',
+                    #'birthDate',
+                    'address',
+                    'websites',
+                    'headline',
+                    'skills',
+                    'summary',
+                    'location',
+                    'industry',
+                    'positions',
+                    'company',
+                    'specialties',
+                ],
+                'LOCATION_FIELDS': [
+                    'location',
+                ],
+                'POSITION_FIELDS': [
+                    'company',
+                ]
+        }
+}
+SOCIALACCOUNT_PROVIDERS = {
+    'facebook': {
+                'METHOD': 'oauth2',
+                'SCOPE': ['email', 'public_profile', 'user_friends'],
+                'AUTH_PARAMS': {'auth_type': 'reauthenticate'},
+                'INIT_PARAMS': {'cookie': True},
+                'FIELDS': [
+                    'id',
+                    'email',
+                    'name',
+                    'first_name',
+                    'last_name',
+                    'verified',
+                    'locale',
+                    'timezone',
+                    'link',
+                    'gender',
+                    'updated_time',
+                ],
+                'EXCHANGE_TOKEN': True,
+                'LOCALE_FUNC': 'path.to.callable',
+                'VERIFIED_EMAIL': False,
+                'VERSION': 'v2.12',
+        }
+}
+
+ACCOUNT_FORMS = {
+#'signup': 'users.forms.SignupForm',
+#'signup': 'users.forms.CustomUserCreationForm',
+}
+
+ACCOUNT_ADAPTER = 'users.forms.drivers.CustomUserAccountAdapter'
+
+#ACCOUNT_SIGNUP_FORM_CLASS = 'users.forms.SignupForm'
