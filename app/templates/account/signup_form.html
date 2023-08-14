@@ -1,0 +1,82 @@
+{% extends "layouts/base.html" %}
+{% load socialaccount %}
+{% load crispy_forms_tags %}
+{% load bootstrap_tags %}
+
+
+
+{% block content %}
+<div class="page-inner">
+        <div class="page-header">
+            <h4 class="page-title">Register</h4>
+            <ul class="breadcrumbs">
+                <li class="nav-home">
+                    <a href="#">
+                        <i class="flaticon-home"></i>
+                    </a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Authentication</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Register</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+
+                            {% if msg %}
+                                <span class="text-danger">{{ msg | safe }}</span>
+                            {% else %}
+                            <span>
+                                Complete your credentials 
+                            </span>
+                            {% endif %}
+
+                        </div>
+                    </div>
+
+                    {% if success %}
+
+                        <div class="card-action">
+                            <a href="{% url 'login' %}" class="btn btn-success">Sign IN</a>
+                        </div>
+
+                    {% else %}
+                            <div class="row">
+                            <div class="col-md-8 col-sm-10 col-12">
+                            <h2>Sign up as a {{ user_type }}</h2>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                            <form method="post" novalidate>
+                                {% csrf_token %}
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+ 
+
+                                <input type="hidden" name="next" value="{{ next }}">
+                                {{ form|crispy }}
+                                <button type="submit" class="btn btn-success">Sign up</button>
+                                <a href="{% provider_login_url "facebook" method="oauth2" %}">Facebook OAuth2</a>
+                                <a href="{% provider_login_url "linkedin_oauth2" method="oauth2" %}" >Linkedin OAuth2</a>
+                            </form>
+                    {% endif %}
+            </div>
+        </div>
+</div>
+{% endblock %}

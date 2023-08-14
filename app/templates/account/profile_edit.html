@@ -1,0 +1,41 @@
+{% extends 'pages/dashboard_base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}Edit Profile{% endblock title %}
+
+{% block content %}
+{% load bootstrap_tags %}
+<div id="login-overlay" class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">{% block content-title %}{% endblock %}</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <section id="loginForm">
+
+{% block content-modal %}
+{% load bootstrap_tags %}
+				<div>{% trans 'Send us your documents to confirm your qualifications' %}</div>
+				<button onclick="window.location.href='{% url 'upload_documents' %}'" class="btn
+					btn-primary btn-block">{% trans 'Upload your documents' %}</button>
+				<hr>
+				<button onclick="window.location.href='{% url 'password_change' %}'" class="btn btn-primary btn-block">{% trans 'Password change' %}</button>
+				<hr>
+				<form action="." method="post" class="form-horizontal">
+					{% csrf_token %}
+					{{ form|as_bootstrap_horizontal }}
+					{{ form2|as_bootstrap_horizontal }}
+						<button type="submit" class="btn btn-primary btn-block">{% trans 'Save' %}</button>
+				</form>
+{% endblock %}
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

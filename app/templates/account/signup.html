@@ -1,0 +1,36 @@
+{% extends "layouts/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Sign up{% endblock %}
+
+{% block content %}
+<div class="page-inner">
+  <div class="page-header">
+      <h4 class="page-title">Register</h4>
+      <ul class="breadcrumbs">
+          <li class="nav-home">
+              <a href="#">
+                  <i class="flaticon-home"></i>
+              </a>
+          </li>
+          <li class="separator">
+              <i class="flaticon-right-arrow"></i>
+          </li>
+          <li class="nav-item">
+              <a href="#">Authentication</a>
+          </li>
+          <li class="separator">
+              <i class="flaticon-right-arrow"></i>
+          </li>
+          <li class="nav-item">
+              <a href="#">Register</a>
+          </li>
+      </ul>
+  </div>
+<h2>Sign up</h2>
+  <p class="lead">Select below the type of account you want to create</p>
+  <a href="{% url 'signup_driver' %}" class="btn btn-student btn-lg" role="button">Regular Divers</a>
+  <a href="{% url 'signup_prodriver' %}" class="btn btn-teacher btn-lg" role="button">Commercial Drivers</a>
+  <a href="{% url 'signup_vendor' %}" class="btn btn-teacher btn-lg" role="button">Vendor Partners</a>
+</div>
+  {% endblock content %}

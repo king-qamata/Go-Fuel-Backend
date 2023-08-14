@@ -22,13 +22,18 @@ from wagtail import urls as wagtail_urls
 from wagtail.documents import urls as wagtaildocs_urls
 from users.views.customers import CustomerWaitListView 
 from core.views.custom_user import HomePageView, AboutPageView
+from users.views.drivers import (CustomUserSignUpView,
+                                 DriverProfileView,
+                                 ProDriverProfileView,
+                                 VendorProfileView
+                                )
 from django.views.generic import TemplateView
 from django.contrib.auth import views as auth_views
 from longclaw import urls as longclaw_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accounts/', include('django.contrib.auth.urls')),
+    #path('accounts/', include('django.contrib.auth.urls')),
     path('api/v1/', include('api.urls')),
     path('api-auth/', include('rest_framework.urls')),
     re_path(r'^wadmin/', include(wagtailadmin_urls)),
@@ -39,6 +44,10 @@ urlpatterns = [
     #path('signup/customers', CustomerWaitListView.as_view(), name='signup_customer'),
     path("login", auth_views.LoginView.as_view(), name="login"),
     path("logout", auth_views.LogoutView.as_view(), name="logout"),
+    path('accounts/', include('allauth.urls')),
+    path('accounts/signup/driver', DriverProfileView.as_view(), name='signup_driver'),
+    path('accounts/signup/prodriver', ProDriverProfileView.as_view(), name='signup_prodriver'),
+    path('accounts/signup/vendor', VendorProfileView.as_view(), name='signup_vendor'),
     path('', HomePageView.as_view(), name='home'),
     path('', include(longclaw_urls)),
     path('', include(wagtail_urls)),
