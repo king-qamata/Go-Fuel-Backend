@@ -4,6 +4,7 @@ from django.utils.translation import gettext as _
 #from .models.profile import Profile
 #from .models.reset_password_code import ResetPasswordCode
 from .models import User, Profile, ResetPasswordCode
+from .models import DriverProfile, ProDriverProfile, VendorStaffProfile, LogisticVendorProfile, FuelVendorProfile
 #from core import models
 
 
@@ -15,7 +16,7 @@ class UserAdmin(BaseUserAdmin):
         (_('Personal Info'), {'fields': ('first_name',)}),
         (
             _('Permissions'),
-            {'fields': ('customers', 'managers', 'vendors', 'administrator', 'attendants', 'moderator',  'is_active', 'is_staff', 'is_superuser')}
+            {'fields': ('is_active', 'is_staff', 'is_superuser')}
         ),
         (_('Important dates'), {'fields': ('last_login',)})
     )
@@ -28,9 +29,11 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(User, UserAdmin)
-
-
-
+admin.site.register(ProDriverProfile)
+admin.site.register(VendorStaffProfile)
+admin.site.register(DriverProfile)
+admin.site.register(LogisticVendorProfile)
+admin.site.register(FuelVendorProfile)
 
 
 #class UserAdmin(admin.ModelAdmin):

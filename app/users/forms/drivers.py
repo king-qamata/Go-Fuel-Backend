@@ -2,7 +2,7 @@ from django import forms
 from django.forms import ModelForm
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
 #from users.models.drivers import CustomUser, OisStaffProfile, OisAlumniProfile, OisAlumniGuardianProfile
-from core.models import User, OisAlumniProfile, OisAlumniGuardianProfile
+from core.models import User, ProDriverProfile, VendorStaffProfile, DriverProfile, LogisticVendorProfile, FuelVendorProfile
 from django.utils.translation import gettext_lazy as _
 from django.db import transaction
 #from allauth.account.forms import SignupForm
@@ -10,7 +10,7 @@ from allauth.account.adapter import DefaultAccountAdapter
 from django.contrib.auth import get_user_model
 from allauth.account.utils import user_username, user_email, user_field
 #from multiupload.fields import MultiFileField
-
+ 
 class CustomUserCreationForm(UserCreationForm):
     #email = forms.CharField(max_length=254, required=True, widget=forms.EmailInput())
     #url_facebook = forms.CharField(max_length=50, required=False, label=_(u'Facebook'))
@@ -91,15 +91,15 @@ class CustomUserAccountAdapter(DefaultAccountAdapter):
         #if user.user_type == 'OIS Guardian':
             #oisGuardian = True
         
-        oisStaff = instance.is_oisStaff
-        oisAlumni = instance.is_oisalumni
-        oisGuardian = instance.is_oisguardian
-        if oisStaff:
-            user_field(user, 'is_oisStaff', oisStaff)
-        if oisAlumni:
-            user_field(user, 'is_oisalumni', oisAlumni)
-        if oisGuardian:
-            user_field(user, 'is_oisguardian', oisGuardian)
+        driver = instance.is_driver
+        proDriver = instance.proDriver
+        vendorStaff = instance.is_vendorStaff
+        if driver:
+            user_field(user, 'is_driver', driver)
+        if proDriver:
+            user_field(user, 'is_proDriver', proDriver)
+        if vendorStaff:
+            user_field(user, 'is_vendorStaff', vendorStaff)
         user.save()
         return user
 
@@ -117,7 +117,7 @@ class CustomUserAccountAdapter(DefaultAccountAdapter):
         #user.save()
         #user = super(CustomUserCreationForm, self).save(request)
         #return user
-class OisStaffProfileForm(CustomUserCreationForm):
+class DriverProfileForm(CustomUserCreationForm):
     #first_name = forms.CharField(max_length=30, label='First Name')
     #last_name = forms.CharField(max_length=30, label='Last Name')
 
@@ -150,14 +150,14 @@ class OisStaffProfileForm(CustomUserCreationForm):
         ))
     class Meta(CustomUserCreationForm.Meta):
         model = User
-        fields = CustomUserCreationForm.Meta.fields + ('first_name', 'last_name', 'email', 'password1', 'password2')
+        fields = CustomUserCreationForm.Meta.fields + ('first_name', 'last_name', 'email', 'password1', 'password2', 'plate_number')
         #fields = '__all__'
         #exclude = ('username',)
 
     def save(self, commit=True):
         user = super().save(commit=False)
-        user.is_oisStaff = True
-        #OisStaffProfile.objects.create(user=user)
+        user.is_driver = True
+        DriverProfile.objects.create(user=user)
         if commit:
             user.save()
         return user
@@ -170,7 +170,7 @@ class OisStaffProfileForm(CustomUserCreationForm):
 
 
  
-class OisAlumniProfileForm(CustomUserCreationForm):
+class ProDriverProfileForm(CustomUserCreationForm):
     first_name = forms.CharField(max_length=30, label='First Name')
     last_name = forms.CharField(max_length=30, label='Last Name')
     MALE = 'M'
@@ -202,38 +202,39 @@ class OisAlumniProfileForm(CustomUserCreationForm):
         (2018, 'set of 2018'),
         (2019, 'set of 2019')  
     )
-    gender = forms.CharField(
-        widget=forms.Select(choices=SEX_CHOICES)
+    #gender = forms.CharField(
+        #widget=forms.Select(choices=SEX_CHOICES)
         
-    )
-    year_of_graduation = forms.CharField(
-        widget=forms.Select(choices=YEAR_OF_GRADUATION)
+    #)
+    #year_of_graduation = forms.CharField(
+        #widget=forms.Select(choices=YEAR_OF_GRADUATION)
      
-    )
-    date_of_birth = forms.DateField(required=False)
+    #)
+    #date_of_birth = forms.DateField(required=False)
 
-    alumni = forms.ModelChoiceField(
-        queryset = OisAlumniProfile.objects.all(),
+    logistics_partner = forms.ModelChoiceField(
+        queryset = LogisticVendorProfile.objects.all(),
         )
 
     #title = forms.CharField(
         #max_length=3,
-        #widget=forms.Select(choices=TITLE_CHOICES)
+        #widget=forms.Select(choices=TITLE_CHOICES)'logistics_partner'
     
     class Meta(CustomUserCreationForm.Meta):
         model = User
-        #fields = UserCreationForm.Meta.fields
+        fields = CustomUserCreationForm.Meta.fields + ('first_name', 'last_name', 'email', 'password1', 'password2', 'plate_number', )
         #fields = '__all__'
 
     @transaction.atomic
     def save(self):
         user = super().save(commit=False)
-        user.is_oisalumni = True
-        user.date_of_birth = date_of_birth
+        user.is_proDriver = True
+        #ProDriverProfile.gender.add(*self.cleaned_data.get('gender'))
+        #ProDriverProfile.year_of_graduation.add(*self.cleaned_data.get('year_of_graduation'))
+        #user.date_of_birth = date_of_birth
         user.save()
         #oisAlumniProfile = OisAlumniProfile.objects.create(user=user)
-        oisAlumniProfile.gender.add(*self.cleaned_data.get('gender'))
-        oisAlumniProfile.year_of_graduation.add(*self.cleaned_data.get('year_of_graduation'))
+        
         return user
     
     #def signup(self, request, user):
@@ -265,18 +266,18 @@ class OisAlumniProfileForm(CustomUserCreationForm):
         #user.last_name = self.cleaned_data['last_name']
         #user.save()
         #return user
-class OisAlumniGuardianForm(UserCreationForm):
-    alumni = forms.ModelMultipleChoiceField(
-        queryset=OisAlumniProfile.objects.all(),
+class VendorStaffProfileForm(UserCreationForm):
+    fuel_vendor = forms.ModelMultipleChoiceField(
+        queryset=FuelVendorProfile.objects.all(),
         )
     class Meta(CustomUserCreationForm.Meta):
         model = User
-        #fields = '__all__'
+        fields = CustomUserCreationForm.Meta.fields + ('first_name', 'last_name', 'email', 'password1', 'password2', )
 
     @transaction.atomic
     def save(self):
         user = super().save(commit=False)
-        user.is_oisguardian = True
+        user.is_vendorStaff = True
         user.save()
         #student = Student.objects.create(user=user)
         #student.interests.add(*self.cleaned_data.get('interests'))
@@ -312,9 +313,7 @@ class StaffAccountProfileForm(forms.ModelForm):
     class Meta:
         model = User
         fields = ('email', 'first_name', 'last_name','date_of_birth', 'phone_number', 
-        'location', 'address', 'current_workplace', 'age', 'url_facebook', 
-        'url_twitter','url_instagram', 'url_custom', 'is_oisalumni', 
-        'is_oisStaff', 'is_oisguardian', )
+        'location', 'address','url_facebook', 'url_twitter','url_instagram', 'url_custom', )
         #exclude = ('user', 'pin_code')
 
 #address, age, current_workplace, date_joined, date_of_birth, email, emailaddress,
@@ -342,8 +341,8 @@ class GuardianAccountProfileForm(forms.ModelForm):
     url_custom1 = forms.CharField(max_length=50, required=False, label=_(u'Own link'))
     url_custom2 = forms.CharField(max_length=50, required=False, label=_(u'Own link'))
     class Meta:
-        model = OisAlumniGuardianProfile
-        exclude = ('user', 'pin_code')
+        model = VendorStaffProfile
+        exclude = ('user', )
 
 class GuardianAccountEmailForm(forms.ModelForm):
 
@@ -367,8 +366,8 @@ class AlumniAccountProfileForm(forms.ModelForm):
     url_custom1 = forms.CharField(max_length=50, required=False, label=_(u'Own link'))
     url_custom2 = forms.CharField(max_length=50, required=False, label=_(u'Own link'))
     class Meta:
-        model = OisAlumniProfile
-        exclude = ('user', 'pin_code')
+        model = ProDriverProfile
+        exclude = ('user', )
 
 class AlumniAccountEmailForm(forms.ModelForm):
 

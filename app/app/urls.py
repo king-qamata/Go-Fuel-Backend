@@ -25,7 +25,7 @@ from core.views.custom_user import HomePageView, AboutPageView
 from users.views.drivers import (CustomUserSignUpView,
                                  DriverProfileView,
                                  ProDriverProfileView,
-                                 VendorProfileView
+                                 VendorStaffProfileView
                                 )
 from django.views.generic import TemplateView
 from django.contrib.auth import views as auth_views
@@ -47,7 +47,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('accounts/signup/driver', DriverProfileView.as_view(), name='signup_driver'),
     path('accounts/signup/prodriver', ProDriverProfileView.as_view(), name='signup_prodriver'),
-    path('accounts/signup/vendor', VendorProfileView.as_view(), name='signup_vendor'),
+    path('accounts/signup/vendor', VendorStaffProfileView.as_view(), name='signup_vendor'),
     path('', HomePageView.as_view(), name='home'),
     path('', include(longclaw_urls)),
     path('', include(wagtail_urls)),
