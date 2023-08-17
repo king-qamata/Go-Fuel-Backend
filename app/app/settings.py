@@ -39,6 +39,7 @@ ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -238,6 +239,11 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = '/vol/web/media'
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
+STATIC_URL = os.environ.get("DJANGO_STATIC_URL", "/static/")
+STATIC_ROOT = os.environ.get("DJANGO_STATIC_ROOT", "./static/")
+
+STATICFILES_STORAGE = ('whitenoise.storage.CompressedManifestStaticFilesStorage')
 
 LOGIN_REDIRECT_URL = 'home'
 
