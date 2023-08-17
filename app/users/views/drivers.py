@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from users.forms.drivers import CustomUserCreationForm, OisStaffProfileForm, OisAlumniProfileForm, OisAlumniGuardianForm
+from users.forms.drivers import CustomUserCreationForm, DriverProfileForm, ProDriverProfileForm, VendorStaffProfileForm
 from django.urls import reverse_lazy
 #from users.models.drivers import CustomUser, OisStaffProfile, OisAlumniProfile, OisAlumniGuardianProfile
 from core.models import User
@@ -44,15 +44,15 @@ class CustomUserSignUpView(CreateView):
         #if user.user_type == 1:
             #return Order.objects.all()
         #return Order.objects.filter(creator=user.pk)
-class DriverProfileView(CreateView):
+class DriverProfileView(CustomUserSignUpView):
     msg = None
     success = False
     model = User
-    form_class = OisStaffProfileForm
+    form_class = DriverProfileForm
     template_name = 'account/signup_form.html'
 
     def get_context_data(self,*args,**kwargs):
-        kwargs['user_type'] = 'Regular Users'
+        kwargs['user_type'] = 'Regular User'
         return super().get_context_data(*args,**kwargs)
 
     #def post(self, form, request):
@@ -90,11 +90,11 @@ class DriverProfileView(CreateView):
 
 class ProDriverProfileView(CreateView):
     model = User
-    form_class = OisAlumniProfileForm
+    form_class = ProDriverProfileForm
     template_name = 'account/signup_form.html'
 
     def get_context_data(self, **kwargs):
-        kwargs['user_type'] = 'Commercial Drivers'
+        kwargs['user_type'] = 'Commercial Driver'
         return super().get_context_data(**kwargs)
 
     def form_valid(self, form):
@@ -116,13 +116,13 @@ class ProDriverProfileView(CreateView):
         #login(self.request, user, backend='django.contrib.auth.backends.ModelBackend')
         #return redirect('home')
 
-class VendorProfileView(CreateView):
+class VendorStaffProfileView(CreateView):
     model = User
-    form_class = OisAlumniGuardianForm
+    form_class = VendorStaffProfileForm
     template_name = 'account/signup_form.html'
 
     def get_context_data(self, **kwargs):
-        kwargs['user_type'] = 'Partner Vendors'
+        kwargs['user_type'] = 'Partner Vendor'
         return super().get_context_data(**kwargs)
 
     def form_valid(self, form):
