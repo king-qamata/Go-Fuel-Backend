@@ -3,10 +3,10 @@
 {% block title %}GoFuel | Price Intelligence{% endblock %}
 
 {% block content %}
-<main class="landing">
-    <section class="hero">
-        <div class="hero-copy">
-            <p class="eyebrow">GoFuel | Price Intelligence</p>
+<main class="mobile-screen">
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <p class="screen-tag">Page 1 · Fuel</p>
             <h1>Customer location on a map</h1>
             <p class="lead">
                 System will show your nearest station to you or general location in your city.
@@ -20,79 +20,78 @@
                     Location is using the current fallback area until you allow browser access.
                 </p>
             </div>
-            <div class="hero-actions">
-                <a class="button primary" href="{% url 'core:prices' %}">Check prices</a>
-                <a class="button secondary" href="{% url 'core:stations' %}" data-location-link>See nearby stations</a>
+        </header>
+
+        <section class="screen-section">
+            <div class="segmented-control" aria-label="Map and station controls">
+                <a href="#" class="active">Map</a>
+                <a href="{% url 'core:stations' %}">List</a>
+                <a href="{% url 'core:stations' %}">Filter</a>
             </div>
-        </div>
-        <div class="hero-card spotlight-card">
-            <p class="card-label">Lowest tracked price near you</p>
-            <h2>{{ lowest_price_brand.brand }}</h2>
-            <p class="big-price">N{{ lowest_price_brand.price }}/L</p>
-            <p>{{ lowest_price_brand.change }}</p>
-            <p>{{ lowest_price_brand.availability }}</p>
-        </div>
-    </section>
+        </section>
 
-    <section class="feature-grid">
-        <a class="feature-card" href="{% url 'core:login' %}">
-            <span class="card-step">Page 4</span>
-            <h3>Customer Login Details</h3>
-            <p>Customer Login Details.</p>
-        </a>
-        <a class="feature-card" href="{% url 'core:car-details' %}">
-            <span class="card-step">Page 5</span>
-            <h3>Add your car details</h3>
-            <p>Add your car details.</p>
-        </a>
-        <a class="feature-card" href="{% url 'core:news' %}">
-            <span class="card-step">Page 6</span>
-            <h3>News icon</h3>
-            <p>Great idea to share company information.</p>
-        </a>
-        <a class="feature-card" href="{% url 'core:promotions' %}">
-            <span class="card-step">Page 7</span>
-            <h3>Promotion and offers</h3>
-            <p>Promotion and offers.</p>
-        </a>
-        <a class="feature-card" href="{% url 'core:order' %}">
-            <span class="card-step">Page 8</span>
-            <h3>Order information</h3>
-            <p>Own self-service before station visiting.</p>
-        </a>
-        <a class="feature-card" href="{% url 'core:payment' %}">
-            <span class="card-step">Page 9</span>
-            <h3>Payment method</h3>
-            <p>Add your bank card.</p>
-        </a>
-    </section>
+        <section class="screen-section">
+            <div
+                class="station-map"
+                data-station-map
+                data-user-lat="{{ selected_latitude }}"
+                data-user-lng="{{ selected_longitude }}"
+            ></div>
+            {{ stations|json_script:"stations-map-data" }}
+            <div class="map-legend">
+                <span><i class="legend-dot user"></i>You</span>
+                <span><i class="legend-dot available"></i>Available</span>
+                <span><i class="legend-dot warning"></i>Low stock</span>
+                <span><i class="legend-dot empty"></i>Unavailable</span>
+            </div>
+        </section>
 
-    <section class="station-preview">
-        <div class="section-heading">
-            <p class="eyebrow">Tap on the Station</p>
-            <h2>Tap on the Station for more information</h2>
-            <p class="location-pill" data-location-pill>Using location {{ selected_latitude }}, {{ selected_longitude }}</p>
-        </div>
-        <div class="station-list">
-            {% for station in stations %}
-            {% if station.id %}
-            <a class="station-card-link" href="{% url 'core:station-detail' station.id %}">
-            {% endif %}
-            <article class="station-card {{ station.status_tone }}" data-station-card>
-                <div>
-                    <h3>{{ station.name }}</h3>
-                    <p>{{ station.distance }} away</p>
-                </div>
-                <div>
-                    <p class="station-price">{{ station.price }}</p>
-                    <p>{{ station.availability }}</p>
-                </div>
-            </article>
-            {% if station.id %}
-            </a>
-            {% endif %}
-            {% endfor %}
-        </div>
+        <section class="screen-section">
+            <div class="section-heading">
+                <p class="eyebrow">Lowest price near you</p>
+                <h2>{{ lowest_price_brand.brand }} at N{{ lowest_price_brand.price }}/L</h2>
+                <p>{{ lowest_price_brand.change }} · {{ lowest_price_brand.availability }}</p>
+            </div>
+            <div class="chip-list">
+                <a href="{% url 'core:login' %}" class="chip">Cabinet</a>
+                <a href="{% url 'core:news' %}" class="chip">News</a>
+                <a href="{% url 'core:promotions' %}" class="chip">Offers</a>
+                <a href="{% url 'core:order' %}" class="chip active">Order</a>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="section-heading">
+                <p class="eyebrow">Tap on the station</p>
+                <h2>Tap on the Station for more information</h2>
+                <p class="location-pill" data-location-pill>
+                    Using location {{ selected_latitude }}, {{ selected_longitude }}
+                </p>
+            </div>
+            <div class="station-list">
+                {% for station in stations %}
+                {% if station.id %}
+                <a class="station-card-link" href="{% url 'core:station-detail' station.id %}">
+                {% endif %}
+                    <article class="station-card {{ station.status_tone }}" data-station-card>
+                        <div class="station-meta">
+                            <p class="card-label">{{ station.station_code }} · {{ station.distance }}</p>
+                            <h3>{{ station.name }}</h3>
+                            <p class="station-address">{{ station.inventory_note }}</p>
+                        </div>
+                        <div class="station-actions">
+                            <div>
+                                <p class="station-price">{{ station.price }}</p>
+                                <p class="station-address">{{ station.availability }}</p>
+                            </div>
+                        </div>
+                    </article>
+                {% if station.id %}
+                </a>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </section>
     </section>
 </main>
 {% endblock %}

@@ -4,22 +4,64 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
-            <a href="{% url 'core:dispenser' %}" class="back-link">← Back</a>
-            <p class="eyebrow">STEP# 3</p>
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <a href="{% url 'core:dispenser' %}" class="back-link" style="color: rgba(255,255,255,0.86);">← Back</a>
+            <p class="screen-tag">STEP# 3 · Quantity</p>
             <h1>Fuel type and Quantity selection</h1>
-            <p>Fuel type and Quantity selection (liters or amount).</p>
-        </div>
+            <p class="lead">Choose fuel type and quantity in liters or amount.</p>
+        </header>
 
-        <form method="post" class="stack-form" onsubmit="return validateForm(this)">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="button primary full" id="submit-btn">
-                <span class="loading-spinner" id="spinner" style="display: none;"></span>
-                Next
-            </button>
-        </form>
+        <section class="screen-section">
+            <div class="order-summary-grid">
+                <div class="summary-pill">
+                    <span>Station</span>
+                    <strong>
+                        {% if selected_station %}
+                            {{ selected_station.station_code }} · {{ selected_station.name }}
+                        {% else %}
+                            Choose a station first
+                        {% endif %}
+                    </strong>
+                </div>
+                <div class="summary-pill">
+                    <span>Dispenser</span>
+                    <strong>{{ order.dispenser_number|default:'Not selected' }}</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="tab-rail" aria-label="Quantity selector">
+                <button type="button" class="active">Liters</button>
+                <button type="button">Amount</button>
+            </div>
+            <div class="chip-list" style="margin-top: 14px;">
+                <span class="chip">5 liters</span>
+                <span class="chip">10 liters</span>
+                <span class="chip">15 liters</span>
+                <span class="chip">20 liters</span>
+                <span class="chip">50 liters</span>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <form method="post" class="stack-form" onsubmit="return validateForm(this)">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="button primary full" id="submit-btn">
+                    <span class="loading-spinner" id="spinner" style="display: none;"></span>
+                    Next
+                </button>
+            </form>
+        </section>
+
+        <section class="screen-section">
+            <div class="callout">
+                <strong>Step 3 from the PDF flow.</strong>
+                <p class="app-note">The sample screen uses a liters tab plus quick quantity presets before payment.</p>
+            </div>
+        </section>
     </section>
 </main>
 {% endblock %}

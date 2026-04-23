@@ -4,46 +4,67 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <div class="mobile-app-header">
             <p class="eyebrow">Attendant Dashboard</p>
             <h1>Fuel Order Creation</h1>
-            <p>Create orders for customers and generate QR codes.</p>
+            <p>Create orders for customers, confirm the pump, and generate a QR receipt in one flow.</p>
         </div>
 
         {% if qr_code %}
-        <div class="qr-display">
-            <h2>Order Created Successfully</h2>
-            <p>QR Code: {{ qr_code }}</p>
-            <p>Customer can scan this QR code to view receipt and pay.</p>
-            <p>Order ID: {{ order.id }}</p>
-            <p>Total: N{{ receipt.total_amount }}</p>
+        <div class="screen-section">
+            <div class="detail-card">
+                <p class="eyebrow">Order created</p>
+                <h2>QR receipt ready</h2>
+                <div class="qr-display">
+                    <p><strong>{{ qr_code }}</strong></p>
+                    <p class="app-note">Customer can scan this QR code to view the receipt and complete payment.</p>
+                    <p><strong>Order #{{ order.id }}</strong></p>
+                    <p><strong>Total:</strong> N{{ receipt.total_amount }}</p>
+                </div>
+                <div class="drawer-actions">
+                    <a href="{% url 'core:attendant-dashboard' %}" class="button primary full">Create another order</a>
+                    <a href="{% url 'core:qr-scan' qr_code %}" class="button secondary full">Open receipt</a>
+                </div>
+            </div>
         </div>
         {% else %}
-        <form method="post" class="stack-form">
-            {% csrf_token %}
-            <label for="station">Station:</label>
-            <select name="station" id="station" required>
-                {% for station in stations %}
-                <option value="{{ station.id }}">{{ station.name }}</option>
-                {% endfor %}
-            </select>
-
-            <label for="fuel_type">Fuel Type:</label>
-            <select name="fuel_type" id="fuel_type" required>
-                <option value="petrol">Petrol</option>
-                <option value="diesel">Diesel</option>
-                <option value="gas">Gas</option>
-            </select>
-
-            <label for="quantity">Quantity (Litres):</label>
-            <input type="number" name="quantity" id="quantity" step="0.01" required>
-
-            <label for="customer_phone">Customer Phone:</label>
-            <input type="tel" name="customer_phone" id="customer_phone">
-
-            <button type="submit" class="button primary full">Create Order & Generate QR</button>
-        </form>
+        <section class="screen-section">
+            <div class="detail-card">
+                <div class="section-heading">
+                    <p class="eyebrow">Create order</p>
+                    <h2>Choose station and pump details</h2>
+                </div>
+                <form method="post" class="stack-form">
+                    {% csrf_token %}
+                    <label for="station">
+                        <span>Station</span>
+                        <select name="station" id="station" required>
+                            {% for station in stations %}
+                            <option value="{{ station.id }}">{{ station.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </label>
+                    <label for="fuel_type">
+                        <span>Fuel type</span>
+                        <select name="fuel_type" id="fuel_type" required>
+                            <option value="petrol">Petrol</option>
+                            <option value="diesel">Diesel</option>
+                            <option value="gas">Gas</option>
+                        </select>
+                    </label>
+                    <label for="quantity">
+                        <span>Quantity (litres)</span>
+                        <input type="number" name="quantity" id="quantity" step="0.01" min="0.1" required>
+                    </label>
+                    <label for="customer_phone">
+                        <span>Customer phone</span>
+                        <input type="tel" name="customer_phone" id="customer_phone" placeholder="+234...">
+                    </label>
+                    <button type="submit" class="button primary full">Create order and generate QR</button>
+                </form>
+            </div>
+        </section>
         {% endif %}
     </section>
 </main>

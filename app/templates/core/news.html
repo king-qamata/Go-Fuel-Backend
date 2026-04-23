@@ -4,19 +4,25 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
-            <p class="eyebrow">Page 6</p>
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <p class="screen-tag">Page 6 · News</p>
             <h1>News icon</h1>
-            <p>Great idea to share company information.</p>
-        </div>
+            <p class="lead">Great idea to share company information.</p>
+        </header>
 
-        <div class="news-list">
-            <article class="news-item">
-                <h3>Company Update</h3>
-                <p>Latest news about GoFuel services.</p>
-            </article>
-        </div>
+        <section class="screen-section">
+            <div class="screen-panel" style="padding: 18px;">
+                <div class="section-heading">
+                    <p class="eyebrow">Company update</p>
+                    <h2>Latest news about GoFuel services</h2>
+                </div>
+                <div class="callout">
+                    <strong>Fuel prices, station alerts, and product updates</strong>
+                    <p class="app-note">Use this screen for operational notices or broadcast-style announcements.</p>
+                </div>
+            </div>
+        </section>
     </section>
 </main>
 {% endblock %}

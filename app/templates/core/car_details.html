@@ -4,27 +4,33 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
-            <p class="eyebrow">Page 5</p>
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <p class="screen-tag">Page 5 · Cabinet</p>
             <h1>Add your car details</h1>
-            <p>Add your car details.</p>
-        </div>
+            <p class="lead">Save the vehicle you use most often so orders stay quick and accurate.</p>
+        </header>
 
-        <form method="post" class="stack-form">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="button primary full">Save car details</button>
-        </form>
+        <section class="screen-section">
+            <form method="post" class="stack-form">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="button primary full">Save car details</button>
+            </form>
+        </section>
+
         {% if saved_cars %}
-        <div class="saved-cars">
-            <h2>Saved cars</h2>
-            <ul>
+        <section class="screen-section">
+            <div class="section-heading">
+                <p class="eyebrow">Saved cars</p>
+                <h2>Registered vehicles</h2>
+            </div>
+            <div class="chip-list">
                 {% for car in saved_cars %}
-                <li>{{ car.make }} {{ car.model }} – {{ car.get_fuel_type_display }} ({{ car.tank_capacity }}L)</li>
+                <span class="chip">{{ car.make }} {{ car.model }} · {{ car.get_fuel_type_display }} · {{ car.tank_capacity }}L</span>
                 {% endfor %}
-            </ul>
-        </div>
+            </div>
+        </section>
         {% endif %}
     </section>
 </main>

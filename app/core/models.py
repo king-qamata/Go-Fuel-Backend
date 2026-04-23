@@ -1,3 +1,4 @@
+from decimal import Decimal
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
@@ -215,9 +216,9 @@ class Order(models.Model):
     )
     quantity_litres = models.DecimalField(max_digits=5, decimal_places=2)
     price_per_litre = models.DecimalField(max_digits=10, decimal_places=2)
-    subtotal = models.DecimalField(max_digits=10, decimal_places=2, default=0.0)
-    vat_amount = models.DecimalField(max_digits=10, decimal_places=2, default=0.0)
-    service_charge = models.DecimalField(max_digits=10, decimal_places=2, default=150.0)
+    subtotal = models.DecimalField(max_digits=10, decimal_places=2, default=Decimal('0.0'))
+    vat_amount = models.DecimalField(max_digits=10, decimal_places=2, default=Decimal('0.0'))
+    service_charge = models.DecimalField(max_digits=10, decimal_places=2, default=Decimal('150.0'))
     total_amount = models.DecimalField(max_digits=10, decimal_places=2)
     status = models.CharField(
         max_length=20,
@@ -234,8 +235,11 @@ class Order(models.Model):
 
     def save(self, *args, **kwargs):
         if self.price_per_litre is not None and self.quantity_litres is not None:
+            self.price_per_litre = Decimal(str(self.price_per_litre))
+            self.quantity_litres = Decimal(str(self.quantity_litres))
+            self.service_charge = Decimal(str(self.service_charge))
             self.subtotal = self.price_per_litre * self.quantity_litres
-            self.vat_amount = self.subtotal * 0.075  # 7.5% VAT
+            self.vat_amount = self.subtotal * Decimal('0.075')  # 7.5% VAT
             self.total_amount = self.subtotal + self.vat_amount + self.service_charge
         super().save(*args, **kwargs)
 
@@ -400,6 +404,32 @@ class UserProfile(models.Model):
         blank=True,
         related_name="staff",
     )
+    is_approved = models.BooleanField(
+        default=True,
+        help_text="For attendants and managers, this must be approved by admin before they can access the system."
+    )
+    registration_notes = models.TextField(
+        blank=True,
+        help_text="Additional notes from the registration process or admin review."
+    )
+    created_at = models.DateTimeField(auto_now_add=True)
+    approved_at = models.DateTimeField(null=True, blank=True)
+    approved_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="approved_users",
+    )
+
+    class Meta:
+        ordering = ["-created_at"]
 
     def __str__(self):
         return f"{self.user.username} profile"
+
+    def save(self, *args, **kwargs):
+        # Auto-approve customers, but require approval for staff roles
+        if self.role == UserRole.CUSTOMER:
+            self.is_approved = True
+        super().save(*args, **kwargs)

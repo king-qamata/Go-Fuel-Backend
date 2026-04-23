@@ -1,0 +1,47 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Payment Methods{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <a href="{% url 'core:payment' %}" class="back-link" style="color: rgba(255,255,255,0.86);">← Back</a>
+            <p class="screen-tag">Page 14 · Others</p>
+            <h1>Payment methods</h1>
+            <p class="lead">Add a payment card or choose another supported payment option.</p>
+        </header>
+
+        <section class="screen-section">
+            <div class="screen-panel" style="padding: 18px;">
+                <div class="section-heading">
+                    <p class="eyebrow">Payment methods</p>
+                    <h2>Add a payment card</h2>
+                </div>
+                <div class="stepper">
+                    {% for method in methods %}
+                    <form method="post">
+                    {% csrf_token %}
+                        <input type="hidden" name="method" value="{{ method.code }}">
+                        <button type="submit" class="stepper-item{% if selected_method == method.code %} active{% endif %}" style="width: 100%; text-align: left;">
+                            <div class="screen-icon">{{ method.icon }}</div>
+                            <div>
+                                <strong>{{ method.name }}</strong>
+                                <div class="stepper-meta">{{ method.detail }}</div>
+                            </div>
+                        </button>
+                    </form>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="callout">
+                <strong>Masterpass by Mastercard</strong>
+                <p class="app-note">This mirrors the PDF’s “Others” page with a compact payment-method card list.</p>
+            </div>
+        </section>
+    </section>
+</main>
+{% endblock %}

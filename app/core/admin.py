@@ -2,6 +2,7 @@ from django.contrib import admin
 from core.models import (
     Car,
     FuelBrand,
+    FuelInventory,
     FuelPrice,
     Order,
     PageView,
@@ -11,6 +12,7 @@ from core.models import (
     StationAvailability,
     StationUpdate,
     UserProfile,
+    UserRole,
 )
 
 
@@ -86,3 +88,54 @@ class ReceiptAdmin(admin.ModelAdmin):
     list_display = ("order", "qr_code", "total_amount", "paid_at", "created_at")
     list_filter = ("paid_at",)
     search_fields = ("order__id", "qr_code")
+
+
+@admin.register(UserProfile)
+class UserProfileAdmin(admin.ModelAdmin):
+    list_display = ("user", "phone_number", "role", "station", "is_approved", "created_at")
+    list_filter = ("role", "station", "is_approved")
+    search_fields = ("user__username", "user__email", "phone_number")
+    ordering = ("-user__date_joined",)
+
+    fieldsets = (
+        ("User Information", {
+            "fields": ("user", "phone_number", "balance")
+        }),
+        ("Role & Permissions", {
+            "fields": ("role", "station", "is_approved"),
+            "description": "Assign user roles and station assignments. For attendants, approval is required before they can access the system."
+        }),
+    )
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).select_related('user', 'station')
+
+    def created_at(self, obj):
+        return obj.user.date_joined
+    created_at.admin_order_field = 'user__date_joined'
+    created_at.short_description = 'Joined'
+
+
+@admin.register(FuelInventory)
+class FuelInventoryAdmin(admin.ModelAdmin):
+    list_display = ("station", "fuel_type", "current_stock_litres", "tank_capacity_litres", "stock_percentage", "get_status_display", "last_updated")
+    list_filter = ("fuel_type", "station")
+    search_fields = ("station__name",)
+    readonly_fields = ("stock_percentage", "get_status_display", "last_updated")
+
+    fieldsets = (
+        ("Station & Fuel", {
+            "fields": ("station", "fuel_type")
+        }),
+        ("Stock Information", {
+            "fields": ("current_stock_litres", "tank_capacity_litres", "reorder_point_litres")
+        }),
+        ("Status & Updates", {
+            "fields": ("stock_percentage", "get_status_display", "updated_by", "last_updated"),
+            "classes": ("collapse",)
+        }),
+    )
+
+    def get_status_display(self, obj):
+        return obj.get_status_display()
+    get_status_display.short_description = "Status"

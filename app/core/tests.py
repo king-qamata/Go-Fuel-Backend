@@ -1,7 +1,8 @@
 from django.test import SimpleTestCase, TestCase
 from django.urls import reverse
+from unittest.mock import patch
 
-from core.models import AvailabilityStatus, FuelBrand, FuelPrice, FuelType, Station, StationAvailability, StationUpdate, Order, OrderStatus
+from core.models import AvailabilityStatus, FuelBrand, FuelPrice, FuelType, Station, StationAvailability, StationUpdate, Order, OrderStatus, Receipt, UserProfile, UserRole
 
 
 class HealthcheckViewTests(SimpleTestCase):
@@ -89,6 +90,175 @@ class FrontendExperienceTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "NNPC Mega Station Ikeja")
         self.assertContains(response, "Refresh with my location")
+
+    def test_landing_page_contains_order_toggle_button(self):
+        response = self.client.get(reverse("core:landing"))
+
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Order")
+        self.assertContains(response, "Open the order page")
+
+    def test_manifest_and_service_worker_are_served(self):
+        manifest = self.client.get(reverse("core:manifest"))
+        service_worker = self.client.get(reverse("core:service-worker"))
+
+        self.assertEqual(manifest.status_code, 200)
+        self.assertEqual(service_worker.status_code, 200)
+        self.assertEqual(manifest["Content-Type"], "application/json")
+        self.assertEqual(service_worker["Content-Type"], "application/javascript")
+        payload = manifest.json()
+        self.assertTrue(any(icon["src"].endswith(".png") for icon in payload["icons"]))
+        self.assertIn("screenshots", payload)
+        self.assertTrue(any(screenshot.get("form_factor") == "wide" for screenshot in payload["screenshots"]))
+        self.assertTrue(any("form_factor" not in screenshot or screenshot.get("form_factor") != "wide" for screenshot in payload["screenshots"]))
+
+    def test_payment_methods_page_allows_selection(self):
+        session = self.client.session
+        session["go_fuel_order"] = {"station_id": 1}
+        session.save()
+
+        response = self.client.post(reverse("core:payment-methods"), {"method": "momo"})
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.url, reverse("core:payment"))
+
+    def test_order_update_page_updates_session_inline(self):
+        brand = FuelBrand.objects.create(name="Inline Brand")
+        station = Station.objects.create(
+            brand=brand,
+            name="Inline Station",
+            address="1 Inline Street",
+            latitude=0.0,
+            longitude=0.0,
+        )
+        session = self.client.session
+        session["go_fuel_order"] = {"station_id": station.id}
+        session.save()
+
+        response = self.client.post(
+            reverse("core:order-update"),
+            {
+                "field": "quantity",
+                "quantity_litres": "18.25",
+            },
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertTrue(payload["ok"])
+        self.assertEqual(payload["summary"]["quantity"], "18.25 L")
+        self.assertEqual(self.client.session["go_fuel_order"]["quantity_litres"], "18.25")
+
+    def test_qr_camera_page_renders(self):
+        response = self.client.get(reverse("core:qr-camera"))
+
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Scan receipt QR")
+
+    def test_qr_lookup_redirects_to_receipt(self):
+        user = User.objects.create_user(username="qr-user", password="pass")
+        brand = FuelBrand.objects.create(name="QR Brand")
+        station = Station.objects.create(
+            brand=brand,
+            name="QR Station",
+            address="1 QR Street",
+            latitude=0.0,
+            longitude=0.0,
+        )
+        order = Order.objects.create(
+            user=user,
+            station=station,
+            fuel_type=FuelType.PETROL,
+            quantity_litres=5,
+            price_per_litre=100,
+        )
+        receipt = Receipt.objects.create(
+            order=order,
+            qr_code="ABCD1234",
+            total_amount=order.total_amount,
+            vat_amount=order.vat_amount,
+            service_charge=order.service_charge,
+        )
+
+        response = self.client.post(reverse("core:qr-lookup"), {"qr_code": "abcd1234"})
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.url, reverse("core:qr-scan", args=[receipt.qr_code]))
+
+    @patch("core.services.paystack_service.initialize_transaction")
+    def test_payment_page_creates_decimal_safe_order(self, mock_initialize_transaction):
+        mock_initialize_transaction.return_value = {
+            "data": {
+                "reference": "order_1",
+                "authorization_url": "https://example.com/pay",
+            }
+        }
+        user = User.objects.create_user(username="pay-user", password="pass", email="pay@example.com")
+        brand = FuelBrand.objects.create(name="Pay Brand")
+        station = Station.objects.create(
+            brand=brand,
+            name="Pay Station",
+            address="1 Pay Street",
+            latitude=0.0,
+            longitude=0.0,
+        )
+        FuelPrice.objects.create(
+            brand=brand,
+            fuel_type=FuelType.PETROL,
+            price_per_litre="870.00",
+        )
+        session = self.client.session
+        session["go_fuel_order"] = {
+            "station_id": station.id,
+            "fuel_type": FuelType.PETROL,
+            "dispenser_number": 2,
+            "quantity_litres": "12.50",
+            "amount": "870.00",
+            "payment_method": "card",
+        }
+        session.save()
+        self.client.force_login(user)
+
+        response = self.client.post(reverse("core:payment"), {"method": "card"}, follow=False)
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.url, "https://example.com/pay")
+        order = Order.objects.get(user=user, station=station)
+        self.assertEqual(str(order.quantity_litres), "12.50")
+        self.assertEqual(str(order.price_per_litre), "870.00")
+        self.assertEqual(str(order.subtotal), "10875.00")
+
+    @patch("core.views.sms_service.send_sms")
+    def test_attendant_dashboard_uses_authenticated_user_as_order_owner(self, mock_send_sms):
+        attendant = User.objects.create_user(username="attendant", password="pass")
+        UserProfile.objects.create(user=attendant, phone_number="08000000000", role=UserRole.FUEL_ATTENDANT)
+        brand = FuelBrand.objects.create(name="Attendant Brand")
+        station = Station.objects.create(
+            brand=brand,
+            name="Attendant Station",
+            address="1 Attendant Road",
+            latitude=0.0,
+            longitude=0.0,
+        )
+        FuelPrice.objects.create(
+            brand=brand,
+            fuel_type=FuelType.PETROL,
+            price_per_litre="900.00",
+        )
+        self.client.force_login(attendant)
+
+        response = self.client.post(
+            reverse("core:attendant-dashboard"),
+            {
+                "quantity": "10",
+                "station": station.id,
+                "fuel_type": FuelType.PETROL,
+                "customer_phone": "",
+            },
+        )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(Order.objects.filter(attendant=attendant, station=station).exists())
 
 class FuelDataExperienceTests(TestCase):
     def setUp(self):

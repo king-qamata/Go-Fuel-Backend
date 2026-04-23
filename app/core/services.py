@@ -27,6 +27,7 @@ FALLBACK_BRANDS = [
 FALLBACK_STATIONS = [
     {
         "id": None,
+        "station_code": "2001",
         "name": "NNPC Mega Station Ikeja",
         "distance": "1.2 km",
         "price": "N870/L",
@@ -38,6 +39,7 @@ FALLBACK_STATIONS = [
     },
     {
         "id": None,
+        "station_code": "2002",
         "name": "NNPC Ojodu Service Point",
         "distance": "2.8 km",
         "price": "N870/L",
@@ -49,6 +51,7 @@ FALLBACK_STATIONS = [
     },
     {
         "id": None,
+        "station_code": "2003",
         "name": "NNPC Maryland Express",
         "distance": "4.1 km",
         "price": "N870/L",
@@ -174,6 +177,7 @@ def get_nearby_station_cards(
         cards.append(
             {
                 "id": station.id,
+                "station_code": f"{2000 + station.id}",
                 "name": station.name,
                 "distance": f"{distance:.1f} km",
                 "price": f"N{int(latest_price.price_per_litre)}/L" if latest_price else "N/A",
@@ -207,6 +211,7 @@ def get_station_card_by_id(
 
     return {
         "id": station.id,
+        "station_code": f"{2000 + station.id}",
         "name": station.name,
         "brand": station.brand.name,
         "address": station.address,

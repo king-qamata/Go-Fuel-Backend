@@ -1,0 +1,230 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | QR Camera{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="mobile-app-shell qr-camera-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <a href="{% url 'core:order' %}" class="back-link" style="color: rgba(255,255,255,0.86);">← Back</a>
+            <p class="screen-tag">QR · Camera</p>
+            <h1>Scan receipt QR</h1>
+            <p class="lead">Point your camera at a receipt QR code and we will open the matching payment screen automatically.</p>
+        </header>
+
+        <section class="screen-section">
+            <div class="camera-panel camera-panel--featured">
+                <div class="camera-frame">
+                    <video id="qr-camera-video" class="camera-view" playsinline muted hidden></video>
+                    <div class="camera-overlay">
+                        <span class="scan-target"></span>
+                    </div>
+                </div>
+                <canvas id="qr-camera-canvas" hidden></canvas>
+                <div class="camera-status-row">
+                    <span class="status-chip" id="qr-camera-indicator">Ready</span>
+                    <p class="app-note" id="qr-camera-message">Use the live preview to line up the QR code. Scans redirect automatically.</p>
+                </div>
+                <div class="drawer-actions">
+                    <button type="button" class="button primary full" id="qr-camera-start">Start camera</button>
+                    <button type="button" class="button secondary full" id="qr-camera-stop" hidden>Stop camera</button>
+                    <button type="button" class="button secondary full" id="qr-camera-scan" hidden>Scan once</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="callout">
+                <strong>Manual fallback</strong>
+                <p class="app-note">If camera access is blocked, use the regular QR lookup page to type the code instead.</p>
+                <p><a href="{% url 'core:qr-lookup' %}">Open manual lookup</a></p>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="screen-panel" style="padding: 18px;">
+                <div class="section-heading">
+                    <p class="eyebrow">Session history</p>
+                    <h2>Recent QR scans</h2>
+                </div>
+                <div class="scan-history" id="qr-camera-history">
+                    <p class="app-note">No QR scans yet in this session.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+<script>
+(function () {
+    const video = document.getElementById('qr-camera-video');
+    const canvas = document.getElementById('qr-camera-canvas');
+    const startButton = document.getElementById('qr-camera-start');
+    const stopButton = document.getElementById('qr-camera-stop');
+    const scanButton = document.getElementById('qr-camera-scan');
+    const messageNode = document.getElementById('qr-camera-message');
+    const indicatorNode = document.getElementById('qr-camera-indicator');
+    const historyNode = document.getElementById('qr-camera-history');
+    let stream = null;
+    let detector = null;
+    let scanning = false;
+    const historyKey = 'gofuel-qr-camera-history';
+    let scanHistory = [];
+
+    try {
+        const stored = window.sessionStorage.getItem(historyKey);
+        scanHistory = stored ? JSON.parse(stored) : [];
+    } catch (error) {
+        scanHistory = [];
+    }
+
+    function persistHistory() {
+        try {
+            window.sessionStorage.setItem(historyKey, JSON.stringify(scanHistory.slice(0, 5)));
+        } catch (error) {
+            // Ignore storage errors and keep the live UI working.
+        }
+    }
+
+    function renderHistory() {
+        if (!historyNode) {
+            return;
+        }
+        if (!scanHistory.length) {
+            historyNode.innerHTML = '<p class="app-note">No QR scans yet in this session.</p>';
+            return;
+        }
+
+        historyNode.innerHTML = scanHistory.map((entry) => `
+            <div class="scan-history-item">
+                <div>
+                    <div class="scan-history-code">${entry.code}</div>
+                    <div class="scan-history-meta">${entry.label}</div>
+                </div>
+                <a class="drawer-edit" href="/qr/${encodeURIComponent(entry.code)}/">Open</a>
+            </div>
+        `).join('');
+    }
+
+    function recordScan(code) {
+        const timestamp = new Date();
+        scanHistory = [
+            {
+                code,
+                label: timestamp.toLocaleString([], { hour: 'numeric', minute: '2-digit', month: 'short', day: 'numeric' }),
+            },
+            ...scanHistory.filter((item) => item.code !== code),
+        ].slice(0, 5);
+        persistHistory();
+        renderHistory();
+    }
+
+    renderHistory();
+
+    function setState(status, message) {
+        if (indicatorNode) {
+            indicatorNode.textContent = status;
+        }
+        if (messageNode) {
+            messageNode.textContent = message;
+        }
+    }
+
+    function stopCamera() {
+        scanning = false;
+        if (stream) {
+            stream.getTracks().forEach((track) => track.stop());
+            stream = null;
+        }
+        if (video) {
+            video.hidden = true;
+            video.srcObject = null;
+        }
+        if (startButton) startButton.hidden = false;
+        if (stopButton) stopButton.hidden = true;
+        if (scanButton) scanButton.hidden = true;
+        setState('Ready', 'Use the live preview to line up the QR code. Scans redirect automatically.');
+    }
+
+    async function scanFrame() {
+        if (!scanning || !video || !detector) {
+            return;
+        }
+        try {
+            const codes = await detector.detect(video);
+            if (codes && codes.length > 0) {
+                const value = codes[0].rawValue;
+                recordScan(value);
+                setState('Found', `QR detected: ${value}. Opening receipt now.`);
+                stopCamera();
+                window.setTimeout(() => {
+                    window.location.href = `/qr/${encodeURIComponent(value)}/`;
+                }, 220);
+                return;
+            }
+        } catch (error) {
+            setState('Scan error', 'Camera scan paused. Try again or use manual lookup.');
+            stopCamera();
+            return;
+        }
+        requestAnimationFrame(scanFrame);
+    }
+
+    async function startCamera() {
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            setState('Unsupported', 'This browser cannot access the camera. Use manual QR lookup instead.');
+            return;
+        }
+
+        try {
+            detector = detector || (window.BarcodeDetector ? new BarcodeDetector({formats: ['qr_code']}) : null);
+            if (!detector) {
+                setState('Unsupported', 'This browser does not support QR detection. Use manual lookup instead.');
+                return;
+            }
+
+            stream = await navigator.mediaDevices.getUserMedia({
+                video: {facingMode: {ideal: 'environment'}},
+                audio: false,
+            });
+            video.srcObject = stream;
+            video.hidden = false;
+            await video.play();
+            scanning = true;
+            if (startButton) startButton.hidden = true;
+            if (stopButton) stopButton.hidden = false;
+            if (scanButton) scanButton.hidden = false;
+            setState('Scanning', 'Point the camera at a QR code. The receipt opens automatically once detected.');
+            scanFrame();
+        } catch (error) {
+            setState('Camera blocked', 'Allow camera access or switch to manual lookup.');
+            stopCamera();
+        }
+    }
+
+    async function scanOnce() {
+        if (!detector || !video) {
+            return;
+        }
+        try {
+            const codes = await detector.detect(video);
+            if (codes && codes.length > 0) {
+                recordScan(codes[0].rawValue);
+                setState('Found', `QR detected: ${codes[0].rawValue}. Opening receipt now.`);
+                stopCamera();
+                window.setTimeout(() => {
+                    window.location.href = `/qr/${encodeURIComponent(codes[0].rawValue)}/`;
+                }, 220);
+            } else {
+                setState('Searching', 'No QR detected yet. Hold the receipt a little closer.');
+            }
+        } catch (error) {
+            setState('Scan error', 'Try again or use manual lookup.');
+        }
+    }
+
+    if (startButton) startButton.addEventListener('click', startCamera);
+    if (stopButton) stopButton.addEventListener('click', stopCamera);
+    if (scanButton) scanButton.addEventListener('click', scanOnce);
+})();
+</script>
+{% endblock %}

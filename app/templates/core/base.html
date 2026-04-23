@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}GoFuel{% endblock %}</title>
+    <meta name="theme-color" content="#163a72">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="manifest" href="{% url 'core:manifest' %}">
     <link
         rel="stylesheet"
         href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -31,35 +35,210 @@
         {% endif %}
         {% block content %}{% endblock %}
     </div>
+    <button type="button" class="install-launcher" data-install-launcher aria-controls="install-banner">
+        Install app
+    </button>
+    <div class="install-banner" hidden data-install-banner>
+        <div class="install-banner-top">
+            <div class="install-banner-copy">
+                <p class="eyebrow">Install app</p>
+                <strong>GoFuel is ready to install.</strong>
+                <p class="app-note">Keep the app on your phone for faster station access, offline fallback, and smoother order updates.</p>
+            </div>
+            <button type="button" class="drawer-close install-banner-close" data-install-dismiss aria-label="Dismiss install prompt">×</button>
+        </div>
+        <div class="install-points">
+            <span>Offline-ready</span>
+            <span>Quick launch</span>
+            <span>Order shortcuts</span>
+        </div>
+        <div class="install-banner-actions">
+            <button type="button" class="button primary" data-install-action>Install</button>
+            <button type="button" class="button secondary" data-install-dismiss>Not now</button>
+        </div>
+    </div>
+    <button
+        type="button"
+        class="order-fab"
+        data-order-toggle
+        aria-controls="order-drawer"
+        aria-expanded="false"
+    >
+        <span class="order-fab-icon">⛽</span>
+        <span>Order</span>
+    </button>
+    <aside class="order-drawer" id="order-drawer" hidden data-order-update-url="{% url 'core:order-update' %}">
+        <div class="order-drawer-header">
+            <div>
+                <p class="eyebrow">Quick Order</p>
+                <h2>Open the order page</h2>
+            </div>
+            <button type="button" class="drawer-close" data-order-toggle aria-label="Close order drawer">×</button>
+        </div>
+        <p class="order-drawer-copy">
+            Update station, dispenser, quantity, and payment without leaving the screen you are on.
+        </p>
+        <div class="guided-flow">
+            <div class="guided-step is-editable" data-order-step="station">
+                <div class="guided-step-label">
+                    <span class="step-badge">1</span>
+                    <strong data-order-value="station">{{ go_fuel_order_station.station_code|default:"" }}{% if go_fuel_order_station %} · {{ go_fuel_order_station.name }}{% else %}Select a station{% endif %}</strong>
+                </div>
+                <button type="button" class="drawer-edit" data-order-edit-toggle="station">Edit</button>
+                <form class="drawer-inline-form" data-order-inline-form="station" aria-hidden="true">
+                    <label>
+                        <span>Station</span>
+                        <select name="station_id" required>
+                            {% for station in go_fuel_order_stations %}
+                            {% if station.id %}
+                            <option value="{{ station.id }}"{% if go_fuel_order_station and go_fuel_order_station.id == station.id %} selected{% endif %}>
+                                {{ station.station_code }} · {{ station.name }}
+                            </option>
+                            {% endif %}
+                            {% endfor %}
+                        </select>
+                    </label>
+                    <div class="drawer-actions">
+                        <button type="submit" class="button primary full">Save station</button>
+                        <button type="button" class="button secondary full" data-order-edit-cancel="station">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            <div class="guided-step is-editable" data-order-step="dispenser">
+                <div class="guided-step-label">
+                    <span class="step-badge">2</span>
+                    <strong data-order-value="dispenser">{{ go_fuel_order.dispenser_number|default:"Pick dispenser" }}</strong>
+                </div>
+                <button type="button" class="drawer-edit" data-order-edit-toggle="dispenser">Edit</button>
+                <form class="drawer-inline-form" data-order-inline-form="dispenser" aria-hidden="true">
+                    <label>
+                        <span>Fuel type</span>
+                        <select name="fuel_type">
+                            <option value="petrol"{% if go_fuel_order.fuel_type == 'petrol' or not go_fuel_order.fuel_type %} selected{% endif %}>Petrol</option>
+                            <option value="diesel"{% if go_fuel_order.fuel_type == 'diesel' %} selected{% endif %}>Diesel</option>
+                            <option value="gas"{% if go_fuel_order.fuel_type == 'gas' %} selected{% endif %}>Gas</option>
+                        </select>
+                    </label>
+                    <label>
+                        <span>Dispenser</span>
+                        <select name="dispenser_number">
+                            {% for dispenser in "12345" %}
+                            <option value="{{ dispenser }}"{% if go_fuel_order.dispenser_number|stringformat:"s" == dispenser %} selected{% endif %}>{{ dispenser }}</option>
+                            {% endfor %}
+                        </select>
+                    </label>
+                    <div class="drawer-actions">
+                        <button type="submit" class="button primary full">Save dispenser</button>
+                        <button type="button" class="button secondary full" data-order-edit-cancel="dispenser">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            <div class="guided-step is-editable" data-order-step="quantity">
+                <div class="guided-step-label">
+                    <span class="step-badge">3</span>
+                    <strong data-order-value="quantity">{% if go_fuel_order.quantity_litres %}{{ go_fuel_order.quantity_litres }} L{% else %}Set quantity{% endif %}</strong>
+                </div>
+                <button type="button" class="drawer-edit" data-order-edit-toggle="quantity">Edit</button>
+                <form class="drawer-inline-form" data-order-inline-form="quantity" aria-hidden="true">
+                    <label>
+                        <span>Litres</span>
+                        <input type="number" name="quantity_litres" step="0.01" min="0.1" placeholder="10.00">
+                    </label>
+                    <label>
+                        <span>Amount (optional)</span>
+                        <input type="number" name="amount" step="0.01" min="0" placeholder="0.00">
+                    </label>
+                    <div class="drawer-actions">
+                        <button type="submit" class="button primary full">Save quantity</button>
+                        <button type="button" class="button secondary full" data-order-edit-cancel="quantity">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            <div class="guided-step is-editable" data-order-step="payment">
+                <div class="guided-step-label">
+                    <span class="step-badge">4</span>
+                    <strong data-order-value="payment">{{ go_fuel_order.payment_method|default:"Choose method"|title }}</strong>
+                </div>
+                <button type="button" class="drawer-edit" data-order-edit-toggle="payment">Edit</button>
+                <form class="drawer-inline-form" data-order-inline-form="payment" aria-hidden="true">
+                    <div class="payment-method-grid compact">
+                        <label class="method-option{% if go_fuel_order.payment_method == 'card' or not go_fuel_order.payment_method %} selected{% endif %}">
+                            <span>
+                                <span class="method-name">Card</span>
+                                <span class="stepper-meta">Visa or Mastercard</span>
+                            </span>
+                            <input type="radio" name="payment_method" value="card"{% if go_fuel_order.payment_method == 'card' or not go_fuel_order.payment_method %} checked{% endif %}>
+                        </label>
+                        <label class="method-option{% if go_fuel_order.payment_method == 'momo' %} selected{% endif %}">
+                            <span>
+                                <span class="method-name">Momo</span>
+                                <span class="stepper-meta">Wallet or mobile money</span>
+                            </span>
+                            <input type="radio" name="payment_method" value="momo"{% if go_fuel_order.payment_method == 'momo' %} checked{% endif %}>
+                        </label>
+                        <label class="method-option{% if go_fuel_order.payment_method == 'voucher' %} selected{% endif %}">
+                            <span>
+                                <span class="method-name">Voucher</span>
+                                <span class="stepper-meta">Promo or station code</span>
+                            </span>
+                            <input type="radio" name="payment_method" value="voucher"{% if go_fuel_order.payment_method == 'voucher' %} checked{% endif %}>
+                        </label>
+                        <label class="method-option{% if go_fuel_order.payment_method == 'cash' %} selected{% endif %}">
+                            <span>
+                                <span class="method-name">Cash</span>
+                                <span class="stepper-meta">Pay at station</span>
+                            </span>
+                            <input type="radio" name="payment_method" value="cash"{% if go_fuel_order.payment_method == 'cash' %} checked{% endif %}>
+                        </label>
+                    </div>
+                    <div class="drawer-actions">
+                        <button type="submit" class="button primary full">Save payment</button>
+                        <button type="button" class="button secondary full" data-order-edit-cancel="payment">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="drawer-actions">
+            <a href="{% url 'core:order' %}" class="button primary full">Go to order page</a>
+            <a href="{% url 'core:stations' %}" class="button secondary full">Choose a station</a>
+            <a href="{% url 'core:qr-camera' %}" class="button secondary full">Open QR camera</a>
+            <a href="{% url 'core:payment-methods' %}" class="button secondary full">Payment methods</a>
+        </div>
+    </aside>
     <nav class="bottom-nav">
         <ul class="nav-list">
             <li class="nav-item">
-                <a href="{% url 'core:landing' %}" class="nav-link{% if request.resolver_match.url_name == 'landing' %} active{% endif %}">
-                    <span class="nav-icon">🏠</span>
-                    Home
+                <a href="{% url 'core:landing' %}" class="nav-link{% if request.resolver_match.url_name == 'landing' or request.resolver_match.url_name == 'prices' or request.resolver_match.url_name == 'stations' or request.resolver_match.url_name == 'station-detail' or request.resolver_match.url_name == 'select-station' or request.resolver_match.url_name == 'order' or request.resolver_match.url_name == 'dispenser' or request.resolver_match.url_name == 'fuel-quantity' %} active{% endif %}">
+                    <span class="nav-icon">⛽</span>
+                    Fuel
                 </a>
             </li>
             <li class="nav-item">
                 <a href="{% url 'core:account' %}" class="nav-link{% if request.resolver_match.url_name == 'account' %} active{% endif %}">
                     <span class="nav-icon">👤</span>
-                    Account
+                    Cabinet
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{% url 'core:order' %}" class="nav-link{% if 'order' in request.resolver_match.url_name or 'dispenser' in request.resolver_match.url_name or 'fuel' in request.resolver_match.url_name or 'payment' in request.resolver_match.url_name %} active{% endif %}">
-                    <span class="nav-icon">⛽</span>
-                    Order
+                <a href="{% url 'core:news' %}" class="nav-link{% if request.resolver_match.url_name == 'news' %} active{% endif %}">
+                    <span class="nav-icon">📰</span>
+                    News
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{% url 'core:prices' %}" class="nav-link{% if request.resolver_match.url_name == 'prices' %} active{% endif %}">
-                    <span class="nav-icon">💰</span>
-                    Prices
+                <a href="{% url 'core:promotions' %}" class="nav-link{% if request.resolver_match.url_name == 'promotions' or request.resolver_match.url_name == 'payment-methods' %} active{% endif %}">
+                    <span class="nav-icon">⭐</span>
+                    Offers
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'core:payment' %}" class="nav-link{% if request.resolver_match.url_name == 'payment' or request.resolver_match.url_name == 'qr-scan' %} active{% endif %}">
+                    <span class="nav-icon">💳</span>
+                    Payment
                 </a>
             </li>
         </ul>
     </nav>
-    <script src="{% static 'core/location.js' %}" defer></script>
     <script>
         function showLoading(form) {
             const btn = form.querySelector('#submit-btn');
@@ -82,6 +261,261 @@
             showLoading(form);
             return true;
         }
+
+        (function () {
+            const drawer = document.getElementById('order-drawer');
+            const toggles = document.querySelectorAll('[data-order-toggle]');
+            const updateUrl = drawer ? drawer.getAttribute('data-order-update-url') : null;
+            if (!drawer || !toggles.length) {
+                return;
+            }
+
+            function setDrawerOpen(open) {
+                drawer.hidden = !open;
+                toggles.forEach((toggle) => {
+                    toggle.setAttribute('aria-expanded', String(open));
+                });
+            }
+
+            toggles.forEach((toggle) => {
+                toggle.addEventListener('click', () => {
+                    setDrawerOpen(drawer.hidden);
+                });
+            });
+
+            document.addEventListener('click', (event) => {
+                if (drawer.hidden) {
+                    return;
+                }
+                const clickedInside = drawer.contains(event.target) || Array.from(toggles).some((toggle) => toggle.contains(event.target));
+                if (!clickedInside) {
+                    setDrawerOpen(false);
+                }
+            });
+
+            function updateStepText(step, value) {
+                const target = drawer.querySelector(`[data-order-value="${step}"]`);
+                if (target) {
+                    target.textContent = value;
+                }
+            }
+
+            function syncInlineForms(order) {
+                const stationForm = drawer.querySelector('[data-order-inline-form="station"]');
+                if (stationForm && order.station_id) {
+                    const stationSelect = stationForm.querySelector('select[name="station_id"]');
+                    if (stationSelect) {
+                        stationSelect.value = String(order.station_id);
+                    }
+                }
+
+                const dispenserForm = drawer.querySelector('[data-order-inline-form="dispenser"]');
+                if (dispenserForm) {
+                    const fuelTypeSelect = dispenserForm.querySelector('select[name="fuel_type"]');
+                    const dispenserSelect = dispenserForm.querySelector('select[name="dispenser_number"]');
+                    if (fuelTypeSelect && order.fuel_type) {
+                        fuelTypeSelect.value = order.fuel_type;
+                    }
+                    if (dispenserSelect && order.dispenser_number) {
+                        dispenserSelect.value = String(order.dispenser_number);
+                    }
+                }
+
+                const quantityForm = drawer.querySelector('[data-order-inline-form="quantity"]');
+                if (quantityForm) {
+                    const quantityInput = quantityForm.querySelector('input[name="quantity_litres"]');
+                    const amountInput = quantityForm.querySelector('input[name="amount"]');
+                    if (quantityInput && order.quantity_litres) {
+                        quantityInput.value = order.quantity_litres;
+                    }
+                    if (amountInput) {
+                        amountInput.value = '';
+                    }
+                }
+
+                const paymentForm = drawer.querySelector('[data-order-inline-form="payment"]');
+                if (paymentForm && order.payment_method) {
+                    paymentForm.querySelectorAll('input[name="payment_method"]').forEach((radio) => {
+                        radio.checked = radio.value === order.payment_method;
+                    });
+                }
+            }
+
+            function setEditorVisible(form, visible) {
+                form.classList.toggle('is-open', visible);
+                form.setAttribute('aria-hidden', String(!visible));
+            }
+
+            function closeEditors() {
+                drawer.classList.remove('is-editing');
+                drawer.querySelectorAll('[data-order-inline-form]').forEach((form) => {
+                    setEditorVisible(form, false);
+                });
+            }
+
+            drawer.querySelectorAll('[data-order-edit-toggle]').forEach((button) => {
+                button.addEventListener('click', () => {
+                    const step = button.getAttribute('data-order-edit-toggle');
+                    const form = drawer.querySelector(`[data-order-inline-form="${step}"]`);
+                    if (!form) return;
+                    const opened = form.classList.contains('is-open');
+                    closeEditors();
+                    if (!opened) {
+                        drawer.classList.add('is-editing');
+                        setEditorVisible(form, true);
+                    }
+                });
+            });
+
+            drawer.querySelectorAll('[data-order-edit-cancel]').forEach((button) => {
+                button.addEventListener('click', () => {
+                const step = button.getAttribute('data-order-edit-cancel');
+                const form = drawer.querySelector(`[data-order-inline-form="${step}"]`);
+                if (form) {
+                        setEditorVisible(form, false);
+                        drawer.classList.remove('is-editing');
+                }
+            });
+            });
+
+            drawer.querySelectorAll('[data-order-inline-form]').forEach((form) => {
+                form.addEventListener('submit', async (event) => {
+                    event.preventDefault();
+                    if (!updateUrl) return;
+                    const step = form.getAttribute('data-order-inline-form');
+                    const data = new FormData(form);
+                    data.append('field', step);
+                    const response = await fetch(updateUrl, {
+                        method: 'POST',
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest',
+                            'X-CSRFToken': (document.cookie.match(/(?:^|; )csrftoken=([^;]+)/) || [])[1] || '',
+                        },
+                        body: data,
+                    });
+                    const payload = await response.json();
+                    if (!response.ok || !payload.ok) {
+                        alert(payload.error || 'Unable to update your order.');
+                        return;
+                    }
+
+                    updateStepText('station', payload.summary.station);
+                    updateStepText('dispenser', payload.summary.dispenser);
+                    updateStepText('quantity', payload.summary.quantity);
+                    updateStepText('payment', payload.summary.payment);
+                    syncInlineForms(payload.order || {});
+                    setEditorVisible(form, false);
+                    drawer.classList.remove('is-editing');
+                });
+            });
+        })();
+
+        (function () {
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register("{% url 'core:service-worker' %}");
+                });
+            }
+        })();
+
+        (function () {
+            const banner = document.querySelector('[data-install-banner]');
+            const installAction = document.querySelector('[data-install-action]');
+            const dismissAction = document.querySelectorAll('[data-install-dismiss]');
+            const launcher = document.querySelector('[data-install-launcher]');
+            let deferredPrompt = null;
+            let dismissed = false;
+            let installed = false;
+
+            try {
+                dismissed = window.localStorage.getItem('gofuel-install-dismissed') === '1';
+                installed = window.localStorage.getItem('gofuel-install-installed') === '1';
+            } catch (error) {
+                dismissed = false;
+                installed = false;
+            }
+
+            try {
+                installed = installed || window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+            } catch (error) {
+                installed = installed;
+            }
+
+            function syncInstallUI() {
+                if (banner) {
+                    banner.hidden = dismissed || installed;
+                }
+                if (launcher) {
+                    launcher.textContent = installed ? 'Installed' : 'Install app';
+                    launcher.classList.toggle('is-installed', installed);
+                    launcher.setAttribute('aria-label', installed ? 'GoFuel is installed' : 'Open install prompt');
+                }
+            }
+
+            syncInstallUI();
+
+            if (launcher) {
+                launcher.addEventListener('click', () => {
+                    if (installed) {
+                        return;
+                    }
+                    if (banner) {
+                        banner.hidden = false;
+                    }
+                });
+            }
+
+            window.addEventListener('beforeinstallprompt', (event) => {
+                event.preventDefault();
+                deferredPrompt = event;
+                syncInstallUI();
+            });
+
+            if (installAction) {
+                installAction.addEventListener('click', async () => {
+                    if (!deferredPrompt) {
+                        if (banner) {
+                            banner.hidden = false;
+                        }
+                        return;
+                    }
+                    deferredPrompt.prompt();
+                    await deferredPrompt.userChoice;
+                    deferredPrompt = null;
+                    dismissed = true;
+                    syncInstallUI();
+                });
+            }
+
+            if (dismissAction) {
+                dismissAction.forEach((button) => {
+                    button.addEventListener('click', () => {
+                        dismissed = true;
+                        try {
+                            window.localStorage.setItem('gofuel-install-dismissed', '1');
+                        } catch (error) {
+                            // Ignore storage failures and still dismiss the banner.
+                        }
+                        dismissed = true;
+                        deferredPrompt = null;
+                        syncInstallUI();
+                    });
+                });
+            }
+
+            window.addEventListener('appinstalled', () => {
+                installed = true;
+                dismissed = true;
+                deferredPrompt = null;
+                try {
+                    window.localStorage.setItem('gofuel-install-installed', '1');
+                    window.localStorage.setItem('gofuel-install-dismissed', '1');
+                } catch (error) {
+                    // Ignore storage failures and still update the UI.
+                }
+                syncInstallUI();
+            });
+        })();
     </script>
 </body>
 </html>

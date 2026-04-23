@@ -1,0 +1,30 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Offline{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <p class="screen-tag">Offline mode</p>
+            <h1>You are offline</h1>
+            <p class="lead">The app saved a lightweight offline shell so you can keep browsing key screens.</p>
+        </header>
+
+        <section class="screen-section">
+            <div class="callout">
+                <strong>What you can still do</strong>
+                <p class="app-note">Open saved station pages, review the order drawer, or retry when connectivity returns.</p>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="drawer-actions">
+                <a href="{% url 'core:landing' %}" class="button primary full">Go to home</a>
+                <a href="{% url 'core:order' %}" class="button secondary full">Open order flow</a>
+                <a href="{% url 'core:qr-lookup' %}" class="button secondary full">Open QR lookup</a>
+            </div>
+        </section>
+    </section>
+</main>
+{% endblock %}

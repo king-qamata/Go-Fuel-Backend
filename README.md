@@ -89,8 +89,8 @@ Orders are saved to the database for authenticated users, with payment records t
 ## Local setup
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 cd app
 python manage.py migrate
@@ -182,6 +182,8 @@ The nearby stations API also accepts coordinates:
 The browser UI now supports geolocation as well. On the landing, prices, and nearby-stations pages, users can tap `Use my location` to let the browser populate and remember coordinates automatically.
 
 The nearby stations page now uses real map tiles via Leaflet and OpenStreetMap, and each station card can link through to a detail page with price history and update submission.
+
+The app also includes a PWA shell with a manifest and service worker so it can be installed on supported mobile browsers.
 
 ## Managing user and order data
 

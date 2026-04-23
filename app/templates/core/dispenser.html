@@ -4,22 +4,50 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
-            <a href="{% url 'core:order' %}" class="back-link">← Back</a>
-            <p class="eyebrow">STEP# 2</p>
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <a href="{% url 'core:order' %}" class="back-link" style="color: rgba(255,255,255,0.86);">← Back</a>
+            <p class="screen-tag">STEP# 2 · Dispenser</p>
             <h1>Dispenser and fuel selection</h1>
-            <p>Dispenser and fuel selection.</p>
-        </div>
+            <p class="lead">Select the dispenser and the fuel type for this order.</p>
+        </header>
 
-        <form method="post" class="stack-form" onsubmit="showLoading(this)">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="button primary full" id="submit-btn">
-                <span class="loading-spinner" id="spinner" style="display: none;"></span>
-                Next
-            </button>
-        </form>
+        <section class="screen-section">
+            <div class="order-summary-grid">
+                <div class="summary-pill">
+                    <span>Station</span>
+                    <strong>
+                        {% if selected_station %}
+                            {{ selected_station.station_code }} · {{ selected_station.name }}
+                        {% else %}
+                            Choose a station first
+                        {% endif %}
+                    </strong>
+                </div>
+                <div class="summary-pill">
+                    <span>Status</span>
+                    <strong>{{ selected_station.availability|default:'Ready to configure' }}</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <form method="post" class="stack-form" onsubmit="showLoading(this)">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="button primary full" id="submit-btn">
+                    <span class="loading-spinner" id="spinner" style="display: none;"></span>
+                    Next
+                </button>
+            </form>
+        </section>
+
+        <section class="screen-section">
+            <div class="callout">
+                <strong>Finish the step to continue.</strong>
+                <p class="app-note">The PDF shows a compact station summary above the dispenser selection list.</p>
+            </div>
+        </section>
     </section>
 </main>
 {% endblock %}

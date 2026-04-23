@@ -4,65 +4,90 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
-            <p class="eyebrow">Page 3</p>
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <p class="screen-tag">Page 3 · Cabinet</p>
             <h1>Customer's account</h1>
-            <p>Customer's account with history and balance.</p>
-        </div>
+            <p class="lead">Customer's account with history and balance.</p>
+        </header>
 
-        <div class="account-summary">
-            <div class="summary-item">
-                <span>Balance</span>
-                <strong>
-                    {% if profile %}
-                        N{{ profile.balance }}
-                    {% else %}
-                        N0.00
-                    {% endif %}
-                </strong>
+        <section class="screen-section">
+            <div class="screen-panel" style="padding: 18px;">
+                <div class="mini-stat-grid">
+                    <div class="mini-stat">
+                        <span class="card-label">Balance</span>
+                        <strong>
+                            {% if profile %}
+                                N{{ profile.balance }}
+                            {% else %}
+                                N0.00
+                            {% endif %}
+                        </strong>
+                    </div>
+                    <div class="mini-stat">
+                        <span class="card-label">History</span>
+                        <strong>
+                            {% if profile %}
+                                {{ recent_orders|length }} orders
+                            {% else %}
+                                Sign in to view
+                            {% endif %}
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="callout" style="margin-top: 14px;">
+                    <strong>Earn coins and increase your status</strong>
+                    <p class="app-note">Track purchases, reward points, and saved vehicles in one place.</p>
+                </div>
             </div>
-            <div class="summary-item">
-                <span>History</span>
-                <strong>
-                    {% if profile %}
-                        {{ recent_orders|length }} recent orders
-                    {% else %}
-                        Sign in to view
-                    {% endif %}
-                </strong>
-            </div>
-        </div>
+        </section>
 
         {% if profile and recent_orders %}
-        <h3>Recent Orders</h3>
-        <div class="order-history">
-            {% for order in recent_orders %}
-            <div class="order-item">
-                <div class="order-header">
-                    <span class="order-id">Order #{{ order.id }}</span>
-                    <span class="order-status {{ order.status }}">{{ order.get_status_display }}</span>
-                </div>
-                <div class="order-details">
-                    <p>{{ order.station.name }} - {{ order.fuel_type|title }} - {{ order.quantity_litres }}L</p>
-                    <p class="order-total">N{{ order.total_amount }}</p>
-                    <p class="order-date">{{ order.created_at|date:"M d, Y H:i" }}</p>
-                </div>
+        <section class="screen-section">
+            <div class="section-heading">
+                <p class="eyebrow">My purchases</p>
+                <h2>Recent orders</h2>
             </div>
-            {% endfor %}
-        </div>
+            <div class="order-history">
+                {% for order in recent_orders %}
+                <div class="order-item">
+                    <div class="order-header">
+                        <span class="order-id">Order #{{ order.id }}</span>
+                        <span class="order-status {{ order.status }}">{{ order.get_status_display }}</span>
+                    </div>
+                    <div class="order-details">
+                        <p>{{ order.station.name }} - {{ order.fuel_type|title }} - {{ order.quantity_litres }}L</p>
+                        <p class="order-total">N{{ order.total_amount }}</p>
+                        <p class="order-date">{{ order.created_at|date:"M d, Y H:i" }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
         {% endif %}
 
-        {% if profile %}
-        <div class="account-actions">
-            <button type="button" class="button secondary">View History</button>
-            <button type="button" class="button primary">Top Up</button>
-            <a href="{% url 'core:logout' %}" class="button secondary full">Logout</a>
-        </div>
-        {% else %}
-        <p>Please log in to see your saved account details and favorites.</p>
+        {% if cars %}
+        <section class="screen-section">
+            <div class="section-heading">
+                <p class="eyebrow">Saved vehicles</p>
+                <h2>Car details</h2>
+            </div>
+            <div class="chip-list">
+                {% for car in cars %}
+                <span class="chip">{{ car.make }} {{ car.model }} · {{ car.get_fuel_type_display }}</span>
+                {% endfor %}
+            </div>
+        </section>
         {% endif %}
 
+        <section class="screen-section">
+            <div class="chip-list">
+                <a href="{% url 'core:car-details' %}" class="chip active">Add car</a>
+                <a href="{% url 'core:order' %}" class="chip">View history</a>
+                <a href="{% url 'core:logout' %}" class="chip">Logout</a>
+            </div>
+        </section>
     </section>
 </main>
 {% endblock %}

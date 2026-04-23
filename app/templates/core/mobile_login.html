@@ -4,43 +4,49 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
-            <p class="eyebrow">Page 4</p>
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <p class="screen-tag">Page 4 · Cabinet</p>
             <h1>Customer Login Details</h1>
-            <p>Customer Login Details.</p>
-        </div>
+            <p class="lead">Use your phone number to continue with the self-service flow.</p>
+        </header>
 
-        <form class="stack-form" method="post" action="">
-            {% csrf_token %}
+        <section class="screen-section">
             {% if error %}
-            <div class="status-panel error-panel">
-                <p>{{ error }}</p>
+            <div class="callout" style="margin-bottom: 14px; border-color: rgba(181, 72, 45, 0.2); background: rgba(181, 72, 45, 0.08);">
+                <strong>Login failed</strong>
+                <p class="app-note">{{ error }}</p>
             </div>
             {% endif %}
-            <label>
-                <span>Phone Number</span>
-                {{ form.phone_number }}
-            </label>
-            <label>
-                <span>Password</span>
-                {{ form.password }}
-            </label>
-            <div class="inline-row">
-                <label class="checkbox-row">
-                    <input type="checkbox" name="remember_me">
-                    <span>Remember me</span>
-                </label>
-                <a href="{% url 'core:prices' %}">Forgot password?</a>
-            </div>
-            <button type="submit" class="button primary full">Login</button>
-        </form>
 
-        <div class="status-panel">
-            <p class="card-label">Today&apos;s fuel intelligence</p>
-            <p>NNPC is currently the cheapest in your area.</p>
-            <strong>N870/L</strong>
-        </div>
+            <form class="stack-form" method="post" action="">
+                {% csrf_token %}
+                <label>
+                    <span>Phone Number</span>
+                    {{ form.phone_number }}
+                </label>
+                <label>
+                    <span>Password</span>
+                    {{ form.password }}
+                </label>
+                <div class="inline-row">
+                    <label class="checkbox-row">
+                        <input type="checkbox" name="remember_me">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="{% url 'core:attendant-register' %}">Create account</a>
+                </div>
+                <button type="submit" class="button primary full">Login</button>
+            </form>
+        </section>
+
+        <section class="screen-section">
+            <div class="callout">
+                <p class="card-label">Today&apos;s fuel intelligence</p>
+                <strong>NNPC is currently the cheapest in your area.</strong>
+                <p class="app-note">N870/L, with live updates from nearby stations.</p>
+            </div>
+        </section>
     </section>
 </main>
 {% endblock %}

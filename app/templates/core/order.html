@@ -4,45 +4,171 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
-            <p class="eyebrow">Page 8</p>
-            <h1>Order information</h1>
-            <p>Own self-service before station visiting.</p>
-        </div>
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <p class="screen-tag">Page 8 · Order</p>
+            <h1>Refuel the car</h1>
+            <p class="lead">Choose a way to determine your location before you start the station visit flow.</p>
+        </header>
 
-        <div class="order-list">
-            <div class="order-actions">
-                <a href="{% url 'core:stations' %}" class="button primary">Start New Order</a>
+        <section class="screen-section">
+            <div class="tab-rail" aria-label="Order entry methods">
+                <a href="{% url 'core:qr-lookup' %}" class="active">By QR Code</a>
+                <a href="{% url 'core:stations' %}">Find on map</a>
             </div>
-            <article class="order-item">
-                <h3>Recent Order</h3>
-                {% if order.station_id %}
-                <p>Station ID: {{ order.station_id }}</p>
-                {% else %}
-                <p>Select a station, dispenser, and fuel quantity to begin your order.</p>
-                {% endif %}
-                <p>Fuel type: {{ order.fuel_type|default:'Petrol' }}</p>
-                <p>Litres: {{ order.quantity_litres|default:'N/A' }}</p>
-                <p>Dispenser: {{ order.dispenser_number|default:'Not selected' }}</p>
-            </article>
-            <div class="order-stations">
-                <h3>Suggested stations</h3>
+        </section>
+
+        <section class="screen-section">
+            <div class="stepper">
+                <a class="stepper-item active" href="{% url 'core:stations' %}">
+                    <span class="stepper-index">1</span>
+                    <span>
+                        <strong>Select the station</strong>
+                        <span class="stepper-meta">Step 1 from the PDF flow</span>
+                    </span>
+                </a>
+                <a class="stepper-item" href="{% url 'core:dispenser' %}">
+                    <span class="stepper-index">2</span>
+                    <span>
+                        <strong>Select the dispenser</strong>
+                        <span class="stepper-meta">Step 2 from the PDF flow</span>
+                    </span>
+                </a>
+                <a class="stepper-item" href="{% url 'core:fuel-quantity' %}">
+                    <span class="stepper-index">3</span>
+                    <span>
+                        <strong>Choose the fuel</strong>
+                        <span class="stepper-meta">Step 3 from the PDF flow</span>
+                    </span>
+                </a>
+                <a class="stepper-item" href="{% url 'core:payment' %}">
+                    <span class="stepper-index">4</span>
+                    <span>
+                        <strong>Payment method</strong>
+                        <span class="stepper-meta">Step 4 from the PDF flow</span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="screen-panel" style="padding: 18px;">
+                <div class="section-heading">
+                    <p class="eyebrow">Order draft</p>
+                    <h2>Quick edit your current flow</h2>
+                </div>
+                <div class="guided-flow">
+                    <div class="guided-step">
+                        <div class="guided-step-label">
+                            <span class="step-badge">1</span>
+                            <strong>
+                                {{ order_summary.station_label }}
+                            </strong>
+                        </div>
+                        <a href="{% url 'core:stations' %}" class="drawer-edit">Edit</a>
+                    </div>
+                    <div class="guided-step">
+                        <div class="guided-step-label">
+                            <span class="step-badge">2</span>
+                            <strong>{{ order_summary.dispenser_label }}</strong>
+                        </div>
+                        <a href="{% url 'core:dispenser' %}" class="drawer-edit">Edit</a>
+                    </div>
+                    <div class="guided-step">
+                        <div class="guided-step-label">
+                            <span class="step-badge">3</span>
+                            <strong>{{ order_summary.quantity_label }}</strong>
+                        </div>
+                        <a href="{% url 'core:fuel-quantity' %}" class="drawer-edit">Edit</a>
+                    </div>
+                    <div class="guided-step">
+                        <div class="guided-step-label">
+                            <span class="step-badge">4</span>
+                            <strong>{{ order_summary.payment_label }}</strong>
+                        </div>
+                        <a href="{% url 'core:payment' %}" class="drawer-edit">Edit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="callout">
+                <strong>Have a QR code already?</strong>
+                <p class="app-note">Use the camera flow to open receipts faster, or switch to manual lookup if needed.</p>
+                <p><a href="{% url 'core:qr-camera' %}">Open QR camera</a> · <a href="{% url 'core:qr-lookup' %}">Manual lookup</a></p>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="screen-panel" style="padding: 18px;">
+                <div class="section-heading">
+                    <p class="eyebrow">Settings</p>
+                    <h2>Payment methods</h2>
+                    <p>Quick access to payment and order shortcuts from the mobile flow.</p>
+                </div>
+                <div class="chip-list">
+                    <a href="{% url 'core:payment' %}" class="chip active">Payment methods</a>
+                    <a href="{% url 'core:account' %}" class="chip">Cabinet</a>
+                    <a href="{% url 'core:news' %}" class="chip">News</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="section-heading">
+                <p class="eyebrow">Recent order</p>
+                <h2>Your current order draft</h2>
+            </div>
+            <div class="order-summary-grid">
+                <div class="summary-pill">
+                    <span>Station</span>
+                    <strong>
+                        {% if selected_station %}
+                            {{ selected_station.station_code }} · {{ selected_station.name }}
+                        {% else %}
+                            Pick a station to continue
+                        {% endif %}
+                    </strong>
+                </div>
+                <div class="summary-pill">
+                    <span>Fuel type</span>
+                    <strong>{{ order.fuel_type|default:'petrol'|title }}</strong>
+                </div>
+                <div class="summary-pill">
+                    <span>Dispenser</span>
+                    <strong>{{ order.dispenser_number|default:'Not selected' }}</strong>
+                </div>
+                <div class="summary-pill">
+                    <span>Quantity</span>
+                    <strong>{{ order.quantity_litres|default:'N/A' }}{% if order.quantity_litres %} L{% endif %}</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="screen-section">
+            <div class="section-heading">
+                <p class="eyebrow">Suggested stations</p>
+                <h2>Stations available near you</h2>
+            </div>
+            <div class="station-list">
                 {% for station in stations %}
                 <article class="station-card detailed {{ station.status_tone }}">
                     <div class="station-meta">
                         <p class="card-label">{{ station.distance }}</p>
-                        <h2>{{ station.name }}</h2>
-                        <p class="station-address">{{ station.latitude }}, {{ station.longitude }}</p>
+                        <h3>{{ station.name }}</h3>
+                        <p class="station-address">{{ station.inventory_note }}</p>
                     </div>
-                    <div class="station-status">
-                        <p class="station-price">{{ station.price }}</p>
-                        <strong>{{ station.availability }}</strong>
+                    <div class="station-actions">
+                        <div>
+                            <p class="station-price">{{ station.price }}</p>
+                            <p class="station-address">{{ station.availability }}</p>
+                        </div>
                     </div>
                 </article>
                 {% endfor %}
             </div>
-        </div>
+        </section>
     </section>
 </main>
 {% endblock %}

@@ -4,19 +4,25 @@
 
 {% block content %}
 <main class="mobile-screen">
-    <section class="phone-frame">
-        <div class="phone-header">
-            <p class="eyebrow">Page 7</p>
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <p class="screen-tag">Page 7 · Offers</p>
             <h1>Promotion and offers</h1>
-            <p>Promotion and offers.</p>
-        </div>
+            <p class="lead">Promotion and offers.</p>
+        </header>
 
-        <div class="promo-list">
-            <article class="promo-item">
-                <h3>Special Offer</h3>
-                <p>Discount on fuel purchases.</p>
-            </article>
-        </div>
+        <section class="screen-section">
+            <div class="screen-panel" style="padding: 18px;">
+                <div class="section-heading">
+                    <p class="eyebrow">Special offer</p>
+                    <h2>Discount on fuel purchases</h2>
+                </div>
+                <div class="callout">
+                    <strong>Use this space for seasonal deals and loyalty rewards.</strong>
+                    <p class="app-note">The card layout matches the lightweight promotional panel shown in the PDF.</p>
+                </div>
+            </div>
+        </section>
     </section>
 </main>
 {% endblock %}

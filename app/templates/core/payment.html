@@ -3,43 +3,81 @@
 {% block title %}GoFuel | Payment{% endblock %}
 
 {% block content %}
-<main class="payment-layout">
-    <section class="payment-panel">
-        <div class="section-heading">
-            <a href="{% url 'core:fuel-quantity' %}" class="back-link">← Back</a>
-            <p class="eyebrow">Page 9</p>
+<main class="mobile-screen">
+    <section class="mobile-app-shell" style="width: min(100%, 440px);">
+        <header class="mobile-app-header">
+            <a href="{% url 'core:fuel-quantity' %}" class="back-link" style="color: rgba(255,255,255,0.86);">← Back</a>
+            <p class="screen-tag">STEP# 4 · Payment</p>
             <h1>Payment method</h1>
-            <p>Add your bank card.</p>
-        </div>
+            <p class="lead">Momo, card, voucher, or cash payment options.</p>
+        </header>
 
-        <div class="summary-card">
-            <div class="summary-row">
-                <span>Station</span>
-                <strong>{{ payment_summary.station }}</strong>
+        <section class="screen-section">
+            <div class="screen-panel" style="padding: 18px;">
+                <div class="section-heading">
+                    <p class="eyebrow">Order summary</p>
+                    <h2>{{ payment_summary.station }}</h2>
+                </div>
+                <div class="order-summary-grid">
+                    <div class="summary-pill">
+                        <span>Fuel type</span>
+                        <strong>{{ payment_summary.fuel_type }}</strong>
+                    </div>
+                    <div class="summary-pill">
+                        <span>Liters</span>
+                        <strong>{{ payment_summary.litres }}L</strong>
+                    </div>
+                    <div class="summary-pill">
+                        <span>Price per litre</span>
+                        <strong>{{ payment_summary.price_per_litre }}</strong>
+                    </div>
+                    <div class="summary-pill">
+                        <span>Total</span>
+                        <strong>{{ payment_summary.total }}</strong>
+                    </div>
+                    <div class="summary-pill">
+                        <span>Method</span>
+                        <strong>{{ form.method.value|default:'card'|title }}</strong>
+                    </div>
+                </div>
             </div>
-            <div class="summary-row">
-                <span>Fuel type</span>
-                <strong>{{ payment_summary.fuel_type }}</strong>
-            </div>
-            <div class="summary-row">
-                <span>Litres</span>
-                <strong>{{ payment_summary.litres }}L</strong>
-            </div>
-            <div class="summary-row">
-                <span>Price per litre</span>
-                <strong>{{ payment_summary.price_per_litre }}</strong>
-            </div>
-            <div class="summary-row total">
-                <span>Total</span>
-                <strong>{{ payment_summary.total }}</strong>
-            </div>
-        </div>
+        </section>
 
-        <form method="post" class="payment-methods">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="button primary full">Proceed to pay</button>
-        </form>
+        <section class="screen-section">
+            <div class="section-heading">
+                <p class="eyebrow">Payment methods</p>
+                <h2>Choose how to pay</h2>
+            </div>
+            <form method="post" class="stack-form">
+                {% csrf_token %}
+                <div class="payment-method-grid">
+                    {% for choice in payment_choices %}
+                    <label class="method-option{% if form.method.value == choice.value %} selected{% endif %}">
+                        <span>
+                            <span class="method-name">{{ choice.label }}</span>
+                            <span class="stepper-meta">Tap to continue</span>
+                        </span>
+                        <input
+                            type="radio"
+                            name="{{ form.method.name }}"
+                            value="{{ choice.value }}"
+                            {% if form.method.value == choice.value %}checked{% endif %}
+                        >
+                    </label>
+                    {% endfor %}
+                </div>
+                <button type="submit" class="button primary full">Proceed to pay</button>
+            </form>
+        </section>
+
+        <section class="screen-section">
+            <div class="callout">
+                <strong>Add a payment card</strong>
+                <p class="app-note">The PDF also shows a lightweight payment-methods screen under “Others.”</p>
+                <p><a href="{% url 'core:payment-methods' %}">Open payment methods screen</a></p>
+                <p><a href="{% url 'core:qr-camera' %}">Scan receipt QR</a> · <a href="{% url 'core:qr-lookup' %}">Enter code manually</a></p>
+            </div>
+        </section>
     </section>
 </main>
 {% endblock %}

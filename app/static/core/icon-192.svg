@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="GoFuel">
+  <rect width="192" height="192" rx="40" fill="#163a72"/>
+  <path d="M96 28c34 0 60 26 60 60 0 43-60 76-60 76S36 131 36 88c0-34 26-60 60-60Z" fill="#f8fbff"/>
+  <circle cx="96" cy="88" r="24" fill="#c89b43"/>
+  <path d="M96 64v48M72 88h48" stroke="#163a72" stroke-width="10" stroke-linecap="round"/>
+</svg>
