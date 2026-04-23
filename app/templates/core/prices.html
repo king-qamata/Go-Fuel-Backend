@@ -1,0 +1,45 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Fuel Prices{% endblock %}
+
+{% block content %}
+<main class="prices-layout">
+    <section class="price-hero">
+        <div class="section-heading">
+            <p class="eyebrow">Fuel price tracking for Nigeria</p>
+            <h1>Find the lowest fuel price near you</h1>
+            <p>
+                With subsidy gone, drivers want fast answers. GoFuel compares station brands by
+                price so users can make cheaper refill decisions with confidence.
+            </p>
+            <div class="location-toolbar">
+                <button type="button" class="button secondary" data-geolocate-trigger>
+                    Use my location
+                </button>
+                <p class="location-status" data-geolocate-status>
+                    Allow location access to open the nearest cheapest stations automatically.
+                </p>
+            </div>
+        </div>
+
+        <div class="price-spotlight">
+            <p class="card-label">Cheapest option nearby</p>
+            <h2>{{ lowest_price_brand.brand }}</h2>
+            <p class="big-price">N{{ lowest_price_brand.price }}/L</p>
+            <p>{{ lowest_price_brand.availability }}</p>
+            <a class="button primary" href="{% url 'core:stations' %}" data-location-link>View 3 nearby stations</a>
+        </div>
+    </section>
+
+    <section class="brand-grid">
+        {% for brand in brands %}
+        <article class="brand-card {% if brand.name == lowest_price_brand.brand %}winner{% endif %}">
+            <p class="card-label">Brand</p>
+            <h3>{{ brand.name }}</h3>
+            <p class="station-price">{{ brand.price }}</p>
+            <p>{{ brand.availability }}</p>
+        </article>
+        {% endfor %}
+    </section>
+</main>
+{% endblock %}

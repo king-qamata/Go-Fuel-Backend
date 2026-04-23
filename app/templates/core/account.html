@@ -1,0 +1,68 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Customer Account{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="phone-frame">
+        <div class="phone-header">
+            <p class="eyebrow">Page 3</p>
+            <h1>Customer's account</h1>
+            <p>Customer's account with history and balance.</p>
+        </div>
+
+        <div class="account-summary">
+            <div class="summary-item">
+                <span>Balance</span>
+                <strong>
+                    {% if profile %}
+                        N{{ profile.balance }}
+                    {% else %}
+                        N0.00
+                    {% endif %}
+                </strong>
+            </div>
+            <div class="summary-item">
+                <span>History</span>
+                <strong>
+                    {% if profile %}
+                        {{ recent_orders|length }} recent orders
+                    {% else %}
+                        Sign in to view
+                    {% endif %}
+                </strong>
+            </div>
+        </div>
+
+        {% if profile and recent_orders %}
+        <h3>Recent Orders</h3>
+        <div class="order-history">
+            {% for order in recent_orders %}
+            <div class="order-item">
+                <div class="order-header">
+                    <span class="order-id">Order #{{ order.id }}</span>
+                    <span class="order-status {{ order.status }}">{{ order.get_status_display }}</span>
+                </div>
+                <div class="order-details">
+                    <p>{{ order.station.name }} - {{ order.fuel_type|title }} - {{ order.quantity_litres }}L</p>
+                    <p class="order-total">N{{ order.total_amount }}</p>
+                    <p class="order-date">{{ order.created_at|date:"M d, Y H:i" }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if profile %}
+        <div class="account-actions">
+            <button type="button" class="button secondary">View History</button>
+            <button type="button" class="button primary">Top Up</button>
+            <a href="{% url 'core:logout' %}" class="button secondary full">Logout</a>
+        </div>
+        {% else %}
+        <p>Please log in to see your saved account details and favorites.</p>
+        {% endif %}
+
+    </section>
+</main>
+{% endblock %}

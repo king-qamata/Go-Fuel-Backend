@@ -1,0 +1,25 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Fuel Selection{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="phone-frame">
+        <div class="phone-header">
+            <a href="{% url 'core:dispenser' %}" class="back-link">← Back</a>
+            <p class="eyebrow">STEP# 3</p>
+            <h1>Fuel type and Quantity selection</h1>
+            <p>Fuel type and Quantity selection (liters or amount).</p>
+        </div>
+
+        <form method="post" class="stack-form" onsubmit="return validateForm(this)">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="button primary full" id="submit-btn">
+                <span class="loading-spinner" id="spinner" style="display: none;"></span>
+                Next
+            </button>
+        </form>
+    </section>
+</main>
+{% endblock %}

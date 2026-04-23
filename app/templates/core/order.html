@@ -1,0 +1,48 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Order Information{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="phone-frame">
+        <div class="phone-header">
+            <p class="eyebrow">Page 8</p>
+            <h1>Order information</h1>
+            <p>Own self-service before station visiting.</p>
+        </div>
+
+        <div class="order-list">
+            <div class="order-actions">
+                <a href="{% url 'core:stations' %}" class="button primary">Start New Order</a>
+            </div>
+            <article class="order-item">
+                <h3>Recent Order</h3>
+                {% if order.station_id %}
+                <p>Station ID: {{ order.station_id }}</p>
+                {% else %}
+                <p>Select a station, dispenser, and fuel quantity to begin your order.</p>
+                {% endif %}
+                <p>Fuel type: {{ order.fuel_type|default:'Petrol' }}</p>
+                <p>Litres: {{ order.quantity_litres|default:'N/A' }}</p>
+                <p>Dispenser: {{ order.dispenser_number|default:'Not selected' }}</p>
+            </article>
+            <div class="order-stations">
+                <h3>Suggested stations</h3>
+                {% for station in stations %}
+                <article class="station-card detailed {{ station.status_tone }}">
+                    <div class="station-meta">
+                        <p class="card-label">{{ station.distance }}</p>
+                        <h2>{{ station.name }}</h2>
+                        <p class="station-address">{{ station.latitude }}, {{ station.longitude }}</p>
+                    </div>
+                    <div class="station-status">
+                        <p class="station-price">{{ station.price }}</p>
+                        <strong>{{ station.availability }}</strong>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}

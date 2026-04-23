@@ -1,0 +1,45 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Payment{% endblock %}
+
+{% block content %}
+<main class="payment-layout">
+    <section class="payment-panel">
+        <div class="section-heading">
+            <a href="{% url 'core:fuel-quantity' %}" class="back-link">← Back</a>
+            <p class="eyebrow">Page 9</p>
+            <h1>Payment method</h1>
+            <p>Add your bank card.</p>
+        </div>
+
+        <div class="summary-card">
+            <div class="summary-row">
+                <span>Station</span>
+                <strong>{{ payment_summary.station }}</strong>
+            </div>
+            <div class="summary-row">
+                <span>Fuel type</span>
+                <strong>{{ payment_summary.fuel_type }}</strong>
+            </div>
+            <div class="summary-row">
+                <span>Litres</span>
+                <strong>{{ payment_summary.litres }}L</strong>
+            </div>
+            <div class="summary-row">
+                <span>Price per litre</span>
+                <strong>{{ payment_summary.price_per_litre }}</strong>
+            </div>
+            <div class="summary-row total">
+                <span>Total</span>
+                <strong>{{ payment_summary.total }}</strong>
+            </div>
+        </div>
+
+        <form method="post" class="payment-methods">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="button primary full">Proceed to pay</button>
+        </form>
+    </section>
+</main>
+{% endblock %}

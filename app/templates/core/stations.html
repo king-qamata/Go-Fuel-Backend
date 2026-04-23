@@ -1,0 +1,72 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Nearby Stations{% endblock %}
+
+{% block content %}
+<main class="stations-layout">
+    <section class="section-heading">
+        <p class="eyebrow">STEP# 1</p>
+        <h1>To choose needed station</h1>
+        <p>
+            List of Stations available (numbers, city name and address).
+        </p>
+        <div class="location-toolbar">
+            <button type="button" class="button secondary" data-geolocate-trigger>
+                Refresh with my location
+            </button>
+            <p class="location-status" data-geolocate-status>
+                Allow browser location to refresh this nearby station shortlist automatically.
+            </p>
+        </div>
+        <p class="location-pill" data-location-pill>Viewing nearby results around {{ selected_latitude }}, {{ selected_longitude }}</p>
+    </section>
+
+    <section class="map-panel">
+        <div class="map-copy">
+            <p class="eyebrow">Station locator</p>
+            <h2>Visual guide to the cheapest nearby stations</h2>
+            <p>
+                GoFuel plots the shortlisted stations around your current position so drivers can
+                quickly compare which option is closest before setting off.
+            </p>
+        </div>
+        <div
+            class="station-map"
+            data-station-map
+            data-user-lat="{{ selected_latitude }}"
+            data-user-lng="{{ selected_longitude }}"
+        ></div>
+        {{ stations|json_script:"stations-map-data" }}
+        <div class="map-legend">
+            <span><i class="legend-dot user"></i>You</span>
+            <span><i class="legend-dot available"></i>Available</span>
+            <span><i class="legend-dot warning"></i>Low stock</span>
+            <span><i class="legend-dot empty"></i>Unavailable</span>
+        </div>
+    </section>
+
+    <section class="station-list full-width" data-stations-list>
+        {% for station in stations %}
+        <article class="station-card detailed {{ station.status_tone }}" data-station-card>
+            <div class="station-meta">
+                <p class="card-label">{{ station.distance }}</p>
+                {% if station.id %}
+                <h2><a href="{% url 'core:station-detail' station.id %}">{{ station.name }}</a></h2>
+                {% else %}
+                <h2>{{ station.name }}</h2>
+                {% endif %}
+                <p class="station-address">{{ station.latitude }}, {{ station.longitude }}</p>
+                <p>{{ station.inventory_note }}</p>
+            </div>
+            <div class="station-status">
+                <p class="station-price">{{ station.price }}</p>
+                <strong>{{ station.availability }}</strong>
+                {% if station.id %}
+                <a href="{% url 'core:select-station' station.id %}" class="button small">Select for Order</a>
+                {% endif %}
+            </div>
+        </article>
+        {% endfor %}
+    </section>
+</main>
+{% endblock %}

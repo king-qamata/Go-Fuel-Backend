@@ -1,0 +1,14 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+app/db.sqlite3
+staticfiles
+.pytest_cache
+.ruff_cache
+Self Service Mobile Application Interface pdf.pdf
+Self Service Mobile Application Interface pdf.pdf:Zone.Identifier

@@ -1,0 +1,46 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Customer Login{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="phone-frame">
+        <div class="phone-header">
+            <p class="eyebrow">Page 4</p>
+            <h1>Customer Login Details</h1>
+            <p>Customer Login Details.</p>
+        </div>
+
+        <form class="stack-form" method="post" action="">
+            {% csrf_token %}
+            {% if error %}
+            <div class="status-panel error-panel">
+                <p>{{ error }}</p>
+            </div>
+            {% endif %}
+            <label>
+                <span>Phone Number</span>
+                {{ form.phone_number }}
+            </label>
+            <label>
+                <span>Password</span>
+                {{ form.password }}
+            </label>
+            <div class="inline-row">
+                <label class="checkbox-row">
+                    <input type="checkbox" name="remember_me">
+                    <span>Remember me</span>
+                </label>
+                <a href="{% url 'core:prices' %}">Forgot password?</a>
+            </div>
+            <button type="submit" class="button primary full">Login</button>
+        </form>
+
+        <div class="status-panel">
+            <p class="card-label">Today&apos;s fuel intelligence</p>
+            <p>NNPC is currently the cheapest in your area.</p>
+            <strong>N870/L</strong>
+        </div>
+    </section>
+</main>
+{% endblock %}

@@ -1,0 +1,63 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Receipt{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="phone-frame">
+        <div class="phone-header">
+            <p class="eyebrow">Receipt</p>
+            <h1>Order #{{ order.id }}</h1>
+            <p>Scan successful. Receipt details below.</p>
+        </div>
+
+        {% if receipt.qr_image %}
+        <div class="qr-code-display">
+            <img src="{{ receipt.qr_image.url }}" alt="QR Code" class="qr-image">
+            <p>QR Code: {{ receipt.qr_code }}</p>
+        </div>
+        {% endif %}
+
+        <div class="receipt-summary">
+            <div class="summary-row">
+                <span>Station</span>
+                <strong>{{ order.station.name }}</strong>
+            </div>
+            <div class="summary-row">
+                <span>Fuel Type</span>
+                <strong>{{ order.fuel_type }}</strong>
+            </div>
+            <div class="summary-row">
+                <span>Quantity</span>
+                <strong>{{ order.quantity_litres }}L</strong>
+            </div>
+            <div class="summary-row">
+                <span>Price per Litre</span>
+                <strong>N{{ order.price_per_litre }}</strong>
+            </div>
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <strong>N{{ order.subtotal }}</strong>
+            </div>
+            <div class="summary-row">
+                <span>VAT (7.5%)</span>
+                <strong>N{{ order.vat_amount }}</strong>
+            </div>
+            <div class="summary-row">
+                <span>Service Charge</span>
+                <strong>N{{ order.service_charge }}</strong>
+            </div>
+            <div class="summary-row total">
+                <span>Total</span>
+                <strong>N{{ receipt.total_amount }}</strong>
+            </div>
+        </div>
+
+        <form method="post" action="{% url 'core:payment' %}">
+            {% csrf_token %}
+            <input type="hidden" name="qr_code" value="{{ receipt.qr_code }}">
+            <button type="submit" class="button primary full">Proceed to Payment</button>
+        </form>
+    </section>
+</main>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Attendant Dashboard{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="phone-frame">
+        <div class="phone-header">
+            <p class="eyebrow">Attendant Dashboard</p>
+            <h1>Fuel Order Creation</h1>
+            <p>Create orders for customers and generate QR codes.</p>
+        </div>
+
+        {% if qr_code %}
+        <div class="qr-display">
+            <h2>Order Created Successfully</h2>
+            <p>QR Code: {{ qr_code }}</p>
+            <p>Customer can scan this QR code to view receipt and pay.</p>
+            <p>Order ID: {{ order.id }}</p>
+            <p>Total: N{{ receipt.total_amount }}</p>
+        </div>
+        {% else %}
+        <form method="post" class="stack-form">
+            {% csrf_token %}
+            <label for="station">Station:</label>
+            <select name="station" id="station" required>
+                {% for station in stations %}
+                <option value="{{ station.id }}">{{ station.name }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="fuel_type">Fuel Type:</label>
+            <select name="fuel_type" id="fuel_type" required>
+                <option value="petrol">Petrol</option>
+                <option value="diesel">Diesel</option>
+                <option value="gas">Gas</option>
+            </select>
+
+            <label for="quantity">Quantity (Litres):</label>
+            <input type="number" name="quantity" id="quantity" step="0.01" required>
+
+            <label for="customer_phone">Customer Phone:</label>
+            <input type="tel" name="customer_phone" id="customer_phone">
+
+            <button type="submit" class="button primary full">Create Order & Generate QR</button>
+        </form>
+        {% endif %}
+    </section>
+</main>
+{% endblock %}

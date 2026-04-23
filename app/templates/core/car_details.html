@@ -1,0 +1,31 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Add Car Details{% endblock %}
+
+{% block content %}
+<main class="mobile-screen">
+    <section class="phone-frame">
+        <div class="phone-header">
+            <p class="eyebrow">Page 5</p>
+            <h1>Add your car details</h1>
+            <p>Add your car details.</p>
+        </div>
+
+        <form method="post" class="stack-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="button primary full">Save car details</button>
+        </form>
+        {% if saved_cars %}
+        <div class="saved-cars">
+            <h2>Saved cars</h2>
+            <ul>
+                {% for car in saved_cars %}
+                <li>{{ car.make }} {{ car.model }} – {{ car.get_fuel_type_display }} ({{ car.tank_capacity }}L)</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </section>
+</main>
+{% endblock %}

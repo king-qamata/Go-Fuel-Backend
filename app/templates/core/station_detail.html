@@ -1,0 +1,94 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | {{ station.name }}{% endblock %}
+
+{% block content %}
+<main class="station-detail-layout">
+    <section class="detail-hero">
+        <div class="detail-card">
+            <p class="eyebrow">{{ station.brand.name }} Station</p>
+            <h1>{{ station.name }}</h1>
+            <p class="lead">{{ station.address }}</p>
+            <div class="detail-stat-row">
+                <div class="detail-stat">
+                    <span class="card-label">Current price</span>
+                    <strong>{{ station_card.price }}</strong>
+                </div>
+                <div class="detail-stat">
+                    <span class="card-label">Availability</span>
+                    <strong>{{ station_card.availability }}</strong>
+                </div>
+                <div class="detail-stat">
+                    <span class="card-label">Area</span>
+                    <strong>{{ station.area|default:"Not specified" }}</strong>
+                </div>
+            </div>
+            <p>{{ station_card.inventory_note }}</p>
+        </div>
+        <div
+            class="station-map detail-map"
+            data-station-map
+            data-user-lat="{{ station_card.latitude }}"
+            data-user-lng="{{ station_card.longitude }}"
+            data-single-station-map="true"
+        ></div>
+        {{ station_card|json_script:"station-detail-map-data" }}
+    </section>
+
+    <section class="detail-grid">
+        <article class="detail-card">
+            <p class="eyebrow">Price history</p>
+            <h2>Recent price updates</h2>
+            <div class="timeline-list">
+                {% for price in price_history %}
+                <div class="timeline-row">
+                    <div>
+                        <strong>N{{ price.price_per_litre }}/L</strong>
+                        <p>{{ price.get_fuel_type_display }}</p>
+                    </div>
+                    <div>
+                        <p>{{ price.source_note|default:"Price update" }}</p>
+                        <span class="timeline-meta">{{ price.reported_at }}</span>
+                    </div>
+                </div>
+                {% empty %}
+                <p>No price history has been recorded yet.</p>
+                {% endfor %}
+            </div>
+        </article>
+
+        <article class="detail-card">
+            <p class="eyebrow">Availability updates</p>
+            <h2>Recent station reports</h2>
+            <div class="timeline-list">
+                {% for update in recent_updates %}
+                <div class="timeline-row">
+                    <div>
+                        <strong>{{ update.get_status_display }}</strong>
+                        <p>{{ update.reporter_name }}</p>
+                    </div>
+                    <div>
+                        <p>{{ update.note }}</p>
+                        <span class="timeline-meta">
+                            {{ update.reported_at }}{% if update.is_verified %} • verified{% endif %}
+                        </span>
+                    </div>
+                </div>
+                {% empty %}
+                <p>No one has submitted a station update yet.</p>
+                {% endfor %}
+            </div>
+        </article>
+    </section>
+
+    <section class="detail-card">
+        <p class="eyebrow">Submit update</p>
+        <h2>Refresh station availability throughout the day</h2>
+        <form method="post" class="stack-form">
+            {% csrf_token %}
+            {{ update_form.as_p }}
+            <button type="submit" class="button primary">Submit update</button>
+        </form>
+    </section>
+</main>
+{% endblock %}

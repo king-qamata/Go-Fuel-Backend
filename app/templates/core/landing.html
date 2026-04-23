@@ -1,0 +1,98 @@
+{% extends "core/base.html" %}
+
+{% block title %}GoFuel | Price Intelligence{% endblock %}
+
+{% block content %}
+<main class="landing">
+    <section class="hero">
+        <div class="hero-copy">
+            <p class="eyebrow">GoFuel | Price Intelligence</p>
+            <h1>Customer location on a map</h1>
+            <p class="lead">
+                System will show your nearest station to you or general location in your city.
+                Phone is asking to give my permission to share current location.
+            </p>
+            <div class="location-toolbar">
+                <button type="button" class="button secondary" data-geolocate-trigger>
+                    Use my location
+                </button>
+                <p class="location-status" data-geolocate-status>
+                    Location is using the current fallback area until you allow browser access.
+                </p>
+            </div>
+            <div class="hero-actions">
+                <a class="button primary" href="{% url 'core:prices' %}">Check prices</a>
+                <a class="button secondary" href="{% url 'core:stations' %}" data-location-link>See nearby stations</a>
+            </div>
+        </div>
+        <div class="hero-card spotlight-card">
+            <p class="card-label">Lowest tracked price near you</p>
+            <h2>{{ lowest_price_brand.brand }}</h2>
+            <p class="big-price">N{{ lowest_price_brand.price }}/L</p>
+            <p>{{ lowest_price_brand.change }}</p>
+            <p>{{ lowest_price_brand.availability }}</p>
+        </div>
+    </section>
+
+    <section class="feature-grid">
+        <a class="feature-card" href="{% url 'core:login' %}">
+            <span class="card-step">Page 4</span>
+            <h3>Customer Login Details</h3>
+            <p>Customer Login Details.</p>
+        </a>
+        <a class="feature-card" href="{% url 'core:car-details' %}">
+            <span class="card-step">Page 5</span>
+            <h3>Add your car details</h3>
+            <p>Add your car details.</p>
+        </a>
+        <a class="feature-card" href="{% url 'core:news' %}">
+            <span class="card-step">Page 6</span>
+            <h3>News icon</h3>
+            <p>Great idea to share company information.</p>
+        </a>
+        <a class="feature-card" href="{% url 'core:promotions' %}">
+            <span class="card-step">Page 7</span>
+            <h3>Promotion and offers</h3>
+            <p>Promotion and offers.</p>
+        </a>
+        <a class="feature-card" href="{% url 'core:order' %}">
+            <span class="card-step">Page 8</span>
+            <h3>Order information</h3>
+            <p>Own self-service before station visiting.</p>
+        </a>
+        <a class="feature-card" href="{% url 'core:payment' %}">
+            <span class="card-step">Page 9</span>
+            <h3>Payment method</h3>
+            <p>Add your bank card.</p>
+        </a>
+    </section>
+
+    <section class="station-preview">
+        <div class="section-heading">
+            <p class="eyebrow">Tap on the Station</p>
+            <h2>Tap on the Station for more information</h2>
+            <p class="location-pill" data-location-pill>Using location {{ selected_latitude }}, {{ selected_longitude }}</p>
+        </div>
+        <div class="station-list">
+            {% for station in stations %}
+            {% if station.id %}
+            <a class="station-card-link" href="{% url 'core:station-detail' station.id %}">
+            {% endif %}
+            <article class="station-card {{ station.status_tone }}" data-station-card>
+                <div>
+                    <h3>{{ station.name }}</h3>
+                    <p>{{ station.distance }} away</p>
+                </div>
+                <div>
+                    <p class="station-price">{{ station.price }}</p>
+                    <p>{{ station.availability }}</p>
+                </div>
+            </article>
+            {% if station.id %}
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+</main>
+{% endblock %}
